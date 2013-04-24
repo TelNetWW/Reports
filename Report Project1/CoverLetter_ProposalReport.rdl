@@ -842,6 +842,7 @@ IIf(Parameters!UseBYOBDesc.Value, Fields!description2_c.Value, Fields!descriptio
                   <Group Name="service_address_street">
                     <GroupExpressions>
                       <GroupExpression>=Fields!name.Value</GroupExpression>
+                      <GroupExpression>=Fields!quote_num.Value</GroupExpression>
                     </GroupExpressions>
                   </Group>
                   <SortExpressions>
