@@ -2,537 +2,52 @@
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <Body>
     <ReportItems>
-      <Image Name="image1">
-        <Source>Embedded</Source>
-        <Value>simple_logo</Value>
-        <Sizing>Fit</Sizing>
-        <Left>0.16419in</Left>
-        <Height>0.75in</Height>
-        <Width>1.875in</Width>
-        <Style />
-      </Image>
-      <Textbox Name="textbox13">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>MASTER SERVICE AGREEMENT
-(MSA)</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style>
-              <TextAlign>Center</TextAlign>
-            </Style>
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>textbox13</rd:DefaultName>
-        <Top>0.375in</Top>
-        <Left>2.35169in</Left>
-        <Height>0.375in</Height>
-        <Width>2.75in</Width>
-        <ZIndex>1</ZIndex>
-        <Style>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="textbox1">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>The rates and charges for designated Services are specified in the attached Product/Service Agreement and in the appropriate tariffs.
-
-TERM OF AGREEMENT</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                  <FontSize>8pt</FontSize>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>textbox1</rd:DefaultName>
-        <Top>1.73611in</Top>
-        <Left>0.03919in</Left>
-        <Height>0.375in</Height>
-        <Width>6.35417in</Width>
-        <ZIndex>2</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="textbox8">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Authorized Signature</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>textbox2</rd:DefaultName>
-        <Top>3.00584in</Top>
-        <Left>0.0073in</Left>
-        <Height>0.25in</Height>
-        <Width>2.875in</Width>
-        <ZIndex>3</ZIndex>
-        <Style>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Line Name="line5">
-        <Top>3.00584in</Top>
-        <Left>0.0073in</Left>
-        <Height>0in</Height>
-        <Width>3.25in</Width>
-        <ZIndex>4</ZIndex>
-        <Style>
-          <Border>
-            <Style>Solid</Style>
-          </Border>
-        </Style>
-      </Line>
-      <Textbox Name="textbox9">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Date</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <Top>3.00584in</Top>
-        <Left>3.7573in</Left>
-        <Height>0.25in</Height>
-        <Width>2.48958in</Width>
-        <ZIndex>5</ZIndex>
-        <Style>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Line Name="line7">
-        <Top>3.00584in</Top>
-        <Left>3.7573in</Left>
-        <Height>0in</Height>
-        <Width>2.60417in</Width>
-        <ZIndex>6</ZIndex>
-        <Style>
-          <Border>
-            <Style>Solid</Style>
-          </Border>
-        </Style>
-      </Line>
-      <Textbox Name="textbox10">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Printed Name</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <Top>3.63084in</Top>
-        <Left>0.0073in</Left>
-        <Height>0.25in</Height>
-        <Width>2.875in</Width>
-        <ZIndex>7</ZIndex>
-        <Style>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Line Name="line8">
-        <Top>3.63084in</Top>
-        <Left>0.0073in</Left>
-        <Height>0in</Height>
-        <Width>3.25in</Width>
-        <ZIndex>8</ZIndex>
-        <Style>
-          <Border>
-            <Style>Solid</Style>
-          </Border>
-        </Style>
-      </Line>
-      <Textbox Name="textbox11">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Title</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <Top>3.63084in</Top>
-        <Left>3.7573in</Left>
-        <Height>0.25in</Height>
-        <Width>2.48958in</Width>
-        <ZIndex>9</ZIndex>
-        <Style>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Line Name="line9">
-        <Top>3.63084in</Top>
-        <Left>3.7573in</Left>
-        <Height>0in</Height>
-        <Width>2.60417in</Width>
-        <ZIndex>10</ZIndex>
-        <Style>
-          <Border>
-            <Style>Solid</Style>
-          </Border>
-        </Style>
-      </Line>
-      <Textbox Name="textbox12">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Company Name</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <Top>4.25584in</Top>
-        <Left>0.0073in</Left>
-        <Height>0.25in</Height>
-        <Width>2.875in</Width>
-        <ZIndex>11</ZIndex>
-        <Style>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="textbox14">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Service Location Address, City, State, Zip</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <Top>4.25584in</Top>
-        <Left>3.7573in</Left>
-        <Height>0.25in</Height>
-        <Width>2.48958in</Width>
-        <ZIndex>12</ZIndex>
-        <Style>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="textbox15">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>SERVICES PROVIDED 
-TelNet Worldwide, Inc. (“TelNet”) agrees to provide to the “Customer” (defined as the party signing below and made a party to this Master Service Agreement), with various Telecommunications and Data services (the “Services”) as indicated below for the location specified in this agreement.</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                  <FontSize>8pt</FontSize>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>textbox8</rd:DefaultName>
-        <Top>0.875in</Top>
-        <Left>0.03919in</Left>
-        <Height>0.5in</Height>
-        <Width>6.35417in</Width>
-        <ZIndex>13</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Company">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>=First(Fields!account_name.Value, "SugarCrmOrderInfo")</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                  <FontSize>8pt</FontSize>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Company</rd:DefaultName>
-        <Top>4.00584in</Top>
-        <Left>0.0073in</Left>
-        <Height>0.25in</Height>
-        <Width>3.25in</Width>
-        <ZIndex>14</ZIndex>
-        <Style>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Line Name="line10">
-        <Top>4.25584in</Top>
-        <Left>0.0073in</Left>
-        <Height>0in</Height>
-        <Width>3.25in</Width>
-        <ZIndex>15</ZIndex>
-        <Style>
-          <Border>
-            <Style>Solid</Style>
-          </Border>
-        </Style>
-      </Line>
-      <Textbox Name="textbox25">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>=First(Fields!service_address_street.Value, "SugarCrmOrderInfo") + " " + First(Fields!service_address_city.Value, "SugarCrmOrderInfo") + " " + First(Fields!service_address_state.Value, "SugarCrmOrderInfo") + " " + First(Fields!service_address_postalcode.Value, "SugarCrmOrderInfo")</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                  <FontSize>8pt</FontSize>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <Top>4.00584in</Top>
-        <Left>3.7573in</Left>
-        <Height>0.25in</Height>
-        <Width>2.60417in</Width>
-        <ZIndex>16</ZIndex>
-        <Style>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Line Name="line11">
-        <Top>4.25584in</Top>
-        <Left>3.7573in</Left>
-        <Height>0in</Height>
-        <Width>2.60417in</Width>
-        <ZIndex>17</ZIndex>
-        <Style>
-          <Border>
-            <Style>Solid</Style>
-          </Border>
-        </Style>
-      </Line>
-      <Textbox Name="textbox16">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value EvaluationMode="Constant">CUSTOMER RESPONSIBILITIES 
-The Customer agrees to pay for and use the Services based on the following guidelines: 
-       •    According to the terms and conditions of this Agreement; and TelNet’s general terms and conditions 
-            listed on www.telnetww.com which are made part of this Agreement; 
-       •    Customer agrees to pay for the Services provided at the rates described in the Product/Service 
-            Agreement plus any applicable taxes, fees and regulatory charges. 
-       •    Portions of the TelNet Services provided may be regulated services and if so, are governed by tariffs 
-            which are made part of this Agreement. Customer understands and agrees to abide by the terms set out 
-            in the TelNet tariffs, as applicable. 
-       •    Unless otherwise specified in writing, the Customer agrees to be responsible for obtaining and 
-            maintaining any equipment used to access, connect to or use the Services. 
-       •    Customer is responsible for the identification and payment of any termination fees to any 3rd party that 
-            may apply when switching to TelNet services. 
-
-CREDIT REVIEW 
-By signing below, the Customer gives TelNet permission to obtain credit information about the Customer. At its discretion and subject to state law, TelNet may decide not to provide service to the Customer based on the credit information obtained or to require a Customer to make a deposit. 
-
-TERMINATION WITHOUT LIABILITY 
-A. Customer may terminate this Agreement without liability for a Termination Fee for any of the following reasons: 
-       •    Customer signs a new MSA Agreement for the same or expanded TelNet Worldwide Services for a term
-            equal to or greater than the term of the original Product/Service Agreement. 
-       •    TelNet fails to remedy a documented interruption of service within a reasonable time frame, as 
-            determined by TelNet Executive Management.
-
-B. TelNet may terminate this Agreement and the Services for Customer’s non-payment in accordance with its rights under its general terms and conditions and its tariffs. Upon termination of this Agreement by TelNet for non-payment, or by the Customer except under A above, the Customer shall be liable for the payment of all Services provided through the date of termination, plus any applicable Termination Fees under a Product/Service Agreement. 
-
-C. TelNet may terminate this Agreement without liability if TelNet determines that it is no longer able to offer a product or service due to cost or the product/service is no longer offered in a TelNet tariff. In this instance the Customer will not be liable for any Termination Fee. 
-
-TERMINATION WITH LIABILITY 
-Except as provided above, if Customer terminates the agreement prior to the expiration of its initial term or an Extension of the MSA, or if TelNet terminates the agreement due to non-payment, the Customer will owe TelNet the following Termination Fees per applicable Service: the monthly recurring charge (MRC) times the remaining number of months of the contract period per TelNet PRI, Voice and Data, Voice Service, VoIP, VoIP w/T1, Internet 1.5M, Internet 3.0M, Internet 4.5M, Internet 6.0M, Private Line, Data PRI, IP Drain Access, or Collocation services. 
-
-LIMITATION OF LIABILITY OF TELNET 
-In the event of an interruption in the Services provided, TelNet will use reasonable efforts to repair the interruption as soon as possible. TelNet will provide the Customer with any credits required by applicable law or tariff for interruptions in service. In no event (other than with respect to TelNet’s’willful misconduct or gross negligence) shall TelNet be liable for any incidental, indirect, special, or consequential damages of any kind whatsoever (including without limitation, lost revenue or profits) regardless of the cause or foresee-ability thereof. Credits within any one month will not exceed the total amount paid by the Customer for monthly service. 
-
-WARRANTY DISCLAIMER 
-WITH RESPECT TO THE SERVICES AND ANY TELNET FURNISHED EQUIPMENT, TELNET HEREBY DISCLAIMS, WITHOUT LIMITATION, ALL WARRANTIES NOT STATED HEREIN, WHETHER EXPRESS, IMPLIED OR STATUTORY, AND IN PARTICULAR DISCLAIMS ALL IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. FURTHER, TELNET DOES NOT WARRANT THAT THE SERVICES WILL BE UNINTERRUPTED OR ERROR FREE, OR THAT THE CUSTOMER’S SOFTWARE OR 3RD PARTY APPLICATIONS WILL WORK IN ACCORDANCE WITH THE CUSTOMER EXPECTATIONS. 
-
-REGULATORY ACTIONS 
-A portion of TelNet’s costs of providing the Services are set by regulatory agencies, legislative bodies and/or incumbent service providers. In the event that any regulatory agency, legislative body, court or incumbent service provider takes actions which increases the overall underlying costs or fees that TelNet must pay for purchasing or providing services, TelNet reserves the right to increase the service rates to Customer or modify its tariff pricing to cover such increases. 
-
-GENERAL PROVISIONS 
-This Agreement, the Product/Service Attachment and other terms expressly made a part of this Agreement constitute the entire agreement between TelNet and the Customer with respect to the Services. This Agreement supersedes any previous agreements for the same services between TelNet and Customer. Except as otherwise provided herein, any changes to this Agreement must be agreed to in writing by TelNet Executive Management. Any changes to this Agreement without said written approval make such changes null and void at TelNet’s discretion. If the Customer wishes to assign this Agreement to a third party, it must first receive TelNet’s written consent. Any notices required by this Agreement or a tariff shall be mailed as follows: TelNet Worldwide Inc., 1175 W. Long Lake Rd., Suite 101, Troy, MI. 48098
-
-By signing below, the Customer agrees to be bound to the terms of this Agreement:</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                  <FontSize>8pt</FontSize>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>textbox10</rd:DefaultName>
-        <Top>2.5in</Top>
-        <Left>0.03919in</Left>
-        <Height>0.25in</Height>
-        <Width>6.35417in</Width>
-        <ZIndex>18</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="textbox17">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>="The initial term of agreement will begin with the date of installation and will continue for " + First(Fields!term.Value, "SugarCrmOrderInfo") + " months. Upon completion of the contract period this Agreement will automatically revert to the then current month-to-month rates."</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                  <FontSize>8pt</FontSize>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <Top>2.125in</Top>
-        <Left>0.03919in</Left>
-        <Height>0.25in</Height>
-        <Width>6.35417in</Width>
-        <ZIndex>19</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Rectangle Name="rectangle6">
+      <Rectangle Name="Rectangle1">
         <ReportItems>
-          <Textbox Name="textbox36">
+          <Textbox Name="textbox1">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
             <Paragraphs>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>PURCHASE ORDER TERMS &amp; CONDITIONS</Value>
+                    <Value>Proposal For:</Value>
                     <Style>
-                      <FontFamily>Calibri</FontFamily>
+                      <FontFamily>Tahoma</FontFamily>
                       <FontSize>12pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>textbox1</rd:DefaultName>
+            <Top>0.92708in</Top>
+            <Left>0.00001in</Left>
+            <Height>0.25583in</Height>
+            <Width>6.38552in</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="account_name1">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=First(Fields!account_name.Value, "DataSet1")</Value>
+                    <Style>
+                      <FontSize>11pt</FontSize>
                       <FontWeight>Bold</FontWeight>
                     </Style>
                   </TextRun>
@@ -542,1008 +57,311 @@ By signing below, the Customer agrees to be bound to the terms of this Agreement
                 </Style>
               </Paragraph>
             </Paragraphs>
-            <rd:DefaultName>textbox36</rd:DefaultName>
-            <Top>0.15625in</Top>
-            <Left>0.01063in</Left>
-            <Height>0.25in</Height>
-            <Width>6.35417in</Width>
-            <Style>
-              <BottomBorder>
-                <Color>Black</Color>
-                <Style>Solid</Style>
-                <Width>1pt</Width>
-              </BottomBorder>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Textbox Name="textbox37">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>In addition to the general terms and conditions contained in the Master Service Agreement (“MSA”) and the Product Service Agreement (“PSA”) between TelNet and Customer (the “Agreement”), of which this Purchase Order is a part, the following terms and conditions apply to the purchase of the Product, as defined below. In the event of any inconsistency between the Agreement and this Schedule, this Schedule shall control.
-
-1.             PURCHASE OF PRODUCT &amp; PRICE
-Customer is purchasing from TelNet the equipment described on the attached PSA (“Product”). Customer shall pay all amounts due under the PSA, in accordance to the payment terms set forth in the Agreement. If Customer does not pay in accordance to the payment terms, late payment charges will be billed in the amount of 1.5% of the total overdue amount or the maximum lawful rate allowable, whichever is less. Customer also agrees to pay all reasonable costs and expenses involved in the collection of the amounts due, including but not limited to, attorney fees, expenses, court costs and service charges. Customer also agrees to pay all applicable handling charges, interest charges, shipping charges, insurance charges, cancellation fees or restocking fees, or any applicable sales, excise, use, property and similar taxes (other than income taxes on payments made by Customer to TelNet under this Agreement) and related charges that may be imposed or assessed by any governmental entity or taxing authority with respect to such Product. 
-
-2.             CANCELLATION POLICY
-The following cancellation policy shall apply to the Product purchased by Customer:</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                      <FontSize>9pt</FontSize>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>textbox37</rd:DefaultName>
-            <Top>0.53125in</Top>
-            <Left>0.01063in</Left>
-            <Height>2.625in</Height>
-            <Width>6.35417in</Width>
+            <rd:DefaultName>account_name1</rd:DefaultName>
+            <Top>1.25236in</Top>
+            <Left>0.00001in</Left>
+            <Height>0.28472in</Height>
+            <Width>6.38552in</Width>
             <ZIndex>1</ZIndex>
             <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
               <PaddingTop>2pt</PaddingTop>
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Textbox Name="textbox40">
+          <Textbox Name="billing_address_street1">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
             <Paragraphs>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>A.</Value>
+                    <Value>=First(Fields!billing_address_street.Value, "DataSet1") + " " + First(Fields!billing_address_city.Value, "DataSet1") + " " + First(Fields!billing_address_state.Value, "DataSet1") + " " + First(Fields!billing_address_postalcode.Value, "DataSet1")</Value>
                     <Style>
-                      <FontFamily>Calibri</FontFamily>
-                      <FontSize>9pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
                     </Style>
                   </TextRun>
                 </TextRuns>
-                <Style />
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
               </Paragraph>
             </Paragraphs>
-            <Top>3.15625in</Top>
-            <Left>0.26063in</Left>
-            <Height>0.625in</Height>
-            <Width>0.25in</Width>
+            <rd:DefaultName>billing_address_street1</rd:DefaultName>
+            <Top>1.57875in</Top>
+            <Left>0.00001in</Left>
+            <Height>0.25in</Height>
+            <Width>6.38552in</Width>
             <ZIndex>2</ZIndex>
             <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
               <PaddingTop>2pt</PaddingTop>
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Textbox Name="textbox41">
+          <Textbox Name="ExecutionTime">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
             <Paragraphs>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Pre-Shipment: If Customer cancels any portion of the Product order prior to the shipment date, Customer agrees to pay a liquidated damage in the amount totaling 15% of the canceled order amount, plus any cancelation or restocking fees imposed on TelNet by the applicable equipment manufacturer. Customer agrees that this cancelation charge is a true measure of the damage to TelNet and is not a penalty charge.</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                      <FontSize>9pt</FontSize>
-                    </Style>
+                    <Value>=FormatDateTime(Today(), DateFormat.ShortDate)</Value>
+                    <Style />
                   </TextRun>
                 </TextRuns>
-                <Style />
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
               </Paragraph>
             </Paragraphs>
-            <Top>3.15625in</Top>
-            <Left>0.51063in</Left>
-            <Height>0.625in</Height>
-            <Width>5.85417in</Width>
+            <rd:DefaultName>ExecutionTime</rd:DefaultName>
+            <Top>2.23152in</Top>
+            <Left>0.46887in</Left>
+            <Height>0.25in</Height>
+            <Width>5.59375in</Width>
             <ZIndex>3</ZIndex>
             <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
               <PaddingTop>2pt</PaddingTop>
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Textbox Name="textbox42">
+          <Textbox Name="contact_firstname">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
             <Paragraphs>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>B.</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                      <FontSize>9pt</FontSize>
-                    </Style>
+                    <Value>="Dear " + IIF(First(Fields!contact_name.Value, "DataSet1") &lt;&gt; "", First(Fields!contact_name.Value, "DataSet1"), First(Fields!account_name.Value, "DataSet1")) + ","</Value>
+                    <Style />
                   </TextRun>
                 </TextRuns>
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>3.78125in</Top>
-            <Left>0.26063in</Left>
-            <Height>1.25in</Height>
-            <Width>0.25in</Width>
+            <rd:DefaultName>contact_firstname</rd:DefaultName>
+            <Top>2.91208in</Top>
+            <Left>0.46887in</Left>
+            <Height>0.25in</Height>
+            <Width>5.59375in</Width>
             <ZIndex>4</ZIndex>
             <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
               <PaddingTop>2pt</PaddingTop>
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Textbox Name="textbox43">
+          <Textbox Name="Textbox27">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
             <Paragraphs>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Post-Shipment: If Customer cancels any portion of the Product order after shipment has occurred but prior to installation of the Product, Customer shall receive a credit for the invoice amount of the cancelled Product minus (a) a liquidated damage in the amount totaling 15% of the canceled order amount, minus (b) any cancelation or restocking fees imposed on TelNet by the applicable equipment manufacturer, and minus (c) the shipping charges, both original and return, associated with the canceled Product. Customer agrees that this cancelation charge is a true measure of the damage to TelNet and is not a penalty charge.
-If Customer cancels any portion of the Product order after shipment and installation has occurred, Customer shall not be entitled to receive a credit on the returned Product under any circumstances.</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                      <FontSize>9pt</FontSize>
-                    </Style>
+                    <Value>Thank you for the opportunity to present you with proposed telecommunications services from TelNet Worldwide. Based on your requirements, I believe our services are a strong match for your organization's communications needs both today and into the future.</Value>
+                    <Style />
                   </TextRun>
                 </TextRuns>
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>3.78125in</Top>
-            <Left>0.51063in</Left>
-            <Height>1.25in</Height>
-            <Width>5.85417in</Width>
+            <rd:DefaultName>Textbox27</rd:DefaultName>
+            <Top>3.21764in</Top>
+            <Left>0.46887in</Left>
+            <Height>0.5625in</Height>
+            <Width>5.59375in</Width>
             <ZIndex>5</ZIndex>
             <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
               <PaddingTop>2pt</PaddingTop>
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Textbox Name="textbox44">
-            <CanShrink>true</CanShrink>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>WITH RESPECT TO THE PRODUCTS PURCHASED FROM TELNET HEREUNDER IS AS SET FORTH IN THE LIMITED WARRANTY DELIVERED WITH THE PRODUCTS FROM THE EQUIPMENT MANUFACTURER. THESE WARRANTIES AND LIMITATIONS FROM THE EQUIPMENT MANUFACTURER ARE CUSTOMER’S EXCLUSIVE WARRANTIES AND SOLE REMEDIES AND REPLACE ALL OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, WITH RESPECT TO EQUIPMENT AND SERVICES, INCLUING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
-
-6.             LIMITATION OF LIABILITY
-IN NO EVENT WILL TELNET BE LIABLE TO CUSTOMER OR ANY THIRD PARTY, IN CONTRACT, TORT OR OTHERWISE, FOR ANY LOSS OF PROFITS OR BUSINESS, OR ANY INCIDENTAL, SPECIAL, INDIRECT, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES, ARISING FROM OR AS A RESULT OF THESE CONTRACT TERMS OR ANY AGREEMENT BETWEEN THE PARTIES RELATING TO THE PRODUCTS, SERVICES OR DELIVERABLES TELNET PROVIDES, EVEN IF TELNET HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 
-
-7.             RETURN
-If Customer is required to return any Product to TelNet for any warranty service, Customer agrees to obtain TelNet’s concurrence prior to returning the Product. Customer agrees to reference any Return Material Authorization Number (RMA Number) issued by TelNet on all paperwork or documentation accompanying the returned Product. Customer further agrees to ship the Product pre-paid and suitably packaged to the TelNet specified location. Any returned product becomes the property of TelNet and, subject to TelNet’s receipt of the exchanged Product, the replacement becomes Customers property. Customer agrees to ensure that any returned Product is free from any and all legal obligations or restrictions that may prevent its exchange and represents that all returned Products are genuine and unaltered. The replacement Product may not be new, but will be in working order and equivalent to the item exchanged as determined in good faith by TelNet. Additional terms and conditions for the return of Product can be found in the General Terms and Conditions located on the TelNet website and are made a part of the Agreement.
-
-8.             MISCELLANEOUS
-TelNet and Customer agree that the terms and conditions set forth in this Agreement govern Customers order for any and all Product(s) listed on the PSA. Any other terms and conditions, preprinted or otherwise, accompanying any Customer order for the Product and/or service are hereby rejected by TelNet and have no legal effect.</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                      <FontSize>9pt</FontSize>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-            </Paragraphs>
-            <Top>9.28125in</Top>
-            <Left>0.01063in</Left>
-            <Height>4in</Height>
-            <Width>6.35417in</Width>
-            <ZIndex>6</ZIndex>
-            <Style>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Rectangle Name="rectangle5">
-            <PageBreak>
-              <BreakLocation>Start</BreakLocation>
-            </PageBreak>
-            <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>0.03125in</Top>
-            <Left>2.63563in</Left>
-            <Height>0.125in</Height>
-            <Width>2in</Width>
-            <ZIndex>7</ZIndex>
-            <Style />
-          </Rectangle>
-          <Textbox Name="textbox46">
+          <Textbox Name="paragraph_choice">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
             <Paragraphs>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>3.             ENVIRONMENT &amp; DELIVERY
-Customer agrees, at its sole expense, to provide the proper environment and electrical and telecommunications connections for the Product such as, but not limited to, ensuring appropriate power supply and surge protection is used. Customer is solely responsible for correcting any hazardous conditions that may adversely affect Product. TelNet shall use commercially reasonable efforts to complete the delivery of the Products in advance of the installation date requested by customer, but TelNet does not guarantee that it will be able to do so. If Customer is unable or unwilling to schedule or accept delivery or installation on the date that TelNet tenders delivery or installation, TelNet shall have the right to initiate billing for the amounts due hereunder as of the date that delivery or installation was tendered. Product prices and Installation or Service charges are subject to change at TelNet’s sole discretion if Customer delays delivery or installation by more than thirty (30) days.
-
-4.             TITLE, RISK OF LOSS &amp; SECURITY INTEREST
-Title to the Product ordered by Customer shall pass to Customer upon payment in full of all invoiced amounts. Until TelNet receives the full amount due hereunder from the Customer, Customer grants to TelNet a continuing purchase money security interest in the Products ordered under this Agreement, and Customer agrees to support TelNet in the perfection of such security interest. Risk or loss or damage to the Product shall pass from TelNet to Customer upon initial delivery by TelNet or its suppliers to the delivery carrier (“FOB Origin”). Customer agrees to pay all transportation, handling, insurance and associated charges, including but not limited to, additional charges for non-standard shipment. TelNet shall use commercially reasonable efforts to meet Customer’s requested delivery dates, but TelNet does not guarantee any delivery dates. Customer shall be solely responsible to coordinate all delivery arrangements necessary to comply with project schedule date
-
-5.             WARRANTY &amp; DISCLAIMERS
-THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, TELNET DISCLAIMS AND EXCLUDES ALL REPRESENTATIONS, WARRANTIES AND CONDITIONS, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO REPRESENTATIONS, WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, SATISFACTORY CONDITION OR QUALITY, MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE, WITH RESPECT TO ANY SERVICES, OR OTHER MATERIALS OR INFORMATION PROVIDED BY TELNET. TELNET WARRANTS ONLY THAT ITS SERVICES SHALL BE PERFORMED IN A TIMELY, PROFESSIONAL AND WORKMANLIKE MANNER BY QUALIFIED PERSONNEL. IF SERVICES ARE NOT PERFORMED AS WARRANTED, AND CUSTOMER NOTIFIES TELNET IN WRITING WITHIN THIRTY (30) DAYS, CUSTOMERS EXCLUSIVE REMEDY SHALL BE FOR TELNET TO RE-PERFORM THE NOON-CONFORMING SERVICES. CUSTOMERS EXCLUSIVE REMEDY</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                      <FontSize>9pt</FontSize>
-                    </Style>
+                    <Value>=First(Fields!paragraph_choice.Value, "DataSet1")</Value>
+                    <Style />
                   </TextRun>
                 </TextRuns>
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <rd:DefaultName>textbox46</rd:DefaultName>
-            <Top>5.03125in</Top>
-            <Left>0.01063in</Left>
-            <Height>4.25in</Height>
-            <Width>6.35417in</Width>
-            <ZIndex>8</ZIndex>
+            <rd:DefaultName>paragraph_choice</rd:DefaultName>
+            <Top>3.84958in</Top>
+            <Left>0.46887in</Left>
+            <Height>0.625in</Height>
+            <Width>5.59375in</Width>
+            <ZIndex>6</ZIndex>
             <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
               <PaddingTop>2pt</PaddingTop>
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Rectangle Name="rectangle3">
-            <ReportItems>
-              <Textbox Name="textbox55">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>EQUIPMENT RENTAL TERMS &amp; CONDITIONS</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Center</TextAlign>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <Top>0.125in</Top>
-                <Left>0.01063in</Left>
-                <Height>0.25in</Height>
-                <Width>6.35417in</Width>
-                <Style>
-                  <BottomBorder>
-                    <Color>Black</Color>
-                    <Style>Solid</Style>
-                    <Width>1pt</Width>
-                  </BottomBorder>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox54">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>In addition to the general terms and conditions contained in the Master Service Agreement (“MSA”) and the Product Service Agreement (“PSA”) between TelNet and Customer (the “Agreement”), of which this Equipment Rental Schedule is a part, the following terms and conditions apply to the Rental of the Equipment, as defined below. In the event of any inconsistency between the Agreement and this Schedule, this Schedule shall control.
-
-1.             RENTAL OF EQUIPMENT
-Customer Rents from TelNet the equipment described on the attached PSA (“Equipment”) for the number of months set forth on the PSA (“Equipment Rental Term”). The Equipment Rental Term will be coterminous with the TelNet provided Service(s) on the PSA and therefore will commence with the Effective Date of the Service(s) per the terms of the Agreement. Upon expiration of the initial Equipment Rental Term, this Equipment Rental Schedule will automatically renew for successive periods equal in length to the PSA renewal period(s) (“Equipment Rental Renewal Term(s)”) unless Customer or TelNet provide written notice of cancelation at least 30 days prior to the expiration of the initial Equipment Rental Term or the then current Equipment Rental Renewal Term. Customer shall remain obligated to pay the remainder of the applicable Equipment Rental Term (whether initial or renewal) notwithstanding an early termination of this Equipment Rental Schedule or the Agreement.
-
-2.             RENTAL
-Customer shall pay all amounts due under the PSA, in accordance to the payment terms set forth in the Agreement. Customer also agrees to pay all sales, excise, use, property and similar taxes (other than income taxes on payments made by Customer to TelNet under this Agreement) and related charges that may be imposed or assessed by any governmental entity or taxing authority with respect to such Equipment. 
-
-3.             OWNERSHIP AND USE
-The Equipment shall be the exclusive property of TelNet, except for Customer’s rights to use it in normal business operations under this Rental. The Equipment is and shall remain TelNet’s personal property even if installed in or attached to real property.
-Customer shall keep the Equipment at all times free and clear from all liens and encumbrances. Customer shall give TelNet immediate notice of any such attachment or other judicial process affecting any article of Equipment.
-The Equipment shall be located at the address designated on the PSA and Customer shall not move the Equipment to another location or subleases the Equipment without TelNet’s prior written consent.
-Customer agrees, at its sole expense, to provide the proper environment and electrical and telecommunications connections for the Equipment, such as but not limited to, ensuring appropriate power supply and surge protection is deployed.  Customer is solely responsible for correcting any hazardous conditions that may adversely affect Equipment. Customer shall use the Equipment in a careful and proper manner and shall comply with all federal, state, and local laws. Customer shall not make any alterations or improvements to the Equipment without TelNet’s prior written consent.
-
-4.             WARRANTY &amp; DISCLAIMERS
-CUSTOMER RENTS THE EQUIPMENT AS IS AND, NOT BEING THE MANUFACTURER OF THE EQUIPMENT, THE MANUFACTURERS AGENT OR THE SELLER’S AGENT, TELNET MAKES NO WARRANTY OR REPRESENTATION WHATSOEVER, EXPRESS OR IMPLIED, AS TO THE MERCHANTABILITY, FITNESS FOR ANY PARTICULAR PURPOSE DESIGN OR CONDITION OF THE EQUIPMENT, OR INTELLECTUAL PROPERTY RIGHTS (INCLUDING WITHOUT LIMITATION ANY PATENT, COPYRIGHT AND TRADEMARK RIGHTS, OF ANY THIRD PARTY WITH RESPECT TO THE EQUIPMENT, WHETHER RELATING TO THE INFRINGMENT OR OTHERWISE) WITH RESPECT TO THE EQUIPMENT. TELNET SHALL NOT BE RESPONSIBLE FOR ANY DIRECT, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING FROM POSSESSION OR USE OF THE EQUIPMENT, INCLUDING BUT NOT LIMITED TO, LOST PROFITS OR BUSINESS REVENUE, LOST BUSINESS, WHETHER SUCH DAMAGES ARE FORESEEABLE AND WHETHER TELNET HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. CUSTOMER AGREES THAT TELNET SHALL NOT BE LIABLE FOR ANY DELAY IN DELIVERY OR INSTALLATION OF, OR ANY FAILURE TO DELIVER OR INSTALL, ANY EQUIPMENT. NOTWITHSTANDING THE FOREGOING, IN NO EVENT SHALL TELNET’S LIABILITY (WHETHER IN TORT, NEGLIGENCE, OR OTHERWISE) TO CUSTOMER WITH RESPECT TO THE EQUIPMENT UNDER THIS SCHEDULE EXCEED AN AMOUNT EQUAL TO THE AGGREGATE CHARGES OR FEESACTUALLY PAID BY CUSTOMER WITH RESPECT TO THE EQUIPMENT FOR THE ONE (1) MONTH PERIOD IMMEDIATELY PRECEDING THE MONTH DURING WHICH THE EVENT GIVING RISE TO TELNET’S LIABILITY OCCURS. 
-
-5.             LIABILITY FOR DAMAGE
-Customer shall be responsible for any damage to the Equipment while in Customer’s possession and shall pay to TelNet the value of as much of the Equipment as may be damaged or destroyed. On receipt of the payment, TelNet shall, to the extent of the amount paid, assign to Customer any rights Customer may have with respect to the damaged or destroyed article of Equipment under any insurance, together with all of TelNet’s interest in the article of Equipment.
-
-6.             INSPECTION
-Upon service activation, Customer will inspect the Equipment and notify TelNet within 48 hours if the Equipment is not in good operating condition.  The agents of TelNet may at any time enter Customer’s premises to inspect the Equipment and the manner in which it is being used.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>0.5in</Top>
-                <Height>8.75in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>1</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox53">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>A.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>10.5in</Top>
-                <Left>0.25in</Left>
-                <Height>0.25in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>2</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox52">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Customer shall procure and continuously maintain and pay (including the deductible) for:</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>10.5in</Top>
-                <Left>0.5in</Left>
-                <Height>0.25in</Height>
-                <Width>5.85417in</Width>
-                <ZIndex>3</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox51">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>B.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>11.25in</Top>
-                <Left>0.25in</Left>
-                <Height>1.25in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>4</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox50">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>The insurance shall be in such form and with such company or companies as shall be reasonably acceptable to TelNet, shall provide at least thirty (30) days advance written notice to TelNet of any cancellation, change or modification, and shall provide primary coverage for the protection of Customer and TelNet without regard to any other coverage carried by Customer or TelNet protecting against similar risks.  Customer shall provide TelNet with an original policy or certificate evidencing such insurance.  Customer hereby appoints TelNet as Customer's attorney in fact with power and authority to do all things, including, but not limited to, making claims, receiving payments and endorsing documents, checks or drafts necessary or advisable to secure payments due under any policy of insurance required under this Agreement.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>11.25in</Top>
-                <Left>0.5in</Left>
-                <Height>1.25in</Height>
-                <Width>5.85417in</Width>
-                <ZIndex>5</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox48">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>THE REMAINDER OF THIS PAGE IS LEFT INTENTIONALLY BLANK</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Center</TextAlign>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <Top>16.875in</Top>
-                <Left>0.01063in</Left>
-                <Height>0.25in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>6</ZIndex>
-                <Style>
-                  <TopBorder>
-                    <Style>Solid</Style>
-                  </TopBorder>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Rectangle Name="rectangle4">
-                <PageBreak>
-                  <BreakLocation>Start</BreakLocation>
-                </PageBreak>
-                <DataElementOutput>ContentsOnly</DataElementOutput>
-                <Left>2.625in</Left>
-                <Height>0.125in</Height>
-                <Width>2in</Width>
-                <ZIndex>7</ZIndex>
-                <Style />
-              </Rectangle>
-              <Textbox Name="textbox47">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>11.             MAINTENANCE OR REPAIRS
-TelNet shall provide routine maintenance and repairs to the Equipment as TelNet as follows:</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>12.5in</Top>
-                <Height>0.25in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>8</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox56">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>7.             RETURN
-At the end of the term of this Rental, Customer shall, at Customer’s own expense, return the Equipment to TelNet in as good condition as when received, reasonable wear and tear excepted, at the location specified by TelNet. Customer must keep all original packing that came with the Equipment (including, but not limited to, the box, cd’s, installation disks, paper documents and instructions) and must return it to TelNet along with the Equipment. Additional terms and conditions for the return of Equipment can be found in the General Terms and Conditions located on the TelNet website and are made a part of the Agreement. 
-
-8.             INSURANCE</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>9.25in</Top>
-                <Height>1.25in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>9</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox57">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>1)</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>10.75in</Top>
-                <Left>0.5in</Left>
-                <Height>0.25in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>10</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox58">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>All risk insurance against loss of and damage to the Equipment for not less than the full replacement value of the Equipment, naming TelNet as loss payee, and;</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>10.75in</Top>
-                <Left>0.75in</Left>
-                <Height>0.25in</Height>
-                <Width>5.60417in</Width>
-                <ZIndex>11</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox59">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>2)</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>11in</Top>
-                <Left>0.5in</Left>
-                <Height>0.25in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>12</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox60">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Combined public liability and property damage insurance with limits as approved by TelNet, naming TelNet as additionally named insured and a loss payee.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>11in</Top>
-                <Left>0.75in</Left>
-                <Height>0.25in</Height>
-                <Width>5.60417in</Width>
-                <ZIndex>13</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox61">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>A.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>12.75in</Top>
-                <Left>0.25in</Left>
-                <Height>0.625in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>14</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox62">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>In the event that Customer is experiencing trouble with the Equipment, Customer shall immediately notify TelNet of the issues via the TelNet customer service number. TelNet will attempt to resolve the problem via remote support and if that is not successful, TelNet may dispatch personnel to perform on-site support during normal business hours. The on-site repair services may be performed by a TelNet affiliate or subcontractor, at TelNet’s discretion.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>12.75in</Top>
-                <Left>0.5in</Left>
-                <Height>0.625in</Height>
-                <Width>5.85417in</Width>
-                <ZIndex>15</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox63">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>B.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>13.375in</Top>
-                <Left>0.25in</Left>
-                <Height>0.5in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>16</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox64">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>TelNet shall use reasonable efforts to identify and correct the problem with the Equipment. However, if the Equipment cannot be fixed and none of the exclusions in Section (C) below apply, TelNet will replace the defective Equipment with either new or reconditioned Equipment</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>13.375in</Top>
-                <Left>0.5in</Left>
-                <Height>0.5in</Height>
-                <Width>5.85417in</Width>
-                <ZIndex>17</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox65">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>C.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>13.875in</Top>
-                <Left>0.25in</Left>
-                <Height>0.875in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>18</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox66">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>If persons other than those employed by TelNet shall repair, modify or perform any maintenance services on any of the Equipment, or if Customer fails to maintain the Equipment according to the terms of the Agreement or this Schedule, and as a result of either of the foregoing, further maintenance services are required to restore the Equipment to operating condition or the Equipment needs to be replaced, such further maintenance services or Equipment replacement shall be billed to Customer at the then current TelNet time and material rates.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>13.875in</Top>
-                <Left>0.5in</Left>
-                <Height>0.875in</Height>
-                <Width>5.85417in</Width>
-                <ZIndex>19</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox67">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>12.             BREACH
-Upon default in the payment of any installment of rent, or upon a breach of any other condition of this Rental, or if during the term of this Rental bankruptcy or insolvency proceedings are commenced by or against Customer, a receiver is appointed for the business of Customer, or Customer discontinues business, TelNet shall have the right without notice or demand to terminate this Rental, but the termination shall not release Customer from paying damages sustained by TelNet. If upon any termination of this Rental Customer fails or refuses to deliver the Equipment to TelNet, TelNet shall have the right to enter Customer’s premises and take possession of and remove the Equipment without legal process. Customer releases any claim or right of action for trespass or damages caused by the entry and removal. TelNet can pursue any other remedies TelNet has for arrears of rent or breach of any other conditions of this Rental. Customer shall pay all expenses, including attorney fees, which TelNet pays or incurs to enforce this Rental.
-
-13.             ASSIGNMENT
-This Rental is not assignable or transferable by operation of law by Customer. TelNet may assign the Rental without Customer’s consent.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>14.75in</Top>
-                <Height>2.125in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>20</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-            </ReportItems>
+          <Textbox Name="additional_message">
+            <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
-            <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>13.46071in</Top>
-            <Height>17.125in</Height>
-            <Width>6.3648in</Width>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=First(Fields!additional_message.Value, "DataSet1")</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>additional_message</rd:DefaultName>
+            <Top>4.54403in</Top>
+            <Left>0.46887in</Left>
+            <Height>0.01042in</Height>
+            <Width>5.59375in</Width>
+            <ZIndex>7</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox31">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Thank you for your consideration.</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox31</rd:DefaultName>
+            <Top>4.62389in</Top>
+            <Left>0.46887in</Left>
+            <Height>0.25in</Height>
+            <Width>5.59375in</Width>
+            <ZIndex>8</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="agent_firstname">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIF(First(Fields!agent_name.Value, "DataSet1") &lt;&gt; "", First(Fields!agent_name.Value, "DataSet1"), "")+
+IIF(First(Fields!email_address.Value, "DataSet1") &lt;&gt; "", Chr(13) &amp; Chr(10) + First(Fields!email_address.Value, "DataSet1"), "") +
+IIF(First(Fields!phone_number.Value, "DataSet1") &lt;&gt; "", Chr(13) &amp; Chr(10) + First(Fields!phone_number.Value, "DataSet1"), "")+
+IIF(First(Fields!company_name.Value, "DataSet1") &lt;&gt; "", Chr(13) &amp; Chr(10) + First(Fields!company_name.Value, "DataSet1"), "")</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>agent_firstname</rd:DefaultName>
+            <Top>5.06818in</Top>
+            <Left>0.46887in</Left>
+            <Height>0.25in</Height>
+            <Width>5.59375in</Width>
             <ZIndex>9</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Image Name="image3">
+            <Source>Embedded</Source>
+            <Value>simple_logo</Value>
+            <Sizing>Fit</Sizing>
+            <Left>0.08344in</Left>
+            <Height>0.75in</Height>
+            <Width>1.875in</Width>
+            <ZIndex>10</ZIndex>
+            <Style />
+          </Image>
+          <Image Name="UserImage4">
+            <Source>External</Source>
+            <Value>="http://10.10.50.59/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
+            <MIMEType>image/png</MIMEType>
+            <Sizing>FitProportional</Sizing>
+            <Left>4.19289in</Left>
+            <Height>0.75in</Height>
+            <Width>2.09375in</Width>
+            <ZIndex>11</ZIndex>
             <Visibility>
-              <Hidden>=CBool((Parameters!hasRental.Value)) = False</Hidden>
+              <Hidden>=IsNothing(First(Fields!Logo.Value, "UserDefaults"))</Hidden>
             </Visibility>
             <Style>
               <Border>
                 <Style>None</Style>
               </Border>
             </Style>
-          </Rectangle>
+          </Image>
         </ReportItems>
-        <DataElementOutput>ContentsOnly</DataElementOutput>
-        <Top>9.64473in</Top>
-        <Left>0.03919in</Left>
-        <Height>30.58571in</Height>
-        <Width>6.40679in</Width>
-        <ZIndex>20</ZIndex>
-        <Visibility>
-          <Hidden>=CBool((Parameters!hasPurchase.Value)) = False</Hidden>
-        </Visibility>
+        <KeepTogether>true</KeepTogether>
+        <OmitBorderOnPageBreak>true</OmitBorderOnPageBreak>
+        <Height>5.46054in</Height>
+        <Width>6.38553in</Width>
         <Style>
           <Border>
             <Style>None</Style>
           </Border>
         </Style>
       </Rectangle>
-      <Tablix Name="Tablix1">
-        <TablixBody>
-          <TablixColumns>
-            <TablixColumn>
-              <Width>2.26187in</Width>
-            </TablixColumn>
-          </TablixColumns>
-          <TablixRows>
-            <TablixRow>
-              <Height>0.125in</Height>
-              <TablixCells>
-                <TablixCell>
-                  <CellContents>
-                    <Textbox Name="Textbox30">
-                      <CanGrow>true</CanGrow>
-                      <KeepTogether>true</KeepTogether>
-                      <Paragraphs>
-                        <Paragraph>
-                          <TextRuns>
-                            <TextRun>
-                              <Value>=Fields!name.Value + " " + Fields!term.Value + " Months"</Value>
-                              <Style>
-                                <FontSize>9pt</FontSize>
-                              </Style>
-                            </TextRun>
-                          </TextRuns>
-                          <Style />
-                        </Paragraph>
-                      </Paragraphs>
-                      <rd:DefaultName>Textbox30</rd:DefaultName>
-                      <Style>
-                        <Border>
-                          <Style>None</Style>
-                        </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
-                      </Style>
-                    </Textbox>
-                  </CellContents>
-                </TablixCell>
-              </TablixCells>
-            </TablixRow>
-          </TablixRows>
-        </TablixBody>
-        <TablixColumnHierarchy>
-          <TablixMembers>
-            <TablixMember />
-          </TablixMembers>
-        </TablixColumnHierarchy>
-        <TablixRowHierarchy>
-          <TablixMembers>
-            <TablixMember>
-              <Group Name="name">
-                <GroupExpressions>
-                  <GroupExpression>=Fields!name.Value</GroupExpression>
-                </GroupExpressions>
-              </Group>
-              <SortExpressions>
-                <SortExpression>
-                  <Value>=Fields!name.Value</Value>
-                </SortExpression>
-              </SortExpressions>
-              <TablixMembers>
-                <TablixMember />
-              </TablixMembers>
-            </TablixMember>
-          </TablixMembers>
-        </TablixRowHierarchy>
-        <DataSetName>SugarCrmOrderInfo</DataSetName>
-        <Top>1.48958in</Top>
-        <Left>0.03919in</Left>
-        <Height>0.125in</Height>
-        <Width>2.26187in</Width>
-        <ZIndex>21</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-        </Style>
-      </Tablix>
-      <Rectangle Name="Rectangle3">
+      <Rectangle Name="Rectangle2">
         <ReportItems>
           <Textbox Name="textbox2">
             <CanGrow>true</CanGrow>
@@ -1552,199 +370,552 @@ This Rental is not assignable or transferable by operation of law by Customer. T
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Print Name</Value>
+                    <Value>Proposal For:</Value>
                     <Style>
                       <FontFamily>Tahoma</FontFamily>
+                      <FontSize>12pt</FontSize>
                     </Style>
                   </TextRun>
                 </TextRuns>
-                <Style />
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
               </Paragraph>
             </Paragraphs>
-            <rd:DefaultName>textbox2</rd:DefaultName>
-            <Top>3.85968in</Top>
-            <Left>0.28348in</Left>
-            <Height>0.25in</Height>
-            <Width>1.98901in</Width>
+            <rd:DefaultName>textbox1</rd:DefaultName>
+            <Top>0.80792in</Top>
+            <Height>0.25583in</Height>
+            <Width>6.38552in</Width>
             <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
               <PaddingTop>2pt</PaddingTop>
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Line Name="line1">
-            <Top>4.10968in</Top>
-            <Left>0.28348in</Left>
-            <Height>0in</Height>
-            <Width>3.11401in</Width>
+          <Textbox Name="account_name2">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=First(Fields!account_name.Value, "SummaryQuery")</Value>
+                    <Style>
+                      <FontSize>11pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>account_name1</rd:DefaultName>
+            <Top>1.11932in</Top>
+            <Height>0.28472in</Height>
+            <Width>6.38552in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
-                <Style>Solid</Style>
+                <Style>None</Style>
               </Border>
-            </Style>
-          </Line>
-          <Textbox Name="textbox4">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>Date</Value>
-                    <Style>
-                      <FontFamily>Tahoma</FontFamily>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-            </Paragraphs>
-            <Top>3.85968in</Top>
-            <Left>4.09762in</Left>
-            <Height>0.25in</Height>
-            <Width>1.92488in</Width>
-            <ZIndex>2</ZIndex>
-            <Style>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
               <PaddingTop>2pt</PaddingTop>
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Line Name="line2">
-            <Top>4.10968in</Top>
-            <Left>4.09762in</Left>
-            <Height>0in</Height>
-            <Width>1.93877in</Width>
+          <Textbox Name="ExecutionTime2">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>="Executive Summary"</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>ExecutionTime</rd:DefaultName>
+            <Top>1.47348in</Top>
+            <Height>0.25in</Height>
+            <Width>6.38552in</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Tablix Name="Tablix1">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>3.8757in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.93131in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.86195in</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="service_address_city">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!service_address_street.Value &amp; " " &amp; Fields!service_address_city.Value &amp; " " &amp; Fields!service_address_state.Value &amp; " " &amp; Fields!service_address_postalcode.Value</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>service_address_city</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="deal_tot">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=First(Fields!monthly_total.Value, "service_address_street")</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                    <Format>'$' #,0.00;('$' #,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>deal_tot</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="monthly_total">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=First(Fields!total.Value, "service_address_street")</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                    <Format>'$' #,0.00;('$' #,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>monthly_total</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox270">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!name.Value + Chr(13) &amp; Chr(10) +
+IIf(Parameters!UseBYOBDesc.Value, Fields!description2_c.Value, Fields!description.Value)</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox270</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <ColSpan>3</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell />
+                    <TablixCell />
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox7">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox7</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox34">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox34</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox35">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox35</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.25in</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox8">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Location</Value>
+                                <Style>
+                                  <FontSize>9pt</FontSize>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style />
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox8</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>None</Style>
+                          </Border>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.25in</Size>
+                    <CellContents>
+                      <Textbox Name="deal_tot1">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Monthly</Value>
+                                <Style>
+                                  <FontSize>9pt</FontSize>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style />
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>deal_tot1</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>None</Style>
+                          </Border>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.25in</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox10">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>One Time</Value>
+                                <Style>
+                                  <FontSize>9pt</FontSize>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style />
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox10</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>None</Style>
+                          </Border>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                </TablixMember>
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="service_address_street">
+                    <GroupExpressions>
+                      <GroupExpression>=Fields!name.Value</GroupExpression>
+                      <GroupExpression>=Fields!quote_num.Value</GroupExpression>
+                    </GroupExpressions>
+                  </Group>
+                  <SortExpressions>
+                    <SortExpression>
+                      <Value>=Fields!service_address_street.Value</Value>
+                    </SortExpression>
+                  </SortExpressions>
+                  <TablixMembers>
+                    <TablixMember />
+                    <TablixMember />
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>SummaryQuery</DataSetName>
+            <Top>2.13319in</Top>
+            <Left>0.31719in</Left>
+            <Height>1in</Height>
+            <Width>5.66896in</Width>
             <ZIndex>3</ZIndex>
             <Style>
               <Border>
-                <Style>Solid</Style>
+                <Style>None</Style>
               </Border>
             </Style>
-          </Line>
-          <Textbox Name="textbox5">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>Signature</Value>
-                    <Style>
-                      <FontFamily>Tahoma</FontFamily>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-            </Paragraphs>
-            <Top>4.23468in</Top>
-            <Left>0.28348in</Left>
-            <Height>0.25in</Height>
-            <Width>1.98902in</Width>
+          </Tablix>
+          <Image Name="image2">
+            <Source>Embedded</Source>
+            <Value>simple_logo</Value>
+            <Sizing>Fit</Sizing>
+            <Top>0.00236in</Top>
+            <Left>0.08344in</Left>
+            <Height>0.75in</Height>
+            <Width>1.875in</Width>
             <ZIndex>4</ZIndex>
-            <Style>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Line Name="line4">
-            <Top>4.48468in</Top>
-            <Left>0.28348in</Left>
-            <Height>0in</Height>
-            <Width>3.11402in</Width>
+            <Style />
+          </Image>
+          <Image Name="UserImage3">
+            <Source>External</Source>
+            <Value>="http://10.10.50.59/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
+            <MIMEType>image/png</MIMEType>
+            <Sizing>FitProportional</Sizing>
+            <Left>4.29177in</Left>
+            <Height>0.75236in</Height>
+            <Width>2.09375in</Width>
             <ZIndex>5</ZIndex>
+            <Visibility>
+              <Hidden>=IsNothing(First(Fields!Logo.Value, "UserDefaults"))</Hidden>
+            </Visibility>
             <Style>
               <Border>
-                <Style>Solid</Style>
+                <Style>None</Style>
               </Border>
             </Style>
-          </Line>
-          <Textbox Name="textbox6">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>P.O.#</Value>
-                    <Style>
-                      <FontFamily>Tahoma</FontFamily>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-            </Paragraphs>
-            <Top>4.23468in</Top>
-            <Left>4.09762in</Left>
-            <Height>0.25in</Height>
-            <Width>1.92488in</Width>
-            <ZIndex>6</ZIndex>
-            <Style>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Line Name="line3">
-            <Top>4.48468in</Top>
-            <Left>4.08373in</Left>
-            <Height>0in</Height>
-            <Width>1.93877in</Width>
-            <ZIndex>7</ZIndex>
-            <Style>
-              <Border>
-                <Style>Solid</Style>
-              </Border>
-            </Style>
-          </Line>
-          <Textbox Name="textbox7">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>Title</Value>
-                    <Style>
-                      <FontFamily>Tahoma</FontFamily>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-            </Paragraphs>
-            <Top>4.64093in</Top>
-            <Left>0.28348in</Left>
-            <Height>0.25in</Height>
-            <Width>1.98902in</Width>
-            <ZIndex>8</ZIndex>
-            <Style>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Line Name="line6">
-            <Top>4.89093in</Top>
-            <Left>0.28348in</Left>
-            <Height>0in</Height>
-            <Width>3.12584in</Width>
-            <ZIndex>9</ZIndex>
-            <Style>
-              <Border>
-                <Style>Solid</Style>
-              </Border>
-            </Style>
-          </Line>
+          </Image>
+        </ReportItems>
+        <PageBreak>
+          <BreakLocation>Start</BreakLocation>
+        </PageBreak>
+        <KeepTogether>true</KeepTogether>
+        <Top>5.99985in</Top>
+        <Height>3.16333in</Height>
+        <Width>6.38552in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Rectangle>
+      <Rectangle Name="Rectangle3">
+        <ReportItems>
           <Textbox Name="account_name3">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
@@ -1765,11 +936,10 @@ This Rental is not assignable or transferable by operation of law by Customer. T
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>account_name1</rd:DefaultName>
-            <Top>0.83916in</Top>
+            <Top>1.14707in</Top>
             <Left>0.00002in</Left>
-            <Height>0.01042in</Height>
+            <Height>0.28472in</Height>
             <Width>6.38551in</Width>
-            <ZIndex>10</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1787,7 +957,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Product Service Agreement For:</Value>
+                    <Value>Proposal For:</Value>
                     <Style>
                       <FontFamily>Tahoma</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -1800,10 +970,10 @@ This Rental is not assignable or transferable by operation of law by Customer. T
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>textbox1</rd:DefaultName>
-            <Top>0.80097in</Top>
-            <Height>0.01042in</Height>
+            <Top>0.8218in</Top>
+            <Height>0.25583in</Height>
             <Width>6.38552in</Width>
-            <ZIndex>11</ZIndex>
+            <ZIndex>1</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1834,10 +1004,10 @@ This Rental is not assignable or transferable by operation of law by Customer. T
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>ExecutionTime</rd:DefaultName>
-            <Top>0.90513in</Top>
-            <Height>0.01042in</Height>
+            <Top>1.48735in</Top>
+            <Height>0.25in</Height>
             <Width>6.38552in</Width>
-            <ZIndex>12</ZIndex>
+            <ZIndex>2</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1871,11 +1041,11 @@ IIf(First(Fields!digital_fax_c.Value, "Disclaimers"), "Digital Fax: Inbound faxe
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>3.68262in</Top>
+            <Top>5.12501in</Top>
             <Left>0.28348in</Left>
-            <Height>0.0972in</Height>
-            <Width>5.73902in</Width>
-            <ZIndex>13</ZIndex>
+            <Height>0.25in</Height>
+            <Width>5.75291in</Width>
+            <ZIndex>3</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1886,26 +1056,37 @@ IIf(First(Fields!digital_fax_c.Value, "Disclaimers"), "Digital Fax: Inbound faxe
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
+          <Image Name="image1">
+            <Source>Embedded</Source>
+            <Value>simple_logo</Value>
+            <Sizing>Fit</Sizing>
+            <Top>0.00236in</Top>
+            <Left>0.08344in</Left>
+            <Height>0.75in</Height>
+            <Width>1.875in</Width>
+            <ZIndex>4</ZIndex>
+            <Style />
+          </Image>
           <Tablix Name="Tablix4">
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.85943in</Width>
+                  <Width>1.86053in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.59791in</Width>
+                  <Width>0.59901in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.69034in</Width>
+                  <Width>0.69144in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.69608in</Width>
+                  <Width>0.69718in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.94919in</Width>
+                  <Width>0.95029in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.95339in</Width>
+                  <Width>0.95449in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -2266,7 +1447,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox29">
+                        <Textbox Name="Textbox265">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -2274,16 +1455,13 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                               <TextRuns>
                                 <TextRun>
                                   <Value />
-                                  <Style>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                  </Style>
+                                  <Style />
                                 </TextRun>
                               </TextRuns>
                               <Style />
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox29</rd:DefaultName>
+                          <rd:DefaultName>Textbox265</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>None</Style>
@@ -2298,7 +1476,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox19">
+                        <Textbox Name="Textbox259">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -2317,7 +1495,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox7</rd:DefaultName>
+                          <rd:DefaultName>Textbox255</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>None</Style>
@@ -2334,7 +1512,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     <TablixCell />
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox265">
+                        <Textbox Name="Textbox266">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -2488,7 +1666,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Center</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -2522,7 +1700,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Center</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -2556,7 +1734,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Center</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -2694,7 +1872,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Center</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -2764,7 +1942,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Center</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -2988,7 +2166,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox192">
+                        <Textbox Name="Textbox9">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -2996,16 +2174,13 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                               <TextRuns>
                                 <TextRun>
                                   <Value />
-                                  <Style>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                  </Style>
+                                  <Style />
                                 </TextRun>
                               </TextRuns>
                               <Style />
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox192</rd:DefaultName>
+                          <rd:DefaultName>Textbox9</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>None</Style>
@@ -3020,7 +2195,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox193">
+                        <Textbox Name="Textbox11">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -3028,10 +2203,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                               <TextRuns>
                                 <TextRun>
                                   <Value />
-                                  <Style>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                  </Style>
+                                  <Style />
                                 </TextRun>
                               </TextRuns>
                               <Style>
@@ -3039,7 +2211,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox193</rd:DefaultName>
+                          <rd:DefaultName>Textbox11</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>None</Style>
@@ -3054,7 +2226,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox194">
+                        <Textbox Name="Textbox12">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -3062,18 +2234,15 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                               <TextRuns>
                                 <TextRun>
                                   <Value />
-                                  <Style>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                  </Style>
+                                  <Style />
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Center</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox194</rd:DefaultName>
+                          <rd:DefaultName>Textbox12</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>None</Style>
@@ -3088,75 +2257,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox195">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox195</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>None</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox196">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox196</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>None</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox197">
+                        <Textbox Name="Textbox13">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -3175,7 +2276,72 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox197</rd:DefaultName>
+                          <rd:DefaultName>Textbox13</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox14">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox14</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox19">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox19</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>None</Style>
@@ -3259,52 +2425,39 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>LocationDetailQuery1</DataSetName>
-            <Top>0.95251in</Top>
+            <Top>1.82639in</Top>
             <Left>0.28348in</Left>
             <Height>2in</Height>
-            <Width>5.74634in</Width>
-            <ZIndex>14</ZIndex>
+            <Width>5.75294in</Width>
+            <ZIndex>5</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
               </Border>
             </Style>
           </Tablix>
-          <Image Name="image3">
-            <Source>Embedded</Source>
-            <Value>simple_logo</Value>
-            <Sizing>Fit</Sizing>
-            <Left>0.01063in</Left>
-            <Height>0.75in</Height>
-            <Width>1.875in</Width>
-            <ZIndex>15</ZIndex>
-            <Style />
-          </Image>
           <Tablix Name="Tablix6">
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.85943in</Width>
+                  <Width>2.08807in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.59791in</Width>
+                  <Width>0.79865in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.69034in</Width>
+                  <Width>0.98427in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>0.93206in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.92928in</Width>
-                </TablixColumn>
-                <TablixColumn>
-                  <Width>0.9471in</Width>
+                  <Width>0.94988in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>0.14419in</Height>
+                  <Height>0.25in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -3337,10 +2490,9 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>6</ColSpan>
+                        <ColSpan>5</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell />
                     <TablixCell />
                     <TablixCell />
                     <TablixCell />
@@ -3348,7 +2500,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.14419in</Height>
+                  <Height>0.25in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -3382,7 +2534,6 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -3455,40 +2606,6 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox22">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>IntraState</Value>
-                                  <Style>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox22</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>None</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
                         <Textbox Name="Textbox28">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
@@ -3523,7 +2640,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox31">
+                        <Textbox Name="Textbox29">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -3558,7 +2675,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.11699in</Height>
+                  <Height>0.2228in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -3664,40 +2781,6 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox79">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>=Fields!intra_state.Value</Value>
-                                  <Style>
-                                    <Format>'$'0.000;('$'0.000)</Format>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox78</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>None</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                            <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
                         <Textbox Name="Textbox72">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
@@ -3767,7 +2850,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.14419in</Height>
+                  <Height>0.25in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -3864,37 +2947,6 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox33">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style />
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox33</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>None</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
                         <Textbox Name="Textbox91">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
@@ -3966,7 +3018,6 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                 <TablixMember />
                 <TablixMember />
                 <TablixMember />
-                <TablixMember />
               </TablixMembers>
             </TablixColumnHierarchy>
             <TablixRowHierarchy>
@@ -4007,27 +3058,44 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>UsageTableDataSet</DataSetName>
-            <Top>3.02195in</Top>
-            <Left>0.28348in</Left>
-            <Height>0.54956in</Height>
-            <Width>6.02406in</Width>
-            <ZIndex>16</ZIndex>
+            <Top>3.97341in</Top>
+            <Left>0.28349in</Left>
+            <Height>0.9728in</Height>
+            <Width>5.75293in</Width>
+            <ZIndex>6</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
               </Border>
             </Style>
           </Tablix>
+          <Image Name="UserImage5">
+            <Source>External</Source>
+            <Value>="http://10.10.50.59/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
+            <MIMEType>image/png</MIMEType>
+            <Sizing>FitProportional</Sizing>
+            <Left>4.29177in</Left>
+            <Height>0.75236in</Height>
+            <Width>2.09375in</Width>
+            <ZIndex>7</ZIndex>
+            <Visibility>
+              <Hidden>=IsNothing(First(Fields!Logo.Value, "UserDefaults"))</Hidden>
+            </Visibility>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Image>
         </ReportItems>
         <PageBreak>
           <BreakLocation>Start</BreakLocation>
         </PageBreak>
         <KeepTogether>true</KeepTogether>
-        <Top>4.52099in</Top>
-        <Left>0.02856in</Left>
-        <Height>5.04845in</Height>
+        <Top>9.17471in</Top>
+        <Height>5.44445in</Height>
         <Width>6.38553in</Width>
-        <ZIndex>22</ZIndex>
+        <ZIndex>2</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -4035,97 +3103,111 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
         </Style>
       </Rectangle>
     </ReportItems>
-    <Height>40.23044in</Height>
+    <Height>14.61916in</Height>
     <Style />
   </Body>
-  <Width>6.44598in</Width>
+  <Width>6.38553in</Width>
   <Page>
     <PageFooter>
-      <Height>1in</Height>
+      <Height>1.01972in</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
-        <Textbox Name="textbox23">
+        <Textbox Name="Textbox4">
           <CanGrow>true</CanGrow>
           <KeepTogether>true</KeepTogether>
           <Paragraphs>
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>TelNet Worldwide Inc. MSA 2007 v3.0</Value>
+                  <Value>=Globals!ExecutionTime</Value>
                   <Style>
-                    <FontFamily>Tahoma</FontFamily>
                     <FontSize>8pt</FontSize>
                   </Style>
                 </TextRun>
               </TextRuns>
-              <Style />
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
             </Paragraph>
           </Paragraphs>
-          <rd:DefaultName>textbox23</rd:DefaultName>
-          <Top>0.75in</Top>
-          <Left>0.19608in</Left>
+          <rd:DefaultName>Textbox4</rd:DefaultName>
+          <Top>0.76972in</Top>
+          <Left>0.08344in</Left>
           <Height>0.25in</Height>
-          <Width>2in</Width>
+          <Width>2.08334in</Width>
           <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
             <PaddingLeft>2pt</PaddingLeft>
             <PaddingRight>2pt</PaddingRight>
             <PaddingTop>2pt</PaddingTop>
             <PaddingBottom>2pt</PaddingBottom>
           </Style>
         </Textbox>
-        <Textbox Name="textbox24">
+        <Textbox Name="Textbox5">
           <CanGrow>true</CanGrow>
           <KeepTogether>true</KeepTogether>
           <Paragraphs>
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>= "Page " &amp; Globals!PageNumber &amp; " of " &amp; Globals!TotalPages</Value>
+                  <Value EvaluationMode="Constant">TelNet Worldwide privileged &amp; confidential</Value>
                   <Style>
-                    <FontFamily>Tahoma</FontFamily>
                     <FontSize>8pt</FontSize>
                   </Style>
                 </TextRun>
               </TextRuns>
-              <Style />
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
             </Paragraph>
           </Paragraphs>
-          <Top>0.75in</Top>
-          <Left>4.80025in</Left>
+          <rd:DefaultName>Textbox5</rd:DefaultName>
+          <Top>0.76972in</Top>
+          <Left>2.16678in</Left>
           <Height>0.25in</Height>
-          <Width>1.375in</Width>
+          <Width>2.23958in</Width>
           <ZIndex>1</ZIndex>
           <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
             <PaddingLeft>2pt</PaddingLeft>
             <PaddingRight>2pt</PaddingRight>
             <PaddingTop>2pt</PaddingTop>
             <PaddingBottom>2pt</PaddingBottom>
           </Style>
         </Textbox>
-        <Textbox Name="textbox27">
+        <Textbox Name="Textbox6">
           <CanGrow>true</CanGrow>
           <KeepTogether>true</KeepTogether>
           <Paragraphs>
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>=First(Fields!quote_num.Value, "SugarCrmOrderInfo")</Value>
+                  <Value>="PRO: " + First(Fields!proposal_num.Value, "LocationDetailQuery1").ToString()</Value>
                   <Style>
-                    <FontFamily>Tahoma</FontFamily>
                     <FontSize>8pt</FontSize>
                   </Style>
                 </TextRun>
               </TextRuns>
-              <Style />
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
             </Paragraph>
           </Paragraphs>
-          <Top>0.75in</Top>
-          <Left>3.07108in</Left>
+          <rd:DefaultName>Textbox6</rd:DefaultName>
+          <Top>0.76972in</Top>
+          <Left>4.39247in</Left>
           <Height>0.25in</Height>
-          <Width>0.625in</Width>
+          <Width>1.59367in</Width>
           <ZIndex>2</ZIndex>
           <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
             <PaddingLeft>2pt</PaddingLeft>
             <PaddingRight>2pt</PaddingRight>
             <PaddingTop>2pt</PaddingTop>
@@ -4154,10 +3236,214 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
         <Prompt>Specify a user name and password for data source DataSource1:</Prompt>
       </ConnectionProperties>
       <rd:SecurityType>DataBase</rd:SecurityType>
-      <rd:DataSourceID>cf3d34df-41df-494f-ba12-f86b3fd229f3</rd:DataSourceID>
+      <rd:DataSourceID>90cfbcd3-fdea-4d17-bd30-43e649f4f37d</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@Param2">
+            <Value>=Parameters!Param2.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>SELECT        accounts.name AS account_name, accounts.billing_address_street, accounts.billing_address_city, accounts.billing_address_state, 
+                         accounts.billing_address_postalcode, proposal_cstm.additional_message, proposal_cstm.paragraph_choice, quotes.quote_num, quotes.deal_tot, quotes.total, 
+                         Compass.dbo.Person.FirstName AS agent_firstname, Compass.dbo.Person.LastName AS agent_lastname, Compass.dbo.Person.Email AS agent_email, 
+                         Compass.dbo.Person.Phone AS agent_phone, proposal_cstm.contact_name, proposal_cstm.agent_name, proposal_cstm.company_name, 
+                         proposal_cstm.email_address, proposal_cstm.phone_number
+FROM            quotes INNER JOIN
+                         quotes_cstm ON quotes.id = quotes_cstm.id_c INNER JOIN
+                         proposal_cstm ON quotes_cstm.proposal_id_c = proposal_cstm.id INNER JOIN
+                         accounts ON quotes_cstm.account_id_c = accounts.id INNER JOIN
+                         Compass.dbo.Person ON quotes_cstm.user_id_c = Compass.dbo.Person.PersonID
+WHERE        (proposal_cstm.id = @Param2)</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="account_name">
+          <DataField>account_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="billing_address_street">
+          <DataField>billing_address_street</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="billing_address_city">
+          <DataField>billing_address_city</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="billing_address_state">
+          <DataField>billing_address_state</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="billing_address_postalcode">
+          <DataField>billing_address_postalcode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="additional_message">
+          <DataField>additional_message</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="paragraph_choice">
+          <DataField>paragraph_choice</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="quote_num">
+          <DataField>quote_num</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="deal_tot">
+          <DataField>deal_tot</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="total">
+          <DataField>total</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="agent_firstname">
+          <DataField>agent_firstname</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="agent_lastname">
+          <DataField>agent_lastname</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="agent_email">
+          <DataField>agent_email</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="agent_phone">
+          <DataField>agent_phone</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="contact_name">
+          <DataField>contact_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="agent_name">
+          <DataField>agent_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="company_name">
+          <DataField>company_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="email_address">
+          <DataField>email_address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="phone_number">
+          <DataField>phone_number</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="SummaryQuery">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@Param2">
+            <Value>=Parameters!Param2.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>SELECT        accounts.name AS account_name, accounts.billing_address_street, accounts.billing_address_city, accounts.billing_address_state, 
+                         accounts.billing_address_postalcode, proposal_cstm.additional_message, proposal_cstm.paragraph_choice, quotes.quote_num, quotes.deal_tot, quotes.total, 
+                         service_addresses_cstm.service_address_street, service_addresses_cstm.service_address_city, service_addresses_cstm.service_address_state, 
+                         service_addresses_cstm.service_address_postalcode, quotes_cstm.monthly_total_c AS monthly_total, accounts.id, service_addresses_cstm.account_id, 
+                         product_types_cstm.description2_c, product_types.description, product_types.name
+FROM            product_types INNER JOIN
+                         product_types_cstm ON product_types.id = product_types_cstm.id_c INNER JOIN
+                         quotes INNER JOIN
+                         quotes_cstm ON quotes.id = quotes_cstm.id_c INNER JOIN
+                         proposal_cstm ON quotes_cstm.proposal_id_c = proposal_cstm.id INNER JOIN
+                         accounts ON quotes_cstm.account_id_c = accounts.id INNER JOIN
+                         service_addresses_cstm ON quotes_cstm.service_address_id_c = service_addresses_cstm.id ON product_types.id = quotes_cstm.product_type_id_c
+WHERE        (proposal_cstm.id = @Param2)</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="account_name">
+          <DataField>account_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="billing_address_street">
+          <DataField>billing_address_street</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="billing_address_city">
+          <DataField>billing_address_city</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="billing_address_state">
+          <DataField>billing_address_state</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="billing_address_postalcode">
+          <DataField>billing_address_postalcode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="additional_message">
+          <DataField>additional_message</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="paragraph_choice">
+          <DataField>paragraph_choice</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="quote_num">
+          <DataField>quote_num</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="deal_tot">
+          <DataField>deal_tot</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="total">
+          <DataField>total</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="service_address_street">
+          <DataField>service_address_street</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="service_address_city">
+          <DataField>service_address_city</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="service_address_state">
+          <DataField>service_address_state</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="service_address_postalcode">
+          <DataField>service_address_postalcode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="monthly_total">
+          <DataField>monthly_total</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="id">
+          <DataField>id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="account_id">
+          <DataField>account_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="description2_c">
+          <DataField>description2_c</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="description">
+          <DataField>description</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="name">
+          <DataField>name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
     <DataSet Name="LocationDetailQuery1">
       <Query>
         <DataSourceName>DataSource1</DataSourceName>
@@ -4385,70 +3671,6 @@ WHERE        (proposal_id_c = @Param2)</CommandText>
         </Field>
       </Fields>
     </DataSet>
-    <DataSet Name="SugarCrmOrderInfo">
-      <Query>
-        <DataSourceName>DataSource1</DataSourceName>
-        <QueryParameters>
-          <QueryParameter Name="@Param2">
-            <Value>=Parameters!Param2.Value</Value>
-          </QueryParameter>
-        </QueryParameters>
-        <CommandText>SELECT        accounts.name AS account_name, quotes.quote_num, product_terms_cstm.term, product_types.name, service_addresses_cstm.service_address_street, 
-                         service_addresses_cstm.service_address_city, service_addresses_cstm.service_address_state, service_addresses_cstm.service_address_postalcode, 
-                         service_addresses_cstm.service_address_country, product_types_cstm.prod_id_c
-FROM            quotes INNER JOIN
-                         quotes_cstm ON quotes.id = quotes_cstm.id_c INNER JOIN
-                         proposal_cstm ON quotes_cstm.proposal_id_c = proposal_cstm.id INNER JOIN
-                         accounts ON quotes_cstm.account_id_c = accounts.id INNER JOIN
-                         product_types ON quotes_cstm.product_type_id_c = product_types.id INNER JOIN
-                         product_terms_cstm ON quotes_cstm.term_id_c = product_terms_cstm.id INNER JOIN
-                         service_addresses_cstm ON accounts.id = service_addresses_cstm.account_id INNER JOIN
-                         product_types_cstm ON product_types.id = product_types_cstm.id_c
-WHERE        (proposal_cstm.id = @Param2)</CommandText>
-      </Query>
-      <Fields>
-        <Field Name="account_name">
-          <DataField>account_name</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="quote_num">
-          <DataField>quote_num</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="term">
-          <DataField>term</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="name">
-          <DataField>name</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="service_address_street">
-          <DataField>service_address_street</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="service_address_city">
-          <DataField>service_address_city</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="service_address_state">
-          <DataField>service_address_state</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="service_address_postalcode">
-          <DataField>service_address_postalcode</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="service_address_country">
-          <DataField>service_address_country</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="prod_id_c">
-          <DataField>prod_id_c</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-      </Fields>
-    </DataSet>
     <DataSet Name="UsageTableDataSet">
       <Query>
         <DataSourceName>DataSource1</DataSourceName>
@@ -4457,7 +3679,7 @@ WHERE        (proposal_cstm.id = @Param2)</CommandText>
             <Value>=Parameters!Param2.Value</Value>
           </QueryParameter>
         </QueryParameters>
-        <CommandText>SELECT        q_u_r_c.toll_free, q_u_r_c.inter_state,  q_u_r_c.intra_state, q_u_r_c.intra_lata, q_u_r_c.local, q_u_r_c.type, sac.service_address_street
+        <CommandText>SELECT        q_u_r_c.toll_free, q_u_r_c.inter_state, q_u_r_c.intra_lata, q_u_r_c.local, q_u_r_c.type, sac.service_address_street
 FROM            quote_usage_rate_cstm AS q_u_r_c INNER JOIN
                          quotes_cstm ON q_u_r_c.quote_id = quotes_cstm.id_c INNER JOIN
                          service_addresses_cstm AS sac ON quotes_cstm.service_address_id_c = sac.id
@@ -4473,10 +3695,6 @@ WHERE        (q_u_r_c.quote_id IN
         </Field>
         <Field Name="inter_state">
           <DataField>inter_state</DataField>
-          <rd:TypeName>System.Decimal</rd:TypeName>
-        </Field>
-        <Field Name="intra_state">
-          <DataField>intra_state</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
         <Field Name="intra_lata">
@@ -4497,19 +3715,37 @@ WHERE        (q_u_r_c.quote_id IN
         </Field>
       </Fields>
     </DataSet>
+    <DataSet Name="UserDefaults">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@UserTeam">
+            <Value>=Parameters!UserTeam.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>select Logo from User_Defaults_cstm
+where Id_C = @UserTeam</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Logo">
+          <DataField>Logo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
   </DataSets>
   <ReportParameters>
     <ReportParameter Name="Param2">
       <DataType>String</DataType>
       <Prompt>Param2</Prompt>
     </ReportParameter>
-    <ReportParameter Name="hasRental">
+    <ReportParameter Name="UseBYOBDesc">
       <DataType>String</DataType>
-      <Prompt>hasRental</Prompt>
+      <Prompt>UseBYOBDesc</Prompt>
     </ReportParameter>
-    <ReportParameter Name="hasPurchase">
+    <ReportParameter Name="UserTeam">
       <DataType>String</DataType>
-      <Prompt>hasPurchase</Prompt>
+      <Prompt>User Team</Prompt>
     </ReportParameter>
   </ReportParameters>
   <EmbeddedImages>
@@ -4532,5 +3768,5 @@ mGCDBDSctZngRpT8yA1te9zgU/0HGCwwigCkwA54KMgGTD5zmrc2uTqgDRisYIE5KGEVRTCBAuhYc6IX
   <Language>en-US</Language>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
-  <rd:ReportID>4d342be5-94e7-4b2a-9c74-1fd73ca90d35</rd:ReportID>
+  <rd:ReportID>dbc3b259-744c-4089-8e70-dac13f5198b6</rd:ReportID>
 </Report>
