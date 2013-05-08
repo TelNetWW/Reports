@@ -1446,6 +1446,10 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Rectangle>
         </ReportItems>
+        <PageBreak>
+          <BreakLocation>Start</BreakLocation>
+        </PageBreak>
+        <KeepTogether>true</KeepTogether>
         <DataElementOutput>ContentsOnly</DataElementOutput>
         <Top>9.64473in</Top>
         <Left>0.03919in</Left>
@@ -4016,7 +4020,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
           </Tablix>
         </ReportItems>
         <PageBreak>
-          <BreakLocation>StartAndEnd</BreakLocation>
+          <BreakLocation>Start</BreakLocation>
         </PageBreak>
         <KeepTogether>true</KeepTogether>
         <Top>4.52099in</Top>
