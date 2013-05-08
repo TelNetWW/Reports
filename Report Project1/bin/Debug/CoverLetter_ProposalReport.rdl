@@ -842,7 +842,6 @@ IIf(Parameters!UseBYOBDesc.Value, Fields!description2_c.Value, Fields!descriptio
                   <Group Name="service_address_street">
                     <GroupExpressions>
                       <GroupExpression>=Fields!name.Value</GroupExpression>
-                      <GroupExpression>=Fields!quote_num.Value</GroupExpression>
                     </GroupExpressions>
                   </Group>
                   <SortExpressions>
@@ -1026,6 +1025,7 @@ IIf(Parameters!UseBYOBDesc.Value, Fields!description2_c.Value, Fields!descriptio
                 <TextRuns>
                   <TextRun>
                     <Value>="Unless specified, prices do not include shipping charges, regulatory fees, applicable taxes, administrative/service fees, professional services, or other time and material charges."+ Chr(13) &amp; Chr(10) + Chr(13) &amp; Chr(10) +
+IIf(First(Fields!oe_complete_promotion_c.Value, "Disclaimers"), "Customers purchasing OfficeEdge Complete who sign up for service through September 30, 2012 qualify for a 1 Month Free Credit (up to $500) that will be applied in their 12th month of service. Credit applies to monthly recurring charges for service only; equipment fees and usage fees not eligible towards credit calculation." + Chr(13) &amp; Chr(10) + Chr(13) &amp; Chr(10), "") +
 IIf(First(Fields!oe_complete_config_c.Value, "Disclaimers"), "Important: Please note that design, configuration, and quantity changes required or requested during implementation may impact final billable items. Note: TelNet includes consultation and design of a standard implementation. Implementations that require nonstandard elements are subject to Professional Services fees, and will be defined and quoted for customer acceptance by an authorized TelNet Sales Engineer." + Chr(13) &amp; Chr(10) + Chr(13) &amp; Chr(10), "") +
 IIf(First(Fields!voice_default_c.Value, "Disclaimers"), "Additional charges may be assessed on order completion and may include charges for DID numbers, directory listings, variable E911 charges based on municipality, and E911 entry recovery fee. Other charges may apply." + Chr(13) &amp; Chr(10) + Chr(13) &amp; Chr(10), "") +
 IIf(First(Fields!unlimited_useage_c.Value, "Disclaimers"), "TelNet’s unlimited calling plan is based on the average use of a typical single business utilizing TelNet’s services and does not extend to customers utilizing auto-dialers, fax blasting, telemarketing, call centers, internet dialing, and party lines or Traditional Business Line calls. TelNet reserves the right to deny, terminate, or transition customer to a message rate pricing schedule if TelNet determines at its sole discretion that customer’s use is inconsistent with individual and single business or location use or otherwise indicates automated use."+ Chr(13) &amp; Chr(10) + Chr(13) &amp; Chr(10), "") +
@@ -2440,16 +2440,13 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.67495in</Width>
+                  <Width>2.08807in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>0.79865in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>0.98427in</Width>
-                </TablixColumn>
-                <TablixColumn>
-                  <Width>1in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>0.93206in</Width>
@@ -2493,10 +2490,9 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>6</ColSpan>
+                        <ColSpan>5</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell />
                     <TablixCell />
                     <TablixCell />
                     <TablixCell />
@@ -2583,41 +2579,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Intralata</Value>
-                                  <Style>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox22</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>None</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox22">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>Intrastate</Value>
+                                  <Value>IntraLata</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -2651,7 +2613,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Interstate</Value>
+                                  <Value>InterState</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -2708,7 +2670,6 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                   </TablixCells>
@@ -2814,37 +2775,6 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <PaddingTop>2pt</PaddingTop>
                             <PaddingBottom>2pt</PaddingBottom>
                             <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox23">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>=Fields!intra_state.Value</Value>
-                                  <Style />
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox23</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>None</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
                       </CellContents>
@@ -3017,37 +2947,6 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox24">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style />
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox24</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>None</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
                         <Textbox Name="Textbox91">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
@@ -3119,7 +3018,6 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                 <TablixMember />
                 <TablixMember />
                 <TablixMember />
-                <TablixMember />
               </TablixMembers>
             </TablixColumnHierarchy>
             <TablixRowHierarchy>
@@ -3163,7 +3061,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             <Top>3.97341in</Top>
             <Left>0.28349in</Left>
             <Height>0.9728in</Height>
-            <Width>6.33981in</Width>
+            <Width>5.75293in</Width>
             <ZIndex>6</ZIndex>
             <Style>
               <Border>
@@ -3196,7 +3094,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
         <KeepTogether>true</KeepTogether>
         <Top>9.17471in</Top>
         <Height>5.44445in</Height>
-        <Width>6.6233in</Width>
+        <Width>6.38553in</Width>
         <ZIndex>2</ZIndex>
         <Style>
           <Border>
@@ -3208,7 +3106,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
     <Height>14.61916in</Height>
     <Style />
   </Body>
-  <Width>6.6233in</Width>
+  <Width>6.38553in</Width>
   <Page>
     <PageFooter>
       <Height>1.01972in</Height>
@@ -3335,7 +3233,6 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
       <ConnectionProperties>
         <DataProvider>SQL</DataProvider>
         <ConnectString>Data Source=10.10.50.59;Initial Catalog=sugarcrm</ConnectString>
-        <Prompt>Specify a user name and password for data source DataSource1:</Prompt>
       </ConnectionProperties>
       <rd:SecurityType>DataBase</rd:SecurityType>
       <rd:DataSourceID>90cfbcd3-fdea-4d17-bd30-43e649f4f37d</rd:DataSourceID>
