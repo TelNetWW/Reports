@@ -85,7 +85,6 @@ For VOIP Services</Value>
               </Paragraph>
             </Paragraphs>
             <Top>0.375in</Top>
-            <Left>0in</Left>
             <Height>0.5in</Height>
             <Width>6.46875in</Width>
             <ZIndex>2</ZIndex>
@@ -118,7 +117,6 @@ PLEASE READ CAREFULLY.  POTENTIALLY HAZARDOUS SITUATION.</Value>
               </Paragraph>
             </Paragraphs>
             <Top>0.88889in</Top>
-            <Left>0in</Left>
             <Height>0.34375in</Height>
             <Width>6.46875in</Width>
             <ZIndex>3</ZIndex>
