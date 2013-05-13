@@ -2441,13 +2441,16 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>2.08807in</Width>
+                  <Width>1.06187in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>0.79865in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>0.98427in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>0.93206in</Width>
@@ -2491,9 +2494,10 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>5</ColSpan>
+                        <ColSpan>6</ColSpan>
                       </CellContents>
                     </TablixCell>
+                    <TablixCell />
                     <TablixCell />
                     <TablixCell />
                     <TablixCell />
@@ -2581,6 +2585,40 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                               <TextRuns>
                                 <TextRun>
                                   <Value>IntraLata</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox22</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox22">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>IntraState</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -2782,6 +2820,37 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
+                        <Textbox Name="Textbox23">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!intra_state.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox23</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
                         <Textbox Name="Textbox72">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
@@ -2948,6 +3017,37 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
+                        <Textbox Name="Textbox24">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox24</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
                         <Textbox Name="Textbox91">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
@@ -3019,6 +3119,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                 <TablixMember />
                 <TablixMember />
                 <TablixMember />
+                <TablixMember />
               </TablixMembers>
             </TablixColumnHierarchy>
             <TablixRowHierarchy>
@@ -3062,7 +3163,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             <Top>3.97341in</Top>
             <Left>0.28349in</Left>
             <Height>0.9728in</Height>
-            <Width>5.75293in</Width>
+            <Width>5.72673in</Width>
             <ZIndex>6</ZIndex>
             <Style>
               <Border>
@@ -3679,7 +3780,7 @@ WHERE        (proposal_id_c = @Param2)</CommandText>
             <Value>=Parameters!Param2.Value</Value>
           </QueryParameter>
         </QueryParameters>
-        <CommandText>SELECT        q_u_r_c.toll_free, q_u_r_c.inter_state, q_u_r_c.intra_lata, q_u_r_c.local, q_u_r_c.type, sac.service_address_street
+        <CommandText>SELECT        q_u_r_c.toll_free, q_u_r_c.inter_state,q_u_r_c.intra_state, q_u_r_c.intra_lata, q_u_r_c.local, q_u_r_c.type, sac.service_address_street
 FROM            quote_usage_rate_cstm AS q_u_r_c INNER JOIN
                          quotes_cstm ON q_u_r_c.quote_id = quotes_cstm.id_c INNER JOIN
                          service_addresses_cstm AS sac ON quotes_cstm.service_address_id_c = sac.id
@@ -3712,6 +3813,10 @@ WHERE        (q_u_r_c.quote_id IN
         <Field Name="service_address_street">
           <DataField>service_address_street</DataField>
           <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="intra_state">
+          <DataField>intra_state</DataField>
+          <rd:UserDefined>true</rd:UserDefined>
         </Field>
       </Fields>
     </DataSet>

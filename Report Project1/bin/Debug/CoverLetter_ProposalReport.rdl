@@ -27,7 +27,7 @@
             <Top>0.92708in</Top>
             <Left>0.00001in</Left>
             <Height>0.25583in</Height>
-            <Width>6.2032in</Width>
+            <Width>6.38552in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -58,10 +58,10 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>account_name1</rd:DefaultName>
-            <Top>1.23847in</Top>
+            <Top>1.25236in</Top>
             <Left>0.00001in</Left>
             <Height>0.28472in</Height>
-            <Width>6.2032in</Width>
+            <Width>6.38552in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -95,7 +95,7 @@
             <Top>1.57875in</Top>
             <Left>0.00001in</Left>
             <Height>0.25in</Height>
-            <Width>6.2032in</Width>
+            <Width>6.38552in</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -125,7 +125,7 @@
             </Paragraphs>
             <rd:DefaultName>ExecutionTime</rd:DefaultName>
             <Top>2.23152in</Top>
-            <Left>0.38544in</Left>
+            <Left>0.46887in</Left>
             <Height>0.25in</Height>
             <Width>5.59375in</Width>
             <ZIndex>3</ZIndex>
@@ -155,7 +155,7 @@
             </Paragraphs>
             <rd:DefaultName>contact_firstname</rd:DefaultName>
             <Top>2.91208in</Top>
-            <Left>0.38544in</Left>
+            <Left>0.46887in</Left>
             <Height>0.25in</Height>
             <Width>5.59375in</Width>
             <ZIndex>4</ZIndex>
@@ -185,7 +185,7 @@
             </Paragraphs>
             <rd:DefaultName>Textbox27</rd:DefaultName>
             <Top>3.21764in</Top>
-            <Left>0.38544in</Left>
+            <Left>0.46887in</Left>
             <Height>0.5625in</Height>
             <Width>5.59375in</Width>
             <ZIndex>5</ZIndex>
@@ -215,7 +215,7 @@
             </Paragraphs>
             <rd:DefaultName>paragraph_choice</rd:DefaultName>
             <Top>3.84958in</Top>
-            <Left>0.38544in</Left>
+            <Left>0.46887in</Left>
             <Height>0.625in</Height>
             <Width>5.59375in</Width>
             <ZIndex>6</ZIndex>
@@ -245,7 +245,7 @@
             </Paragraphs>
             <rd:DefaultName>additional_message</rd:DefaultName>
             <Top>4.54403in</Top>
-            <Left>0.38544in</Left>
+            <Left>0.46887in</Left>
             <Height>0.01042in</Height>
             <Width>5.59375in</Width>
             <ZIndex>7</ZIndex>
@@ -275,7 +275,7 @@
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
             <Top>4.62389in</Top>
-            <Left>0.38544in</Left>
+            <Left>0.46887in</Left>
             <Height>0.25in</Height>
             <Width>5.59375in</Width>
             <ZIndex>8</ZIndex>
@@ -308,7 +308,7 @@ IIF(First(Fields!company_name.Value, "DataSet1") &lt;&gt; "", Chr(13) &amp; Chr(
             </Paragraphs>
             <rd:DefaultName>agent_firstname</rd:DefaultName>
             <Top>5.06818in</Top>
-            <Left>0.38544in</Left>
+            <Left>0.46887in</Left>
             <Height>0.25in</Height>
             <Width>5.59375in</Width>
             <ZIndex>9</ZIndex>
@@ -326,7 +326,7 @@ IIF(First(Fields!company_name.Value, "DataSet1") &lt;&gt; "", Chr(13) &amp; Chr(
             <Source>Embedded</Source>
             <Value>simple_logo</Value>
             <Sizing>Fit</Sizing>
-            <Left>0.00001in</Left>
+            <Left>0.08344in</Left>
             <Height>0.75in</Height>
             <Width>1.875in</Width>
             <ZIndex>10</ZIndex>
@@ -337,7 +337,7 @@ IIF(First(Fields!company_name.Value, "DataSet1") &lt;&gt; "", Chr(13) &amp; Chr(
             <Value>="http://10.10.50.59/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
             <MIMEType>image/png</MIMEType>
             <Sizing>FitProportional</Sizing>
-            <Left>4.10946in</Left>
+            <Left>4.19289in</Left>
             <Height>0.75in</Height>
             <Width>2.09375in</Width>
             <ZIndex>11</ZIndex>
@@ -351,14 +351,10 @@ IIF(First(Fields!company_name.Value, "DataSet1") &lt;&gt; "", Chr(13) &amp; Chr(
             </Style>
           </Image>
         </ReportItems>
-        <PageBreak>
-          <BreakLocation>End</BreakLocation>
-        </PageBreak>
         <KeepTogether>true</KeepTogether>
         <OmitBorderOnPageBreak>true</OmitBorderOnPageBreak>
-        <Left>0.08344in</Left>
-        <Height>5.67929in</Height>
-        <Width>6.20321in</Width>
+        <Height>5.46054in</Height>
+        <Width>6.38553in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -388,9 +384,8 @@ IIF(First(Fields!company_name.Value, "DataSet1") &lt;&gt; "", Chr(13) &amp; Chr(
             </Paragraphs>
             <rd:DefaultName>textbox1</rd:DefaultName>
             <Top>0.80792in</Top>
-            <Left>0.00001in</Left>
             <Height>0.25583in</Height>
-            <Width>5.9027in</Width>
+            <Width>6.38552in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -422,9 +417,8 @@ IIF(First(Fields!company_name.Value, "DataSet1") &lt;&gt; "", Chr(13) &amp; Chr(
             </Paragraphs>
             <rd:DefaultName>account_name1</rd:DefaultName>
             <Top>1.11932in</Top>
-            <Left>0.00001in</Left>
             <Height>0.28472in</Height>
-            <Width>5.90269in</Width>
+            <Width>6.38552in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -457,9 +451,8 @@ IIF(First(Fields!company_name.Value, "DataSet1") &lt;&gt; "", Chr(13) &amp; Chr(
             </Paragraphs>
             <rd:DefaultName>ExecutionTime</rd:DefaultName>
             <Top>1.47348in</Top>
-            <Left>0.00001in</Left>
             <Height>0.25in</Height>
-            <Width>5.90269in</Width>
+            <Width>6.38552in</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -631,6 +624,104 @@ IIf(Parameters!UseBYOBDesc.Value, Fields!description2_c.Value, Fields!descriptio
                     <TablixCell />
                   </TablixCells>
                 </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox7">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox7</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox34">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox34</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox35">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox35</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
               </TablixRows>
             </TablixBody>
             <TablixColumnHierarchy>
@@ -762,14 +853,15 @@ IIf(Parameters!UseBYOBDesc.Value, Fields!description2_c.Value, Fields!descriptio
                   <TablixMembers>
                     <TablixMember />
                     <TablixMember />
+                    <TablixMember />
                   </TablixMembers>
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>SummaryQuery</DataSetName>
             <Top>2.13319in</Top>
-            <Left>0.23375in</Left>
-            <Height>0.75in</Height>
+            <Left>0.31719in</Left>
+            <Height>1in</Height>
             <Width>5.66896in</Width>
             <ZIndex>3</ZIndex>
             <Style>
@@ -783,6 +875,7 @@ IIf(Parameters!UseBYOBDesc.Value, Fields!description2_c.Value, Fields!descriptio
             <Value>simple_logo</Value>
             <Sizing>Fit</Sizing>
             <Top>0.00236in</Top>
+            <Left>0.08344in</Left>
             <Height>0.75in</Height>
             <Width>1.875in</Width>
             <ZIndex>4</ZIndex>
@@ -793,7 +886,7 @@ IIf(Parameters!UseBYOBDesc.Value, Fields!description2_c.Value, Fields!descriptio
             <Value>="http://10.10.50.59/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
             <MIMEType>image/png</MIMEType>
             <Sizing>FitProportional</Sizing>
-            <Left>3.80896in</Left>
+            <Left>4.29177in</Left>
             <Height>0.75236in</Height>
             <Width>2.09375in</Width>
             <ZIndex>5</ZIndex>
@@ -808,13 +901,12 @@ IIf(Parameters!UseBYOBDesc.Value, Fields!description2_c.Value, Fields!descriptio
           </Image>
         </ReportItems>
         <PageBreak>
-          <BreakLocation>End</BreakLocation>
+          <BreakLocation>Start</BreakLocation>
         </PageBreak>
         <KeepTogether>true</KeepTogether>
         <Top>5.99985in</Top>
-        <Left>0.08344in</Left>
-        <Height>2.94458in</Height>
-        <Width>5.97919in</Width>
+        <Height>3.16333in</Height>
+        <Width>6.38552in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -845,9 +937,9 @@ IIf(Parameters!UseBYOBDesc.Value, Fields!description2_c.Value, Fields!descriptio
             </Paragraphs>
             <rd:DefaultName>account_name1</rd:DefaultName>
             <Top>1.14707in</Top>
-            <Left>0.00001in</Left>
+            <Left>0.00002in</Left>
             <Height>0.28472in</Height>
-            <Width>5.95297in</Width>
+            <Width>6.38551in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -880,7 +972,7 @@ IIf(Parameters!UseBYOBDesc.Value, Fields!description2_c.Value, Fields!descriptio
             <rd:DefaultName>textbox1</rd:DefaultName>
             <Top>0.8218in</Top>
             <Height>0.25583in</Height>
-            <Width>5.97919in</Width>
+            <Width>6.38552in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -913,9 +1005,8 @@ IIf(Parameters!UseBYOBDesc.Value, Fields!description2_c.Value, Fields!descriptio
             </Paragraphs>
             <rd:DefaultName>ExecutionTime</rd:DefaultName>
             <Top>1.48735in</Top>
-            <Left>0.00001in</Left>
             <Height>0.25in</Height>
-            <Width>5.97918in</Width>
+            <Width>6.38552in</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -935,6 +1026,7 @@ IIf(Parameters!UseBYOBDesc.Value, Fields!description2_c.Value, Fields!descriptio
                 <TextRuns>
                   <TextRun>
                     <Value>="Unless specified, prices do not include shipping charges, regulatory fees, applicable taxes, administrative/service fees, professional services, or other time and material charges."+ Chr(13) &amp; Chr(10) + Chr(13) &amp; Chr(10) +
+IIf(First(Fields!oe_complete_promotion_c.Value, "Disclaimers"), "Customers purchasing OfficeEdge Complete who sign up for service through September 30, 2012 qualify for a 1 Month Free Credit (up to $500) that will be applied in their 12th month of service. Credit applies to monthly recurring charges for service only; equipment fees and usage fees not eligible towards credit calculation." + Chr(13) &amp; Chr(10) + Chr(13) &amp; Chr(10), "") +
 IIf(First(Fields!oe_complete_config_c.Value, "Disclaimers"), "Important: Please note that design, configuration, and quantity changes required or requested during implementation may impact final billable items. Note: TelNet includes consultation and design of a standard implementation. Implementations that require nonstandard elements are subject to Professional Services fees, and will be defined and quoted for customer acceptance by an authorized TelNet Sales Engineer." + Chr(13) &amp; Chr(10) + Chr(13) &amp; Chr(10), "") +
 IIf(First(Fields!voice_default_c.Value, "Disclaimers"), "Additional charges may be assessed on order completion and may include charges for DID numbers, directory listings, variable E911 charges based on municipality, and E911 entry recovery fee. Other charges may apply." + Chr(13) &amp; Chr(10) + Chr(13) &amp; Chr(10), "") +
 IIf(First(Fields!unlimited_useage_c.Value, "Disclaimers"), "TelNet’s unlimited calling plan is based on the average use of a typical single business utilizing TelNet’s services and does not extend to customers utilizing auto-dialers, fax blasting, telemarketing, call centers, internet dialing, and party lines or Traditional Business Line calls. TelNet reserves the right to deny, terminate, or transition customer to a message rate pricing schedule if TelNet determines at its sole discretion that customer’s use is inconsistent with individual and single business or location use or otherwise indicates automated use."+ Chr(13) &amp; Chr(10) + Chr(13) &amp; Chr(10), "") +
@@ -951,7 +1043,7 @@ IIf(First(Fields!digital_fax_c.Value, "Disclaimers"), "Digital Fax: Inbound faxe
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>5.12501in</Top>
-            <Left>0.20004in</Left>
+            <Left>0.28348in</Left>
             <Height>0.25in</Height>
             <Width>5.75291in</Width>
             <ZIndex>3</ZIndex>
@@ -970,6 +1062,7 @@ IIf(First(Fields!digital_fax_c.Value, "Disclaimers"), "Digital Fax: Inbound faxe
             <Value>simple_logo</Value>
             <Sizing>Fit</Sizing>
             <Top>0.00236in</Top>
+            <Left>0.08344in</Left>
             <Height>0.75in</Height>
             <Width>1.875in</Width>
             <ZIndex>4</ZIndex>
@@ -2334,7 +2427,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             </TablixRowHierarchy>
             <DataSetName>LocationDetailQuery1</DataSetName>
             <Top>1.82639in</Top>
-            <Left>0.20004in</Left>
+            <Left>0.28348in</Left>
             <Height>2in</Height>
             <Width>5.75294in</Width>
             <ZIndex>5</ZIndex>
@@ -2348,22 +2441,22 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.88329in</Width>
+                  <Width>1.06187in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.61851in</Width>
+                  <Width>0.79865in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.69144in</Width>
+                  <Width>0.98427in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.82033in</Width>
+                  <Width>1in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.87356in</Width>
+                  <Width>0.93206in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.8658in</Width>
+                  <Width>0.94988in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -3068,9 +3161,9 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             </TablixRowHierarchy>
             <DataSetName>UsageTableDataSet</DataSetName>
             <Top>3.97341in</Top>
-            <Left>0.20005in</Left>
+            <Left>0.28349in</Left>
             <Height>0.9728in</Height>
-            <Width>5.75293in</Width>
+            <Width>5.72673in</Width>
             <ZIndex>6</ZIndex>
             <Style>
               <Border>
@@ -3083,7 +3176,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             <Value>="http://10.10.50.59/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
             <MIMEType>image/png</MIMEType>
             <Sizing>FitProportional</Sizing>
-            <Left>3.88544in</Left>
+            <Left>4.29177in</Left>
             <Height>0.75236in</Height>
             <Width>2.09375in</Width>
             <ZIndex>7</ZIndex>
@@ -3098,13 +3191,12 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
           </Image>
         </ReportItems>
         <PageBreak>
-          <BreakLocation>End</BreakLocation>
+          <BreakLocation>Start</BreakLocation>
         </PageBreak>
         <KeepTogether>true</KeepTogether>
         <Top>9.17471in</Top>
-        <Left>0.08344in</Left>
         <Height>5.44445in</Height>
-        <Width>7.03642in</Width>
+        <Width>6.38553in</Width>
         <ZIndex>2</ZIndex>
         <Style>
           <Border>
@@ -3116,7 +3208,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
     <Height>14.61916in</Height>
     <Style />
   </Body>
-  <Width>7.03642in</Width>
+  <Width>6.38553in</Width>
   <Page>
     <PageFooter>
       <Height>1.01972in</Height>
@@ -3688,7 +3780,7 @@ WHERE        (proposal_id_c = @Param2)</CommandText>
             <Value>=Parameters!Param2.Value</Value>
           </QueryParameter>
         </QueryParameters>
-        <CommandText>SELECT        q_u_r_c.toll_free, q_u_r_c.inter_state, q_u_r_c.intra_state, q_u_r_c.intra_lata, q_u_r_c.local, q_u_r_c.type, sac.service_address_street
+        <CommandText>SELECT        q_u_r_c.toll_free, q_u_r_c.inter_state,q_u_r_c.intra_state, q_u_r_c.intra_lata, q_u_r_c.local, q_u_r_c.type, sac.service_address_street
 FROM            quote_usage_rate_cstm AS q_u_r_c INNER JOIN
                          quotes_cstm ON q_u_r_c.quote_id = quotes_cstm.id_c INNER JOIN
                          service_addresses_cstm AS sac ON quotes_cstm.service_address_id_c = sac.id
@@ -3706,10 +3798,6 @@ WHERE        (q_u_r_c.quote_id IN
           <DataField>inter_state</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
-        <Field Name="intra_state">
-          <DataField>intra_state</DataField>
-          <rd:TypeName>System.Decimal</rd:TypeName>
-        </Field>
         <Field Name="intra_lata">
           <DataField>intra_lata</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
@@ -3725,6 +3813,10 @@ WHERE        (q_u_r_c.quote_id IN
         <Field Name="service_address_street">
           <DataField>service_address_street</DataField>
           <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="intra_state">
+          <DataField>intra_state</DataField>
+          <rd:UserDefined>true</rd:UserDefined>
         </Field>
       </Fields>
     </DataSet>
