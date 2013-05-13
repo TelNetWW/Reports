@@ -315,7 +315,6 @@ TelNet Worldwide, Inc. (“TelNet”) agrees to provide to the “Customer” (d
         </Paragraphs>
         <rd:DefaultName>textbox8</rd:DefaultName>
         <Top>0.875in</Top>
-        <Left>0.03919in</Left>
         <Height>0.5in</Height>
         <Width>6.35417in</Width>
         <ZIndex>13</ZIndex>
@@ -1537,7 +1536,6 @@ This Rental is not assignable or transferable by operation of law by Customer. T
         </TablixRowHierarchy>
         <DataSetName>SugarCrmOrderInfo</DataSetName>
         <Top>1.48958in</Top>
-        <Left>0.03919in</Left>
         <Height>0.125in</Height>
         <Width>2.26187in</Width>
         <ZIndex>21</ZIndex>
@@ -1566,7 +1564,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>textbox2</rd:DefaultName>
-            <Top>3.85968in</Top>
+            <Top>3.87483in</Top>
             <Left>0.28348in</Left>
             <Height>0.25in</Height>
             <Width>1.98901in</Width>
@@ -1578,7 +1576,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line1">
-            <Top>4.10968in</Top>
+            <Top>4.12483in</Top>
             <Left>0.28348in</Left>
             <Height>0in</Height>
             <Width>3.11401in</Width>
@@ -1605,7 +1603,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>3.85968in</Top>
+            <Top>3.87483in</Top>
             <Left>4.09762in</Left>
             <Height>0.25in</Height>
             <Width>1.92488in</Width>
@@ -1618,7 +1616,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line2">
-            <Top>4.10968in</Top>
+            <Top>4.12483in</Top>
             <Left>4.09762in</Left>
             <Height>0in</Height>
             <Width>1.93877in</Width>
@@ -1645,7 +1643,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>4.23468in</Top>
+            <Top>4.24983in</Top>
             <Left>0.28348in</Left>
             <Height>0.25in</Height>
             <Width>1.98902in</Width>
@@ -1658,7 +1656,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line4">
-            <Top>4.48468in</Top>
+            <Top>4.49983in</Top>
             <Left>0.28348in</Left>
             <Height>0in</Height>
             <Width>3.11402in</Width>
@@ -1685,7 +1683,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>4.23468in</Top>
+            <Top>4.24983in</Top>
             <Left>4.09762in</Left>
             <Height>0.25in</Height>
             <Width>1.92488in</Width>
@@ -1698,7 +1696,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line3">
-            <Top>4.48468in</Top>
+            <Top>4.49983in</Top>
             <Left>4.08373in</Left>
             <Height>0in</Height>
             <Width>1.93877in</Width>
@@ -1725,7 +1723,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>4.64093in</Top>
+            <Top>4.65608in</Top>
             <Left>0.28348in</Left>
             <Height>0.25in</Height>
             <Width>1.98902in</Width>
@@ -1738,7 +1736,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line6">
-            <Top>4.89093in</Top>
+            <Top>4.90608in</Top>
             <Left>0.28348in</Left>
             <Height>0in</Height>
             <Width>3.12584in</Width>
@@ -1769,7 +1767,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>account_name1</rd:DefaultName>
-            <Top>0.83916in</Top>
+            <Top>0.85431in</Top>
             <Left>0.00002in</Left>
             <Height>0.01042in</Height>
             <Width>6.38551in</Width>
@@ -1804,7 +1802,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>textbox1</rd:DefaultName>
-            <Top>0.80097in</Top>
+            <Top>0.81612in</Top>
             <Height>0.01042in</Height>
             <Width>6.38552in</Width>
             <ZIndex>11</ZIndex>
@@ -1838,7 +1836,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>ExecutionTime</rd:DefaultName>
-            <Top>0.90513in</Top>
+            <Top>0.92028in</Top>
             <Height>0.01042in</Height>
             <Width>6.38552in</Width>
             <ZIndex>12</ZIndex>
@@ -1875,7 +1873,7 @@ IIf(First(Fields!digital_fax_c.Value, "Disclaimers"), "Digital Fax: Inbound faxe
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>3.68262in</Top>
+            <Top>3.69777in</Top>
             <Left>0.28348in</Left>
             <Height>0.0972in</Height>
             <Width>5.73902in</Width>
@@ -2900,7 +2898,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -2967,7 +2965,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -3263,7 +3261,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>LocationDetailQuery1</DataSetName>
-            <Top>0.95251in</Top>
+            <Top>0.96766in</Top>
             <Left>0.28348in</Left>
             <Height>2in</Height>
             <Width>5.74634in</Width>
@@ -3278,6 +3276,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             <Source>Embedded</Source>
             <Value>simple_logo</Value>
             <Sizing>Fit</Sizing>
+            <Top>0.01515in</Top>
             <Left>0.01063in</Left>
             <Height>0.75in</Height>
             <Width>1.875in</Width>
@@ -3297,13 +3296,16 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                   <Width>0.65849in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.81164in</Width>
+                  <Width>0.69278in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.94919in</Width>
+                  <Width>0.73044in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>0.83051in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.67991in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -3349,6 +3351,39 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     <TablixCell />
                     <TablixCell />
                     <TablixCell />
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox22">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox22</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
@@ -3533,7 +3568,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Toll Free</Value>
+                                  <Value>Toll Free IntraState</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3546,6 +3581,40 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox24</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox32">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Toll Free InterState</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox32</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>None</Style>
@@ -3764,6 +3833,37 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                         </Textbox>
                       </CellContents>
                     </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox33">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox33</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
@@ -3955,12 +4055,44 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                         </Textbox>
                       </CellContents>
                     </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox39">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox39</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                   </TablixCells>
                 </TablixRow>
               </TablixRows>
             </TablixBody>
             <TablixColumnHierarchy>
               <TablixMembers>
+                <TablixMember />
                 <TablixMember />
                 <TablixMember />
                 <TablixMember />
@@ -4007,10 +4139,10 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>UsageTableDataSet</DataSetName>
-            <Top>3.02195in</Top>
+            <Top>3.0371in</Top>
             <Left>0.28348in</Left>
             <Height>0.54956in</Height>
-            <Width>5.73902in</Width>
+            <Width>6.08132in</Width>
             <ZIndex>16</ZIndex>
             <Style>
               <Border>
@@ -4023,10 +4155,10 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
           <BreakLocation>Start</BreakLocation>
         </PageBreak>
         <KeepTogether>true</KeepTogether>
-        <Top>4.52099in</Top>
+        <Top>4.50584in</Top>
         <Left>0.02856in</Left>
-        <Height>5.04845in</Height>
-        <Width>7.02251in</Width>
+        <Height>5.06945in</Height>
+        <Width>6.41742in</Width>
         <ZIndex>22</ZIndex>
         <Style>
           <Border>
@@ -4038,7 +4170,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
     <Height>40.23044in</Height>
     <Style />
   </Body>
-  <Width>7.05107in</Width>
+  <Width>6.45303in</Width>
   <Page>
     <PageFooter>
       <Height>1in</Height>
