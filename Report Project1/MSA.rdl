@@ -507,7 +507,7 @@ By signing below, the Customer agrees to be bound to the terms of this Agreement
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>="The initial term of agreement will begin with the date of installation and will continue for " + First(Fields!term.Value, "SugarCrmOrderInfo")+ ". Upon completion of the contract period this Agreement will automatically revert to the then current month-to-month rates."</Value>
+                <Value>="The initial term of agreement will begin with the date of installation and will continue for the specified number of days. Upon completion of the contract period this Agreement will automatically revert to the then current month-to-month rates."</Value>
                 <Style>
                   <FontFamily>Tahoma</FontFamily>
                   <FontSize>9pt</FontSize>
@@ -1612,6 +1612,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
       <ConnectionProperties>
         <DataProvider>SQL</DataProvider>
         <ConnectString>Data Source=10.10.50.59;Initial Catalog=sugarcrm</ConnectString>
+        <Prompt>Specify a user name and password for data source Sugarcrm:</Prompt>
       </ConnectionProperties>
       <rd:SecurityType>DataBase</rd:SecurityType>
       <rd:DataSourceID>636b47f0-7e73-4998-9200-b503175fdc8b</rd:DataSourceID>
