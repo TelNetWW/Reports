@@ -2897,7 +2897,10 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                               <TextRuns>
                                 <TextRun>
                                   <Value>=Fields!intra_state.Value</Value>
-                                  <Style />
+                                  <Style>
+                                    <Format>'$'0.000;('$'0.000)</Format>
+                                    <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
