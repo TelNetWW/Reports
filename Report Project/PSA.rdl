@@ -2653,7 +2653,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!monthly_price.Value</Value>
+                                  <Value>=Iif(Fields!product_name.value = "Usable Static IP Addresses",Iif(Fields!quantity.Value = 1,CStr("0.00"),Fields!monthly_price.Value * Fields!quantity.Value),Fields!monthly_price.Value * Fields!quantity.Value)</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <Format>'$' #,0.00;('$' #,0.00)</Format>
@@ -2688,7 +2688,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!monthly_price.Value * Fields!quantity.Value</Value>
+                                  <Value />
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <Format>'$'#,0.00;('$'#,0.00)</Format>
@@ -3868,7 +3868,6 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                   </TablixCells>
