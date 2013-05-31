@@ -2646,26 +2646,26 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="deal_tot5">
+                        <Textbox Name="Textbox256">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Iif(Fields!product_name.value = "Usable Static IP Addresses",Iif(Fields!quantity.Value = 1,CStr("0.00"),Fields!monthly_price.Value * Fields!quantity.Value),Fields!monthly_price.Value * Fields!quantity.Value)</Value>
+                                  <Value>=Fields!monthly_price.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$' #,0.00;('$' #,0.00)</Format>
+                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>deal_tot</rd:DefaultName>
+                          <rd:DefaultName>Textbox256</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>None</Style>
@@ -2681,26 +2681,26 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox256">
+                        <Textbox Name="deal_tot5">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value />
+                                  <Value>=Fields!monthly_price.Value * Fields!quantity.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>'$' #,0.00;('$' #,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Center</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox256</rd:DefaultName>
+                          <rd:DefaultName>deal_tot</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>None</Style>
