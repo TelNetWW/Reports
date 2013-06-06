@@ -334,7 +334,7 @@ IIF(First(Fields!company_name.Value, "DataSet1") &lt;&gt; "", Chr(13) &amp; Chr(
           </Image>
           <Image Name="UserImage4">
             <Source>External</Source>
-            <Value>="http://10.10.50.59/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
+            <Value>="http://10.10.50.59/Portal/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
             <MIMEType>image/png</MIMEType>
             <Sizing>FitProportional</Sizing>
             <Left>4.19289in</Left>
