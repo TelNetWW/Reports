@@ -3811,7 +3811,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!toll_free.Value</Value>
+                                  <Value>=Fields!toll_free_intrastate.Value</Value>
                                   <Style>
                                     <Format>'$'0.000;('$'0.000)</Format>
                                   </Style>
@@ -4738,7 +4738,7 @@ WHERE        (proposal_cstm.id = @Param2)</CommandText>
             <Value>=Parameters!Param2.Value</Value>
           </QueryParameter>
         </QueryParameters>
-        <CommandText>SELECT       q_u_r_c.toll_free_interstate, q_u_r_c.toll_free, q_u_r_c.inter_state, q_u_r_c.intra_lata, q_u_r_c.intra_state, q_u_r_c.local, q_u_r_c.type, sac.service_address_street
+        <CommandText>SELECT       q_u_r_c.toll_free_interstate, q_u_r_c.toll_free_intrastate, q_u_r_c.inter_state, q_u_r_c.intra_lata, q_u_r_c.intra_state, q_u_r_c.local, q_u_r_c.type, sac.service_address_street
 FROM            quote_usage_rate_cstm AS q_u_r_c INNER JOIN
                          quotes_cstm ON q_u_r_c.quote_id = quotes_cstm.id_c INNER JOIN
                          service_addresses_cstm AS sac ON quotes_cstm.service_address_id_c = sac.id
@@ -4752,8 +4752,8 @@ WHERE        (q_u_r_c.quote_id IN
           <DataField>toll_free_interstate</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
-        <Field Name="toll_free">
-          <DataField>toll_free</DataField>
+        <Field Name="toll_free_intrastate">
+          <DataField>toll_free_intrastate</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
         <Field Name="inter_state">
