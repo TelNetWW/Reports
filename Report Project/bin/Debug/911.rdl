@@ -609,7 +609,7 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
     <DataSource Name="DataSource1">
       <ConnectionProperties>
         <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=10.10.50.59;Initial Catalog=sugarcrm</ConnectString>
+        <ConnectString>Data Source=10.10.50.130;Initial Catalog=sugarcrm</ConnectString>
       </ConnectionProperties>
       <rd:SecurityType>DataBase</rd:SecurityType>
       <rd:DataSourceID>14e77022-e1cc-41c7-b71c-731b0e6c263a</rd:DataSourceID>

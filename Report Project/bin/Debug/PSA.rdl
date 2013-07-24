@@ -3868,6 +3868,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                           </Style>
                         </Textbox>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                   </TablixCells>
@@ -4288,7 +4289,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
     <DataSource Name="DataSource1">
       <ConnectionProperties>
         <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=10.10.50.59;Initial Catalog=sugarcrm</ConnectString>
+        <ConnectString>Data Source=10.10.50.130;Initial Catalog=sugarcrm</ConnectString>
       </ConnectionProperties>
       <rd:SecurityType>DataBase</rd:SecurityType>
       <rd:DataSourceID>cf3d34df-41df-494f-ba12-f86b3fd229f3</rd:DataSourceID>
@@ -4396,8 +4397,8 @@ with q1 as (
 		service_addresses_cstm.service_address_state, 
 		service_addresses_cstm.service_address_postalcode, 
 						 
-		0.00 AS monthly_price, -- No monthly price on MPLS
-		quote_product_type_cstm.cost_price as [discount_price], -- Discount price is actually the NRC, which is stored here
+		quote_product_type_cstm.cost_price AS monthly_price, -- MPLS is a monthly total
+		0.00 as [discount_price], -- Discount price is actually the NRC, which is stored here
 		'' as [description], -- These would be product level descriptions; ok to leave blank
 		'' as [description2_c], 
 		1 as [quantity], -- Always a quantity of 1
@@ -4455,8 +4456,7 @@ select * from q2
 ORDER BY 
 		list_order,--product_categories.list_order, 
 		display_order,--product_templates_cstm.display_order, 
-		[list_order2]   -- product_types.list_order
-</CommandText>
+		[list_order2]   -- product_types.list_order</CommandText>
       </Query>
       <Fields>
         <Field Name="quote_num">

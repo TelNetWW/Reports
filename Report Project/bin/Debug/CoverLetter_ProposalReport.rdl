@@ -3476,7 +3476,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
     <DataSource Name="DataSource1">
       <ConnectionProperties>
         <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=10.10.50.59;Initial Catalog=sugarcrm</ConnectString>
+        <ConnectString>Data Source=10.10.50.130;Initial Catalog=sugarcrm</ConnectString>
       </ConnectionProperties>
       <rd:SecurityType>DataBase</rd:SecurityType>
       <rd:DataSourceID>90cfbcd3-fdea-4d17-bd30-43e649f4f37d</rd:DataSourceID>
@@ -3491,16 +3491,16 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             <Value>=Parameters!Param2.Value</Value>
           </QueryParameter>
         </QueryParameters>
-        <CommandText>SELECT        accounts.name AS account_name, accounts.billing_address_street, accounts.billing_address_city, accounts.billing_address_state, 
+        <CommandText>  SELECT        accounts.name AS account_name, accounts.billing_address_street, accounts.billing_address_city, accounts.billing_address_state, 
                          accounts.billing_address_postalcode, proposal_cstm.additional_message, proposal_cstm.paragraph_choice, quotes.quote_num, quotes.deal_tot, quotes.total, 
-                         Compass.dbo.Person.FirstName AS agent_firstname, Compass.dbo.Person.LastName AS agent_lastname, Compass.dbo.Person.Email AS agent_email, 
-                         Compass.dbo.Person.Phone AS agent_phone, proposal_cstm.contact_name, proposal_cstm.agent_name, proposal_cstm.company_name, 
+                         p.FirstName AS agent_firstname, p.LastName AS agent_lastname, p.Email AS agent_email, 
+                        p.Phone AS agent_phone, proposal_cstm.contact_name, proposal_cstm.agent_name, proposal_cstm.company_name, 
                          proposal_cstm.email_address, proposal_cstm.phone_number
 FROM            quotes INNER JOIN
                          quotes_cstm ON quotes.id = quotes_cstm.id_c INNER JOIN
                          proposal_cstm ON quotes_cstm.proposal_id_c = proposal_cstm.id INNER JOIN
                          accounts ON quotes_cstm.account_id_c = accounts.id INNER JOIN
-                         Compass.dbo.Person ON quotes_cstm.user_id_c = Compass.dbo.Person.PersonID
+                         [Cantillion].[Compass].dbo.Person p ON quotes_cstm.user_id_c = p.PersonID
 WHERE        (proposal_cstm.id = @Param2)</CommandText>
       </Query>
       <Fields>
@@ -3788,8 +3788,9 @@ with q1 as (
 		service_addresses_cstm.service_address_state, 
 		service_addresses_cstm.service_address_postalcode, 
 						 
-		0.00 AS monthly_price, -- No monthly price on MPLS
-		quote_product_type_cstm.cost_price as [discount_price], -- Discount price is actually the NRC, which is stored here
+			quote_product_type_cstm.cost_price AS monthly_price, -- MPLS is a monthly total
+		0.00 as [discount_price], -- Discount price is actually the NRC, which is stored here
+
 		'' as [description], -- These would be product level descriptions; ok to leave blank
 		'' as [description2_c], 
 		1 as [quantity], -- Always a quantity of 1
@@ -3848,7 +3849,6 @@ ORDER BY
 		list_order,--product_categories.list_order, 
 		display_order,--product_templates_cstm.display_order, 
 		[list_order2]   -- product_types.list_order
-
 
 </CommandText>
       </Query>
