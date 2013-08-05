@@ -4719,7 +4719,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!toll_free_interstate.Value)</Value>
+                                  <Value>=Fields!toll_free_interstate.Value</Value>
                                   <Style>
                                     <Format>'$'0.000;('$'0.000)</Format>
                                     <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
@@ -5026,7 +5026,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             <Top>3.75318in</Top>
             <Left>0.28348in</Left>
             <Height>0.9728in</Height>
-            <Width>5.74634in</Width>
+            <Width>5.74632in</Width>
             <ZIndex>17</ZIndex>
             <Style>
               <Border>
@@ -5051,7 +5051,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
         </Style>
       </Rectangle>
     </ReportItems>
-    <Height>41.78252in</Height>
+    <Height>41.78253in</Height>
     <Style />
   </Body>
   <Width>6.45303in</Width>
@@ -5167,7 +5167,6 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
       <ConnectionProperties>
         <DataProvider>SQL</DataProvider>
         <ConnectString>Data Source=10.10.50.130;Initial Catalog=sugarcrm</ConnectString>
-        <Prompt>Specify a user name and password for data source DataSource1:</Prompt>
       </ConnectionProperties>
       <rd:SecurityType>DataBase</rd:SecurityType>
       <rd:DataSourceID>cf3d34df-41df-494f-ba12-f86b3fd229f3</rd:DataSourceID>
