@@ -611,9 +611,9 @@ The following cancellation policy shall apply to the Product purchased by Custom
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>1.58333in</Top>
+            <Top>3.14584in</Top>
             <Left>0.27126in</Left>
-            <Height>0.625in</Height>
+            <Height>0.61458in</Height>
             <Width>0.25in</Width>
             <ZIndex>2</ZIndex>
             <Style>
@@ -669,7 +669,7 @@ The following cancellation policy shall apply to the Product purchased by Custom
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>2.20833in</Top>
+            <Top>3.76042in</Top>
             <Left>0.27126in</Left>
             <Height>1.25in</Height>
             <Width>0.25in</Width>
@@ -1565,7 +1565,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>textbox2</rd:DefaultName>
-            <Top>5.08314in</Top>
+            <Top>4.59356in</Top>
             <Left>0.28348in</Left>
             <Height>0.25in</Height>
             <Width>1.98901in</Width>
@@ -1577,7 +1577,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line1">
-            <Top>5.33314in</Top>
+            <Top>4.84356in</Top>
             <Left>0.28348in</Left>
             <Height>0in</Height>
             <Width>3.11401in</Width>
@@ -1604,7 +1604,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>5.08314in</Top>
+            <Top>4.59356in</Top>
             <Left>4.09762in</Left>
             <Height>0.25in</Height>
             <Width>1.92488in</Width>
@@ -1617,7 +1617,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line2">
-            <Top>5.33314in</Top>
+            <Top>4.84356in</Top>
             <Left>4.09762in</Left>
             <Height>0in</Height>
             <Width>1.93877in</Width>
@@ -1644,7 +1644,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>5.45814in</Top>
+            <Top>4.96856in</Top>
             <Left>0.28348in</Left>
             <Height>0.25in</Height>
             <Width>1.98902in</Width>
@@ -1657,7 +1657,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line4">
-            <Top>5.70814in</Top>
+            <Top>5.21856in</Top>
             <Left>0.28348in</Left>
             <Height>0in</Height>
             <Width>3.11402in</Width>
@@ -1684,7 +1684,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>5.45814in</Top>
+            <Top>4.96856in</Top>
             <Left>4.09762in</Left>
             <Height>0.25in</Height>
             <Width>1.92488in</Width>
@@ -1697,7 +1697,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line3">
-            <Top>5.70814in</Top>
+            <Top>5.21856in</Top>
             <Left>4.08373in</Left>
             <Height>0in</Height>
             <Width>1.93877in</Width>
@@ -1724,7 +1724,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>5.86439in</Top>
+            <Top>5.37481in</Top>
             <Left>0.28348in</Left>
             <Height>0.25in</Height>
             <Width>1.98902in</Width>
@@ -1737,7 +1737,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line6">
-            <Top>6.11439in</Top>
+            <Top>5.62481in</Top>
             <Left>0.28348in</Left>
             <Height>0in</Height>
             <Width>3.12584in</Width>
@@ -1874,7 +1874,7 @@ IIf(First(Fields!digital_fax_c.Value, "Disclaimers"), "Digital Fax: Inbound faxe
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>4.90608in</Top>
+            <Top>4.42691in</Top>
             <Left>0.28348in</Left>
             <Height>0.0972in</Height>
             <Width>5.73902in</Width>
@@ -3288,30 +3288,30 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.60215in</Width>
+                  <Width>1.60017in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.66342in</Width>
+                  <Width>0.66144in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.69034in</Width>
+                  <Width>0.68836in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.69278in</Width>
+                  <Width>0.6908in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.69855in</Width>
+                  <Width>0.69657in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.71592in</Width>
+                  <Width>0.71394in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.68975in</Width>
+                  <Width>0.68777in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>0.14419in</Height>
+                  <Height>0.03125in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -3388,7 +3388,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.14419in</Height>
+                  <Height>0.03125in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -3631,7 +3631,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.11699in</Height>
+                  <Height>0.03125in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -3874,7 +3874,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.14419in</Height>
+                  <Height>0.03125in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -4145,12 +4145,15 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
-            <DataSetName>UsageTableDataSet</DataSetName>
-            <Top>3.0371in</Top>
+            <DataSetName>EffectiveUsageTableDataSet</DataSetName>
+            <Top>4.17252in</Top>
             <Left>0.28348in</Left>
-            <Height>0.54956in</Height>
-            <Width>5.75291in</Width>
+            <Height>0.125in</Height>
+            <Width>5.73905in</Width>
             <ZIndex>16</ZIndex>
+            <Visibility>
+              <Hidden>true</Hidden>
+            </Visibility>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -4161,25 +4164,25 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.46748in</Width>
+                  <Width>1.46644in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.61739in</Width>
+                  <Width>0.61635in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.60511in</Width>
+                  <Width>0.60407in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.73184in</Width>
+                  <Width>0.7308in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.73224in</Width>
+                  <Width>0.7312in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.75028in</Width>
+                  <Width>0.74924in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.84198in</Width>
+                  <Width>0.84094in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -4572,6 +4575,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                           </Style>
                         </Textbox>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -5022,11 +5026,11 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
-            <DataSetName>EffectiveUsageTableDataSet</DataSetName>
-            <Top>3.75318in</Top>
+            <DataSetName>UsageTableDataSet</DataSetName>
+            <Top>3.0761in</Top>
             <Left>0.28348in</Left>
             <Height>0.9728in</Height>
-            <Width>5.74632in</Width>
+            <Width>5.73904in</Width>
             <ZIndex>17</ZIndex>
             <Style>
               <Border>
