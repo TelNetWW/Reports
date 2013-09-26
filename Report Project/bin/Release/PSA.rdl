@@ -542,8 +542,8 @@ By signing below, the Customer agrees to be bound to the terms of this Agreement
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>textbox36</rd:DefaultName>
-            <Top>0.15625in</Top>
-            <Left>0.01063in</Left>
+            <Top>0.13542in</Top>
+            <Left>0.02126in</Left>
             <Height>0.25in</Height>
             <Width>6.35417in</Width>
             <Style>
@@ -582,8 +582,8 @@ The following cancellation policy shall apply to the Product purchased by Custom
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>textbox37</rd:DefaultName>
-            <Top>0.53125in</Top>
-            <Left>0.01063in</Left>
+            <Top>0.51042in</Top>
+            <Left>0.02126in</Left>
             <Height>2.625in</Height>
             <Width>6.35417in</Width>
             <ZIndex>1</ZIndex>
@@ -611,9 +611,9 @@ The following cancellation policy shall apply to the Product purchased by Custom
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>3.15625in</Top>
-            <Left>0.26063in</Left>
-            <Height>0.625in</Height>
+            <Top>3.14584in</Top>
+            <Left>0.27126in</Left>
+            <Height>0.61458in</Height>
             <Width>0.25in</Width>
             <ZIndex>2</ZIndex>
             <Style>
@@ -640,8 +640,8 @@ The following cancellation policy shall apply to the Product purchased by Custom
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>3.15625in</Top>
-            <Left>0.51063in</Left>
+            <Top>3.13542in</Top>
+            <Left>0.52126in</Left>
             <Height>0.625in</Height>
             <Width>5.85417in</Width>
             <ZIndex>3</ZIndex>
@@ -669,8 +669,8 @@ The following cancellation policy shall apply to the Product purchased by Custom
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>3.78125in</Top>
-            <Left>0.26063in</Left>
+            <Top>3.76042in</Top>
+            <Left>0.27126in</Left>
             <Height>1.25in</Height>
             <Width>0.25in</Width>
             <ZIndex>4</ZIndex>
@@ -699,8 +699,8 @@ If Customer cancels any portion of the Product order after shipment and installa
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>3.78125in</Top>
-            <Left>0.51063in</Left>
+            <Top>3.76042in</Top>
+            <Left>0.52126in</Left>
             <Height>1.25in</Height>
             <Width>5.85417in</Width>
             <ZIndex>5</ZIndex>
@@ -737,8 +737,8 @@ TelNet and Customer agree that the terms and conditions set forth in this Agreem
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>9.28125in</Top>
-            <Left>0.01063in</Left>
+            <Top>9.26042in</Top>
+            <Left>0.02126in</Left>
             <Height>4in</Height>
             <Width>6.35417in</Width>
             <ZIndex>6</ZIndex>
@@ -754,8 +754,8 @@ TelNet and Customer agree that the terms and conditions set forth in this Agreem
               <BreakLocation>Start</BreakLocation>
             </PageBreak>
             <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>0.03125in</Top>
-            <Left>2.63563in</Left>
+            <Top>0.01042in</Top>
+            <Left>2.64626in</Left>
             <Height>0.125in</Height>
             <Width>2in</Width>
             <ZIndex>7</ZIndex>
@@ -786,8 +786,8 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>textbox46</rd:DefaultName>
-            <Top>5.03125in</Top>
-            <Left>0.01063in</Left>
+            <Top>5.01042in</Top>
+            <Left>0.02126in</Left>
             <Height>4.25in</Height>
             <Width>6.35417in</Width>
             <ZIndex>8</ZIndex>
@@ -1431,7 +1431,8 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </ReportItems>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>13.46071in</Top>
+            <Top>13.43988in</Top>
+            <Left>0.01063in</Left>
             <Height>17.125in</Height>
             <Width>6.3648in</Width>
             <ZIndex>9</ZIndex>
@@ -1450,10 +1451,10 @@ This Rental is not assignable or transferable by operation of law by Customer. T
         </PageBreak>
         <KeepTogether>true</KeepTogether>
         <DataElementOutput>ContentsOnly</DataElementOutput>
-        <Top>9.64473in</Top>
-        <Left>0.03919in</Left>
-        <Height>30.58571in</Height>
-        <Width>6.40679in</Width>
+        <Top>11.21765in</Top>
+        <Left>0.02856in</Left>
+        <Height>30.56488in</Height>
+        <Width>6.41742in</Width>
         <ZIndex>20</ZIndex>
         <Visibility>
           <Hidden>=CBool((Parameters!hasPurchase.Value)) = False</Hidden>
@@ -1564,7 +1565,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>textbox2</rd:DefaultName>
-            <Top>3.87483in</Top>
+            <Top>4.59356in</Top>
             <Left>0.28348in</Left>
             <Height>0.25in</Height>
             <Width>1.98901in</Width>
@@ -1576,7 +1577,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line1">
-            <Top>4.12483in</Top>
+            <Top>4.84356in</Top>
             <Left>0.28348in</Left>
             <Height>0in</Height>
             <Width>3.11401in</Width>
@@ -1603,7 +1604,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>3.87483in</Top>
+            <Top>4.59356in</Top>
             <Left>4.09762in</Left>
             <Height>0.25in</Height>
             <Width>1.92488in</Width>
@@ -1616,7 +1617,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line2">
-            <Top>4.12483in</Top>
+            <Top>4.84356in</Top>
             <Left>4.09762in</Left>
             <Height>0in</Height>
             <Width>1.93877in</Width>
@@ -1643,7 +1644,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>4.24983in</Top>
+            <Top>4.96856in</Top>
             <Left>0.28348in</Left>
             <Height>0.25in</Height>
             <Width>1.98902in</Width>
@@ -1656,7 +1657,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line4">
-            <Top>4.49983in</Top>
+            <Top>5.21856in</Top>
             <Left>0.28348in</Left>
             <Height>0in</Height>
             <Width>3.11402in</Width>
@@ -1683,7 +1684,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>4.24983in</Top>
+            <Top>4.96856in</Top>
             <Left>4.09762in</Left>
             <Height>0.25in</Height>
             <Width>1.92488in</Width>
@@ -1696,7 +1697,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line3">
-            <Top>4.49983in</Top>
+            <Top>5.21856in</Top>
             <Left>4.08373in</Left>
             <Height>0in</Height>
             <Width>1.93877in</Width>
@@ -1723,7 +1724,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>4.65608in</Top>
+            <Top>5.37481in</Top>
             <Left>0.28348in</Left>
             <Height>0.25in</Height>
             <Width>1.98902in</Width>
@@ -1736,7 +1737,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Textbox>
           <Line Name="line6">
-            <Top>4.90608in</Top>
+            <Top>5.62481in</Top>
             <Left>0.28348in</Left>
             <Height>0in</Height>
             <Width>3.12584in</Width>
@@ -1873,7 +1874,7 @@ IIf(First(Fields!digital_fax_c.Value, "Disclaimers"), "Digital Fax: Inbound faxe
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>3.69777in</Top>
+            <Top>4.42691in</Top>
             <Left>0.28348in</Left>
             <Height>0.0972in</Height>
             <Width>5.73902in</Width>
@@ -2646,7 +2647,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="deal_tot5">
+                        <Textbox Name="Textbox256">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -2656,16 +2657,16 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                                   <Value>=Fields!monthly_price.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$' #,0.00;('$' #,0.00)</Format>
+                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>deal_tot</rd:DefaultName>
+                          <rd:DefaultName>Textbox256</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>None</Style>
@@ -2681,7 +2682,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox256">
+                        <Textbox Name="deal_tot5">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -2691,16 +2692,16 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                                   <Value>=Fields!monthly_price.Value * Fields!quantity.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                    <Format>'$' #,0.00;('$' #,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Center</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox256</rd:DefaultName>
+                          <rd:DefaultName>deal_tot</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>None</Style>
@@ -3287,30 +3288,30 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.82577in</Width>
+                  <Width>1.60017in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.66342in</Width>
+                  <Width>0.66144in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.65849in</Width>
+                  <Width>0.68836in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.69278in</Width>
+                  <Width>0.6908in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.73044in</Width>
+                  <Width>0.69657in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.83051in</Width>
+                  <Width>0.71394in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.67991in</Width>
+                  <Width>0.68777in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>0.14419in</Height>
+                  <Height>0.03125in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -3387,7 +3388,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.14419in</Height>
+                  <Height>0.03125in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -3466,7 +3467,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>IntraLata</Value>
+                                  <Value>Intralata</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3500,7 +3501,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>IntraState</Value>
+                                  <Value>Intrastate</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3534,7 +3535,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>InterState</Value>
+                                  <Value>Interstate</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3568,7 +3569,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Toll Free IntraState</Value>
+                                  <Value>Toll-Free Intrastate</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3602,7 +3603,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Toll Free InterState</Value>
+                                  <Value>Toll-Free Interstate</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3630,7 +3631,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.11699in</Height>
+                  <Height>0.03125in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -3766,7 +3767,6 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -3812,7 +3812,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!toll_free.Value</Value>
+                                  <Value>=Fields!toll_free_intrastate.Value</Value>
                                   <Style>
                                     <Format>'$'0.000;('$'0.000)</Format>
                                   </Style>
@@ -3839,15 +3839,17 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox33">
+                        <Textbox Name="Textbox75">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value />
-                                  <Style />
+                                  <Value>=Fields!toll_free_interstate.Value</Value>
+                                  <Style>
+                                    <Format>'$'0.000;('$'0.000)</Format>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
@@ -3855,7 +3857,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox33</rd:DefaultName>
+                          <rd:DefaultName>Textbox74</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>None</Style>
@@ -3864,6 +3866,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
                             <PaddingBottom>2pt</PaddingBottom>
+                            <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                           </Style>
                         </Textbox>
                       </CellContents>
@@ -3871,7 +3874,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.14419in</Height>
+                  <Height>0.03125in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -4142,12 +4145,892 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
-            <DataSetName>UsageTableDataSet</DataSetName>
-            <Top>3.0371in</Top>
+            <DataSetName>EffectiveUsageTableDataSet</DataSetName>
+            <Top>4.17252in</Top>
             <Left>0.28348in</Left>
-            <Height>0.54956in</Height>
-            <Width>6.08132in</Width>
+            <Height>0.125in</Height>
+            <Width>5.73905in</Width>
             <ZIndex>16</ZIndex>
+            <Visibility>
+              <Hidden>true</Hidden>
+            </Visibility>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+          <Tablix Name="Tablix7">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>1.46644in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.61635in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.60407in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.7308in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.7312in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.74924in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.84094in</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox33">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!service_address_street.Value</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox21</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <ColSpan>6</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox37">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox30</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox40">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Constant">Effective Usage Rates</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox20</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox41">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Local</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox21</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox42">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Intralata</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox22</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox43">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Intrastate</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox22</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox44">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Interstate</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox23</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox45">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Toll-Free Intrastate</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox24</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox46">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Toll-Free Interstate</Value>
+                                  <Style>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox32</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.2228in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="type2">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!type.Value</Value>
+                                  <Style>
+                                    <Format>'$'0.00;('$'0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>type</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox79">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!local.Value</Value>
+                                  <Style>
+                                    <Format>'$'0.000;('$'0.000)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox76</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox81">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!intra_lata.Value</Value>
+                                  <Style>
+                                    <Format>'$'0.000;('$'0.000)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox78</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox47">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!intra_state.Value</Value>
+                                  <Style>
+                                    <Format>'$'0.000;('$'0.000)</Format>
+                                    <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox23</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox73">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!inter_state.Value</Value>
+                                  <Style>
+                                    <Format>'$'0.000;('$'0.000)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox72</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox77">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!toll_free_intrastate.Value</Value>
+                                  <Style>
+                                    <Format>'$'0.000;('$'0.000)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox74</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox82">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!toll_free_interstate.Value</Value>
+                                  <Style>
+                                    <Format>'$'0.000;('$'0.000)</Format>
+                                    <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox74</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox93">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox88</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox94">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox89</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox95">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox90</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox48">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox24</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox96">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox91</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox97">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox92</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox49">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <Format>'$'0.000;('$'0.000)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox36</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="type2">
+                    <GroupExpressions>
+                      <GroupExpression>=Fields!service_address_street.Value</GroupExpression>
+                    </GroupExpressions>
+                  </Group>
+                  <SortExpressions>
+                    <SortExpression>
+                      <Value>=Fields!type.Value</Value>
+                    </SortExpression>
+                  </SortExpressions>
+                  <TablixMembers>
+                    <TablixMember>
+                      <KeepWithGroup>After</KeepWithGroup>
+                    </TablixMember>
+                    <TablixMember>
+                      <KeepWithGroup>After</KeepWithGroup>
+                    </TablixMember>
+                    <TablixMember>
+                      <Group Name="Details2">
+                        <GroupExpressions>
+                          <GroupExpression>=Fields!type.Value</GroupExpression>
+                        </GroupExpressions>
+                      </Group>
+                      <TablixMembers>
+                        <TablixMember />
+                      </TablixMembers>
+                    </TablixMember>
+                    <TablixMember>
+                      <KeepWithGroup>Before</KeepWithGroup>
+                    </TablixMember>
+                  </TablixMembers>
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>UsageTableDataSet</DataSetName>
+            <Top>3.0761in</Top>
+            <Left>0.28348in</Left>
+            <Height>0.9728in</Height>
+            <Width>5.73904in</Width>
+            <ZIndex>17</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -4161,7 +5044,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
         <KeepTogether>true</KeepTogether>
         <Top>4.50584in</Top>
         <Left>0.02856in</Left>
-        <Height>5.06945in</Height>
+        <Height>6.66667in</Height>
         <Width>6.41742in</Width>
         <ZIndex>22</ZIndex>
         <Style>
@@ -4171,7 +5054,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
         </Style>
       </Rectangle>
     </ReportItems>
-    <Height>40.23044in</Height>
+    <Height>41.78253in</Height>
     <Style />
   </Body>
   <Width>6.45303in</Width>
@@ -4286,7 +5169,7 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
     <DataSource Name="DataSource1">
       <ConnectionProperties>
         <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=10.10.50.59;Initial Catalog=sugarcrm</ConnectString>
+        <ConnectString>Data Source=10.10.50.130;Initial Catalog=sugarcrm</ConnectString>
       </ConnectionProperties>
       <rd:SecurityType>DataBase</rd:SecurityType>
       <rd:DataSourceID>cf3d34df-41df-494f-ba12-f86b3fd229f3</rd:DataSourceID>
@@ -4301,28 +5184,159 @@ First(Fields!billing_address_state.Value, "LocationDetailQuery1") + " " + First(
             <Value>=Parameters!Param2.Value</Value>
           </QueryParameter>
         </QueryParameters>
-        <CommandText>SELECT        quotes.quote_num, quotes.deal_tot, quotes.total, quotes_cstm.monthly_total_c AS monthly_total, product_templates.name, product_types.name AS product_name, 
-                         accounts.name AS account_name, service_addresses_cstm.service_address_street, service_addresses_cstm.service_address_city, 
-                         service_addresses_cstm.phone AS service_address_phone, service_addresses_cstm.service_address_state, 
-                         service_addresses_cstm.service_address_postalcode, products_cstm.monthly_price_c AS monthly_price, products.discount_price, product_types.description, 
-                         product_types_cstm.description2_c, products.quantity, product_terms_cstm.term, proposal_cstm.proposal_num, accounts.billing_address_street, 
-                         accounts.billing_address_city, accounts.billing_address_state, accounts.billing_address_postalcode, accounts.phone_office AS billing_phone
-FROM            product_terms_cstm INNER JOIN
-                         product_templates INNER JOIN
-                         product_templates_cstm ON product_templates.id = product_templates_cstm.id_c INNER JOIN
-                         products INNER JOIN
-                         products_cstm ON products.id = products_cstm.id_c ON product_templates.id = products.product_template_id INNER JOIN
-                         product_categories ON product_templates.category_id = product_categories.id INNER JOIN
-                         quotes INNER JOIN
-                         quotes_cstm ON quotes.id = quotes_cstm.id_c INNER JOIN
-                         proposal_cstm ON quotes_cstm.proposal_id_c = proposal_cstm.id INNER JOIN
-                         accounts ON quotes_cstm.account_id_c = accounts.id INNER JOIN
-                         service_addresses_cstm ON quotes_cstm.service_address_id_c = service_addresses_cstm.id ON products.quote_id = quotes.id ON 
-                         product_terms_cstm.id = quotes_cstm.term_id_c INNER JOIN
-                         product_types INNER JOIN
-                         product_types_cstm ON product_types.id = product_types_cstm.id_c ON quotes_cstm.product_type_id_c = product_types.id
-WHERE        (quotes_cstm.proposal_id_c = @Param2)
-ORDER BY product_categories.list_order, product_templates_cstm.display_order, product_types.list_order</CommandText>
+        <CommandText>-- We are doing a union of the product level query and sub-product query to make everything look like a line item
+with q1 as (
+	-- Location Detail Query 1: Gives all line items except MPLS.
+	SELECT        
+		quotes.quote_num, 
+		quotes.deal_tot, 
+		quotes.total, 
+		quotes_cstm.monthly_total_c AS monthly_total, 
+
+		product_templates.name, 
+		product_types.name AS product_name, 
+                         
+		accounts.name AS account_name, 
+		service_addresses_cstm.service_address_street, 
+		service_addresses_cstm.service_address_city, 
+		service_addresses_cstm.phone AS service_address_phone, 
+		service_addresses_cstm.service_address_state, 
+		service_addresses_cstm.service_address_postalcode, 
+						 
+		products_cstm.monthly_price_c AS monthly_price, 
+		products.discount_price, 
+		product_types.description, 
+		product_types_cstm.description2_c, 
+						 
+		products.quantity, 
+					
+		product_terms_cstm.term, 
+		proposal_cstm.proposal_num, 
+		accounts.billing_address_street, 
+		accounts.billing_address_city, 
+		accounts.billing_address_state, 
+		accounts.billing_address_postalcode,
+		accounts.phone_office AS billing_phone,
+
+		product_categories.list_order, 
+		product_templates_cstm.display_order, 
+		product_types.list_order as [list_order2]
+	FROM          
+		quotes 
+		INNER JOIN quotes_cstm 
+			ON quotes.id = quotes_cstm.id_c 
+		INNER JOIN product_terms_cstm 
+			ON product_terms_cstm.id = quotes_cstm.term_id_c 
+
+		INNER JOIN products 
+			ON products.quote_id = quotes.id
+		INNER JOIN products_cstm 
+			ON products.id = products_cstm.id_c 
+
+		INNER JOIN product_templates
+			ON product_templates.id = products.product_template_id
+		INNER JOIN product_templates_cstm 
+			ON product_templates.id = product_templates_cstm.id_c 
+		INNER JOIN  product_categories 
+			ON product_templates.category_id = product_categories.id 
+
+		INNER JOIN proposal_cstm 
+			ON quotes_cstm.proposal_id_c = proposal_cstm.id 
+	
+		INNER JOIN accounts 
+			ON quotes_cstm.account_id_c = accounts.id 
+		INNER JOIN service_addresses_cstm 
+			ON quotes_cstm.service_address_id_c = service_addresses_cstm.id 
+		 
+		INNER JOIN product_types 
+			ON quotes_cstm.product_type_id_c = product_types.id
+		INNER JOIN product_types_cstm 
+			ON product_types.id = product_types_cstm.id_c 
+		
+	WHERE        (quotes_cstm.proposal_id_c = @Param2)
+	--WHERE quotes.quote_num = 749
+	--ORDER BY product_categories.list_order, product_templates_cstm.display_order, product_types.list_order
+), q2 as (
+
+
+	-- Location Detail Query 2: Gives the MPLS line item in the table for sub-products (quote_product_type_cstm)
+	-- Note: Although other things are stored in the sub-product table, they are not used for the bill.
+	SELECT       
+		quotes.quote_num,
+		quotes.deal_tot, 
+		quotes.total, 
+		quotes_cstm.monthly_total_c AS monthly_total,
+
+		product_types.name as [name], 
+		product_types.name as [product_name],
+		accounts.name AS account_name, 
+				
+		service_addresses_cstm.service_address_street, 
+		service_addresses_cstm.service_address_city, 
+		service_addresses_cstm.phone AS service_address_phone, 
+		service_addresses_cstm.service_address_state, 
+		service_addresses_cstm.service_address_postalcode, 
+						 
+		quote_product_type_cstm.cost_price AS monthly_price, -- MPLS is a monthly total
+		0.00 as [discount_price], -- Discount price is actually the NRC, which is stored here
+		'' as [description], -- These would be product level descriptions; ok to leave blank
+		'' as [description2_c], 
+		1 as [quantity], -- Always a quantity of 1
+		product_terms_cstm.term, 
+		proposal_cstm.proposal_num, 
+
+		accounts.billing_address_street, 
+		accounts.billing_address_city, 
+		accounts.billing_address_state, 
+		accounts.billing_address_postalcode, 
+		accounts.phone_office AS billing_phone,
+	
+		-- Order by fields
+		100 as list_order,--product_categories.list_order, 
+		0 as display_order,--product_templates_cstm.display_order, 
+		0 as [list_order2]        
+	FROM            
+		[sugarcrm].[dbo].quote_product_type_cstm 
+
+		-- Join quote information
+		INNER JOIN [sugarcrm].[dbo].quotes 
+			ON quote_product_type_cstm.quote_id = quotes.id
+		INNER JOIN [sugarcrm].[dbo].quotes_cstm 
+			ON quotes.id = quotes_cstm.id_c 
+
+		-- Join product information
+		INNER JOIN [sugarcrm].[dbo].product_types 
+			ON quote_product_type_cstm.product_type_id = product_types.id 
+		INNER JOIN [sugarcrm].[dbo].product_types_cstm 
+			ON product_types_cstm.id_c = product_types.id 
+	
+		-- Join service address and account information	
+		INNER JOIN [sugarcrm].[dbo].service_addresses_cstm 
+			ON quotes_cstm.service_address_id_c = service_addresses_cstm.id 
+		INNER JOIN accounts
+			ON quotes_cstm.account_id_c = accounts.id
+
+		-- Join product terms from quote
+		INNER JOIN product_terms_cstm 
+			ON product_terms_cstm.id = quotes_cstm.term_id_c 
+
+		-- Join proposal information from proposal
+		INNER JOIN proposal_cstm 
+			ON quotes_cstm.proposal_id_c = proposal_cstm.id 
+
+	WHERE        (quotes_cstm.proposal_id_c = @Param2)
+	--WHERE quotes.quote_num = 749
+		AND product_types.name = 'MPLS/VPN'
+
+
+)
+select * from q1
+UNION ALL
+select * from q2
+ORDER BY 
+		list_order,--product_categories.list_order, 
+		display_order,--product_templates_cstm.display_order, 
+		[list_order2]   -- product_types.list_order</CommandText>
       </Query>
       <Fields>
         <Field Name="quote_num">
@@ -4420,6 +5434,18 @@ ORDER BY product_categories.list_order, product_templates_cstm.display_order, pr
         <Field Name="billing_phone">
           <DataField>billing_phone</DataField>
           <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="list_order">
+          <DataField>list_order</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="display_order">
+          <DataField>display_order</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="list_order2">
+          <DataField>list_order2</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
       </Fields>
     </DataSet>
@@ -4592,7 +5618,7 @@ WHERE        (proposal_cstm.id = @Param2)</CommandText>
             <Value>=Parameters!Param2.Value</Value>
           </QueryParameter>
         </QueryParameters>
-        <CommandText>SELECT        q_u_r_c.toll_free, q_u_r_c.inter_state, q_u_r_c.intra_lata, q_u_r_c.intra_state, q_u_r_c.local, q_u_r_c.type, sac.service_address_street
+        <CommandText>SELECT       q_u_r_c.toll_free_interstate, q_u_r_c.toll_free_intrastate, q_u_r_c.inter_state, q_u_r_c.intra_lata, q_u_r_c.intra_state, q_u_r_c.local, q_u_r_c.type, sac.service_address_street
 FROM            quote_usage_rate_cstm AS q_u_r_c INNER JOIN
                          quotes_cstm ON q_u_r_c.quote_id = quotes_cstm.id_c INNER JOIN
                          service_addresses_cstm AS sac ON quotes_cstm.service_address_id_c = sac.id
@@ -4602,8 +5628,12 @@ WHERE        (q_u_r_c.quote_id IN
                                WHERE        (proposal_id_c = @Param2)))</CommandText>
       </Query>
       <Fields>
-        <Field Name="toll_free">
-          <DataField>toll_free</DataField>
+        <Field Name="toll_free_interstate">
+          <DataField>toll_free_interstate</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="toll_free_intrastate">
+          <DataField>toll_free_intrastate</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
         <Field Name="inter_state">
@@ -4616,6 +5646,59 @@ WHERE        (q_u_r_c.quote_id IN
         </Field>
         <Field Name="intra_state">
           <DataField>intra_state</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="local">
+          <DataField>local</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="type">
+          <DataField>type</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="service_address_street">
+          <DataField>service_address_street</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="EffectiveUsageTableDataSet">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@Param2">
+            <Value>=Parameters!Param2.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>SELECT        q_u_r_c.toll_free_interstate, q_u_r_c.toll_free_intrastate, q_u_r_c.inter_state, q_u_r_c.intra_state, q_u_r_c.intra_lata, q_u_r_c.local, q_u_r_c.type, 
+                         sac.service_address_street
+FROM            quote_effective_usage_rate_cstm AS q_u_r_c INNER JOIN
+                         quotes_cstm ON q_u_r_c.quote_id = quotes_cstm.id_c INNER JOIN
+                         service_addresses_cstm AS sac ON quotes_cstm.service_address_id_c = sac.id
+WHERE        (q_u_r_c.quote_id IN
+                             (SELECT        id_c
+                               FROM            quotes_cstm AS quotes_cstm_1
+                               WHERE        (proposal_id_c = @Param2)))</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="toll_free_interstate">
+          <DataField>toll_free_interstate</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="toll_free_intrastate">
+          <DataField>toll_free_intrastate</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="inter_state">
+          <DataField>inter_state</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="intra_state">
+          <DataField>intra_state</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="intra_lata">
+          <DataField>intra_lata</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
         <Field Name="local">

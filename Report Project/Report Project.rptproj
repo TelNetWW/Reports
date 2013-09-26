@@ -31,7 +31,7 @@
         <TargetDatasetFolder>Datasets</TargetDatasetFolder>
         <OverwriteDatasets>true</OverwriteDatasets>
         <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
-        <StartItem>PSA.rdl</StartItem>
+        <StartItem>CoverLetter_ProposalReport.rdl</StartItem>
       </Options>
     </Configuration>
     <Configuration>
