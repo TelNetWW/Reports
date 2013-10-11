@@ -4829,7 +4829,7 @@ IIF(First(Fields!contact_name.Value, "DataSet1") &lt;&gt; "",
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>Monthly</Value>
+                                          <Value>Total Monthly</Value>
                                           <Style>
                                             <FontFamily>Verdana</FontFamily>
                                             <FontSize>8pt</FontSize>
@@ -5138,7 +5138,7 @@ IIF(First(Fields!contact_name.Value, "DataSet1") &lt;&gt; "",
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>=Fields!monthly_price.Value * Fields!quantity.Value</Value>
+                                          <Value>="X"</Value>
                                           <Style>
                                             <FontFamily>Verdana</FontFamily>
                                             <FontSize>8pt</FontSize>
@@ -5218,7 +5218,7 @@ IIF(First(Fields!contact_name.Value, "DataSet1") &lt;&gt; "",
                     <DataSetName>LocationDetailQuery1</DataSetName>
                     <Filters>
                       <Filter>
-                        <FilterExpression>=(Fields!monthly_price.Value &lt; ABS(0) ) Or (Fields!discount_price.Value &gt; ABS(0))</FilterExpression>
+                        <FilterExpression>=Fields!discount_price.Value &gt; ABS(0)</FilterExpression>
                         <Operator>Equal</Operator>
                         <FilterValues>
                           <FilterValue DataType="Boolean">true</FilterValue>
