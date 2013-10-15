@@ -2759,9 +2759,6 @@ product_templates.name like '%polycom%'</CommandText>
               <Sizing>FitProportional</Sizing>
               <Height>1in</Height>
               <Width>8.5in</Width>
-              <Visibility>
-                <Hidden>=IIF(Globals!PageNumber = 1, True, False)</Hidden>
-              </Visibility>
               <Style>
                 <Border>
                   <Style>None</Style>
