@@ -5,7 +5,7 @@
     <DataSource Name="DataSource1">
       <ConnectionProperties>
         <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=10.10.50.59;Initial Catalog=sugarcrm</ConnectString>
+        <ConnectString>Data Source=10.10.50.59;Initial Catalog=sugarcrmqa</ConnectString>
       </ConnectionProperties>
       <rd:SecurityType>DataBase</rd:SecurityType>
       <rd:DataSourceID>cf3d34df-41df-494f-ba12-f86b3fd229f3</rd:DataSourceID>
@@ -1197,9 +1197,9 @@ WHERE        (q_u_r_c.quote_id IN
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox8</rd:DefaultName>
-                <Left>0.26575in</Left>
+                <Left>0.01063in</Left>
                 <Height>8.74306in</Height>
-                <Width>7.22917in</Width>
+                <Width>7.60871in</Width>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -1219,7 +1219,7 @@ WHERE        (q_u_r_c.quote_id IN
             <Top>33.43224in</Top>
             <Left>0.46526in</Left>
             <Height>8.74306in</Height>
-            <Width>7.60891in</Width>
+            <Width>7.61934in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1515,10 +1515,9 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
                         </Style>
                       </Paragraph>
                     </Paragraphs>
-                    <Top>0.125in</Top>
-                    <Left>0.01063in</Left>
+                    <Top>0.13542in</Top>
                     <Height>0.25in</Height>
-                    <Width>6.35417in</Width>
+                    <Width>7.60871in</Width>
                     <Style>
                       <BottomBorder>
                         <Color>Black</Color>
@@ -1569,7 +1568,8 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>0.5in</Top>
+                    <Top>0.51042in</Top>
+                    <Left>0.59091in</Left>
                     <Height>8.75in</Height>
                     <Width>6.35417in</Width>
                     <ZIndex>1</ZIndex>
@@ -1597,8 +1597,8 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>10.5in</Top>
-                    <Left>0.25in</Left>
+                    <Top>10.51042in</Top>
+                    <Left>0.84091in</Left>
                     <Height>0.25in</Height>
                     <Width>0.25in</Width>
                     <ZIndex>2</ZIndex>
@@ -1626,8 +1626,8 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>10.5in</Top>
-                    <Left>0.5in</Left>
+                    <Top>10.51042in</Top>
+                    <Left>1.09091in</Left>
                     <Height>0.25in</Height>
                     <Width>5.85417in</Width>
                     <ZIndex>3</ZIndex>
@@ -1655,8 +1655,8 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>11.25in</Top>
-                    <Left>0.25in</Left>
+                    <Top>11.26042in</Top>
+                    <Left>0.84091in</Left>
                     <Height>1.25in</Height>
                     <Width>0.25in</Width>
                     <ZIndex>4</ZIndex>
@@ -1684,8 +1684,8 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>11.25in</Top>
-                    <Left>0.5in</Left>
+                    <Top>11.26042in</Top>
+                    <Left>1.09091in</Left>
                     <Height>1.25in</Height>
                     <Width>5.85417in</Width>
                     <ZIndex>5</ZIndex>
@@ -1715,8 +1715,8 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                         </Style>
                       </Paragraph>
                     </Paragraphs>
-                    <Top>16.875in</Top>
-                    <Left>0.01063in</Left>
+                    <Top>16.88542in</Top>
+                    <Left>0.60154in</Left>
                     <Height>0.25in</Height>
                     <Width>6.35417in</Width>
                     <ZIndex>6</ZIndex>
@@ -1748,7 +1748,8 @@ TelNet shall provide routine maintenance and repairs to the Equipment as TelNet 
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>12.5in</Top>
+                    <Top>12.51042in</Top>
+                    <Left>0.59091in</Left>
                     <Height>0.25in</Height>
                     <Width>6.35417in</Width>
                     <ZIndex>7</ZIndex>
@@ -1779,7 +1780,8 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>9.25in</Top>
+                    <Top>9.26042in</Top>
+                    <Left>0.59091in</Left>
                     <Height>1.25in</Height>
                     <Width>6.35417in</Width>
                     <ZIndex>8</ZIndex>
@@ -1807,8 +1809,8 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>10.75in</Top>
-                    <Left>0.5in</Left>
+                    <Top>10.76042in</Top>
+                    <Left>1.09091in</Left>
                     <Height>0.25in</Height>
                     <Width>0.25in</Width>
                     <ZIndex>9</ZIndex>
@@ -1836,8 +1838,8 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>10.75in</Top>
-                    <Left>0.75in</Left>
+                    <Top>10.76042in</Top>
+                    <Left>1.34091in</Left>
                     <Height>0.25in</Height>
                     <Width>5.60417in</Width>
                     <ZIndex>10</ZIndex>
@@ -1865,8 +1867,8 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>11in</Top>
-                    <Left>0.5in</Left>
+                    <Top>11.01042in</Top>
+                    <Left>1.09091in</Left>
                     <Height>0.25in</Height>
                     <Width>0.25in</Width>
                     <ZIndex>11</ZIndex>
@@ -1894,8 +1896,8 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>11in</Top>
-                    <Left>0.75in</Left>
+                    <Top>11.01042in</Top>
+                    <Left>1.34091in</Left>
                     <Height>0.25in</Height>
                     <Width>5.60417in</Width>
                     <ZIndex>12</ZIndex>
@@ -1923,8 +1925,8 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>12.75in</Top>
-                    <Left>0.25in</Left>
+                    <Top>12.76042in</Top>
+                    <Left>0.84091in</Left>
                     <Height>0.625in</Height>
                     <Width>0.25in</Width>
                     <ZIndex>13</ZIndex>
@@ -1952,8 +1954,8 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>12.75in</Top>
-                    <Left>0.5in</Left>
+                    <Top>12.76042in</Top>
+                    <Left>1.09091in</Left>
                     <Height>0.625in</Height>
                     <Width>5.85417in</Width>
                     <ZIndex>14</ZIndex>
@@ -1981,8 +1983,8 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>13.375in</Top>
-                    <Left>0.25in</Left>
+                    <Top>13.38542in</Top>
+                    <Left>0.84091in</Left>
                     <Height>0.5in</Height>
                     <Width>0.25in</Width>
                     <ZIndex>15</ZIndex>
@@ -2010,8 +2012,8 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>13.375in</Top>
-                    <Left>0.5in</Left>
+                    <Top>13.38542in</Top>
+                    <Left>1.09091in</Left>
                     <Height>0.5in</Height>
                     <Width>5.85417in</Width>
                     <ZIndex>16</ZIndex>
@@ -2039,8 +2041,8 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>13.875in</Top>
-                    <Left>0.25in</Left>
+                    <Top>13.88542in</Top>
+                    <Left>0.84091in</Left>
                     <Height>0.875in</Height>
                     <Width>0.25in</Width>
                     <ZIndex>17</ZIndex>
@@ -2068,8 +2070,8 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>13.875in</Top>
-                    <Left>0.5in</Left>
+                    <Top>13.88542in</Top>
+                    <Left>1.09091in</Left>
                     <Height>0.875in</Height>
                     <Width>5.85417in</Width>
                     <ZIndex>18</ZIndex>
@@ -2101,7 +2103,8 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                         <Style />
                       </Paragraph>
                     </Paragraphs>
-                    <Top>14.75in</Top>
+                    <Top>14.76042in</Top>
+                    <Left>0.59091in</Left>
                     <Height>2.125in</Height>
                     <Width>6.35417in</Width>
                     <ZIndex>19</ZIndex>
@@ -2115,10 +2118,10 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 </ReportItems>
                 <KeepTogether>true</KeepTogether>
                 <DataElementOutput>ContentsOnly</DataElementOutput>
-                <Top>13.42946in</Top>
-                <Left>0.60154in</Left>
-                <Height>17.125in</Height>
-                <Width>6.3648in</Width>
+                <Top>13.41905in</Top>
+                <Left>0.01063in</Left>
+                <Height>17.13542in</Height>
+                <Width>7.63549in</Width>
                 <ZIndex>8</ZIndex>
                 <Visibility>
                   <Hidden>=CBool((Parameters!hasRental.Value)) = False</Hidden>
@@ -2135,7 +2138,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             <Top>2.82222in</Top>
             <Left>0.46526in</Left>
             <Height>30.55446in</Height>
-            <Width>7.63549in</Width>
+            <Width>7.64612in</Width>
             <ZIndex>1</ZIndex>
             <Visibility>
               <Hidden>=CBool((Parameters!hasPurchase.Value)) = False</Hidden>
@@ -2193,7 +2196,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                         <Value>MASTER SERVICE AGREEMENT (MSA)</Value>
                         <Style>
                           <FontFamily>Calibri</FontFamily>
-                          <FontSize>12pt</FontSize>
+                          <FontSize>16pt</FontSize>
                           <FontWeight>Bold</FontWeight>
                         </Style>
                       </TextRun>
@@ -3469,22 +3472,22 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <TablixBody>
                   <TablixColumns>
                     <TablixColumn>
-                      <Width>2.08807in</Width>
+                      <Width>2.12393in</Width>
                     </TablixColumn>
                     <TablixColumn>
-                      <Width>0.79865in</Width>
+                      <Width>1.03729in</Width>
                     </TablixColumn>
                     <TablixColumn>
-                      <Width>0.98427in</Width>
+                      <Width>0.94775in</Width>
                     </TablixColumn>
                     <TablixColumn>
-                      <Width>1in</Width>
+                      <Width>1.08033in</Width>
                     </TablixColumn>
                     <TablixColumn>
-                      <Width>0.93206in</Width>
+                      <Width>1.22099in</Width>
                     </TablixColumn>
                     <TablixColumn>
-                      <Width>0.94988in</Width>
+                      <Width>1.22519in</Width>
                     </TablixColumn>
                   </TablixColumns>
                   <TablixRows>
@@ -3542,7 +3545,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                     </TextRun>
                                   </TextRuns>
                                   <Style>
-                                    <TextAlign>Center</TextAlign>
+                                    <TextAlign>Right</TextAlign>
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
@@ -3576,7 +3579,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                     </TextRun>
                                   </TextRuns>
                                   <Style>
-                                    <TextAlign>Center</TextAlign>
+                                    <TextAlign>Right</TextAlign>
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
@@ -3610,7 +3613,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                     </TextRun>
                                   </TextRuns>
                                   <Style>
-                                    <TextAlign>Center</TextAlign>
+                                    <TextAlign>Right</TextAlign>
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
@@ -3644,7 +3647,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                     </TextRun>
                                   </TextRuns>
                                   <Style>
-                                    <TextAlign>Center</TextAlign>
+                                    <TextAlign>Right</TextAlign>
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
@@ -3678,7 +3681,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                     </TextRun>
                                   </TextRuns>
                                   <Style>
-                                    <TextAlign>Center</TextAlign>
+                                    <TextAlign>Right</TextAlign>
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
@@ -3752,7 +3755,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                     </TextRun>
                                   </TextRuns>
                                   <Style>
-                                    <TextAlign>Center</TextAlign>
+                                    <TextAlign>Right</TextAlign>
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
@@ -3787,7 +3790,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                     </TextRun>
                                   </TextRuns>
                                   <Style>
-                                    <TextAlign>Center</TextAlign>
+                                    <TextAlign>Right</TextAlign>
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
@@ -3822,7 +3825,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                     </TextRun>
                                   </TextRuns>
                                   <Style>
-                                    <TextAlign>Center</TextAlign>
+                                    <TextAlign>Right</TextAlign>
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
@@ -3856,7 +3859,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                     </TextRun>
                                   </TextRuns>
                                   <Style>
-                                    <TextAlign>Center</TextAlign>
+                                    <TextAlign>Right</TextAlign>
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
@@ -3891,7 +3894,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                     </TextRun>
                                   </TextRuns>
                                   <Style>
-                                    <TextAlign>Center</TextAlign>
+                                    <TextAlign>Right</TextAlign>
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
@@ -3956,9 +3959,9 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 </TablixRowHierarchy>
                 <DataSetName>UsageTableDataSet</DataSetName>
                 <Top>2.04167in</Top>
-                <Left>0.31851in</Left>
+                <Left>0.0002in</Left>
                 <Height>0.4in</Height>
-                <Width>6.75293in</Width>
+                <Width>7.63549in</Width>
                 <ZIndex>4</ZIndex>
                 <Style>
                   <Border>

@@ -9,12 +9,16 @@
       <FullPath>911.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>CoverLetter_ProposalReport.rdl</Name>
-      <FullPath>CoverLetter_ProposalReport.rdl</FullPath>
+      <Name>PriceSheetOnly.rdl</Name>
+      <FullPath>PriceSheetOnly.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>PSA.rdl</Name>
       <FullPath>PSA.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>CoverLetter_ProposalReport.rdl</Name>
+      <FullPath>CoverLetter_ProposalReport.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
