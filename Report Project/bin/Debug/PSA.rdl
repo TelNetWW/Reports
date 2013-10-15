@@ -565,7 +565,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>MASTER SERVICE AGREEMENT (MSA)</Value>
+                        <Value />
                         <Style>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>12pt</FontSize>
@@ -816,11 +816,10 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value />
+                        <Value xml:space="preserve">   </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -830,44 +829,6 @@ WHERE        (q_u_r_c.quote_id IN
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>5pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Target Installation Date:  </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve">                    </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>Underline</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve">      </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
                     </Style>
                   </Paragraph>
                   <Paragraph>
@@ -1183,6 +1144,24 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>__________________________   ___________   ______________________________________   ______________</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -1201,7 +1180,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>       TelNet Printed Name                     Title                                  Signature                                                    Date</Value>
+                        <Value>         TelNet Printed Name                   Title                                   Signature                                                    Date</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -1219,7 +1198,7 @@ WHERE        (q_u_r_c.quote_id IN
                 </Paragraphs>
                 <rd:DefaultName>textbox8</rd:DefaultName>
                 <Left>0.26575in</Left>
-                <Height>8.70139in</Height>
+                <Height>8.74306in</Height>
                 <Width>7.22917in</Width>
                 <Style>
                   <Border>
@@ -1237,9 +1216,9 @@ WHERE        (q_u_r_c.quote_id IN
             </PageBreak>
             <PageName>MSA</PageName>
             <KeepTogether>true</KeepTogether>
-            <Top>33.46656in</Top>
-            <Left>0.47569in</Left>
-            <Height>8.70139in</Height>
+            <Top>33.43224in</Top>
+            <Left>0.46526in</Left>
+            <Height>8.74306in</Height>
             <Width>7.60891in</Width>
             <Style>
               <Border>
@@ -2153,8 +2132,8 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </ReportItems>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>2.84265in</Top>
-            <Left>0.47589in</Left>
+            <Top>2.82222in</Top>
+            <Left>0.46526in</Left>
             <Height>30.55446in</Height>
             <Width>7.63549in</Width>
             <ZIndex>1</ZIndex>
@@ -2191,6 +2170,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 </Paragraphs>
                 <rd:DefaultName>account_name1</rd:DefaultName>
                 <Top>0.2882in</Top>
+                <Left>0.0002in</Left>
                 <Height>0.25in</Height>
                 <Width>7.60872in</Width>
                 <Style>
@@ -2210,7 +2190,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>PRODUCT SERVICE AGREEMENT (PSA)</Value>
+                        <Value>MASTER SERVICE AGREEMENT (MSA)</Value>
                         <Style>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>12pt</FontSize>
@@ -2224,6 +2204,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox1</rd:DefaultName>
+                <Left>0.0002in</Left>
                 <Height>0.21875in</Height>
                 <Width>7.63549in</Width>
                 <ZIndex>1</ZIndex>
@@ -3376,6 +3357,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 </TablixRowHierarchy>
                 <DataSetName>LocationDetailQuery1</DataSetName>
                 <Top>0.69683in</Top>
+                <Left>0.0002in</Left>
                 <Height>1.2in</Height>
                 <Width>7.63549in</Width>
                 <ZIndex>2</ZIndex>
@@ -3408,52 +3390,6 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                     </TablixColumn>
                   </TablixColumns>
                   <TablixRows>
-                    <TablixRow>
-                      <Height>0.2in</Height>
-                      <TablixCells>
-                        <TablixCell>
-                          <CellContents>
-                            <Textbox Name="type2">
-                              <CanGrow>true</CanGrow>
-                              <KeepTogether>true</KeepTogether>
-                              <Paragraphs>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value>="Rates for " &amp; Fields!type.Value &amp; " at " &amp; Fields!service_address_street.Value &amp; ": " &amp; "Local " &amp; Microsoft.VisualBasic.Strings.FormatCurrency(Fields!local.Value, 2) &amp; ", intralata " &amp; Microsoft.VisualBasic.Strings.FormatCurrency(Fields!intra_lata.Value, 2) &amp; ", intrastate " &amp; Microsoft.VisualBasic.Strings.FormatCurrency(Fields!intra_state.Value, 2) &amp; ", interstate " &amp; Microsoft.VisualBasic.Strings.FormatCurrency(Fields!inter_state.Value, 2) &amp; ", and toll-free " &amp; Microsoft.VisualBasic.Strings.FormatCurrency(Fields!toll_free_interstate.Value, 2) &amp; "."</Value>
-                                      <Style>
-                                        <FontSize>8pt</FontSize>
-                                        <Format>'$'0.00;('$'0.00)</Format>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style>
-                                    <TextAlign>Left</TextAlign>
-                                  </Style>
-                                </Paragraph>
-                              </Paragraphs>
-                              <rd:DefaultName>type</rd:DefaultName>
-                              <Style>
-                                <Border>
-                                  <Style>None</Style>
-                                </Border>
-                                <PaddingLeft>2pt</PaddingLeft>
-                                <PaddingRight>2pt</PaddingRight>
-                                <PaddingTop>2pt</PaddingTop>
-                                <PaddingBottom>2pt</PaddingBottom>
-                                <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
-                              </Style>
-                            </Textbox>
-                            <ColSpan>6</ColSpan>
-                          </CellContents>
-                        </TablixCell>
-                        <TablixCell />
-                        <TablixCell />
-                        <TablixCell />
-                        <TablixCell />
-                        <TablixCell />
-                      </TablixCells>
-                    </TablixRow>
                     <TablixRow>
                       <Height>0.2in</Height>
                       <TablixCells>
@@ -3513,8 +3449,484 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 </TablixColumnHierarchy>
                 <TablixRowHierarchy>
                   <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixRowHierarchy>
+                <KeepTogether>true</KeepTogether>
+                <DataSetName>UsageTableDataSet</DataSetName>
+                <Top>2.51111in</Top>
+                <Left>0.0002in</Left>
+                <Height>0.2in</Height>
+                <Width>7.63549in</Width>
+                <ZIndex>3</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Tablix>
+              <Tablix Name="Tablix6">
+                <TablixBody>
+                  <TablixColumns>
+                    <TablixColumn>
+                      <Width>2.08807in</Width>
+                    </TablixColumn>
+                    <TablixColumn>
+                      <Width>0.79865in</Width>
+                    </TablixColumn>
+                    <TablixColumn>
+                      <Width>0.98427in</Width>
+                    </TablixColumn>
+                    <TablixColumn>
+                      <Width>1in</Width>
+                    </TablixColumn>
+                    <TablixColumn>
+                      <Width>0.93206in</Width>
+                    </TablixColumn>
+                    <TablixColumn>
+                      <Width>0.94988in</Width>
+                    </TablixColumn>
+                  </TablixColumns>
+                  <TablixRows>
+                    <TablixRow>
+                      <Height>0.2in</Height>
+                      <TablixCells>
+                        <TablixCell>
+                          <CellContents>
+                            <Textbox Name="Textbox20">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!service_address_street.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox20</rd:DefaultName>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
+                            <Textbox Name="Textbox25">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>Local</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox21</rd:DefaultName>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
+                            <Textbox Name="Textbox26">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>Intralata</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox22</rd:DefaultName>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
+                            <Textbox Name="Textbox38">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>Intrastate</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox38</rd:DefaultName>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
+                            <Textbox Name="Textbox28">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>Interstate</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox23</rd:DefaultName>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
+                            <Textbox Name="Textbox30">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>Toll-Free</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox24</rd:DefaultName>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                      </TablixCells>
+                    </TablixRow>
+                    <TablixRow>
+                      <Height>0.2in</Height>
+                      <TablixCells>
+                        <TablixCell>
+                          <CellContents>
+                            <Textbox Name="type">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!type.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <Format>'$'0.00;('$'0.00)</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>type</rd:DefaultName>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
+                            <Textbox Name="Textbox76">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!local.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <Format>'$'0.000;('$'0.000)</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox76</rd:DefaultName>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
+                            <Textbox Name="Textbox78">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!intra_lata.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <Format>'$'0.000;('$'0.000)</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox78</rd:DefaultName>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
+                            <Textbox Name="Textbox39">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!intra_state.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <Format>'$'0.000;('$'0.000)</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox39</rd:DefaultName>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
+                            <Textbox Name="Textbox72">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!inter_state.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <Format>'$'0.000;('$'0.000)</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox72</rd:DefaultName>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
+                            <Textbox Name="Textbox74">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!toll_free_interstate.Value</Value>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <Format>'$'0.000;('$'0.000)</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox74</rd:DefaultName>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                      </TablixCells>
+                    </TablixRow>
+                  </TablixRows>
+                </TablixBody>
+                <TablixColumnHierarchy>
+                  <TablixMembers>
+                    <TablixMember />
+                    <TablixMember />
+                    <TablixMember />
+                    <TablixMember />
+                    <TablixMember />
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixColumnHierarchy>
+                <TablixRowHierarchy>
+                  <TablixMembers>
                     <TablixMember>
-                      <Group Name="type2">
+                      <Group Name="type">
                         <GroupExpressions>
                           <GroupExpression>=Fields!service_address_street.Value</GroupExpression>
                         </GroupExpressions>
@@ -3526,7 +3938,10 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                       </SortExpressions>
                       <TablixMembers>
                         <TablixMember>
-                          <Group Name="Details2">
+                          <KeepWithGroup>After</KeepWithGroup>
+                        </TablixMember>
+                        <TablixMember>
+                          <Group Name="Details1">
                             <GroupExpressions>
                               <GroupExpression>=Fields!type.Value</GroupExpression>
                             </GroupExpressions>
@@ -3537,18 +3952,14 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                         </TablixMember>
                       </TablixMembers>
                     </TablixMember>
-                    <TablixMember>
-                      <KeepWithGroup>Before</KeepWithGroup>
-                    </TablixMember>
                   </TablixMembers>
                 </TablixRowHierarchy>
-                <KeepTogether>true</KeepTogether>
                 <DataSetName>UsageTableDataSet</DataSetName>
-                <Top>2.00833in</Top>
-                <Left>0in</Left>
+                <Top>2.04167in</Top>
+                <Left>0.31851in</Left>
                 <Height>0.4in</Height>
-                <Width>7.63549in</Width>
-                <ZIndex>3</ZIndex>
+                <Width>6.75293in</Width>
+                <ZIndex>4</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -3558,10 +3969,10 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </ReportItems>
             <PageName>PSA</PageName>
             <KeepTogether>true</KeepTogether>
-            <Top>0.29304in</Top>
-            <Left>0.47588in</Left>
-            <Height>2.40833in</Height>
-            <Width>7.63549in</Width>
+            <Top>0.06944in</Top>
+            <Left>0.47569in</Left>
+            <Height>2.71111in</Height>
+            <Width>7.63569in</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -3570,7 +3981,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Rectangle>
         </ReportItems>
-        <Height>42.16795in</Height>
+        <Height>42.1753in</Height>
         <Style />
       </Body>
       <Width>8.5in</Width>
