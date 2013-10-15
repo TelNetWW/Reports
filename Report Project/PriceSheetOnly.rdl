@@ -2778,21 +2778,6 @@ product_templates.name like '%polycom%'</CommandText>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
-            <Image Name="CoverFootImage">
-              <Source>Embedded</Source>
-              <Value>coverfootpart1clean</Value>
-              <Sizing>FitProportional</Sizing>
-              <Height>1in</Height>
-              <Width>8.5in</Width>
-              <Visibility>
-                <Hidden>=IIF(Globals!PageNumber = 1,False,True)</Hidden>
-              </Visibility>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-              </Style>
-            </Image>
             <Textbox Name="FooterProposalNumber">
               <CanGrow>true</CanGrow>
               <KeepTogether>true</KeepTogether>
@@ -2827,10 +2812,6 @@ product_templates.name like '%polycom%'</CommandText>
               <Left>0.50001in</Left>
               <Height>0.25in</Height>
               <Width>2in</Width>
-              <ZIndex>1</ZIndex>
-              <Visibility>
-                <Hidden>=IIF(Globals!PageNumber = 1, True, False)</Hidden>
-              </Visibility>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2866,10 +2847,7 @@ product_templates.name like '%polycom%'</CommandText>
               <Left>6.75001in</Left>
               <Height>0.25in</Height>
               <Width>1.5in</Width>
-              <ZIndex>2</ZIndex>
-              <Visibility>
-                <Hidden>=IIF(Globals!PageNumber = 1, True, False)</Hidden>
-              </Visibility>
+              <ZIndex>1</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2887,10 +2865,7 @@ product_templates.name like '%polycom%'</CommandText>
               <Top>0.375in</Top>
               <Height>0.5in</Height>
               <Width>8.5in</Width>
-              <ZIndex>3</ZIndex>
-              <Visibility>
-                <Hidden>=IIF(Globals!PageNumber = 1, True, False)</Hidden>
-              </Visibility>
+              <ZIndex>2</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
