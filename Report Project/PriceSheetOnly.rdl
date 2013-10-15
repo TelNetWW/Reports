@@ -2724,10 +2724,8 @@ product_templates.name like '%polycom%'</CommandText>
                 </Style>
               </Rectangle>
             </ReportItems>
-            <PageBreak>
-              <BreakLocation>Start</BreakLocation>
-            </PageBreak>
             <PageName>Page4</PageName>
+            <KeepTogether>true</KeepTogether>
             <Top>0.0473in</Top>
             <Left>0.16001in</Left>
             <Height>4.55181in</Height>
