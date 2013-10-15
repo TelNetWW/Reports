@@ -565,7 +565,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>MASTER SERVICE AGREEMENT (MSA)</Value>
+                        <Value />
                         <Style>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>12pt</FontSize>
@@ -2210,7 +2210,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>PRODUCT SERVICE AGREEMENT (PSA)</Value>
+                        <Value>MASTER SERVICE AGREEMENT (MSA)</Value>
                         <Style>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>12pt</FontSize>
