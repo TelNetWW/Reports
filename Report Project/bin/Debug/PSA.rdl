@@ -3,10 +3,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="DataSource1">
-      <ConnectionProperties>
-        <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=10.10.50.59;Initial Catalog=sugarcrmqa</ConnectString>
-      </ConnectionProperties>
+      <DataSourceReference>DataSource1</DataSourceReference>
       <rd:SecurityType>DataBase</rd:SecurityType>
       <rd:DataSourceID>cf3d34df-41df-494f-ba12-f86b3fd229f3</rd:DataSourceID>
     </DataSource>
@@ -1197,8 +1194,8 @@ WHERE        (q_u_r_c.quote_id IN
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox8</rd:DefaultName>
-                <Left>0.01063in</Left>
-                <Height>8.74306in</Height>
+                <Left>0.14583in</Left>
+                <Height>8.49306in</Height>
                 <Width>7.60871in</Width>
                 <Style>
                   <Border>
@@ -1216,10 +1213,10 @@ WHERE        (q_u_r_c.quote_id IN
             </PageBreak>
             <PageName>MSA</PageName>
             <KeepTogether>true</KeepTogether>
-            <Top>33.43224in</Top>
-            <Left>0.46526in</Left>
-            <Height>8.74306in</Height>
-            <Width>7.61934in</Width>
+            <Top>33.82629in</Top>
+            <Left>0.249in</Left>
+            <Height>8.50873in</Height>
+            <Width>7.84114in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1228,271 +1225,6 @@ WHERE        (q_u_r_c.quote_id IN
           </Rectangle>
           <Rectangle Name="rectangle6">
             <ReportItems>
-              <Textbox Name="textbox36">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>PURCHASE ORDER TERMS &amp; CONDITIONS</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Center</TextAlign>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>textbox36</rd:DefaultName>
-                <Top>0.125in</Top>
-                <Left>0.61217in</Left>
-                <Height>0.25in</Height>
-                <Width>6.35417in</Width>
-                <Style>
-                  <BottomBorder>
-                    <Color>Black</Color>
-                    <Style>Solid</Style>
-                    <Width>1pt</Width>
-                  </BottomBorder>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox37">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>In addition to the general terms and conditions contained in the Master Service Agreement (“MSA”) and the Product Service Agreement (“PSA”) between TelNet and Customer (the “Agreement”), of which this Purchase Order is a part, the following terms and conditions apply to the purchase of the Product, as defined below. In the event of any inconsistency between the Agreement and this Schedule, this Schedule shall control.
-
-1.             PURCHASE OF PRODUCT &amp; PRICE
-Customer is purchasing from TelNet the equipment described on the attached PSA (“Product”). Customer shall pay all amounts due under the PSA, in accordance to the payment terms set forth in the Agreement. If Customer does not pay in accordance to the payment terms, late payment charges will be billed in the amount of 1.5% of the total overdue amount or the maximum lawful rate allowable, whichever is less. Customer also agrees to pay all reasonable costs and expenses involved in the collection of the amounts due, including but not limited to, attorney fees, expenses, court costs and service charges. Customer also agrees to pay all applicable handling charges, interest charges, shipping charges, insurance charges, cancellation fees or restocking fees, or any applicable sales, excise, use, property and similar taxes (other than income taxes on payments made by Customer to TelNet under this Agreement) and related charges that may be imposed or assessed by any governmental entity or taxing authority with respect to such Product. 
-
-2.             CANCELLATION POLICY
-The following cancellation policy shall apply to the Product purchased by Customer:</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>textbox37</rd:DefaultName>
-                <Top>0.5in</Top>
-                <Left>0.61217in</Left>
-                <Height>2.625in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>1</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox40">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>A.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>3.13542in</Top>
-                <Left>0.86217in</Left>
-                <Height>0.61458in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>2</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox41">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Pre-Shipment: If Customer cancels any portion of the Product order prior to the shipment date, Customer agrees to pay a liquidated damage in the amount totaling 15% of the canceled order amount, plus any cancelation or restocking fees imposed on TelNet by the applicable equipment manufacturer. Customer agrees that this cancelation charge is a true measure of the damage to TelNet and is not a penalty charge.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>3.125in</Top>
-                <Left>1.11217in</Left>
-                <Height>0.625in</Height>
-                <Width>5.85417in</Width>
-                <ZIndex>3</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox42">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>B.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>3.75in</Top>
-                <Left>0.86217in</Left>
-                <Height>1.25in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>4</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox43">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Post-Shipment: If Customer cancels any portion of the Product order after shipment has occurred but prior to installation of the Product, Customer shall receive a credit for the invoice amount of the cancelled Product minus (a) a liquidated damage in the amount totaling 15% of the canceled order amount, minus (b) any cancelation or restocking fees imposed on TelNet by the applicable equipment manufacturer, and minus (c) the shipping charges, both original and return, associated with the canceled Product. Customer agrees that this cancelation charge is a true measure of the damage to TelNet and is not a penalty charge.
-If Customer cancels any portion of the Product order after shipment and installation has occurred, Customer shall not be entitled to receive a credit on the returned Product under any circumstances.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>3.75in</Top>
-                <Left>1.11217in</Left>
-                <Height>1.25in</Height>
-                <Width>5.85417in</Width>
-                <ZIndex>5</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox44">
-                <CanShrink>true</CanShrink>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>WITH RESPECT TO THE PRODUCTS PURCHASED FROM TELNET HEREUNDER IS AS SET FORTH IN THE LIMITED WARRANTY DELIVERED WITH THE PRODUCTS FROM THE EQUIPMENT MANUFACTURER. THESE WARRANTIES AND LIMITATIONS FROM THE EQUIPMENT MANUFACTURER ARE CUSTOMER’S EXCLUSIVE WARRANTIES AND SOLE REMEDIES AND REPLACE ALL OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, WITH RESPECT TO EQUIPMENT AND SERVICES, INCLUING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
-
-6.             LIMITATION OF LIABILITY
-IN NO EVENT WILL TELNET BE LIABLE TO CUSTOMER OR ANY THIRD PARTY, IN CONTRACT, TORT OR OTHERWISE, FOR ANY LOSS OF PROFITS OR BUSINESS, OR ANY INCIDENTAL, SPECIAL, INDIRECT, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES, ARISING FROM OR AS A RESULT OF THESE CONTRACT TERMS OR ANY AGREEMENT BETWEEN THE PARTIES RELATING TO THE PRODUCTS, SERVICES OR DELIVERABLES TELNET PROVIDES, EVEN IF TELNET HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 
-
-7.             RETURN
-If Customer is required to return any Product to TelNet for any warranty service, Customer agrees to obtain TelNet’s concurrence prior to returning the Product. Customer agrees to reference any Return Material Authorization Number (RMA Number) issued by TelNet on all paperwork or documentation accompanying the returned Product. Customer further agrees to ship the Product pre-paid and suitably packaged to the TelNet specified location. Any returned product becomes the property of TelNet and, subject to TelNet’s receipt of the exchanged Product, the replacement becomes Customers property. Customer agrees to ensure that any returned Product is free from any and all legal obligations or restrictions that may prevent its exchange and represents that all returned Products are genuine and unaltered. The replacement Product may not be new, but will be in working order and equivalent to the item exchanged as determined in good faith by TelNet. Additional terms and conditions for the return of Product can be found in the General Terms and Conditions located on the TelNet website and are made a part of the Agreement.
-
-8.             MISCELLANEOUS
-TelNet and Customer agree that the terms and conditions set forth in this Agreement govern Customers order for any and all Product(s) listed on the PSA. Any other terms and conditions, preprinted or otherwise, accompanying any Customer order for the Product and/or service are hereby rejected by TelNet and have no legal effect.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>9.25in</Top>
-                <Left>0.61217in</Left>
-                <Height>4in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>6</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox46">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>3.             ENVIRONMENT &amp; DELIVERY
-Customer agrees, at its sole expense, to provide the proper environment and electrical and telecommunications connections for the Product such as, but not limited to, ensuring appropriate power supply and surge protection is used. Customer is solely responsible for correcting any hazardous conditions that may adversely affect Product. TelNet shall use commercially reasonable efforts to complete the delivery of the Products in advance of the installation date requested by customer, but TelNet does not guarantee that it will be able to do so. If Customer is unable or unwilling to schedule or accept delivery or installation on the date that TelNet tenders delivery or installation, TelNet shall have the right to initiate billing for the amounts due hereunder as of the date that delivery or installation was tendered. Product prices and Installation or Service charges are subject to change at TelNet’s sole discretion if Customer delays delivery or installation by more than thirty (30) days.
-
-4.             TITLE, RISK OF LOSS &amp; SECURITY INTEREST
-Title to the Product ordered by Customer shall pass to Customer upon payment in full of all invoiced amounts. Until TelNet receives the full amount due hereunder from the Customer, Customer grants to TelNet a continuing purchase money security interest in the Products ordered under this Agreement, and Customer agrees to support TelNet in the perfection of such security interest. Risk or loss or damage to the Product shall pass from TelNet to Customer upon initial delivery by TelNet or its suppliers to the delivery carrier (“FOB Origin”). Customer agrees to pay all transportation, handling, insurance and associated charges, including but not limited to, additional charges for non-standard shipment. TelNet shall use commercially reasonable efforts to meet Customer’s requested delivery dates, but TelNet does not guarantee any delivery dates. Customer shall be solely responsible to coordinate all delivery arrangements necessary to comply with project schedule date
-
-5.             WARRANTY &amp; DISCLAIMERS
-THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, TELNET DISCLAIMS AND EXCLUDES ALL REPRESENTATIONS, WARRANTIES AND CONDITIONS, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO REPRESENTATIONS, WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, SATISFACTORY CONDITION OR QUALITY, MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE, WITH RESPECT TO ANY SERVICES, OR OTHER MATERIALS OR INFORMATION PROVIDED BY TELNET. TELNET WARRANTS ONLY THAT ITS SERVICES SHALL BE PERFORMED IN A TIMELY, PROFESSIONAL AND WORKMANLIKE MANNER BY QUALIFIED PERSONNEL. IF SERVICES ARE NOT PERFORMED AS WARRANTED, AND CUSTOMER NOTIFIES TELNET IN WRITING WITHIN THIRTY (30) DAYS, CUSTOMERS EXCLUSIVE REMEDY SHALL BE FOR TELNET TO RE-PERFORM THE NOON-CONFORMING SERVICES. CUSTOMERS EXCLUSIVE REMEDY</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>textbox46</rd:DefaultName>
-                <Top>5in</Top>
-                <Left>0.61217in</Left>
-                <Height>4.25in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>7</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
               <Rectangle Name="rectangle3">
                 <ReportItems>
                   <Textbox Name="textbox55">
@@ -1516,6 +1248,7 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
                       </Paragraph>
                     </Paragraphs>
                     <Top>0.13542in</Top>
+                    <Left>0.01063in</Left>
                     <Height>0.25in</Height>
                     <Width>7.60871in</Width>
                     <Style>
@@ -1569,7 +1302,7 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                       </Paragraph>
                     </Paragraphs>
                     <Top>0.51042in</Top>
-                    <Left>0.59091in</Left>
+                    <Left>0.60154in</Left>
                     <Height>8.75in</Height>
                     <Width>6.35417in</Width>
                     <ZIndex>1</ZIndex>
@@ -1598,7 +1331,7 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                       </Paragraph>
                     </Paragraphs>
                     <Top>10.51042in</Top>
-                    <Left>0.84091in</Left>
+                    <Left>0.85154in</Left>
                     <Height>0.25in</Height>
                     <Width>0.25in</Width>
                     <ZIndex>2</ZIndex>
@@ -1627,7 +1360,7 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                       </Paragraph>
                     </Paragraphs>
                     <Top>10.51042in</Top>
-                    <Left>1.09091in</Left>
+                    <Left>1.10154in</Left>
                     <Height>0.25in</Height>
                     <Width>5.85417in</Width>
                     <ZIndex>3</ZIndex>
@@ -1656,7 +1389,7 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                       </Paragraph>
                     </Paragraphs>
                     <Top>11.26042in</Top>
-                    <Left>0.84091in</Left>
+                    <Left>0.85154in</Left>
                     <Height>1.25in</Height>
                     <Width>0.25in</Width>
                     <ZIndex>4</ZIndex>
@@ -1685,7 +1418,7 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                       </Paragraph>
                     </Paragraphs>
                     <Top>11.26042in</Top>
-                    <Left>1.09091in</Left>
+                    <Left>1.10154in</Left>
                     <Height>1.25in</Height>
                     <Width>5.85417in</Width>
                     <ZIndex>5</ZIndex>
@@ -1716,7 +1449,7 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                       </Paragraph>
                     </Paragraphs>
                     <Top>16.88542in</Top>
-                    <Left>0.60154in</Left>
+                    <Left>0.61217in</Left>
                     <Height>0.25in</Height>
                     <Width>6.35417in</Width>
                     <ZIndex>6</ZIndex>
@@ -1749,7 +1482,7 @@ TelNet shall provide routine maintenance and repairs to the Equipment as TelNet 
                       </Paragraph>
                     </Paragraphs>
                     <Top>12.51042in</Top>
-                    <Left>0.59091in</Left>
+                    <Left>0.60154in</Left>
                     <Height>0.25in</Height>
                     <Width>6.35417in</Width>
                     <ZIndex>7</ZIndex>
@@ -1781,7 +1514,7 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                       </Paragraph>
                     </Paragraphs>
                     <Top>9.26042in</Top>
-                    <Left>0.59091in</Left>
+                    <Left>0.60154in</Left>
                     <Height>1.25in</Height>
                     <Width>6.35417in</Width>
                     <ZIndex>8</ZIndex>
@@ -1810,7 +1543,7 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                       </Paragraph>
                     </Paragraphs>
                     <Top>10.76042in</Top>
-                    <Left>1.09091in</Left>
+                    <Left>1.10154in</Left>
                     <Height>0.25in</Height>
                     <Width>0.25in</Width>
                     <ZIndex>9</ZIndex>
@@ -1839,7 +1572,7 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                       </Paragraph>
                     </Paragraphs>
                     <Top>10.76042in</Top>
-                    <Left>1.34091in</Left>
+                    <Left>1.35154in</Left>
                     <Height>0.25in</Height>
                     <Width>5.60417in</Width>
                     <ZIndex>10</ZIndex>
@@ -1868,7 +1601,7 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                       </Paragraph>
                     </Paragraphs>
                     <Top>11.01042in</Top>
-                    <Left>1.09091in</Left>
+                    <Left>1.10154in</Left>
                     <Height>0.25in</Height>
                     <Width>0.25in</Width>
                     <ZIndex>11</ZIndex>
@@ -1897,7 +1630,7 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                       </Paragraph>
                     </Paragraphs>
                     <Top>11.01042in</Top>
-                    <Left>1.34091in</Left>
+                    <Left>1.35154in</Left>
                     <Height>0.25in</Height>
                     <Width>5.60417in</Width>
                     <ZIndex>12</ZIndex>
@@ -1926,7 +1659,7 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                       </Paragraph>
                     </Paragraphs>
                     <Top>12.76042in</Top>
-                    <Left>0.84091in</Left>
+                    <Left>0.85154in</Left>
                     <Height>0.625in</Height>
                     <Width>0.25in</Width>
                     <ZIndex>13</ZIndex>
@@ -1955,7 +1688,7 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                       </Paragraph>
                     </Paragraphs>
                     <Top>12.76042in</Top>
-                    <Left>1.09091in</Left>
+                    <Left>1.10154in</Left>
                     <Height>0.625in</Height>
                     <Width>5.85417in</Width>
                     <ZIndex>14</ZIndex>
@@ -1984,7 +1717,7 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                       </Paragraph>
                     </Paragraphs>
                     <Top>13.38542in</Top>
-                    <Left>0.84091in</Left>
+                    <Left>0.85154in</Left>
                     <Height>0.5in</Height>
                     <Width>0.25in</Width>
                     <ZIndex>15</ZIndex>
@@ -2013,7 +1746,7 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                       </Paragraph>
                     </Paragraphs>
                     <Top>13.38542in</Top>
-                    <Left>1.09091in</Left>
+                    <Left>1.10154in</Left>
                     <Height>0.5in</Height>
                     <Width>5.85417in</Width>
                     <ZIndex>16</ZIndex>
@@ -2042,7 +1775,7 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                       </Paragraph>
                     </Paragraphs>
                     <Top>13.88542in</Top>
-                    <Left>0.84091in</Left>
+                    <Left>0.85154in</Left>
                     <Height>0.875in</Height>
                     <Width>0.25in</Width>
                     <ZIndex>17</ZIndex>
@@ -2071,7 +1804,7 @@ At the end of the term of this Rental, Customer shall, at Customer’s own expen
                       </Paragraph>
                     </Paragraphs>
                     <Top>13.88542in</Top>
-                    <Left>1.09091in</Left>
+                    <Left>1.10154in</Left>
                     <Height>0.875in</Height>
                     <Width>5.85417in</Width>
                     <ZIndex>18</ZIndex>
@@ -2104,7 +1837,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                       </Paragraph>
                     </Paragraphs>
                     <Top>14.76042in</Top>
-                    <Left>0.59091in</Left>
+                    <Left>0.60154in</Left>
                     <Height>2.125in</Height>
                     <Width>6.35417in</Width>
                     <ZIndex>19</ZIndex>
@@ -2119,10 +1852,8 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <KeepTogether>true</KeepTogether>
                 <DataElementOutput>ContentsOnly</DataElementOutput>
                 <Top>13.41905in</Top>
-                <Left>0.01063in</Left>
                 <Height>17.13542in</Height>
-                <Width>7.63549in</Width>
-                <ZIndex>8</ZIndex>
+                <Width>7.64612in</Width>
                 <Visibility>
                   <Hidden>=CBool((Parameters!hasRental.Value)) = False</Hidden>
                 </Visibility>
@@ -2132,12 +1863,278 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                   </Border>
                 </Style>
               </Rectangle>
+              <Textbox Name="textbox36">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>PURCHASE ORDER TERMS &amp; CONDITIONS</Value>
+                        <Style>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>12pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>textbox36</rd:DefaultName>
+                <Top>0.125in</Top>
+                <Left>0.61217in</Left>
+                <Height>0.25in</Height>
+                <Width>6.35417in</Width>
+                <ZIndex>1</ZIndex>
+                <Style>
+                  <BottomBorder>
+                    <Color>Black</Color>
+                    <Style>Solid</Style>
+                    <Width>1pt</Width>
+                  </BottomBorder>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="textbox37">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>In addition to the general terms and conditions contained in the Master Service Agreement (“MSA”) and the Product Service Agreement (“PSA”) between TelNet and Customer (the “Agreement”), of which this Purchase Order is a part, the following terms and conditions apply to the purchase of the Product, as defined below. In the event of any inconsistency between the Agreement and this Schedule, this Schedule shall control.
+
+1.             PURCHASE OF PRODUCT &amp; PRICE
+Customer is purchasing from TelNet the equipment described on the attached PSA (“Product”). Customer shall pay all amounts due under the PSA, in accordance to the payment terms set forth in the Agreement. If Customer does not pay in accordance to the payment terms, late payment charges will be billed in the amount of 1.5% of the total overdue amount or the maximum lawful rate allowable, whichever is less. Customer also agrees to pay all reasonable costs and expenses involved in the collection of the amounts due, including but not limited to, attorney fees, expenses, court costs and service charges. Customer also agrees to pay all applicable handling charges, interest charges, shipping charges, insurance charges, cancellation fees or restocking fees, or any applicable sales, excise, use, property and similar taxes (other than income taxes on payments made by Customer to TelNet under this Agreement) and related charges that may be imposed or assessed by any governmental entity or taxing authority with respect to such Product. 
+
+2.             CANCELLATION POLICY
+The following cancellation policy shall apply to the Product purchased by Customer:</Value>
+                        <Style>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>textbox37</rd:DefaultName>
+                <Top>0.5in</Top>
+                <Left>0.61217in</Left>
+                <Height>2.625in</Height>
+                <Width>6.35417in</Width>
+                <ZIndex>2</ZIndex>
+                <Style>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="textbox40">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>A.</Value>
+                        <Style>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <Top>3.13542in</Top>
+                <Left>0.86217in</Left>
+                <Height>0.61458in</Height>
+                <Width>0.25in</Width>
+                <ZIndex>3</ZIndex>
+                <Style>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="textbox41">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Pre-Shipment: If Customer cancels any portion of the Product order prior to the shipment date, Customer agrees to pay a liquidated damage in the amount totaling 15% of the canceled order amount, plus any cancelation or restocking fees imposed on TelNet by the applicable equipment manufacturer. Customer agrees that this cancelation charge is a true measure of the damage to TelNet and is not a penalty charge.</Value>
+                        <Style>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <Top>3.125in</Top>
+                <Left>1.11217in</Left>
+                <Height>0.625in</Height>
+                <Width>5.85417in</Width>
+                <ZIndex>4</ZIndex>
+                <Style>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="textbox42">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>B.</Value>
+                        <Style>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <Top>3.75in</Top>
+                <Left>0.86217in</Left>
+                <Height>1.25in</Height>
+                <Width>0.25in</Width>
+                <ZIndex>5</ZIndex>
+                <Style>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="textbox43">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Post-Shipment: If Customer cancels any portion of the Product order after shipment has occurred but prior to installation of the Product, Customer shall receive a credit for the invoice amount of the cancelled Product minus (a) a liquidated damage in the amount totaling 15% of the canceled order amount, minus (b) any cancelation or restocking fees imposed on TelNet by the applicable equipment manufacturer, and minus (c) the shipping charges, both original and return, associated with the canceled Product. Customer agrees that this cancelation charge is a true measure of the damage to TelNet and is not a penalty charge.
+If Customer cancels any portion of the Product order after shipment and installation has occurred, Customer shall not be entitled to receive a credit on the returned Product under any circumstances.</Value>
+                        <Style>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <Top>3.75in</Top>
+                <Left>1.11217in</Left>
+                <Height>1.25in</Height>
+                <Width>5.85417in</Width>
+                <ZIndex>6</ZIndex>
+                <Style>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="textbox44">
+                <CanShrink>true</CanShrink>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>WITH RESPECT TO THE PRODUCTS PURCHASED FROM TELNET HEREUNDER IS AS SET FORTH IN THE LIMITED WARRANTY DELIVERED WITH THE PRODUCTS FROM THE EQUIPMENT MANUFACTURER. THESE WARRANTIES AND LIMITATIONS FROM THE EQUIPMENT MANUFACTURER ARE CUSTOMER’S EXCLUSIVE WARRANTIES AND SOLE REMEDIES AND REPLACE ALL OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, WITH RESPECT TO EQUIPMENT AND SERVICES, INCLUING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+6.             LIMITATION OF LIABILITY
+IN NO EVENT WILL TELNET BE LIABLE TO CUSTOMER OR ANY THIRD PARTY, IN CONTRACT, TORT OR OTHERWISE, FOR ANY LOSS OF PROFITS OR BUSINESS, OR ANY INCIDENTAL, SPECIAL, INDIRECT, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES, ARISING FROM OR AS A RESULT OF THESE CONTRACT TERMS OR ANY AGREEMENT BETWEEN THE PARTIES RELATING TO THE PRODUCTS, SERVICES OR DELIVERABLES TELNET PROVIDES, EVEN IF TELNET HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 
+
+7.             RETURN
+If Customer is required to return any Product to TelNet for any warranty service, Customer agrees to obtain TelNet’s concurrence prior to returning the Product. Customer agrees to reference any Return Material Authorization Number (RMA Number) issued by TelNet on all paperwork or documentation accompanying the returned Product. Customer further agrees to ship the Product pre-paid and suitably packaged to the TelNet specified location. Any returned product becomes the property of TelNet and, subject to TelNet’s receipt of the exchanged Product, the replacement becomes Customers property. Customer agrees to ensure that any returned Product is free from any and all legal obligations or restrictions that may prevent its exchange and represents that all returned Products are genuine and unaltered. The replacement Product may not be new, but will be in working order and equivalent to the item exchanged as determined in good faith by TelNet. Additional terms and conditions for the return of Product can be found in the General Terms and Conditions located on the TelNet website and are made a part of the Agreement.
+
+8.             MISCELLANEOUS
+TelNet and Customer agree that the terms and conditions set forth in this Agreement govern Customers order for any and all Product(s) listed on the PSA. Any other terms and conditions, preprinted or otherwise, accompanying any Customer order for the Product and/or service are hereby rejected by TelNet and have no legal effect.</Value>
+                        <Style>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <Top>9.25in</Top>
+                <Left>0.61217in</Left>
+                <Height>4in</Height>
+                <Width>6.35417in</Width>
+                <ZIndex>7</ZIndex>
+                <Style>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="textbox46">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>3.             ENVIRONMENT &amp; DELIVERY
+Customer agrees, at its sole expense, to provide the proper environment and electrical and telecommunications connections for the Product such as, but not limited to, ensuring appropriate power supply and surge protection is used. Customer is solely responsible for correcting any hazardous conditions that may adversely affect Product. TelNet shall use commercially reasonable efforts to complete the delivery of the Products in advance of the installation date requested by customer, but TelNet does not guarantee that it will be able to do so. If Customer is unable or unwilling to schedule or accept delivery or installation on the date that TelNet tenders delivery or installation, TelNet shall have the right to initiate billing for the amounts due hereunder as of the date that delivery or installation was tendered. Product prices and Installation or Service charges are subject to change at TelNet’s sole discretion if Customer delays delivery or installation by more than thirty (30) days.
+
+4.             TITLE, RISK OF LOSS &amp; SECURITY INTEREST
+Title to the Product ordered by Customer shall pass to Customer upon payment in full of all invoiced amounts. Until TelNet receives the full amount due hereunder from the Customer, Customer grants to TelNet a continuing purchase money security interest in the Products ordered under this Agreement, and Customer agrees to support TelNet in the perfection of such security interest. Risk or loss or damage to the Product shall pass from TelNet to Customer upon initial delivery by TelNet or its suppliers to the delivery carrier (“FOB Origin”). Customer agrees to pay all transportation, handling, insurance and associated charges, including but not limited to, additional charges for non-standard shipment. TelNet shall use commercially reasonable efforts to meet Customer’s requested delivery dates, but TelNet does not guarantee any delivery dates. Customer shall be solely responsible to coordinate all delivery arrangements necessary to comply with project schedule date
+
+5.             WARRANTY &amp; DISCLAIMERS
+THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, TELNET DISCLAIMS AND EXCLUDES ALL REPRESENTATIONS, WARRANTIES AND CONDITIONS, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO REPRESENTATIONS, WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, SATISFACTORY CONDITION OR QUALITY, MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE, WITH RESPECT TO ANY SERVICES, OR OTHER MATERIALS OR INFORMATION PROVIDED BY TELNET. TELNET WARRANTS ONLY THAT ITS SERVICES SHALL BE PERFORMED IN A TIMELY, PROFESSIONAL AND WORKMANLIKE MANNER BY QUALIFIED PERSONNEL. IF SERVICES ARE NOT PERFORMED AS WARRANTED, AND CUSTOMER NOTIFIES TELNET IN WRITING WITHIN THIRTY (30) DAYS, CUSTOMERS EXCLUSIVE REMEDY SHALL BE FOR TELNET TO RE-PERFORM THE NOON-CONFORMING SERVICES. CUSTOMERS EXCLUSIVE REMEDY</Value>
+                        <Style>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>textbox46</rd:DefaultName>
+                <Top>5in</Top>
+                <Left>0.61217in</Left>
+                <Height>4.25in</Height>
+                <Width>6.35417in</Width>
+                <ZIndex>8</ZIndex>
+                <Style>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
             <Top>3.20238in</Top>
             <Left>0.48143in</Left>
-            <Height>30.55446in</Height>
+            <Height>30.55447in</Height>
             <Width>7.64612in</Width>
             <ZIndex>1</ZIndex>
             <Visibility>
@@ -2173,7 +2170,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 </Paragraphs>
                 <rd:DefaultName>account_name1</rd:DefaultName>
                 <Top>0.2882in</Top>
-                <Left>0.02677in</Left>
+                <Left>0.08105in</Left>
                 <Height>0.25in</Height>
                 <Width>7.60872in</Width>
                 <Style>
@@ -2207,7 +2204,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox1</rd:DefaultName>
-                <Left>0.02677in</Left>
+                <Left>0.08105in</Left>
                 <Height>0.21875in</Height>
                 <Width>7.63549in</Width>
                 <ZIndex>1</ZIndex>
@@ -2396,7 +2393,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>Monthly</Value>
+                                      <Value>        Monthly</Value>
                                       <Style>
                                         <FontFamily>Verdana</FontFamily>
                                         <FontSize>8pt</FontSize>
@@ -2433,7 +2430,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>Non Recurring</Value>
+                                      <Value>                Non Recurring</Value>
                                       <Style>
                                         <FontFamily>Verdana</FontFamily>
                                         <FontSize>8pt</FontSize>
@@ -2863,7 +2860,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                       <Style>
                                         <FontFamily>Verdana</FontFamily>
                                         <FontSize>8pt</FontSize>
-                                        <Format>'$'0.00;('$'0.00)</Format>
+                                        <Format>'$'#,0.00;('$'#,0.00)</Format>
                                       </Style>
                                     </TextRun>
                                   </TextRuns>
@@ -3360,9 +3357,9 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 </TablixRowHierarchy>
                 <DataSetName>LocationDetailQuery1</DataSetName>
                 <Top>0.69683in</Top>
-                <Left>0.02677in</Left>
+                <Left>0.08105in</Left>
                 <Height>1.2in</Height>
-                <Width>7.63549in</Width>
+                <Width>7.63547in</Width>
                 <ZIndex>2</ZIndex>
                 <Style>
                   <Border>
@@ -3405,9 +3402,23 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>="Unless specified, prices do not include shipping charges, regulatory fees, applicable taxes, administrative/service fees, professional services, or other time and material charges. For additional terms and conditions go to www.telnetww.com"</Value>
+                                      <Value>Unless specified, prices do not include shipping charges, regulatory fees, applicable taxes, administrative/service fees, professional services, or other time and material charges. For additional terms and conditions go to </Value>
                                       <Style>
                                         <FontSize>8pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>www.telnetww.com</Value>
+                                      <ActionInfo>
+                                        <Actions>
+                                          <Action>
+                                            <Hyperlink>http://www.telnetww.com</Hyperlink>
+                                          </Action>
+                                        </Actions>
+                                      </ActionInfo>
+                                      <Style>
+                                        <FontSize>8pt</FontSize>
+                                        <TextDecoration>Underline</TextDecoration>
                                       </Style>
                                     </TextRun>
                                   </TextRuns>
@@ -3458,6 +3469,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <KeepTogether>true</KeepTogether>
                 <DataSetName>UsageTableDataSet</DataSetName>
                 <Top>2.86349in</Top>
+                <Left>0.05428in</Left>
                 <Height>0.2in</Height>
                 <Width>7.63549in</Width>
                 <ZIndex>3</ZIndex>
@@ -3958,9 +3970,9 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 </TablixRowHierarchy>
                 <DataSetName>UsageTableDataSet</DataSetName>
                 <Top>2.39405in</Top>
-                <Left>0.02678in</Left>
+                <Left>0.08106in</Left>
                 <Height>0.4in</Height>
-                <Width>7.63549in</Width>
+                <Width>7.63548in</Width>
                 <ZIndex>4</ZIndex>
                 <Style>
                   <Border>
@@ -3972,13 +3984,13 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <TablixBody>
                   <TablixColumns>
                     <TablixColumn>
-                      <Width>5.18929in</Width>
+                      <Width>4.09283in</Width>
                     </TablixColumn>
                     <TablixColumn>
-                      <Width>1.27034in</Width>
+                      <Width>1.08031in</Width>
                     </TablixColumn>
                     <TablixColumn>
-                      <Width>1.17589in</Width>
+                      <Width>2.46238in</Width>
                     </TablixColumn>
                   </TablixColumns>
                   <TablixRows>
@@ -4039,7 +4051,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>One Time</Value>
+                                      <Value>Total Monthly</Value>
                                       <Style>
                                         <FontFamily>Verdana</FontFamily>
                                         <FontSize>8pt</FontSize>
@@ -4086,7 +4098,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>Total Monthly</Value>
+                                      <Value>One Time</Value>
                                       <Style>
                                         <FontFamily>Verdana</FontFamily>
                                         <FontSize>8pt</FontSize>
@@ -4182,12 +4194,12 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=SUM(Fields!total.Value)</Value>
+                                      <Value>=SUM(Fields!monthly_total.Value)</Value>
                                       <Style>
                                         <FontFamily>Verdana</FontFamily>
                                         <FontSize>8pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
-                                        <Format>'$'0.00;('$'0.00)</Format>
+                                        <Format>'$'#,0.00;('$'#,0.00)</Format>
                                       </Style>
                                     </TextRun>
                                   </TextRuns>
@@ -4202,19 +4214,11 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                   <Color>LightGrey</Color>
                                   <Style>None</Style>
                                 </Border>
-                                <BottomBorder>
-                                  <Style>None</Style>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Style>None</Style>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Style>None</Style>
-                                </RightBorder>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
                                 <PaddingTop>2pt</PaddingTop>
                                 <PaddingBottom>2pt</PaddingBottom>
+                                <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                               </Style>
                             </Textbox>
                           </CellContents>
@@ -4228,12 +4232,12 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=SUM(Fields!monthly_total.Value)</Value>
+                                      <Value>=SUM(Fields!total.Value)</Value>
                                       <Style>
                                         <FontFamily>Verdana</FontFamily>
                                         <FontSize>8pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
-                                        <Format>'$'0.00;('$'0.00)</Format>
+                                        <Format>'$'#,0.00;('$'#,0.00)</Format>
                                       </Style>
                                     </TextRun>
                                   </TextRuns>
@@ -4248,19 +4252,11 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                                   <Color>LightGrey</Color>
                                   <Style>None</Style>
                                 </Border>
-                                <BottomBorder>
-                                  <Style>None</Style>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Style>None</Style>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Style>None</Style>
-                                </RightBorder>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
                                 <PaddingTop>2pt</PaddingTop>
                                 <PaddingBottom>2pt</PaddingBottom>
+                                <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                               </Style>
                             </Textbox>
                           </CellContents>
@@ -4293,7 +4289,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <KeepTogether>true</KeepTogether>
                 <DataSetName>LocationDetailQuery1</DataSetName>
                 <Top>1.9246in</Top>
-                <Left>0.04292in</Left>
+                <Left>0.0972in</Left>
                 <Height>0.4in</Height>
                 <Width>7.63552in</Width>
                 <ZIndex>5</ZIndex>
@@ -4319,9 +4315,9 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             <PageName>PSA</PageName>
             <KeepTogether>true</KeepTogether>
             <Top>0.06944in</Top>
-            <Left>0.44911in</Left>
+            <Left>0.39483in</Left>
             <Height>3.06349in</Height>
-            <Width>7.67844in</Width>
+            <Width>7.73272in</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -4330,7 +4326,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </Style>
           </Rectangle>
         </ReportItems>
-        <Height>42.1753in</Height>
+        <Height>42.33503in</Height>
         <Style />
       </Body>
       <Width>8.5in</Width>

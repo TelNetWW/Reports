@@ -5,20 +5,9 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="DataSource1">
-      <ConnectionProperties>
-        <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=10.10.50.59;Initial Catalog=sugarcrmqa</ConnectString>
-      </ConnectionProperties>
+      <DataSourceReference>DataSource1</DataSourceReference>
       <rd:SecurityType>DataBase</rd:SecurityType>
       <rd:DataSourceID>90cfbcd3-fdea-4d17-bd30-43e649f4f37d</rd:DataSourceID>
-    </DataSource>
-    <DataSource Name="Dev">
-      <ConnectionProperties>
-        <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=10.10.50.59;Initial Catalog=SugarCRM</ConnectString>
-      </ConnectionProperties>
-      <rd:SecurityType>DataBase</rd:SecurityType>
-      <rd:DataSourceID>a550a397-1518-4f03-a5f3-e196f144cd0e</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
@@ -1371,9 +1360,16 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>="Unless specified, prices do not include shipping charges, regulatory fees, applicable taxes, administrative/service fees, professional services, or other time and material charges. For additional terms and conditions go to www.telnetww.com"</Value>
+                                          <Value>Unless specified, prices do not include shipping charges, regulatory fees, applicable taxes, administrative/service fees, professional services, or other time and material charges. For additional terms and conditions go to </Value>
                                           <Style>
                                             <FontSize>8pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                        <TextRun>
+                                          <Value>www.telnetww.com</Value>
+                                          <Style>
+                                            <FontSize>8pt</FontSize>
+                                            <TextDecoration>Underline</TextDecoration>
                                           </Style>
                                         </TextRun>
                                       </TextRuns>

@@ -5,20 +5,9 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="DataSource1">
-      <ConnectionProperties>
-        <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=10.10.50.59;Initial Catalog=sugarcrmqa</ConnectString>
-      </ConnectionProperties>
-      <rd:SecurityType>DataBase</rd:SecurityType>
-      <rd:DataSourceID>90cfbcd3-fdea-4d17-bd30-43e649f4f37d</rd:DataSourceID>
-    </DataSource>
-    <DataSource Name="Dev">
-      <ConnectionProperties>
-        <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=10.10.50.59;Initial Catalog=SugarCRM</ConnectString>
-      </ConnectionProperties>
-      <rd:SecurityType>DataBase</rd:SecurityType>
-      <rd:DataSourceID>a550a397-1518-4f03-a5f3-e196f144cd0e</rd:DataSourceID>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>e4987a6e-e881-47ee-8d33-d79f422d6db8</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
@@ -4768,7 +4757,6 @@ product_templates.name like '%polycom%'</CommandText>
                                     <PaddingBottom>2pt</PaddingBottom>
                                   </Style>
                                 </Textbox>
-                                <rd:Selected>true</rd:Selected>
                               </CellContents>
                             </TablixCell>
                             <TablixCell>
@@ -5461,7 +5449,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <Width>7.63548in</Width>
                     <ZIndex>1</ZIndex>
                     <Visibility>
-                      <Hidden>=IIF(CountRows() &gt; ABS(0),False,True)</Hidden>
+                      <Hidden>=IIF(SUM(Fields!discount_price.Value) &gt; ABS(0),False,True)</Hidden>
                     </Visibility>
                     <Style>
                       <Border>
@@ -5518,9 +5506,16 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>="Unless specified, prices do not include shipping charges, regulatory fees, applicable taxes, administrative/service fees, professional services, or other time and material charges. For additional terms and conditions go to www.telnetww.com"</Value>
+                                          <Value>Unless specified, prices do not include shipping charges, regulatory fees, applicable taxes, administrative/service fees, professional services, or other time and material charges. For additional terms and conditions go to </Value>
                                           <Style>
                                             <FontSize>8pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                        <TextRun>
+                                          <Value>www.telnetww.com</Value>
+                                          <Style>
+                                            <FontSize>8pt</FontSize>
+                                            <TextDecoration>Underline</TextDecoration>
                                           </Style>
                                         </TextRun>
                                       </TextRuns>
@@ -5570,8 +5565,8 @@ product_templates.name like '%polycom%'</CommandText>
                     </TablixRowHierarchy>
                     <KeepTogether>true</KeepTogether>
                     <DataSetName>UsageTableDataSet</DataSetName>
-                    <Top>1.8843in</Top>
-                    <Left>0.14183in</Left>
+                    <Top>1.90513in</Top>
+                    <Left>0.1418in</Left>
                     <Height>0.2in</Height>
                     <Width>7.63549in</Width>
                     <ZIndex>2</ZIndex>
@@ -6071,7 +6066,7 @@ product_templates.name like '%polycom%'</CommandText>
                       </TablixMembers>
                     </TablixRowHierarchy>
                     <DataSetName>UsageTableDataSet</DataSetName>
-                    <Top>1.36298in</Top>
+                    <Top>1.38381in</Top>
                     <Left>0.14181in</Left>
                     <Height>0.4in</Height>
                     <Width>7.63548in</Width>
@@ -6088,7 +6083,7 @@ product_templates.name like '%polycom%'</CommandText>
                 </PageBreak>
                 <Top>2.55084in</Top>
                 <Left>0.22267in</Left>
-                <Height>2.0843in</Height>
+                <Height>2.21972in</Height>
                 <Width>7.88999in</Width>
                 <Style>
                   <Border>
@@ -7206,7 +7201,7 @@ product_templates.name like '%polycom%'</CommandText>
 	IIF(First(Fields!contact_name.Value, "DataSet1") &lt;&gt; "", 
 		Trim(First(Fields!contact_name.Value, "DataSet1")) + ","
 	, 
-		Trim(First(Fields!account_name.Value, "DataSet1"))) + ","</Value>
+		Trim(First(Fields!account_name.Value, "DataSet1")) + "," )</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
