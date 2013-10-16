@@ -548,6 +548,98 @@ WHERE        (q_u_r_c.quote_id IN
         </Field>
       </Fields>
     </DataSet>
+    <DataSet Name="SummaryQuery">
+      <SharedDataSet>
+        <SharedDataSetReference>SummaryQuery</SharedDataSetReference>
+        <QueryParameters>
+          <QueryParameter Name="@Param2">
+            <Value>=Parameters!Param2.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+      </SharedDataSet>
+      <Fields>
+        <Field Name="account_name">
+          <DataField>account_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="billing_address_street">
+          <DataField>billing_address_street</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="billing_address_city">
+          <DataField>billing_address_city</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="billing_address_state">
+          <DataField>billing_address_state</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="billing_address_postalcode">
+          <DataField>billing_address_postalcode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="additional_message">
+          <DataField>additional_message</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="paragraph_choice">
+          <DataField>paragraph_choice</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="quote_num">
+          <DataField>quote_num</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="deal_tot">
+          <DataField>deal_tot</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="total">
+          <DataField>total</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="service_address_street">
+          <DataField>service_address_street</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="service_address_city">
+          <DataField>service_address_city</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="service_address_state">
+          <DataField>service_address_state</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="service_address_postalcode">
+          <DataField>service_address_postalcode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="monthly_total">
+          <DataField>monthly_total</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="id">
+          <DataField>id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="account_id">
+          <DataField>account_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="description2_c">
+          <DataField>description2_c</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="description">
+          <DataField>description</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="name">
+          <DataField>name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
   </DataSets>
   <ReportSections>
     <ReportSection>
@@ -4287,7 +4379,7 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
                   </TablixMembers>
                 </TablixRowHierarchy>
                 <KeepTogether>true</KeepTogether>
-                <DataSetName>LocationDetailQuery1</DataSetName>
+                <DataSetName>SummaryQuery</DataSetName>
                 <Top>1.9246in</Top>
                 <Left>0.0972in</Left>
                 <Height>0.4in</Height>

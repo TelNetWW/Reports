@@ -7,7 +7,12 @@
       <FullPath>DataSource1.rds</FullPath>
     </ProjectItem>
   </DataSources>
-  <DataSets />
+  <DataSets>
+    <ProjectItem>
+      <Name>SummaryQuery.rsd</Name>
+      <FullPath>SummaryQuery.rsd</FullPath>
+    </ProjectItem>
+  </DataSets>
   <Reports>
     <ProjectItem>
       <Name>911.rdl</Name>

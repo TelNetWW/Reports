@@ -111,27 +111,14 @@ WHERE        (proposal_cstm.id = @Param2)</CommandText>
       </Fields>
     </DataSet>
     <DataSet Name="SummaryQuery">
-      <Query>
-        <DataSourceName>DataSource1</DataSourceName>
+      <SharedDataSet>
+        <SharedDataSetReference>SummaryQuery</SharedDataSetReference>
         <QueryParameters>
           <QueryParameter Name="@Param2">
             <Value>=Parameters!Param2.Value</Value>
           </QueryParameter>
         </QueryParameters>
-        <CommandText>SELECT        accounts.name AS account_name, accounts.billing_address_street, accounts.billing_address_city, accounts.billing_address_state, 
-                         accounts.billing_address_postalcode, proposal_cstm.additional_message, proposal_cstm.paragraph_choice, quotes.quote_num, quotes.deal_tot, quotes.total, 
-                         service_addresses_cstm.service_address_street, service_addresses_cstm.service_address_city, service_addresses_cstm.service_address_state, 
-                         service_addresses_cstm.service_address_postalcode, quotes_cstm.monthly_total_c AS monthly_total, accounts.id, service_addresses_cstm.account_id, 
-                         product_types_cstm.description2_c, product_types.description, product_types.name
-FROM            product_types INNER JOIN
-                         product_types_cstm ON product_types.id = product_types_cstm.id_c INNER JOIN
-                         quotes INNER JOIN
-                         quotes_cstm ON quotes.id = quotes_cstm.id_c INNER JOIN
-                         proposal_cstm ON quotes_cstm.proposal_id_c = proposal_cstm.id INNER JOIN
-                         accounts ON quotes_cstm.account_id_c = accounts.id INNER JOIN
-                         service_addresses_cstm ON quotes_cstm.service_address_id_c = service_addresses_cstm.id ON product_types.id = quotes_cstm.product_type_id_c
-WHERE        (proposal_cstm.id = @Param2)</CommandText>
-      </Query>
+      </SharedDataSet>
       <Fields>
         <Field Name="account_name">
           <DataField>account_name</DataField>
