@@ -4479,9 +4479,9 @@ product_templates.name like '%polycom%'</CommandText>
                   </Textbox>
                   <Image Name="AgentLogoPage1">
                     <Source>External</Source>
-                    <Value>="http://10.10.50.59/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
+                    <Value>="http://10.10.50.59/Portal/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
                     <Sizing>FitProportional</Sizing>
-                    <Top>3.42375in</Top>
+                    <Top>3.01988in</Top>
                     <Left>0.25in</Left>
                     <Height>0.75in</Height>
                     <Width>2in</Width>
@@ -4819,7 +4819,6 @@ product_templates.name like '%polycom%'</CommandText>
                                     <PaddingBottom>2pt</PaddingBottom>
                                   </Style>
                                 </Textbox>
-                                <rd:Selected>true</rd:Selected>
                               </CellContents>
                             </TablixCell>
                             <TablixCell>
@@ -7050,7 +7049,7 @@ product_templates.name like '%polycom%'</CommandText>
                       <TextRun>
                         <Value>="To" + chr(58) + " " + 
 	IIF(First(Fields!contact_name.Value, "DataSet1") &lt;&gt; "", 
-		Trim(First(Fields!contact_name.Value, "DataSet1")) + ", " + Trim(First(Fields!account_name.Value, "DataSet1"))
+		Trim(First(Fields!contact_name.Value, "DataSet1")) + ","
 	, 
 		Trim(First(Fields!account_name.Value, "DataSet1"))) + ","</Value>
                         <Style>
@@ -7242,17 +7241,17 @@ product_templates.name like '%polycom%'</CommandText>
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
-              <Image Name="LetterLogo">
-                <Source>Embedded</Source>
-                <Value>="http://10.10.50.59/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
+              <Image Name="AgentLogoPage2">
+                <Source>External</Source>
+                <Value>="http://10.10.50.59/Portal/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
                 <Sizing>FitProportional</Sizing>
-                <Top>4.18356in</Top>
+                <Top>3.96528in</Top>
                 <Left>0.22267in</Left>
                 <Height>0.75in</Height>
                 <Width>2in</Width>
                 <ZIndex>3</ZIndex>
                 <Visibility>
-                  <Hidden>=IIF(First(Fields!Logo.Value, "UserDefaults") &lt;&gt; "", False, True)</Hidden>
+                  <Hidden>=Microsoft.VisualBasic.Interaction.IIF(First(Fields!Logo.Value, "UserDefaults") &lt;&gt; "", False, True)</Hidden>
                 </Visibility>
                 <Style>
                   <Border>
@@ -7403,6 +7402,7 @@ product_templates.name like '%polycom%'</CommandText>
               <Source>Embedded</Source>
               <Value>coverfootpart1clean</Value>
               <Sizing>FitProportional</Sizing>
+              <Top>0in</Top>
               <Height>1in</Height>
               <Width>8.5in</Width>
               <Visibility>
@@ -7445,6 +7445,7 @@ product_templates.name like '%polycom%'</CommandText>
                   </Style>
                 </Paragraph>
               </Paragraphs>
+              <Top>0in</Top>
               <Left>0.50001in</Left>
               <Height>0.25in</Height>
               <Width>2in</Width>
@@ -7484,6 +7485,7 @@ product_templates.name like '%polycom%'</CommandText>
                   </Style>
                 </Paragraph>
               </Paragraphs>
+              <Top>0in</Top>
               <Left>6.75001in</Left>
               <Height>0.25in</Height>
               <Width>1.5in</Width>
