@@ -4569,13 +4569,13 @@ product_templates.name like '%polycom%'</CommandText>
                     <TablixBody>
                       <TablixColumns>
                         <TablixColumn>
-                          <Width>5.11704in</Width>
+                          <Width>5.18929in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>1.31428in</Width>
+                          <Width>1.27034in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>1.20421in</Width>
+                          <Width>1.17589in</Width>
                         </TablixColumn>
                       </TablixColumns>
                       <TablixRows>
@@ -4610,6 +4610,9 @@ product_templates.name like '%polycom%'</CommandText>
                                       <Color>LightGrey</Color>
                                       <Style>None</Style>
                                     </Border>
+                                    <BottomBorder>
+                                      <Style>Solid</Style>
+                                    </BottomBorder>
                                     <LeftBorder>
                                       <Style>None</Style>
                                     </LeftBorder>
@@ -4633,7 +4636,7 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>=SUM(Fields!total.Value)</Value>
+                                          <Value>One Time</Value>
                                           <Style>
                                             <FontFamily>Verdana</FontFamily>
                                             <FontSize>8pt</FontSize>
@@ -4653,6 +4656,9 @@ product_templates.name like '%polycom%'</CommandText>
                                       <Color>LightGrey</Color>
                                       <Style>None</Style>
                                     </Border>
+                                    <BottomBorder>
+                                      <Style>Solid</Style>
+                                    </BottomBorder>
                                     <LeftBorder>
                                       <Style>None</Style>
                                     </LeftBorder>
@@ -4677,7 +4683,7 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>=SUM(Fields!monthly_total.Value)</Value>
+                                          <Value>Total Monthly</Value>
                                           <Style>
                                             <FontFamily>Verdana</FontFamily>
                                             <FontSize>8pt</FontSize>
@@ -4697,6 +4703,152 @@ product_templates.name like '%polycom%'</CommandText>
                                       <Color>LightGrey</Color>
                                       <Style>None</Style>
                                     </Border>
+                                    <BottomBorder>
+                                      <Style>Solid</Style>
+                                    </BottomBorder>
+                                    <LeftBorder>
+                                      <Style>None</Style>
+                                    </LeftBorder>
+                                    <RightBorder>
+                                      <Style>None</Style>
+                                    </RightBorder>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                              </CellContents>
+                            </TablixCell>
+                          </TablixCells>
+                        </TablixRow>
+                        <TablixRow>
+                          <Height>0.2in</Height>
+                          <TablixCells>
+                            <TablixCell>
+                              <CellContents>
+                                <Textbox Name="Textbox1">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value />
+                                          <Style>
+                                            <FontFamily>Verdana</FontFamily>
+                                            <FontSize>8pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox1</rd:DefaultName>
+                                  <Style>
+                                    <Border>
+                                      <Color>LightGrey</Color>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <BottomBorder>
+                                      <Style>None</Style>
+                                    </BottomBorder>
+                                    <LeftBorder>
+                                      <Style>None</Style>
+                                    </LeftBorder>
+                                    <RightBorder>
+                                      <Style>None</Style>
+                                    </RightBorder>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <rd:Selected>true</rd:Selected>
+                              </CellContents>
+                            </TablixCell>
+                            <TablixCell>
+                              <CellContents>
+                                <Textbox Name="Textbox2">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=SUM(Fields!total.Value)</Value>
+                                          <Style>
+                                            <FontFamily>Verdana</FontFamily>
+                                            <FontSize>8pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                            <Format>'$'0.00;('$'0.00)</Format>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Right</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox2</rd:DefaultName>
+                                  <Style>
+                                    <Border>
+                                      <Color>LightGrey</Color>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <BottomBorder>
+                                      <Style>None</Style>
+                                    </BottomBorder>
+                                    <LeftBorder>
+                                      <Style>None</Style>
+                                    </LeftBorder>
+                                    <RightBorder>
+                                      <Style>None</Style>
+                                    </RightBorder>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                              </CellContents>
+                            </TablixCell>
+                            <TablixCell>
+                              <CellContents>
+                                <Textbox Name="Textbox3">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=SUM(Fields!monthly_total.Value)</Value>
+                                          <Style>
+                                            <FontFamily>Verdana</FontFamily>
+                                            <FontSize>8pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                            <Format>'$'0.00;('$'0.00)</Format>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Right</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox3</rd:DefaultName>
+                                  <Style>
+                                    <Border>
+                                      <Color>LightGrey</Color>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <BottomBorder>
+                                      <Style>None</Style>
+                                    </BottomBorder>
                                     <LeftBorder>
                                       <Style>None</Style>
                                     </LeftBorder>
@@ -4731,14 +4883,17 @@ product_templates.name like '%polycom%'</CommandText>
                             </GroupExpressions>
                           </Group>
                         </TablixMember>
+                        <TablixMember>
+                          <KeepWithGroup>Before</KeepWithGroup>
+                        </TablixMember>
                       </TablixMembers>
                     </TablixRowHierarchy>
                     <KeepTogether>true</KeepTogether>
                     <DataSetName>SummaryQuery</DataSetName>
-                    <Top>0.98392in</Top>
+                    <Top>0.86934in</Top>
                     <Left>0.14182in</Left>
-                    <Height>0.2in</Height>
-                    <Width>7.63553in</Width>
+                    <Height>0.4in</Height>
+                    <Width>7.63552in</Width>
                     <Style>
                       <Border>
                         <Color>DimGray</Color>
