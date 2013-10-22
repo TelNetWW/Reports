@@ -4355,12 +4355,7 @@ product_templates.name like '%polycom%'</CommandText>
                       <Paragraph>
                         <TextRuns>
                           <TextRun>
-                            <Value>=IIF(First(Fields!contact_name.Value, "DataSet1") &lt;&gt; "", 
-	Trim(First(Fields!contact_name.Value, "DataSet1")) &amp; VBCRLF  &amp; 
-	Trim(First(Fields!account_name.Value, "DataSet1"))
-, 
-	Trim(First(Fields!account_name.Value, "DataSet1"))
-)</Value>
+                            <Value>=Trim(First(Fields!account_name.Value, "DataSet1"))</Value>
                             <Style>
                               <FontStyle>Normal</FontStyle>
                               <FontFamily>Myriad Pro</FontFamily>
@@ -4397,7 +4392,8 @@ product_templates.name like '%polycom%'</CommandText>
                       <Paragraph>
                         <TextRuns>
                           <TextRun>
-                            <Value>=First(Fields!billing_address_street.Value, "DataSet1") + vbcrlf 
+                            <Value>=First(Fields!contact_name.Value, "DataSet1") + vbcrlf 
++ First(Fields!billing_address_street.Value, "DataSet1") + vbcrlf 
 + Trim(First(Fields!billing_address_city.Value, "DataSet1")) + ", " + Trim(First(Fields!billing_address_state.Value, "DataSet1")) + " " + Trim(First(Fields!billing_address_postalcode.Value, "DataSet1")) + vbcrlf 
 + vbcrlf + vbcrlf  + "Presented by: " + vbcrlf 
 + Trim(First(Fields!agent_firstname.Value, "DataSet1")) + " " + Trim(First(Fields!agent_lastname.Value, "DataSet1")) + vbcrlf + "TelNet Worldwide" + vbcrlf 
