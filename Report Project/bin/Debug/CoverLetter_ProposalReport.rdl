@@ -12,25 +12,14 @@
   </DataSources>
   <DataSets>
     <DataSet Name="DataSet1">
-      <Query>
-        <DataSourceName>DataSource1</DataSourceName>
+      <SharedDataSet>
+        <SharedDataSetReference>DataSet1</SharedDataSetReference>
         <QueryParameters>
           <QueryParameter Name="@Param2">
             <Value>=Parameters!Param2.Value</Value>
           </QueryParameter>
         </QueryParameters>
-        <CommandText>  SELECT        accounts.name AS account_name, accounts.billing_address_street, accounts.billing_address_city, accounts.billing_address_state, 
-                         accounts.billing_address_postalcode, proposal_cstm.additional_message, proposal_cstm.paragraph_choice, quotes.quote_num, quotes.deal_tot, quotes.total, 
-                         p.FirstName AS agent_firstname, p.LastName AS agent_lastname, p.Email AS agent_email, 
-                        p.Phone AS agent_phone, proposal_cstm.contact_name, proposal_cstm.agent_name, proposal_cstm.company_name, 
-                         proposal_cstm.email_address, proposal_cstm.phone_number
-FROM            quotes INNER JOIN
-                         quotes_cstm ON quotes.id = quotes_cstm.id_c INNER JOIN
-                         proposal_cstm ON quotes_cstm.proposal_id_c = proposal_cstm.id INNER JOIN
-                         accounts ON quotes_cstm.account_id_c = accounts.id INNER JOIN
-                         [Cantillion].[Compass].dbo.Person p ON quotes_cstm.user_id_c = p.PersonID
-WHERE        (proposal_cstm.id = @Param2)</CommandText>
-      </Query>
+      </SharedDataSet>
       <Fields>
         <Field Name="account_name">
           <DataField>account_name</DataField>
@@ -740,493 +729,6 @@ product_templates.name like '%polycom%'</CommandText>
         <ReportItems>
           <Rectangle Name="Page2">
             <ReportItems>
-              <Textbox Name="txtWhyTelNetEssential">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Why TelNet is right for you</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>20pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#4f81bd</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>20pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#4f81bd</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>0.1in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>14pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>TelNet Worldwide is a comprehensive, next-generation provider of essential business communications services and solutions including converged voice, data, and connectivity as well as cloud-based services.  We offer products and services that add value and help businesses achieve more every day. </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>0.5in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>14pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>0.5in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>14pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>We know you have myriad choices when it comes to telecommunications. Choose TelNet and you are assured that your service will be well designed, well delivered and well supported to help you gain a competitive advantage.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>0.5in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>14pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>0.5in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>14pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Your solution suits you!</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>18pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>0.5in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>14pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>18pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>0.5in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>14pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>TelNet OfficeEdge Essential</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#4f81bd</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve"> </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>Integrated Access is your dynamic cost-saving voice and data communication solution that works with your current phone system – it offers great calling features and dynamically adjusts to your use for optimal efficiency.  Here are just a few more advantages of TelNet’s solution:</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>0.5in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value xml:space="preserve">     </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Times New Roman</FontFamily>
-                          <FontSize>7pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>» Flexible and Scalable </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>so you can easily size your services by adding bandwidth, locations, valuable features and cloud-based applications when you need them to keep pace with business today.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>1in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>16pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>1in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>16pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>» World class, fully redundant, fiber optic network </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>delivers highly reliable service.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <ListLevel>1</ListLevel>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>» Gain control</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve"> </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>11pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>of costs and your time with productivity-enhancing services, online tools and self-managed features.
- </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>0.25in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <ListLevel>1</ListLevel>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>» Inherent Disaster Recovery</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve"> </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>with multiple call routing options for redundancy so your voice traffic is easily diverted for business continuity.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>1in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <ListLevel>1</ListLevel>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>1in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>» Our services free you up to focus on core business</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value> – TelNet takes much of the burden out of managing your voice and data services which allows you to spend less time managing your telecom services and more time with your customers and team.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>1in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <ListLevel>1</ListLevel>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>16pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <Top>0.67584in</Top>
-                <Left>0.25001in</Left>
-                <Height>6.59375in</Height>
-                <Width>7.50925in</Width>
-                <Visibility>
-                  <Hidden>=IIf(First(Fields!product_name.Value, "LocationDetailQuery1") = "OfficeEdge Essential", False, True)</Hidden>
-                </Visibility>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                  <BackgroundColor>White</BackgroundColor>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
               <Textbox Name="txtWhyTelNetComplete">
                 <CanGrow>true</CanGrow>
                 <KeepTogether>true</KeepTogether>
@@ -1444,7 +946,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Flexible and Scalable </Value>
+                        <Value>»  Flexible and Scalable </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -1497,7 +999,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» World class, fully redundant, fiber optic network </Value>
+                        <Value>»  World class, fully redundant, fiber optic network </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -1569,7 +1071,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Gain control</Value>
+                        <Value>»  Gain control</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -1613,7 +1115,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Inherent Disaster Recovery</Value>
+                        <Value>»  Inherent Disaster Recovery</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -1676,7 +1178,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Our services free you up to focus on core business</Value>
+                        <Value>»  Our services free you up to focus on core business</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -1710,7 +1212,6 @@ product_templates.name like '%polycom%'</CommandText>
                 <Left>0.2615in</Left>
                 <Height>7.02083in</Height>
                 <Width>7.48596in</Width>
-                <ZIndex>1</ZIndex>
                 <Visibility>
                   <Hidden>=IIf(First(Fields!product_name.Value, "LocationDetailQuery1") = "OfficeEdge Complete", False, True)</Hidden>
                 </Visibility>
@@ -1953,7 +1454,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>» Flexible and Scalable </Value>
+                        <Value>»  Flexible and Scalable </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -2006,7 +1507,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» World class, fully redundant, fiber optic network </Value>
+                        <Value>»  World class, fully redundant, fiber optic network </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -2080,7 +1581,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Gain control</Value>
+                        <Value>»  Gain control</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -2124,7 +1625,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Inherent Disaster Recovery</Value>
+                        <Value>»  Inherent Disaster Recovery</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -2187,7 +1688,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Our services free you up to focus on core business</Value>
+                        <Value>»  Our services free you up to focus on core business</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -2221,7 +1722,7 @@ product_templates.name like '%polycom%'</CommandText>
                 <Left>0.2733in</Left>
                 <Height>6.875in</Height>
                 <Width>7.50925in</Width>
-                <ZIndex>2</ZIndex>
+                <ZIndex>1</ZIndex>
                 <Visibility>
                   <Hidden>=IIf(First(Fields!product_name.Value, "LocationDetailQuery1") = "OfficeEdge SIP Trunking", False, True)</Hidden>
                 </Visibility>
@@ -2466,7 +1967,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>so you can easily size your services by adding bandwidth and locations to keep pace with business today.</Value>
+                        <Value>so you can easily size your services by adding bandwidth       and locations to keep pace with business today.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -2684,7 +2185,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value> – TelNet takes much of the burden out of managing your data services.</Value>
+                        <Value> – TelNet takes  much of the burden out of managing your data services.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -2707,7 +2208,7 @@ product_templates.name like '%polycom%'</CommandText>
                 <Left>0.2733in</Left>
                 <Height>5.59375in</Height>
                 <Width>7.48596in</Width>
-                <ZIndex>3</ZIndex>
+                <ZIndex>2</ZIndex>
                 <Visibility>
                   <Hidden>=IIf(First(Fields!product_name.Value, "LocationDetailQuery1") = "OfficeEdge Internet", False, True)</Hidden>
                 </Visibility>
@@ -2943,7 +2444,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Consistent, crystal clear digital call quality </Value>
+                        <Value>»  Consistent, crystal clear digital call quality </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -2998,7 +2499,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Improve office productivity and savings</Value>
+                        <Value>»  Improve office productivity and savings</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -3063,7 +2564,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Our services free you up to focus on core business</Value>
+                        <Value>»  Our services free you up to focus on core business</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -3097,7 +2598,7 @@ product_templates.name like '%polycom%'</CommandText>
                 <Left>0.2615in</Left>
                 <Height>6.75in</Height>
                 <Width>7.21875in</Width>
-                <ZIndex>4</ZIndex>
+                <ZIndex>3</ZIndex>
                 <Visibility>
                   <Hidden>=IIf(First(Fields!product_name.Value, "LocationDetailQuery1") = "PRI", False, True)</Hidden>
                 </Visibility>
@@ -3331,7 +2832,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Flexible and Scalable </Value>
+                        <Value>»  Flexible and Scalable </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -3407,7 +2908,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» World class, fully redundant, fiber optic network </Value>
+                        <Value>»  World class, fully redundant, fiber optic network </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -3482,7 +2983,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Gain control</Value>
+                        <Value>»  Gain control</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -3546,7 +3047,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» 24/7 system</Value>
+                        <Value>»  24/7 system</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -3619,7 +3120,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» In-depth quality reporting</Value>
+                        <Value>»  In-depth quality reporting</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -3683,7 +3184,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Secure private network</Value>
+                        <Value>»  Secure private network</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -3747,7 +3248,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Inherent Disaster Recovery</Value>
+                        <Value>»  Inherent Disaster Recovery</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -3811,7 +3312,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Our services free you up to focus on core business </Value>
+                        <Value>»  Our services free you up to focus on core business </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -3822,7 +3323,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>TelNet takes much of the burden out of managing your voice and data services which allows you to spend less time managing your telecom services and more time with your customers and team.</Value>
+                        <Value>TelNet takes much of the burden out of managing your voice and data services which allows you to spend less time managing your telecom services and more time with your customers and team. </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -3845,7 +3346,7 @@ product_templates.name like '%polycom%'</CommandText>
                 <Left>0.25in</Left>
                 <Height>8.61459in</Height>
                 <Width>7.34375in</Width>
-                <ZIndex>5</ZIndex>
+                <ZIndex>4</ZIndex>
                 <Visibility>
                   <Hidden>=IIf(First(Fields!product_name.Value, "LocationDetailQuery1") = "MPLS", False, True)</Hidden>
                 </Visibility>
@@ -4075,7 +3576,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Flexible and Scalable </Value>
+                        <Value>»  Flexible and Scalable </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -4128,7 +3629,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Secure private network</Value>
+                        <Value>»  Secure private network</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -4192,7 +3693,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» World class, fully redundant, fiber optic network </Value>
+                        <Value>»  World class, fully redundant, fiber optic network </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -4267,7 +3768,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Our services free you up to focus on core business</Value>
+                        <Value>»  Our services free you up to focus on core business</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -4301,9 +3802,486 @@ product_templates.name like '%polycom%'</CommandText>
                 <Left>0.25001in</Left>
                 <Height>8.5in</Height>
                 <Width>7.50925in</Width>
-                <ZIndex>6</ZIndex>
+                <ZIndex>5</ZIndex>
                 <Visibility>
                   <Hidden>=IIf(First(Fields!product_name.Value, "LocationDetailQuery1") = "Access" , False, True)</Hidden>
+                </Visibility>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <BackgroundColor>White</BackgroundColor>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="txtWhyTelNetEssential">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Why TelNet is right for you</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>20pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#4f81bd</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>20pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#4f81bd</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.1in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>14pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>TelNet Worldwide is a comprehensive, next-generation provider of essential business communications services and solutions including converged voice, data, and connectivity as well as cloud-based services.  We offer products and services that add value and help businesses achieve more every day. </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.5in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>14pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.5in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>14pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>We know you have myriad choices when it comes to telecommunications. Choose TelNet and you are assured that your service will be well designed, well delivered and well supported to help you gain a competitive advantage.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.5in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>14pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.5in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>14pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Your solution suits you!</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>18pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.5in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>14pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>18pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.5in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>14pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>TelNet OfficeEdge Essential</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#4f81bd</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Integrated Access is your dynamic cost-saving voice and data communication solution that works with your current phone system – it offers great calling features and dynamically adjusts to your use for optimal efficiency.  Here are just a few more advantages of TelNet’s solution:</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.5in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  Flexible and Scalable </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>so you can easily size your services by adding bandwidth, locations, valuable features and cloud-based applications when you need them to keep pace with business today.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>16pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>16pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  World class, fully redundant, fiber optic network </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>delivers highly reliable service.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  Gain control</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>11pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>of costs and your time with productivity-enhancing services, online tools and self-managed features.
+ </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.25in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  Inherent Disaster Recovery</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>12pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>with multiple call routing options for redundancy so your voice traffic is easily diverted for business continuity.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>1in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  Our services free you up to focus on core business</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value> – TelNet takes much of the burden out of managing your voice and data services which allows you to spend less time managing your telecom services and more time with your customers and team.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>16pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <Top>0.67584in</Top>
+                <Left>0.25001in</Left>
+                <Height>6.59375in</Height>
+                <Width>7.50925in</Width>
+                <ZIndex>6</ZIndex>
+                <Visibility>
+                  <Hidden>=IIf(First(Fields!product_name.Value, "LocationDetailQuery1") = "OfficeEdge Essential", False, True)</Hidden>
                 </Visibility>
                 <Style>
                   <Border>
@@ -4545,13 +4523,13 @@ product_templates.name like '%polycom%'</CommandText>
                     <TablixBody>
                       <TablixColumns>
                         <TablixColumn>
-                          <Width>5.18929in</Width>
+                          <Width>5.10511in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>1.27034in</Width>
+                          <Width>1.18616in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>1.17589in</Width>
+                          <Width>1.09171in</Width>
                         </TablixColumn>
                       </TablixColumns>
                       <TablixRows>
@@ -4760,7 +4738,7 @@ product_templates.name like '%polycom%'</CommandText>
                                             <FontFamily>Verdana</FontFamily>
                                             <FontSize>8pt</FontSize>
                                             <FontWeight>Bold</FontWeight>
-                                            <Format>'$'0.00;('$'0.00)</Format>
+                                            <Format>'$'#,0.00;('$'#,0.00)</Format>
                                           </Style>
                                         </TextRun>
                                       </TextRuns>
@@ -4775,19 +4753,11 @@ product_templates.name like '%polycom%'</CommandText>
                                       <Color>LightGrey</Color>
                                       <Style>None</Style>
                                     </Border>
-                                    <BottomBorder>
-                                      <Style>None</Style>
-                                    </BottomBorder>
-                                    <LeftBorder>
-                                      <Style>None</Style>
-                                    </LeftBorder>
-                                    <RightBorder>
-                                      <Style>None</Style>
-                                    </RightBorder>
                                     <PaddingLeft>2pt</PaddingLeft>
                                     <PaddingRight>2pt</PaddingRight>
                                     <PaddingTop>2pt</PaddingTop>
                                     <PaddingBottom>2pt</PaddingBottom>
+                                    <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                                   </Style>
                                 </Textbox>
                               </CellContents>
@@ -4806,7 +4776,7 @@ product_templates.name like '%polycom%'</CommandText>
                                             <FontFamily>Verdana</FontFamily>
                                             <FontSize>8pt</FontSize>
                                             <FontWeight>Bold</FontWeight>
-                                            <Format>'$'0.00;('$'0.00)</Format>
+                                            <Format>'$'#,0.00;('$'#,0.00)</Format>
                                           </Style>
                                         </TextRun>
                                       </TextRuns>
@@ -4821,19 +4791,11 @@ product_templates.name like '%polycom%'</CommandText>
                                       <Color>LightGrey</Color>
                                       <Style>None</Style>
                                     </Border>
-                                    <BottomBorder>
-                                      <Style>None</Style>
-                                    </BottomBorder>
-                                    <LeftBorder>
-                                      <Style>None</Style>
-                                    </LeftBorder>
-                                    <RightBorder>
-                                      <Style>None</Style>
-                                    </RightBorder>
                                     <PaddingLeft>2pt</PaddingLeft>
                                     <PaddingRight>2pt</PaddingRight>
                                     <PaddingTop>2pt</PaddingTop>
                                     <PaddingBottom>2pt</PaddingBottom>
+                                    <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                                   </Style>
                                 </Textbox>
                               </CellContents>
@@ -4868,7 +4830,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <Top>0.86934in</Top>
                     <Left>0.14182in</Left>
                     <Height>0.4in</Height>
-                    <Width>7.63552in</Width>
+                    <Width>7.38297in</Width>
                     <Style>
                       <Border>
                         <Color>DimGray</Color>
@@ -4891,16 +4853,16 @@ product_templates.name like '%polycom%'</CommandText>
                     <TablixBody>
                       <TablixColumns>
                         <TablixColumn>
-                          <Width>0.88959in</Width>
+                          <Width>0.82647in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>4.28414in</Width>
+                          <Width>4.22102in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>1.28591in</Width>
+                          <Width>1.22279in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>1.17584in</Width>
+                          <Width>1.11272in</Width>
                         </TablixColumn>
                       </TablixColumns>
                       <TablixRows>
@@ -5333,7 +5295,7 @@ product_templates.name like '%polycom%'</CommandText>
                                             <FontFamily>Verdana</FontFamily>
                                             <FontSize>8pt</FontSize>
                                             <FontWeight>Normal</FontWeight>
-                                            <Format>'$'0.00;('$'0.00);'-'</Format>
+                                            <Format>'$'#,0.00;('$'#,0.00);'-'</Format>
                                           </Style>
                                         </TextRun>
                                       </TextRuns>
@@ -5433,7 +5395,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <Top>0.1353in</Top>
                     <Left>0.14181in</Left>
                     <Height>0.6in</Height>
-                    <Width>7.63548in</Width>
+                    <Width>7.38298in</Width>
                     <ZIndex>1</ZIndex>
                     <Visibility>
                       <Hidden>=IIF(SUM(Fields!discount_price.Value) &gt; ABS(0),False,True)</Hidden>
@@ -5462,22 +5424,22 @@ product_templates.name like '%polycom%'</CommandText>
                     <TablixBody>
                       <TablixColumns>
                         <TablixColumn>
-                          <Width>1.58968in</Width>
+                          <Width>1.5476in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>0.73959in</Width>
+                          <Width>0.69751in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>0.72731in</Width>
+                          <Width>0.68523in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>0.85404in</Width>
+                          <Width>0.81196in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>0.85444in</Width>
+                          <Width>0.81236in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>2.87043in</Width>
+                          <Width>2.82835in</Width>
                         </TablixColumn>
                       </TablixColumns>
                       <TablixRows>
@@ -5555,7 +5517,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <Top>1.90513in</Top>
                     <Left>0.1418in</Left>
                     <Height>0.2in</Height>
-                    <Width>7.63549in</Width>
+                    <Width>7.38299in</Width>
                     <ZIndex>2</ZIndex>
                     <Style>
                       <Border>
@@ -5567,22 +5529,22 @@ product_templates.name like '%polycom%'</CommandText>
                     <TablixBody>
                       <TablixColumns>
                         <TablixColumn>
-                          <Width>2.12393in</Width>
+                          <Width>2.08185in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>1.03729in</Width>
+                          <Width>0.99521in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>0.94775in</Width>
+                          <Width>0.90567in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>1.08033in</Width>
+                          <Width>1.03825in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>1.22099in</Width>
+                          <Width>1.17891in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>1.22519in</Width>
+                          <Width>1.18311in</Width>
                         </TablixColumn>
                       </TablixColumns>
                       <TablixRows>
@@ -6056,7 +6018,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <Top>1.38381in</Top>
                     <Left>0.14181in</Left>
                     <Height>0.4in</Height>
-                    <Width>7.63548in</Width>
+                    <Width>7.38298in</Width>
                     <ZIndex>3</ZIndex>
                     <Style>
                       <Border>
@@ -6117,10 +6079,10 @@ product_templates.name like '%polycom%'</CommandText>
                     <TablixBody>
                       <TablixColumns>
                         <TablixColumn>
-                          <Width>5.82871in</Width>
+                          <Width>5.70246in</Width>
                         </TablixColumn>
                         <TablixColumn>
-                          <Width>1.78224in</Width>
+                          <Width>1.65599in</Width>
                         </TablixColumn>
                       </TablixColumns>
                       <TablixRows>
@@ -6470,7 +6432,7 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>=Fields!name.Value &amp; IIF(Fields!monthly_price.Value &lt; ABS(0), " (-$" &amp; Abs(Fix(Fields!monthly_price.Value)) &amp; ".00)", " ")</Value>
+                                          <Value>=Fields!name.Value &amp; IIF(Fields!monthly_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!monthly_price.Value)) &amp; ".00)", " ")</Value>
                                           <Style>
                                             <FontFamily>Verdana</FontFamily>
                                             <FontSize>8pt</FontSize>
@@ -6600,7 +6562,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <Top>0.8059in</Top>
                     <Left>0.139in</Left>
                     <Height>1.26542in</Height>
-                    <Width>7.61095in</Width>
+                    <Width>7.35845in</Width>
                     <ZIndex>1</ZIndex>
                     <Style>
                       <Border>
@@ -6635,7 +6597,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <Top>0.45173in</Top>
                     <Left>3.98921in</Left>
                     <Height>0.25in</Height>
-                    <Width>3.76074in</Width>
+                    <Width>3.50824in</Width>
                     <ZIndex>2</ZIndex>
                     <Style>
                       <Border>
@@ -6719,7 +6681,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Customized solutions and comprehensive services</Value>
+                        <Value>»  Customized solutions and comprehensive services</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -6781,29 +6743,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>»</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve">  </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Times New Roman</FontFamily>
-                          <FontSize>7pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>Better overall value </Value>
+                        <Value>»  Better overall value </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -6855,7 +6795,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» Best in class reliability and service quality</Value>
+                        <Value>»  Best in class reliability and service quality</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -6918,7 +6858,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>» World class support</Value>
+                        <Value>»  World class support</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -6988,7 +6928,22 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>I am confident that the TelNet solution presented here is a great match, providing a better value proposition for your company. Let us help you meet your business goals with innovative, efficient, and highly practical services.</Value>
+                        <Value>I am confident that the TelNet solution presented here is a great match, providing a better value proposition for your company. Let us help you meet your business goals with innovative, efficient, </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>12pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>and highly practical services.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -7038,7 +6993,39 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>Thank you again for your consideration. I look forward to working with you in the very near future.</Value>
+                        <Value>Thank you again for your consideration. </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#4f81bd</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>I look forward to working with you in the </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#4f81bd</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>very near future.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -7253,7 +7240,7 @@ product_templates.name like '%polycom%'</CommandText>
                         <Label>Paragraph Choice</Label>
                         <Value>=iif(IsNothing(First(Fields!paragraph_choice.Value, "DataSet1")), 
 	"When it comes to business communications, it is imperative to have a robust, reliable network, and the ability to support the services provided. TelNet continues to make a substantial investment in our network’s infrastructure and in innovative cloud-based technology to ensure our customers’ communications platform has the stability and scalability to be a critical component of a successful business.  We are well-equipped to take care of your business.",
-	First(Fields!paragraph_choice.Value, "DataSet1")
+	First(Fields!paragraph_choice.Value, "DataSet1") + " " + TRIM(First(Fields!additional_message.Value, "DataSet1"))
 )</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -7461,7 +7448,7 @@ product_templates.name like '%polycom%'</CommandText>
             <PageName>LastPagePolycom</PageName>
             <KeepTogether>true</KeepTogether>
             <Top>45.52527in</Top>
-            <Height>10.00473in</Height>
+            <Height>9.49432in</Height>
             <Width>8.5in</Width>
             <ZIndex>5</ZIndex>
             <Visibility>
@@ -7474,7 +7461,7 @@ product_templates.name like '%polycom%'</CommandText>
             </Style>
           </Rectangle>
         </ReportItems>
-        <Height>55.7014in</Height>
+        <Height>55.01959in</Height>
         <Style>
           <Border>
             <Style>None</Style>
@@ -7539,8 +7526,8 @@ product_templates.name like '%polycom%'</CommandText>
               <Source>Embedded</Source>
               <Value>coverfootpart1clean</Value>
               <Sizing>FitProportional</Sizing>
-              <Top>0in</Top>
-              <Height>1in</Height>
+              <Top>0.60417in</Top>
+              <Height>0.39583in</Height>
               <Width>8.5in</Width>
               <Visibility>
                 <Hidden>=IIF(Globals!PageNumber = 1,False,True)</Hidden>
@@ -7558,7 +7545,7 @@ product_templates.name like '%polycom%'</CommandText>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>P</Value>
+                      <Value>P-</Value>
                       <Style>
                         <FontStyle>Normal</FontStyle>
                         <FontFamily>Calibri</FontFamily>
@@ -7569,7 +7556,15 @@ product_templates.name like '%polycom%'</CommandText>
                       </Style>
                     </TextRun>
                     <TextRun>
-                      <Value>=First(Fields!proposal_num.Value, "LocationDetailQuery1").ToString()</Value>
+                      <Value>=First(Fields!proposal_num.Value, "LocationDetailQuery1")</Value>
+                      <Style>
+                        <FontFamily>Calibri</FontFamily>
+                        <FontSize>9pt</FontSize>
+                        <Color>CornflowerBlue</Color>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value xml:space="preserve">  </Value>
                       <Style>
                         <FontFamily>Calibri</FontFamily>
                         <FontSize>9pt</FontSize>
@@ -7582,7 +7577,6 @@ product_templates.name like '%polycom%'</CommandText>
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>0in</Top>
               <Left>0.50001in</Left>
               <Height>0.25in</Height>
               <Width>2in</Width>
@@ -7622,7 +7616,6 @@ product_templates.name like '%polycom%'</CommandText>
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>0in</Top>
               <Left>6.75001in</Left>
               <Height>0.25in</Height>
               <Width>1.5in</Width>

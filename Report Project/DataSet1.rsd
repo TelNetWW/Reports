@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <Description />
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@Param2">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>true</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandText>  SELECT        accounts.name AS account_name, accounts.billing_address_street, accounts.billing_address_city, accounts.billing_address_state, 
+                         accounts.billing_address_postalcode, proposal_cstm.additional_message, proposal_cstm.paragraph_choice, quotes.quote_num, quotes.deal_tot, quotes.total, 
+                         p.FirstName AS agent_firstname, p.LastName AS agent_lastname, p.Email AS agent_email, 
+                        p.Phone AS agent_phone, proposal_cstm.contact_name, proposal_cstm.agent_name, proposal_cstm.company_name, 
+                         proposal_cstm.email_address, proposal_cstm.phone_number
+FROM            quotes INNER JOIN
+                         quotes_cstm ON quotes.id = quotes_cstm.id_c INNER JOIN
+                         proposal_cstm ON quotes_cstm.proposal_id_c = proposal_cstm.id INNER JOIN
+                         accounts ON quotes_cstm.account_id_c = accounts.id INNER JOIN
+                         [Cantillion].[Compass].dbo.Person p ON quotes_cstm.user_id_c = p.PersonID
+WHERE        (proposal_cstm.id = @Param2)</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="account_name">
+        <DataField>account_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="billing_address_street">
+        <DataField>billing_address_street</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="billing_address_city">
+        <DataField>billing_address_city</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="billing_address_state">
+        <DataField>billing_address_state</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="billing_address_postalcode">
+        <DataField>billing_address_postalcode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="additional_message">
+        <DataField>additional_message</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="paragraph_choice">
+        <DataField>paragraph_choice</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="quote_num">
+        <DataField>quote_num</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="deal_tot">
+        <DataField>deal_tot</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="total">
+        <DataField>total</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="agent_firstname">
+        <DataField>agent_firstname</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="agent_lastname">
+        <DataField>agent_lastname</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="agent_email">
+        <DataField>agent_email</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="agent_phone">
+        <DataField>agent_phone</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="contact_name">
+        <DataField>contact_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="agent_name">
+        <DataField>agent_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="company_name">
+        <DataField>company_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="email_address">
+        <DataField>email_address</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="phone_number">
+        <DataField>phone_number</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

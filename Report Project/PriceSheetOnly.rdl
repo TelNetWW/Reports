@@ -1201,7 +1201,7 @@ product_templates.name like '%polycom%'</CommandText>
                                             <FontFamily>Verdana</FontFamily>
                                             <FontSize>8pt</FontSize>
                                             <FontWeight>Normal</FontWeight>
-                                            <Format>'$'0.00;('$'0.00);'-'</Format>
+                                            <Format>'$'#,0.00;('$'#,0.00);'-'</Format>
                                           </Style>
                                         </TextRun>
                                       </TextRuns>
@@ -2150,7 +2150,7 @@ product_templates.name like '%polycom%'</CommandText>
                                             <FontFamily>Verdana</FontFamily>
                                             <FontSize>8pt</FontSize>
                                             <FontWeight>Bold</FontWeight>
-                                            <Format>'$'0.00;('$'0.00)</Format>
+                                            <Format>'$'#,0.00;('$'#,0.00)</Format>
                                           </Style>
                                         </TextRun>
                                       </TextRuns>
@@ -2165,19 +2165,11 @@ product_templates.name like '%polycom%'</CommandText>
                                       <Color>LightGrey</Color>
                                       <Style>None</Style>
                                     </Border>
-                                    <BottomBorder>
-                                      <Style>None</Style>
-                                    </BottomBorder>
-                                    <LeftBorder>
-                                      <Style>None</Style>
-                                    </LeftBorder>
-                                    <RightBorder>
-                                      <Style>None</Style>
-                                    </RightBorder>
                                     <PaddingLeft>2pt</PaddingLeft>
                                     <PaddingRight>2pt</PaddingRight>
                                     <PaddingTop>2pt</PaddingTop>
                                     <PaddingBottom>2pt</PaddingBottom>
+                                    <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                                   </Style>
                                 </Textbox>
                               </CellContents>
@@ -2196,7 +2188,7 @@ product_templates.name like '%polycom%'</CommandText>
                                             <FontFamily>Verdana</FontFamily>
                                             <FontSize>8pt</FontSize>
                                             <FontWeight>Bold</FontWeight>
-                                            <Format>'$'0.00;('$'0.00)</Format>
+                                            <Format>'$'#,0.00;('$'#,0.00)</Format>
                                           </Style>
                                         </TextRun>
                                       </TextRuns>
@@ -2211,19 +2203,11 @@ product_templates.name like '%polycom%'</CommandText>
                                       <Color>LightGrey</Color>
                                       <Style>None</Style>
                                     </Border>
-                                    <BottomBorder>
-                                      <Style>None</Style>
-                                    </BottomBorder>
-                                    <LeftBorder>
-                                      <Style>None</Style>
-                                    </LeftBorder>
-                                    <RightBorder>
-                                      <Style>None</Style>
-                                    </RightBorder>
                                     <PaddingLeft>2pt</PaddingLeft>
                                     <PaddingRight>2pt</PaddingRight>
                                     <PaddingTop>2pt</PaddingTop>
                                     <PaddingBottom>2pt</PaddingBottom>
+                                    <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                                   </Style>
                                 </Textbox>
                               </CellContents>
@@ -2684,7 +2668,7 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>=Fields!name.Value &amp; IIF(Fields!monthly_price.Value &lt; ABS(0), " (-$" &amp; Abs(Fix(Fields!monthly_price.Value)) &amp; ".00)", " ")</Value>
+                                          <Value>=Fields!name.Value &amp; IIF(Fields!monthly_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!monthly_price.Value)) &amp; ".00)", " ")</Value>
                                           <Style>
                                             <FontFamily>Verdana</FontFamily>
                                             <FontSize>8pt</FontSize>
@@ -2935,7 +2919,7 @@ product_templates.name like '%polycom%'</CommandText>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>P</Value>
+                      <Value>P-</Value>
                       <Style>
                         <FontStyle>Normal</FontStyle>
                         <FontFamily>Calibri</FontFamily>
