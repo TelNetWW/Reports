@@ -1415,8 +1415,8 @@ WHERE        (q_u_r_c.quote_id IN
             </PageBreak>
             <PageName>MSA</PageName>
             <KeepTogether>true</KeepTogether>
-            <Top>33.82629in</Top>
-            <Left>0.249in</Left>
+            <Top>3.20237in</Top>
+            <Left>0.30328in</Left>
             <Height>8.50873in</Height>
             <Width>7.84114in</Width>
             <Style>
@@ -2334,8 +2334,8 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
             </ReportItems>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>3.20238in</Top>
-            <Left>0.48143in</Left>
+            <Top>19.54613in</Top>
+            <Left>0.3842in</Left>
             <Height>30.55447in</Height>
             <Width>7.64612in</Width>
             <ZIndex>1</ZIndex>
@@ -5380,9 +5380,9 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
                 </Paragraphs>
                 <rd:DefaultName>Textbox32</rd:DefaultName>
                 <Top>5.56944in</Top>
-                <Left>0.25in</Left>
+                <Left>0.20741in</Left>
                 <Height>2.05208in</Height>
-                <Width>8.00001in</Width>
+                <Width>7.74959in</Width>
                 <ZIndex>1</ZIndex>
                 <Style>
                   <Border>
@@ -5398,19 +5398,19 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
                 <TablixBody>
                   <TablixColumns>
                     <TablixColumn>
-                      <Width>1.59148in</Width>
+                      <Width>1.54992in</Width>
                     </TablixColumn>
                     <TablixColumn>
-                      <Width>1.59148in</Width>
+                      <Width>1.54992in</Width>
                     </TablixColumn>
                     <TablixColumn>
-                      <Width>1.59148in</Width>
+                      <Width>1.54992in</Width>
                     </TablixColumn>
                     <TablixColumn>
-                      <Width>1.59148in</Width>
+                      <Width>1.54992in</Width>
                     </TablixColumn>
                     <TablixColumn>
-                      <Width>1.59148in</Width>
+                      <Width>1.54992in</Width>
                     </TablixColumn>
                   </TablixColumns>
                   <TablixRows>
@@ -6222,7 +6222,7 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
                 <Top>4.17708in</Top>
                 <Left>0.20741in</Left>
                 <Height>1.25in</Height>
-                <Width>7.9574in</Width>
+                <Width>7.74959in</Width>
                 <ZIndex>2</ZIndex>
                 <Style>
                   <Border>
@@ -6233,7 +6233,7 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
               <Rectangle Name="Rectangle5">
                 <KeepTogether>true</KeepTogether>
                 <Top>5.56944in</Top>
-                <Left>5.88875in</Left>
+                <Left>5.53469in</Left>
                 <Height>0.1875in</Height>
                 <Width>0.17708in</Width>
                 <ZIndex>3</ZIndex>
@@ -6734,7 +6734,6 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
                                 <PaddingBottom>2pt</PaddingBottom>
                               </Style>
                             </Textbox>
-                            <rd:Selected>true</rd:Selected>
                           </CellContents>
                         </TablixCell>
                         <TablixCell>
@@ -6815,8 +6814,8 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
               </Tablix>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
-            <Top>42.42967in</Top>
-            <Left>0.0824in</Left>
+            <Top>11.80467in</Top>
+            <Left>0.18742in</Left>
             <Height>7.62153in</Height>
             <Width>8.25001in</Width>
             <ZIndex>3</ZIndex>
@@ -6827,7 +6826,7 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
             </Style>
           </Rectangle>
         </ReportItems>
-        <Height>50.0512in</Height>
+        <Height>50.1006in</Height>
         <Style />
       </Body>
       <Width>8.5in</Width>
