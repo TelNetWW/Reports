@@ -7522,8 +7522,7 @@ product_templates.name like '%polycom%'</CommandText>
               <Source>Embedded</Source>
               <Value>coverfootpart1clean</Value>
               <Sizing>FitProportional</Sizing>
-              <Top>0.60417in</Top>
-              <Height>0.39583in</Height>
+              <Height>1in</Height>
               <Width>8.5in</Width>
               <Visibility>
                 <Hidden>=IIF(Globals!PageNumber = 1,False,True)</Hidden>
