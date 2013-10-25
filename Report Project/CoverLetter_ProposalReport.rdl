@@ -6563,7 +6563,7 @@ product_templates.name like '%polycom%'</CommandText>
                       <Paragraph>
                         <TextRuns>
                           <TextRun>
-                            <Value>="* Quote Expires on " + DateAdd("d",30,Today())</Value>
+                            <Value>= "* Quote Expires on " &amp; IIF(IsNothing(Parameters!ProposalExpiration.Value), DateAdd("d",30,Today()), Parameters!ProposalExpiration.Value)</Value>
                             <Style>
                               <FontStyle>Normal</FontStyle>
                               <FontFamily>Myriad Pro</FontFamily>
@@ -6608,494 +6608,6 @@ product_templates.name like '%polycom%'</CommandText>
                   <BackgroundColor>White</BackgroundColor>
                 </Style>
               </Rectangle>
-              <Textbox Name="txtYouCanCountOnTelNet">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>16pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>TelNet is the company you can count on for:</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>16pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>16pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>1in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>15pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>»  Customized solutions and comprehensive services</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve"> </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>that meet your needs today with real options for future growth</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>1in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <ListLevel>1</ListLevel>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>1in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <ListLevel>1</ListLevel>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>»  Better overall value </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>with highly competitive and customized pricing</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>1in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <ListLevel>1</ListLevel>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>1in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <ListLevel>1</ListLevel>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>»  Best in class reliability and service quality</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve"> </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>supported by our fully redundant   network</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>1in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <ListLevel>1</ListLevel>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>1in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <ListLevel>1</ListLevel>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>»  World class support</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve"> </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>with 24/7/365, US-based customer care, we have the right  resources for rapid resolution and a better customer experience!</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>1in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <ListLevel>1</ListLevel>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <Top>4.84in</Top>
-                <Left>0.25in</Left>
-                <Height>3.03125in</Height>
-                <Width>7.75001in</Width>
-                <ZIndex>2</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                </Style>
-              </Textbox>
-              <Line Name="Line1">
-                <Top>8.13166in</Top>
-                <Left>0.25in</Left>
-                <Height>0in</Height>
-                <Width>7.75001in</Width>
-                <ZIndex>3</ZIndex>
-                <Style>
-                  <Border>
-                    <Color>DimGray</Color>
-                    <Style>Solid</Style>
-                  </Border>
-                </Style>
-              </Line>
-              <Textbox Name="Textbox69">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>I am confident that the TelNet solution presented here is a great match, providing a better value proposition for your company. Let us help you meet your business goals with innovative, efficient, </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>and highly practical services.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>Textbox69</rd:DefaultName>
-                <Top>8.50667in</Top>
-                <Left>0.25in</Left>
-                <Height>0.76041in</Height>
-                <Width>7.70741in</Width>
-                <ZIndex>4</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Image Name="Hands">
-                <Source>Embedded</Source>
-                <Value>hands</Value>
-                <Top>9.60042in</Top>
-                <Left>0.25in</Left>
-                <Height>2.23958in</Height>
-                <Width>3.04167in</Width>
-                <ZIndex>5</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                </Style>
-              </Image>
-              <Textbox Name="Textbox70">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Thank you again for your consideration. </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#4f81bd</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>I look forward to working with you in the </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#4f81bd</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>very near future.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#4f81bd</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#4f81bd</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Label>Rep Info</Label>
-                        <Value>=Trim(First(Fields!agent_firstname.Value, "DataSet1")) + " " + Trim(First(Fields!agent_lastname.Value, "DataSet1"))
-+ VBCRLF + Trim(First(Fields!agent_email.Value, "DataSet1")) 
-+ VBCRLF + Trim(First(Fields!agent_phone.Value, "DataSet1"))</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#4f81bd</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
-                          <FontSize>14pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#4f81bd</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>Textbox70</rd:DefaultName>
-                <Top>9.60042in</Top>
-                <Left>3.59295in</Left>
-                <Height>2.13542in</Height>
-                <Width>4.36894in</Width>
-                <ZIndex>6</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
             </ReportItems>
             <PageBreak>
               <BreakLocation>Start</BreakLocation>
@@ -7103,7 +6615,7 @@ product_templates.name like '%polycom%'</CommandText>
             <PageName>Page4</PageName>
             <Top>33.32292in</Top>
             <Left>0.25in</Left>
-            <Height>12.13291in</Height>
+            <Height>4.83083in</Height>
             <Width>8.25in</Width>
             <ZIndex>2</ZIndex>
             <Style>
@@ -7421,7 +6933,7 @@ product_templates.name like '%polycom%'</CommandText>
                 <Source>Embedded</Source>
                 <Value>OfficeEdge_Complete_Phone_EquipPolycomProposal2</Value>
                 <Sizing>FitProportional</Sizing>
-                <Top>0.46306in</Top>
+                <Top>0.08806in</Top>
                 <Height>8.84375in</Height>
                 <Width>8.5in</Width>
                 <Style>
@@ -7433,8 +6945,8 @@ product_templates.name like '%polycom%'</CommandText>
             </ReportItems>
             <PageName>LastPagePolycom</PageName>
             <KeepTogether>true</KeepTogether>
-            <Top>45.52527in</Top>
-            <Height>9.49432in</Height>
+            <Top>38.16764in</Top>
+            <Height>8.95265in</Height>
             <Width>8.5in</Width>
             <ZIndex>5</ZIndex>
             <Visibility>
@@ -7446,8 +6958,509 @@ product_templates.name like '%polycom%'</CommandText>
               </Border>
             </Style>
           </Rectangle>
+          <Rectangle Name="LastPage">
+            <ReportItems>
+              <Textbox Name="txtYouCanCountOnTelNet">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>16pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>TelNet is the company you can count on for:</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>16pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>16pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>1in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>15pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  Customized solutions and comprehensive services</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>12pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>that meet your needs today with real options for future growth</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  Better overall value </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>with highly competitive and customized pricing</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  Best in class reliability and service quality</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>12pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>supported by our fully redundant   network</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  World class support</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>with 24/7/365, US-based customer care, we have the right  resources for rapid resolution and a better customer experience!</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <Left>0.21181in</Left>
+                <Height>3.03125in</Height>
+                <Width>7.75001in</Width>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Textbox>
+              <Line Name="Line1">
+                <Top>3.29166in</Top>
+                <Left>0.21181in</Left>
+                <Height>0in</Height>
+                <Width>7.75001in</Width>
+                <ZIndex>1</ZIndex>
+                <Style>
+                  <Border>
+                    <Color>DimGray</Color>
+                    <Style>Solid</Style>
+                  </Border>
+                </Style>
+              </Line>
+              <Textbox Name="Textbox69">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>I am confident that the TelNet solution presented here is a great match, providing a better value proposition for your company. Let us help you meet your business goals with innovative, efficient, </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>12pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>and highly practical services.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>12pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox69</rd:DefaultName>
+                <Top>3.66667in</Top>
+                <Left>0.21181in</Left>
+                <Height>0.76041in</Height>
+                <Width>7.70741in</Width>
+                <ZIndex>2</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Image Name="Hands">
+                <Source>Embedded</Source>
+                <Value>hands</Value>
+                <Top>4.76042in</Top>
+                <Left>0.21181in</Left>
+                <Height>2.23958in</Height>
+                <Width>3.04167in</Width>
+                <ZIndex>3</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
+              <Textbox Name="Textbox70">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Thank you again for your consideration. </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#4f81bd</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>I look forward to working with you in the </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#4f81bd</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>very near future.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#4f81bd</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#4f81bd</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Label>Rep Info</Label>
+                        <Value>=Trim(First(Fields!agent_firstname.Value, "DataSet1")) + " " + Trim(First(Fields!agent_lastname.Value, "DataSet1"))
++ VBCRLF + Trim(First(Fields!agent_email.Value, "DataSet1")) 
++ VBCRLF + Trim(First(Fields!agent_phone.Value, "DataSet1"))</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#4f81bd</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#4f81bd</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox70</rd:DefaultName>
+                <Top>4.76042in</Top>
+                <Left>3.55476in</Left>
+                <Height>2.13542in</Height>
+                <Width>4.36894in</Width>
+                <ZIndex>4</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+            </ReportItems>
+            <KeepTogether>true</KeepTogether>
+            <Top>47.17584in</Top>
+            <Left>0.09004in</Left>
+            <Height>7in</Height>
+            <Width>8.13668in</Width>
+            <ZIndex>6</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Rectangle>
         </ReportItems>
-        <Height>55.01959in</Height>
+        <Height>54.17584in</Height>
         <Style>
           <Border>
             <Style>None</Style>
@@ -7658,6 +7671,11 @@ product_templates.name like '%polycom%'</CommandText>
     <ReportParameter Name="UserTeam">
       <DataType>String</DataType>
       <Prompt>User Team</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ProposalExpiration">
+      <DataType>DateTime</DataType>
+      <Nullable>true</Nullable>
+      <Prompt>ProposalExpiration</Prompt>
     </ReportParameter>
   </ReportParameters>
   <EmbeddedImages>
