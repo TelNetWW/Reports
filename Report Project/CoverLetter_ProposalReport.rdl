@@ -5372,6 +5372,9 @@ product_templates.name like '%polycom%'</CommandText>
                                   </SortExpressions>
                                 </TablixMember>
                               </TablixMembers>
+                              <Visibility>
+                                <Hidden>=IIF(Fields!discount_price.Value &gt; ABS(0),False,True)</Hidden>
+                              </Visibility>
                             </TablixMember>
                           </TablixMembers>
                         </TablixMember>
@@ -5379,23 +5382,10 @@ product_templates.name like '%polycom%'</CommandText>
                     </TablixRowHierarchy>
                     <KeepTogether>true</KeepTogether>
                     <DataSetName>LocationDetailQuery1</DataSetName>
-                    <Filters>
-                      <Filter>
-                        <FilterExpression>=Fields!discount_price.Value &gt; ABS(0)</FilterExpression>
-                        <Operator>Equal</Operator>
-                        <FilterValues>
-                          <FilterValue DataType="Boolean">true</FilterValue>
-                        </FilterValues>
-                      </Filter>
-                    </Filters>
-                    <Top>0.1353in</Top>
                     <Left>0.14181in</Left>
                     <Height>0.6in</Height>
                     <Width>7.38298in</Width>
                     <ZIndex>1</ZIndex>
-                    <Visibility>
-                      <Hidden>=IIF(SUM(Fields!discount_price.Value) &gt; ABS(0),False,True)</Hidden>
-                    </Visibility>
                     <Style>
                       <Border>
                         <Color>DimGray</Color>
