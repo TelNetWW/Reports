@@ -2813,7 +2813,7 @@ product_templates.name like '%polycom%'</CommandText>
                       <Paragraph>
                         <TextRuns>
                           <TextRun>
-                            <Value>="* Quote Expires on " + DateAdd("d",30,Today())</Value>
+                            <Value>= "* Quote Expires on " &amp; IIF(IsNothing(Parameters!ProposalExpiration.Value), DateAdd("d",30,Today()), Parameters!ProposalExpiration.Value)</Value>
                             <Style>
                               <FontStyle>Normal</FontStyle>
                               <FontFamily>Myriad Pro</FontFamily>
@@ -3029,6 +3029,11 @@ product_templates.name like '%polycom%'</CommandText>
     <ReportParameter Name="UserTeam">
       <DataType>String</DataType>
       <Prompt>User Team</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ProposalExpiration">
+      <DataType>DateTime</DataType>
+      <Nullable>true</Nullable>
+      <Prompt>ProposalExpiration</Prompt>
     </ReportParameter>
   </ReportParameters>
   <EmbeddedImages>

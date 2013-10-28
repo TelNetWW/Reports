@@ -7916,6 +7916,11 @@ This Rental is not assignable or transferable by operation of law by Customer. T
       <DataType>String</DataType>
       <Prompt>hasPurchase</Prompt>
     </ReportParameter>
+    <ReportParameter Name="ProposalExpiration">
+      <DataType>DateTime</DataType>
+      <Nullable>true</Nullable>
+      <Prompt>ProposalExpiration</Prompt>
+    </ReportParameter>
   </ReportParameters>
   <EmbeddedImages>
     <EmbeddedImage Name="headerline">
