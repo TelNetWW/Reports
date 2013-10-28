@@ -4431,7 +4431,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <Source>External</Source>
                     <Value>="http://10.10.50.59/Portal/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
                     <Sizing>FitProportional</Sizing>
-                    <Top>3.01988in</Top>
+                    <Top>3.03377in</Top>
                     <Left>0.25in</Left>
                     <Height>0.75in</Height>
                     <Width>2in</Width>
@@ -6836,7 +6836,7 @@ product_templates.name like '%polycom%'</CommandText>
                         <Label>Rep Info</Label>
                         <Value>=Trim(First(Fields!agent_firstname.Value, "DataSet1")) + " " + Trim(First(Fields!agent_lastname.Value, "DataSet1"))
 + VBCRLF + Trim(First(Fields!agent_email.Value, "DataSet1")) 
-+ VBCRLF + Trim(First(Fields!agent_phone.Value, "DataSet1"))</Value>
++ VBCRLF + Trim(First(Fields!phone_number.Value, "DataSet1"))</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
