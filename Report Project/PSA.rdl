@@ -757,7 +757,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>By executing this Agreement, the "Customer" (defined as the party signing below and made a party to this Master Service Agreement) is ordering the services set forth herein and on related documentation. Customer agrees to pay for all services ordered or otherwise used including: taxes, surcharges and fees charged by TelNet Worldwide ("TelNet"), including, but not limited to, applicable federal, state, local use, excise, sales, or privilege taxes, duties or similar liabilities, as further set forth in the TelNet Worldwide Terms and Conditions (the "T&amp;Cs"). Customer agrees to the T&amp;Cs and all items incorporated therein including those in the applicable tariffs and rate guided which can be found on www.telnetww.com. Customer also authorizes TelNet to obtain any credit information and/or any customer proprietary network information necessary to provision services and to establish Customer's account, and hereby authorizes the release of such information by any and all third parties to TelNet. Customer understands that number assignments are not guaranteed and cannot be relied on before service is activated. Customer has provided TelNet with a valid Letter of Agency for all applicable services ordered. Customer is responsible for the identification and payment of any termination fees to any third party that may apply when switching to TelNet services.</Value>
+                        <Value>By executing this Agreement, the "Customer" (defined as the party signing below and made a party to this TelNet Service Agreement) is ordering the services set forth herein and on related documentation. Customer agrees to pay for all services ordered or otherwise used including: taxes, surcharges and fees charged by TelNet Worldwide ("TelNet"), including, but not limited to, applicable federal, state, local use, excise, sales, or privilege taxes, duties or similar liabilities, as further set forth in the TelNet Worldwide Terms and   Conditions (the "T&amp;Cs"). Customer agrees to the T&amp;Cs and all items incorporated therein including those in the applicable tariffs or  rate guides which can be found on www.telnetww.com. Customer also authorizes TelNet to obtain any credit information and/or any customer proprietary network information necessary to provision services and to establish Customer's account, and hereby authorizes the release of such information by any and all third parties to TelNet. Customer understands that number assignments are not guaranteed and cannot be relied on before service is activated. Customer has provided TelNet with a valid Letter of Agency for all applicable services ordered. Customer is responsible for the identification and payment of any termination fees to any third party that may apply when switching to TelNet services.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -810,7 +810,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>The initial term of Agreement will begin with the date of installation and will continue for the specified number of months. Upon completion of the contract period this Agreement will automatically revert to the then current month-to-month rates.</Value>
+                        <Value>The initial term of Agreement will begin with the date of installation and will continue for the specified number of months. Upon completion of the contract period this Agreement will automatically convert to the then currently available month-to-month rates.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -865,7 +865,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>Cancellation by the Customer after the signature date and before the service available date will result in an Order Cancellation Fee to be paid by the Customer as described in TelNet T&amp;Cs.</Value>
+                        <Value>Cancellation by the Customer after the signature date and before the service available date will result in an Order Cancellation Fee to be paid by the Customer as described in applicable TelNet T&amp;Cs  which can be found at www.telnetww.com.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -920,7 +920,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>TelNet may terminate this Agreement and the services for Customer's non-payment in accordance with its rights under its general T&amp;Cs and its tariffs and rate guides. Upon termination of this Agreement by TelNet for non-payment the customer shall be liable for the payment of all services provided through the date of termination, plus any applicable Termination Fees. TelNet may terminate this Agreement without liability if TelNet determines that it is no longer able to offer a product or service or the product or service is no longer offered in a TelNet tariff and rate guide, in which case the customer will not be liable for any Termination Fees. If Customer terminates the Agreement prior to the expiration of its initial term or renewal term, or if TelNet terminates the Agreement due to non-payment, Customer will owe TelNet the following Termination Fees per applicable service: the monthly recurring charge (MRC) times the remaining number of months of the contract period for the contracted services.</Value>
+                        <Value>TelNet may terminate this Agreement and the services for Customer's non-payment in accordance with its rights under its general T&amp;Cs and its tariffs and rate guides. Upon termination of this Agreement by TelNet for non-payment the customer shall be liable for the payment of all services provided through the date of termination, plus any applicable Termination Fees. TelNet may terminate this Agreement without liability if TelNet determines that it is no longer able to offer a product or service and the product or service is no longer offered in a TelNet tariff and rate guide, in which case the customer will not be liable for any Termination Fees. If Customer terminates the Agreement prior to the expiration of its initial term or renewal term, or if TelNet terminates the Agreement due to non-payment, Customer will owe TelNet the following Termination Fees per applicable service: the monthly recurring charge (MRC) times the remaining number of months of the contract period for the contracted services.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -975,7 +975,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>This Agreement and other terms expressly made a part of this Agreement constitute the entire Agreement between TelNet and the Customer with respect to the Services. This Agreement supersedes any previous Agreements for the same services between TelNet and Customer. Except as otherwise provided herein, any changes to this Agreement must be agreed to in writing by TelNet Executive Management. Any changes to this Agreement without said written approval make such changes null and void at TelNet’s discretion. If the Customer wishes to assign this Agreement to a third party, it must first receive TelNet’s written consent.</Value>
+                        <Value>This Agreement and other terms expressly made a part of this Agreement, (including, but not limited to Purchase Order Terms &amp; Conditions, and Equipment Rental Terms &amp; Conditions, if applicable,) constitute the entire Agreement between TelNet and the Customer with respect to the Services. This Agreement supersedes any previous Agreements for the same services between TelNet and Customer. Except as otherwise provided herein, any changes to this Agreement must be agreed to in writing by TelNet. Any changes to this Agreement without said written approval make such changes null and void at TelNet’s discretion. If the Customer wishes to assign this Agreement to a third party, it must first receive TelNet’s written consent.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -1509,8 +1509,45 @@ WHERE        (q_u_r_c.quote_id IN
                       <TextRun>
                         <Value>In addition to the general terms and conditions contained in the Master Service Agreement (“MSA”) between TelNet and Customer (the “Agreement”), of which this Purchase Order is a part, the following terms and conditions apply to the purchase of the Product, as defined below. In the event of any inconsistency between the Agreement and this Schedule, this Schedule shall control.
 
-1.             PURCHASE OF PRODUCT &amp; PRICE
-Customer is purchasing from TelNet the equipment described on the attached MSA (“Product”). Customer shall pay all amounts due under the MSA, in accordance to the payment terms set forth in the Agreement. If Customer does not pay in accordance to the payment terms, late payment charges will be billed in the amount of 1.5% of the total overdue amount or the maximum lawful rate allowable, whichever is less. Customer also agrees to pay all reasonable costs and expenses involved in the collection of the amounts due, including but not limited to, attorney fees, expenses, court costs and service charges. Customer also agrees to pay all applicable handling charges, interest charges, shipping charges, insurance charges, cancellation fees or restocking fees, or any applicable sales, excise, use, property and similar taxes (other than income taxes on payments made by Customer to TelNet under this Agreement) and related charges that may be imposed or assessed by any governmental entity or taxing authority with respect to such Product. 
+</Value>
+                        <Style>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>1.             </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>PURCHASE OF PRODUCT &amp; PRICE
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Customer is purchasing from TelNet the equipment described on the attached MSA (“Product”). Customer shall pay all amounts due under the MSA, in accordance to the payment terms set forth in the Agreement. If Customer does not pay in accordance to the payment terms, late payment charges will be billed in the amount of 1.5% of the total overdue amount or the maximum lawful rate allowable, whichever is less. Customer also agrees to pay all reasonable costs and expenses involved in the collection of the amounts due, including but not limited to, attorney fees, expenses, court costs and service charges. Customer also agrees to pay all applicable handling charges, interest charges, shipping charges, insurance charges, cancellation fees or restocking fees, or any applicable sales, excise, use, property and similar taxes (other than income taxes on payments made by Customer to TelNet under this Agreement) and related charges that may be imposed or assessed by any governmental entity or taxing authority with respect to such Product.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>
 
 2.             CANCELLATION POLICY
 The following cancellation policy shall apply to the Product purchased by Customer:</Value>
@@ -1788,7 +1825,7 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>MASTER SERVICE AGREEMENT (MSA)</Value>
+                        <Value>TELNET SERVICE AGREEMENT</Value>
                         <Style>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>16pt</FontSize>
@@ -7743,8 +7780,8 @@ This Rental is not assignable or transferable by operation of law by Customer. T
             </SortExpressions>
             <Top>11.80138in</Top>
             <Left>0.39483in</Left>
-            <Height>7.70833in</Height>
-            <Width>7.82902in</Width>
+            <Height>7.70832in</Height>
+            <Width>7.829in</Width>
             <ZIndex>4</ZIndex>
             <Style>
               <Border>
