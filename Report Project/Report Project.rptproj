@@ -9,12 +9,12 @@
   </DataSources>
   <DataSets>
     <ProjectItem>
-      <Name>SummaryQuery.rsd</Name>
-      <FullPath>SummaryQuery.rsd</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>DataSet1.rsd</Name>
       <FullPath>DataSet1.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SummaryQuery.rsd</Name>
+      <FullPath>SummaryQuery.rsd</FullPath>
     </ProjectItem>
   </DataSets>
   <Reports>
@@ -42,7 +42,7 @@
       <Options>
         <OutputPath>bin\Debug</OutputPath>
         <TargetServerVersion>SSRS2008R2</TargetServerVersion>
-        <TargetServerURL>http://10.10.50.130/Reportserver</TargetServerURL>
+        <TargetServerURL>http://10.10.50.59/Reportserver</TargetServerURL>
         <TargetFolder>Report Project</TargetFolder>
         <TargetDataSourceFolder>Data Sources</TargetDataSourceFolder>
         <OverwriteDataSources>true</OverwriteDataSources>

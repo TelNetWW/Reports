@@ -1533,7 +1533,7 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>Intralata</Value>
+                                          <Value>IntraLATA</Value>
                                           <Style>
                                             <FontSize>8pt</FontSize>
                                             <FontWeight>Bold</FontWeight>
