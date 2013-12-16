@@ -1642,22 +1642,59 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>In addition to the general terms and conditions contained in the Master Service Agreement (“MSA”) between TelNet and Customer (the “Agreement”), of which this Purchase Order is a part, the following terms and conditions apply to the purchase of the Product, as defined below. In the event of any inconsistency between the Agreement and this Schedule, this Schedule shall control.
-
-</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>1.             </Value>
+                        <Value>In addition to the general terms and conditions contained in the TelNet Service Agreement (“SA”) between TelNet Worldwide (“TelNet”)  and Customer (the “Agreement”), of which this Purchase Order is a part, the following terms and conditions apply to the purchase of the Product, as defined below. In the event of any inconsistency between the Agreement and this Schedule, this Schedule shall control.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.4375in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>1.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
                         </Style>
                       </TextRun>
                       <TextRun>
@@ -1669,10 +1706,150 @@ WHERE        (q_u_r_c.quote_id IN
                           <FontSize>9pt</FontSize>
                           <FontWeight>Bold</FontWeight>
                           <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>Customer is purchasing from TelNet the equipment described on the attached MSA (“Product”). Customer shall pay all amounts due under the MSA, in accordance to the payment terms set forth in the Agreement. If Customer does not pay in accordance to the payment terms, late payment charges will be billed in the amount of 1.5% of the total overdue amount or the maximum lawful rate allowable, whichever is less. Customer also agrees to pay all reasonable costs and expenses involved in the collection of the amounts due, including but not limited to, attorney fees, expenses, court costs and service charges. Customer also agrees to pay all applicable handling charges, interest charges, shipping charges, insurance charges, cancellation fees or restocking fees, or any applicable sales, excise, use, property and similar taxes (other than income taxes on payments made by Customer to TelNet under this Agreement) and related charges that may be imposed or assessed by any governmental entity or taxing authority with respect to such Product.</Value>
+                        <Value>Customer is purchasing from TelNet the equipment described on the attached SA (“Product”). Customer shall pay all amounts due under the SA, in accordance to the payment terms set forth in the Agreement. If Customer does not pay in accordance to the payment terms, late payment charges will be billed in the amount of 1.5% of the total overdue amount or the maximum lawful rate allowable, whichever is less. Customer also agrees to pay all reasonable costs and expenses involved in the collection of the amounts due, including but not limited to, attorney fees, expenses, court costs and service charges. Customer also agrees to pay all applicable handling charges, interest charges, shipping charges, insurance charges, cancellation fees or restocking fees, or any applicable sales, excise, use, property and similar taxes (other than income taxes on payments made by Customer to TelNet under this Agreement) and related charges that may be imposed or assessed by any governmental entity or taxing authority with respect to such Product.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>2.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>CANCELLATION POLICY
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>The following cancellation policy shall apply to the Product purchased by Customer:</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>A.       Pre-Shipment: If Customer cancels any portion of the Product order prior to the shipment date, Customer agrees to pay a liquidated damage in the amount totaling 15% of the canceled order amount, plus any cancellation or restocking fees imposed on TelNet by the applicable equipment manufacturer. Customer agrees that this cancellation charge is a true measure of the damage to TelNet and is not a penalty charge.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>B.       Post-Shipment: If Customer cancels any portion of the Product order after shipment has occurred but prior to installation of the Product, Customer shall receive a credit for the invoice amount of the cancelled Product minus (a) a liquidated damage in the amount totaling 15% of the cancelled order amount, minus (b) any  cancellation or restocking fees imposed on TelNet by the applicable equipment manufacturer, and minus (c) the shipping charges, both original and return, associated with the canceled Product. Customer agrees that this  cancellation charge is a true measure of the damage to TelNet and is not a penalty charge. If Customer cancels any portion of the Product order after shipment and installation has occurred, Customer shall not be entitled to receive a credit on the returned Product under any circumstances.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -1681,217 +1858,362 @@ WHERE        (q_u_r_c.quote_id IN
                           <TextDecoration>None</TextDecoration>
                         </Style>
                       </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.4375in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
                       <TextRun>
-                        <Value>
-
-2.             CANCELLATION POLICY
-The following cancellation policy shall apply to the Product purchased by Customer:</Value>
+                        <Value>3.</Value>
                         <Style>
+                          <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>ENVIRONMENT &amp; DELIVERY
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Customer agrees, at its sole expense, to provide the proper environment and electrical and telecommunications connections for the Product such as, but not limited to, ensuring appropriate power supply and surge protection is used. Customer is solely responsible for correcting any hazardous conditions that may adversely affect Product. TelNet shall use commercially reasonable efforts to complete the delivery of the Products in advance of the installation date requested by customer, but TelNet does not guarantee that it will be able to do so. If Customer is unable or unwilling to schedule or accept delivery or installation on the date that TelNet tenders delivery or installation, TelNet shall have the right to initiate billing for the amounts due hereunder as of the date that delivery or installation was tendered. Product prices and Installation or Service charges are subject to change at TelNet’s sole discretion if Customer delays delivery or installation by more than thirty (30) days.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <Style />
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>4.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>TITLE, RISK OF LOSS &amp; SECURITY INTEREST
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Title to the Product ordered by Customer shall pass to Customer upon payment in full of all invoiced amounts. Until TelNet receives the full amount due hereunder from the Customer, Customer grants to TelNet a continuing purchase money security interest in the Products ordered under this Agreement, and Customer agrees to support TelNet in the perfection of such security interest. Risk or loss or damage to the Product shall pass from TelNet to Customer upon initial delivery by TelNet or its suppliers to the delivery carrier (“FOB Origin”). Customer agrees to pay all transportation, handling, insurance and associated charges, including but not limited to, additional charges for non-standard shipment. TelNet shall use commercially reasonable efforts to meet Customer’s requested delivery dates, but TelNet does not guarantee any delivery dates. Customer shall be solely responsible to coordinate all delivery arrangements necessary to comply with project schedule date.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>5.     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>WARRANTY &amp; DISCLAIMERS
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>TELNET DOES NOT WARRANT EQUIPMENT OR GOODS (“PRODUCTS”) PURCHASED HEREUNDER. TO THE MAXIMIM EXTENT PERMITTED BY LAW, TELNET DISCLAIMS AND EXCLUDES ALL REPRESENTATIONS, WARRANTIES AND CONDITIONS, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO REPRESENTATIONS, WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, SATISFACTORY CONDITION OR QUALITY, MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE, WITH RESPECT TO THE PRODUCTS AND ANY SERVICES, OR OTHER MATERIALS OR INFORMATION PROVIDED BY TELNET WITH THE PRODUCT(S). TELNET WARRANTS ONLY THAT ITS SERVICES SHALL BE PERFORMED IN A TIMELY, PROFESSIONAL AND WORKMANLIKE MANNER BY QUALIFIED PERSONNEL. IF SERVICES ARE NOT PERFORMED AS DESCRIBED, AND CUSTOMER NOTIFIES TELNET IN WRITING WITHIN THIRTY (30) DAYS, CUSTOMER’S EXCLUSIVE REMEDY SHALL BE FOR TELNET TO RE-PERFORM THE NON-CONFORMING SERVICES. CUSTOMER’S EXCLUSIVE REMEDY WITH RESPECT TO THE PRODUCTS PURCHASED FROM TELNET HEREUNDER IS AS SET FORTH IN THE WARRANTY, IF ANY, PROVIDED BY  THE EQUIPMENT MANUFACTURER. SUCH WARRANTIES, IF ANY, FROM THE EQUIPMENT MANUFACTURER ARE CUSTOMER’S EXCLUSIVE WARRANTIES AND SOLE REMEDIES AND REPLACE ALL OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, WITH RESPECT TO PRODUCTS PURCHASED HEREUNDER, INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>6.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>LIMITATION OF LIABILITY
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>IN NO EVENT WILL TELNET BE LIABLE TO CUSTOMER OR ANY THIRD PARTY, IN CONTRACT, TORT OR OTHERWISE, FOR ANY LOSS OF PROFITS OR BUSINESS, OR ANY INCIDENTAL, SPECIAL, INDIRECT, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES, ARISING FROM OR AS A RESULT OF THESE CONTRACT TERMS OR ANY AGREEMENT BETWEEN THE PARTIES RELATING TO THE PRODUCTS, SERVICES OR DELIVERABLES TELNET PROVIDES, EVEN IF TELNET HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>7.     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>RETURN
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>If Customer is required to return any Product to TelNet for service, Customer agrees to obtain TelNet’s concurrence prior to returning the Product. Customer agrees to reference any Return Material Authorization Number (RMA Number) issued by TelNet on all paperwork or documentation accompanying the returned Product. Customer further agrees to ship the Product pre-paid and suitably packaged to the TelNet specified location. Any returned product becomes the property of TelNet and, subject to TelNet’s receipt of the exchanged Product, the replacement becomes Customer’s property. Customer agrees to ensure that any returned Product is free from any and all legal obligations or restrictions that may prevent its exchange and represents that all returned Products are genuine and unaltered. The replacement Product may not be new, but will be in working order and equivalent to the item exchanged as determined in good faith by TelNet. Additional terms and conditions for the return of Product can be found in the General Terms and Conditions located on the TelNet website and are made a part of the Agreement.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox37</rd:DefaultName>
                 <Top>0.5in</Top>
                 <Left>0.61217in</Left>
-                <Height>2.625in</Height>
+                <Height>12.90516in</Height>
                 <Width>6.35417in</Width>
                 <ZIndex>1</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox40">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>A.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>3.13542in</Top>
-                <Left>0.86217in</Left>
-                <Height>0.61458in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>2</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox41">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Pre-Shipment: If Customer cancels any portion of the Product order prior to the shipment date, Customer agrees to pay a liquidated damage in the amount totaling 15% of the canceled order amount, plus any cancelation or restocking fees imposed on TelNet by the applicable equipment manufacturer. Customer agrees that this cancelation charge is a true measure of the damage to TelNet and is not a penalty charge.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>3.125in</Top>
-                <Left>1.11217in</Left>
-                <Height>0.625in</Height>
-                <Width>5.85417in</Width>
-                <ZIndex>3</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox42">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>B.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>3.75in</Top>
-                <Left>0.86217in</Left>
-                <Height>1.25in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>4</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox43">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Post-Shipment: If Customer cancels any portion of the Product order after shipment has occurred but prior to installation of the Product, Customer shall receive a credit for the invoice amount of the cancelled Product minus (a) a liquidated damage in the amount totaling 15% of the canceled order amount, minus (b) any cancelation or restocking fees imposed on TelNet by the applicable equipment manufacturer, and minus (c) the shipping charges, both original and return, associated with the canceled Product. Customer agrees that this cancelation charge is a true measure of the damage to TelNet and is not a penalty charge. If Customer cancels any portion of the Product order after shipment and installation has occurred, Customer shall not be entitled to receive a credit on the returned Product under any circumstances.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>3.75in</Top>
-                <Left>1.11217in</Left>
-                <Height>1.25in</Height>
-                <Width>5.85417in</Width>
-                <ZIndex>5</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox44">
-                <CanShrink>true</CanShrink>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>WITH RESPECT TO THE PRODUCTS PURCHASED FROM TELNET HEREUNDER IS AS SET FORTH IN THE LIMITED WARRANTY DELIVERED WITH THE PRODUCTS FROM THE EQUIPMENT MANUFACTURER. THESE WARRANTIES AND LIMITATIONS FROM THE EQUIPMENT MANUFACTURER ARE CUSTOMER’S EXCLUSIVE WARRANTIES AND SOLE REMEDIES AND REPLACE ALL OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, WITH RESPECT TO EQUIPMENT AND SERVICES, INCLUING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
-
-6.             LIMITATION OF LIABILITY
-IN NO EVENT WILL TELNET BE LIABLE TO CUSTOMER OR ANY THIRD PARTY, IN CONTRACT, TORT OR OTHERWISE, FOR ANY LOSS OF PROFITS OR BUSINESS, OR ANY INCIDENTAL, SPECIAL, INDIRECT, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES, ARISING FROM OR AS A RESULT OF THESE CONTRACT TERMS OR ANY AGREEMENT BETWEEN THE PARTIES RELATING TO THE PRODUCTS, SERVICES OR DELIVERABLES TELNET PROVIDES, EVEN IF TELNET HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 
-
-7.             RETURN
-If Customer is required to return any Product to TelNet for any warranty service, Customer agrees to obtain TelNet’s concurrence prior to returning the Product. Customer agrees to reference any Return Material Authorization Number (RMA Number) issued by TelNet on all paperwork or documentation accompanying the returned Product. Customer further agrees to ship the Product pre-paid and suitably packaged to the TelNet specified location. Any returned product becomes the property of TelNet and, subject to TelNet’s receipt of the exchanged Product, the replacement becomes Customers property. Customer agrees to ensure that any returned Product is free from any and all legal obligations or restrictions that may prevent its exchange and represents that all returned Products are genuine and unaltered. The replacement Product may not be new, but will be in working order and equivalent to the item exchanged as determined in good faith by TelNet. Additional terms and conditions for the return of Product can be found in the General Terms and Conditions located on the TelNet website and are made a part of the Agreement.
-
-8.             MISCELLANEOUS
-TelNet and Customer agree that the terms and conditions set forth in this Agreement govern Customers order for any and all Product(s) listed on the PSA. Any other terms and conditions, preprinted or otherwise, accompanying any Customer order for the Product and/or service are hereby rejected by TelNet and have no legal effect.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>9.25in</Top>
-                <Left>0.61217in</Left>
-                <Height>4in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>6</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox46">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>3.             ENVIRONMENT &amp; DELIVERY
-Customer agrees, at its sole expense, to provide the proper environment and electrical and telecommunications connections for the Product such as, but not limited to, ensuring appropriate power supply and surge protection is used. Customer is solely responsible for correcting any hazardous conditions that may adversely affect Product. TelNet shall use commercially reasonable efforts to complete the delivery of the Products in advance of the installation date requested by customer, but TelNet does not guarantee that it will be able to do so. If Customer is unable or unwilling to schedule or accept delivery or installation on the date that TelNet tenders delivery or installation, TelNet shall have the right to initiate billing for the amounts due hereunder as of the date that delivery or installation was tendered. Product prices and Installation or Service charges are subject to change at TelNet’s sole discretion if Customer delays delivery or installation by more than thirty (30) days.
-
-4.             TITLE, RISK OF LOSS &amp; SECURITY INTEREST
-Title to the Product ordered by Customer shall pass to Customer upon payment in full of all invoiced amounts. Until TelNet receives the full amount due hereunder from the Customer, Customer grants to TelNet a continuing purchase money security interest in the Products ordered under this Agreement, and Customer agrees to support TelNet in the perfection of such security interest. Risk or loss or damage to the Product shall pass from TelNet to Customer upon initial delivery by TelNet or its suppliers to the delivery carrier (“FOB Origin”). Customer agrees to pay all transportation, handling, insurance and associated charges, including but not limited to, additional charges for non-standard shipment. TelNet shall use commercially reasonable efforts to meet Customer’s requested delivery dates, but TelNet does not guarantee any delivery dates. Customer shall be solely responsible to coordinate all delivery arrangements necessary to comply with project schedule date
-
-5.             WARRANTY &amp; DISCLAIMERS
-THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, TELNET DISCLAIMS AND EXCLUDES ALL REPRESENTATIONS, WARRANTIES AND CONDITIONS, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO REPRESENTATIONS, WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, SATISFACTORY CONDITION OR QUALITY, MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE, WITH RESPECT TO ANY SERVICES, OR OTHER MATERIALS OR INFORMATION PROVIDED BY TELNET. TELNET WARRANTS ONLY THAT ITS SERVICES SHALL BE PERFORMED IN A TIMELY, PROFESSIONAL AND WORKMANLIKE MANNER BY QUALIFIED PERSONNEL. IF SERVICES ARE NOT PERFORMED AS WARRANTED, AND CUSTOMER NOTIFIES TELNET IN WRITING WITHIN THIRTY (30) DAYS, CUSTOMERS EXCLUSIVE REMEDY SHALL BE FOR TELNET TO RE-PERFORM THE NOON-CONFORMING SERVICES. CUSTOMERS EXCLUSIVE REMEDY</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>textbox46</rd:DefaultName>
-                <Top>5in</Top>
-                <Left>0.61217in</Left>
-                <Height>4.25in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>7</ZIndex>
                 <Style>
                   <PaddingLeft>2pt</PaddingLeft>
                   <PaddingRight>2pt</PaddingRight>
@@ -1908,7 +2230,7 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
             <Width>7.64612in</Width>
             <ZIndex>1</ZIndex>
             <Visibility>
-              <Hidden>=IIF(CBool(Parameters!hasPurchase.Value) = True,False,True)</Hidden>
+              <Hidden>=IIF(CBool(Parameters!hasPurchase.Value) = False,True,False)</Hidden>
             </Visibility>
             <Style>
               <Border>
@@ -3218,7 +3540,7 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>Customer Initials: ________</Value>
+                                      <Value />
                                       <Style>
                                         <FontStyle>Normal</FontStyle>
                                         <FontSize>0.125in</FontSize>
@@ -4176,25 +4498,8 @@ THERE IS NO WARRANTY WITH THIS PRODUCT. TO THE MAXIMIM EXTENT PERMITTED BY LAW, 
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>In addition to the general terms and conditions contained in the Master Service Agreement (“MSA”) between TelNet and Customer (the “Agreement”), of which this Equipment Rental Schedule is a part, the following terms and conditions apply to the Rental of the Equipment, as defined below. In the event of any inconsistency between the Agreement and this Schedule, this Schedule shall control.
-
-1.             RENTAL OF EQUIPMENT
-Customer Rents from TelNet the equipment described on the attached MSA (“Equipment”) for the number of months set forth on the MSA (“Equipment Rental Term”). The Equipment Rental Term will be coterminous with the TelNet provided Service(s) on the MSA and therefore will commence with the Effective Date of the Service(s) per the terms of the Agreement. Upon expiration of the initial Equipment Rental Term, this Equipment Rental Schedule will automatically renew for successive periods equal in length to the MSA renewal period(s) (“Equipment Rental Renewal Term(s)”) unless Customer or TelNet provide written notice of cancelation at least 30 days prior to the expiration of the initial Equipment Rental Term or the then current Equipment Rental Renewal Term. Customer shall remain obligated to pay the remainder of the applicable Equipment Rental Term (whether initial or renewal) notwithstanding an early termination of this Equipment Rental Schedule or the Agreement.
-
-2.             RENTAL
-Customer shall pay all amounts due under the MSA, in accordance to the payment terms set forth in the Agreement. Customer also agrees to pay all sales, excise, use, property and similar taxes (other than income taxes on payments made by Customer to TelNet under this Agreement) and related charges that may be imposed or assessed by any governmental entity or taxing authority with respect to such Equipment. 
-
-3.             OWNERSHIP AND USE
-The Equipment shall be the exclusive property of TelNet, except for Customer’s rights to use it in normal business operations under this Rental. The Equipment is and shall remain TelNet’s personal property even if installed in or attached to real property. Customer shall keep the Equipment at all times free and clear from all liens and encumbrances. Customer shall give TelNet immediate notice of any such attachment or other judicial process affecting any article of Equipment. The Equipment shall be located at the address designated on the MSA and Customer shall not move the Equipment to another location or subleases the Equipment without TelNet’s prior written consent. Customer agrees, at its sole expense, to provide the proper environment and electrical and telecommunications connections for the Equipment, such as but not limited to, ensuring appropriate power supply and surge protection is deployed.  Customer is solely responsible for correcting any hazardous conditions that may adversely affect Equipment. Customer shall use the Equipment in a careful and proper manner and shall comply with all federal, state, and local laws. Customer shall not make any alterations or improvements to the Equipment without TelNet’s prior written consent.
-
-4.             WARRANTY &amp; DISCLAIMERS
-CUSTOMER RENTS THE EQUIPMENT AS IS AND, NOT BEING THE MANUFACTURER OF THE EQUIPMENT, THE MANUFACTURERS AGENT OR THE SELLER’S AGENT, TELNET MAKES NO WARRANTY OR REPRESENTATION WHATSOEVER, EXPRESS OR IMPLIED, AS TO THE MERCHANTABILITY, FITNESS FOR ANY PARTICULAR PURPOSE DESIGN OR CONDITION OF THE EQUIPMENT, OR INTELLECTUAL PROPERTY RIGHTS (INCLUDING WITHOUT LIMITATION ANY PATENT, COPYRIGHT AND TRADEMARK RIGHTS, OF ANY THIRD PARTY WITH RESPECT TO THE EQUIPMENT, WHETHER RELATING TO THE INFRINGMENT OR OTHERWISE) WITH RESPECT TO THE EQUIPMENT. TELNET SHALL NOT BE RESPONSIBLE FOR ANY DIRECT, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING FROM POSSESSION OR USE OF THE EQUIPMENT, INCLUDING BUT NOT LIMITED TO, LOST PROFITS OR BUSINESS REVENUE, LOST BUSINESS, WHETHER SUCH DAMAGES ARE FORESEEABLE AND WHETHER TELNET HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. CUSTOMER AGREES THAT TELNET SHALL NOT BE LIABLE FOR ANY DELAY IN DELIVERY OR INSTALLATION OF, OR ANY FAILURE TO DELIVER OR INSTALL, ANY EQUIPMENT. NOTWITHSTANDING THE FOREGOING, IN NO EVENT SHALL TELNET’S LIABILITY (WHETHER IN TORT, NEGLIGENCE, OR OTHERWISE) TO CUSTOMER WITH RESPECT TO THE EQUIPMENT UNDER THIS SCHEDULE EXCEED AN AMOUNT EQUAL TO THE AGGREGATE CHARGES OR FEESACTUALLY PAID BY CUSTOMER WITH RESPECT TO THE EQUIPMENT FOR THE ONE (1) MONTH PERIOD IMMEDIATELY PRECEDING THE MONTH DURING WHICH THE EVENT GIVING RISE TO TELNET’S LIABILITY OCCURS. 
-
-5.             LIABILITY FOR DAMAGE
-Customer shall be responsible for any damage to the Equipment while in Customer’s possession and shall pay to TelNet the value of as much of the Equipment as may be damaged or destroyed. On receipt of the payment, TelNet shall, to the extent of the amount paid, assign to Customer any rights Customer may have with respect to the damaged or destroyed article of Equipment under any insurance, together with all of TelNet’s interest in the article of Equipment.
-
-6.             INSPECTION
-Upon service activation, Customer will inspect the Equipment and notify TelNet within 48 hours if the Equipment is not in good operating condition.  The agents of TelNet may at any time enter Customer’s premises to inspect the Equipment and the manner in which it is being used.</Value>
+                        <Value>In addition to the general terms and conditions contained in the Service Agreement (“SA”) between TelNet and Customer (the “Agreement”), of which this Equipment Rental Schedule is a part, the following terms and conditions apply to the Rental of the Equipment, as defined below. In the event of any inconsistency between the Agreement and this Schedule, this Schedule shall control.
+</Value>
                         <Style>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>9pt</FontSize>
@@ -4202,6 +4507,476 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                       </TextRun>
                     </TextRuns>
                     <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>1.     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>RENTAL OF EQUIPMENT
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Customer Rents from TelNet the equipment described on the attached SA (“Equipment”) for the number of months set forth on the SA (“Equipment Rental Term”). The Equipment Rental Term will be coterminous with the TelNet provided Service(s) on the SA and therefore will commence with the Effective Date of the Service(s) per the terms of the Agreement. Upon expiration of the initial Equipment Rental Term, this Equipment Rental Schedule will automatically renew for successive periods equal in length to the SA renewal period(s) (“Equipment Rental Renewal Term(s)”) unless Customer or TelNet provide written notice of cancellation at least 30 days prior to the expiration of the initial Equipment Rental Term or the then current Equipment Rental Renewal Term. Customer shall remain obligated to pay the remainder of the applicable Equipment Rental Term (whether initial or renewal) notwithstanding an early termination of this Equipment Rental Schedule or the Agreement.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>2.     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>RENTAL
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Customer shall pay all amounts due under the SA, in accordance to the payment terms set forth in the Agreement. Customer also agrees to pay all sales, excise, use, property and similar taxes (other than income taxes on payments made by Customer to TelNet under this Agreement) and related charges that may be imposed or assessed by any </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>governmental entity or taxing authority with respect to such Equipment.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>3.     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>EQUIPMENT BUYOUT OPTION 
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Upon successful completion of original contract term as defined in the attached SA, Customer has the option to purchase the TelNet-supplied rental Equipment, associated with the SA, for $1.00 per piece of Equipment plus applicable taxes (includes phones, Power over Ethernet switches and conference phones).  This Equipment would no longer be eligible for TelNet maintenance or replacement. TelNet-supplied rental Equipment that Customer adds after the installation date and before completion of the original contract term would be excluded from this offer, (e.g., if Customer adds three phones in month 28 of a 36-month contract, those three phones would be excluded from the buyout option.)  Equipment added after initial installation would become eligible for buyout after renewing the initial agreement and completing the balance of the original term, or by paying month to month charges on the Equipment for a period of time that matched the initial contract term.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>4.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>OWNERSHIP AND USE</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>The Equipment is and shall remain the exclusive property of TelNet, subject only to Customer’s rights to use it in normal business operations under this Rental. The Parties agree that the Equipment is and shall remain or be deemed to remain personal property even if installed in or attached to real property. Customer shall keep the Equipment at all times free and clear from all liens and encumbrances. Customer shall give TelNet immediate notice of any such attachment or other judicial process affecting any article of Equipment. The Equipment shall be located at the address designated on the SA and Customer shall not move the Equipment to another location or subleases the Equipment without TelNet’s prior written consent. Customer agrees, at its sole expense, to provide the proper environment and electrical and telecommunications connections for the Equipment, such as but not limited to, ensuring appropriate power supply and surge protection is deployed.  Customer is solely responsible for correcting any hazardous conditions that may adversely affect Equipment. Customer shall use the Equipment in a careful and proper manner and shall comply with all federal, state, and local laws. Customer shall not make any alterations or improvements to the Equipment without TelNet’s prior written consent.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>5.     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>WARRANTY, DISCLAIMERS, AND LIMITATION OF LIABILITY
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>CUSTOMER RENTS THE EQUIPMENT AS IS AND, NOT BEING THE MANUFACTURER OF THE EQUIPMENT, THE MANUFACTURERS AGENT OR THE SELLER’S AGENT, TELNET MAKES NO WARRANTY OR REPRESENTATION WHATSOEVER, EXPRESS OR IMPLIED, AS TO THE MERCHANTABILITY, FITNESS FOR ANY PARTICULAR PURPOSE DESIGN OR CONDITION OF THE EQUIPMENT, OR INTELLECTUAL PROPERTY RIGHTS (INCLUDING WITHOUT LIMITATION ANY PATENT, COPYRIGHT AND TRADEMARK RIGHTS, OF ANY THIRD PARTY WITH RESPECT TO THE EQUIPMENT, WHETHER RELATING TO THE INFRINGMENT OR OTHERWISE) WITH RESPECT TO THE EQUIPMENT. TELNET SHALL NOT BE RESPONSIBLE FOR ANY DIRECT, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING FROM POSSESSION OR USE OF THE EQUIPMENT, INCLUDING BUT NOT LIMITED TO, LOST PROFITS OR BUSINESS REVENUE, LOST BUSINESS, WHETHER SUCH DAMAGES ARE FORESEEABLE AND WHETHER TELNET HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. CUSTOMER AGREES THAT TELNET SHALL NOT BE LIABLE FOR ANY DELAY IN DELIVERY OR INSTALLATION OF, OR ANY FAILURE TO DELIVER OR INSTALL, ANY EQUIPMENT. NOTWITHSTANDING THE FOREGOING, IN NO EVENT SHALL TELNET’S LIABILITY (WHETHER IN TORT, NEGLIGENCE, OR OTHERWISE) TO CUSTOMER WITH RESPECT TO THE EQUIPMENT UNDER THIS SCHEDULE EXCEED AN AMOUNT EQUAL TO THE AGGREGATE CHARGES OR FEESACTUALLY PAID BY CUSTOMER WITH RESPECT TO THE EQUIPMENT FOR THE ONE (1) MONTH PERIOD IMMEDIATELY PRECEDING THE MONTH DURING WHICH THE EVENT GIVING RISE TO TELNET’S LIABILITY OCCURS.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>6.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>LIABILITY FOR DAMAGE
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Customer shall be responsible for any damage to the Equipment while in Customer’s possession and shall pay to TelNet the value of as much of the Equipment as may be damaged or destroyed. On receipt of the payment, TelNet shall, to the extent of the amount paid, assign to Customer any rights Customer may have with respect to the damaged or destroyed article of Equipment under any insurance, together with all of TelNet’s interest in the article of Equipment.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>7.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>INSPECTION
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Upon service activation, Customer will inspect the Equipment and notify TelNet within 48 hours if the Equipment is not in good operating condition.  The agents of TelNet may at any time enter Customer’s premises to inspect the Equipment and the manner in which it is being used.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
                   </Paragraph>
                 </Paragraphs>
                 <Top>0.51042in</Top>
@@ -4216,14 +4991,527 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
-              <Textbox Name="textbox53">
+              <Textbox Name="textbox56">
                 <CanGrow>true</CanGrow>
                 <KeepTogether>true</KeepTogether>
                 <Paragraphs>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>A.</Value>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>8.     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>RETURN
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>If Customer does not choose to participate, or is not eligible for the Equipment Buyout Options (see 3), at the end of the term of this Rental, Customer shall, at Customer’s own expense, return the Equipment to TelNet in as good condition as when received, reasonable wear and tear excepted, at the location specified by TelNet. Customer must keep all original packing that came with the Equipment (including, but not limited to, the box, cd’s, installation disks, paper documents and instructions) and must return it to TelNet along with the Equipment. Additional terms and conditions for the return of Equipment can be found in the General Terms and Conditions located on the TelNet website and are made a part of the Agreement.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>9.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>INSURANCE</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>A.  Customer shall procure and continuously maintain and pay (including the deductible) for:</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5625in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>1)     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#17365d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>All risk insurance against loss of and damage to the Equipment for not less than the full replacement value of the Equipment, naming TelNet as loss payee, and;</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.8125in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>2)     C</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#17365d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>ombined public liability and property damage insurance with limits as approved by TelNet, naming TelNet as additionally named insured and a loss payee.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.8125in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>  B.  </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>The insurance shall be in such form and with such company or companies as shall be reasonably acceptable to TelNet, shall provide at least thirty (30) days advance written notice to TelNet of any cancellation, change or modification, and shall provide primary coverage for the protection of Customer and TelNet without regard to any other coverage carried by Customer or TelNet protecting against similar risks.  Customer shall provide TelNet with an original policy or certificate evidencing such insurance.  Customer hereby appoints TelNet as Customer's attorney in fact with power and authority to do all things, including, but not limited to, making claims, receiving payments and endorsing documents, checks or drafts necessary or advisable to secure payments due under any policy of insurance required under this Agreement.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>10.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">   </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>MAINTENANCE OR REPAIRS
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>TelNet shall provide routine maintenance and repairs to the Equipment as TelNet as follows:</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>A.       In the event that Customer is experiencing trouble with the Equipment, Customer shall immediately notify TelNet of the issues via the TelNet customer service number. TelNet will attempt to resolve the problem via remote support and if that is not successful, TelNet may dispatch personnel to perform on-site support during normal business hours. The on-site repair services may be performed by a TelNet affiliate or subcontractor, at TelNet’s discretion.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>B.       TelNet shall use reasonable efforts to identify and correct the problem with the Equipment. However, if the Equipment cannot be fixed and none of the exclusions in Section (C) below apply, TelNet will replace the defective Equipment with either new or reconditioned Equipment</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>C.        If persons other than those employed by TelNet shall repair, modify or perform any maintenance services on any of the Equipment, or if Customer fails to maintain the Equipment according to the terms of the Agreement or this Schedule, and as a result of either of the foregoing, further maintenance services are required to restore the Equipment to operating condition or the Equipment needs to be replaced, such further maintenance services or Equipment replacement shall be billed to Customer at the then current TelNet time and material rates.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>11.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">   </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>BREACH</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Upon default in the payment of any installment of rent, or upon a breach of any other condition of this Rental, or if during the term of this Rental, bankruptcy or insolvency proceedings are commenced by or against Customer, a receiver is appointed for the business of Customer, or Customer discontinues business, TelNet shall have the right without notice or demand to terminate this Rental, but the termination shall not release Customer from paying damages sustained by TelNet. If upon any termination of this Rental, Customer fails or refuses to deliver the Equipment to TelNet, TelNet shall have the right to enter Customer’s premises and take possession of and remove the Equipment without legal process. Customer releases any claim or right of action for trespass or damages caused by the entry and removal. TelNet can pursue any other remedies TelNet has for arrears of rent or breach of any other conditions of this Rental. Customer shall pay all expenses, including attorney fees, which TelNet pays or incurs to enforce this Rental.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>12.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">   </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>ASSIGNMENT
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>This Rental is not assignable or transferable by operation of law by Customer. TelNet may assign the Rental without Customer’s consent.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>9pt</FontSize>
@@ -4232,27 +5520,11 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                     </TextRuns>
                     <Style />
                   </Paragraph>
-                </Paragraphs>
-                <Top>10.51042in</Top>
-                <Left>0.85154in</Left>
-                <Height>0.25in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>2</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox52">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>Customer shall procure and continuously maintain and pay (including the deductible) for:</Value>
+                        <Value xml:space="preserve">
+</Value>
                         <Style>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>9pt</FontSize>
@@ -4261,88 +5533,17 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                     </TextRuns>
                     <Style />
                   </Paragraph>
-                </Paragraphs>
-                <Top>10.51042in</Top>
-                <Left>1.10154in</Left>
-                <Height>0.25in</Height>
-                <Width>5.85417in</Width>
-                <ZIndex>3</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox51">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>B.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>11.26042in</Top>
-                <Left>0.85154in</Left>
-                <Height>1.25in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>4</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox50">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>The insurance shall be in such form and with such company or companies as shall be reasonably acceptable to TelNet, shall provide at least thirty (30) days advance written notice to TelNet of any cancellation, change or modification, and shall provide primary coverage for the protection of Customer and TelNet without regard to any other coverage carried by Customer or TelNet protecting against similar risks.  Customer shall provide TelNet with an original policy or certificate evidencing such insurance.  Customer hereby appoints TelNet as Customer's attorney in fact with power and authority to do all things, including, but not limited to, making claims, receiving payments and endorsing documents, checks or drafts necessary or advisable to secure payments due under any policy of insurance required under this Agreement.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>11.26042in</Top>
-                <Left>1.10154in</Left>
-                <Height>1.25in</Height>
-                <Width>5.85417in</Width>
-                <ZIndex>5</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox48">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
                         <Value>THE REMAINDER OF THIS PAGE IS LEFT INTENTIONALLY BLANK</Value>
                         <Style>
+                          <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
@@ -4351,399 +5552,11 @@ Upon service activation, Customer will inspect the Equipment and notify TelNet w
                     </Style>
                   </Paragraph>
                 </Paragraphs>
-                <Top>16.88542in</Top>
-                <Left>0.61217in</Left>
-                <Height>0.25in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>6</ZIndex>
-                <Style>
-                  <TopBorder>
-                    <Style>Solid</Style>
-                  </TopBorder>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox47">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>11.             MAINTENANCE OR REPAIRS
-TelNet shall provide routine maintenance and repairs to the Equipment as TelNet as follows:</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>12.51042in</Top>
-                <Left>0.60154in</Left>
-                <Height>0.25in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>7</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox56">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>7.             RETURN
-At the end of the term of this Rental, Customer shall, at Customer’s own expense, return the Equipment to TelNet in as good condition as when received, reasonable wear and tear excepted, at the location specified by TelNet. Customer must keep all original packing that came with the Equipment (including, but not limited to, the box, cd’s, installation disks, paper documents and instructions) and must return it to TelNet along with the Equipment. Additional terms and conditions for the return of Equipment can be found in the General Terms and Conditions located on the TelNet website and are made a part of the Agreement. 
-
-8.             INSURANCE</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
                 <Top>9.26042in</Top>
                 <Left>0.60154in</Left>
-                <Height>1.25in</Height>
+                <Height>7.3125in</Height>
                 <Width>6.35417in</Width>
-                <ZIndex>8</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox57">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>1)</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>10.76042in</Top>
-                <Left>1.10154in</Left>
-                <Height>0.25in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>9</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox58">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>All risk insurance against loss of and damage to the Equipment for not less than the full replacement value of the Equipment, naming TelNet as loss payee, and;</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>10.76042in</Top>
-                <Left>1.35154in</Left>
-                <Height>0.25in</Height>
-                <Width>5.60417in</Width>
-                <ZIndex>10</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox59">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>2)</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>11.01042in</Top>
-                <Left>1.10154in</Left>
-                <Height>0.25in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>11</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox60">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Combined public liability and property damage insurance with limits as approved by TelNet, naming TelNet as additionally named insured and a loss payee.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>11.01042in</Top>
-                <Left>1.35154in</Left>
-                <Height>0.25in</Height>
-                <Width>5.60417in</Width>
-                <ZIndex>12</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox61">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>A.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>12.76042in</Top>
-                <Left>0.85154in</Left>
-                <Height>0.625in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>13</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox62">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>In the event that Customer is experiencing trouble with the Equipment, Customer shall immediately notify TelNet of the issues via the TelNet customer service number. TelNet will attempt to resolve the problem via remote support and if that is not successful, TelNet may dispatch personnel to perform on-site support during normal business hours. The on-site repair services may be performed by a TelNet affiliate or subcontractor, at TelNet’s discretion.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>12.76042in</Top>
-                <Left>1.10154in</Left>
-                <Height>0.625in</Height>
-                <Width>5.85417in</Width>
-                <ZIndex>14</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox63">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>B.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>13.38542in</Top>
-                <Left>0.85154in</Left>
-                <Height>0.5in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>15</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox64">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>TelNet shall use reasonable efforts to identify and correct the problem with the Equipment. However, if the Equipment cannot be fixed and none of the exclusions in Section (C) below apply, TelNet will replace the defective Equipment with either new or reconditioned Equipment</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>13.38542in</Top>
-                <Left>1.10154in</Left>
-                <Height>0.5in</Height>
-                <Width>5.85417in</Width>
-                <ZIndex>16</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox65">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>C.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>13.88542in</Top>
-                <Left>0.85154in</Left>
-                <Height>0.875in</Height>
-                <Width>0.25in</Width>
-                <ZIndex>17</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox66">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>If persons other than those employed by TelNet shall repair, modify or perform any maintenance services on any of the Equipment, or if Customer fails to maintain the Equipment according to the terms of the Agreement or this Schedule, and as a result of either of the foregoing, further maintenance services are required to restore the Equipment to operating condition or the Equipment needs to be replaced, such further maintenance services or Equipment replacement shall be billed to Customer at the then current TelNet time and material rates.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>13.88542in</Top>
-                <Left>1.10154in</Left>
-                <Height>0.875in</Height>
-                <Width>5.85417in</Width>
-                <ZIndex>18</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox67">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>12.             BREACH
-Upon default in the payment of any installment of rent, or upon a breach of any other condition of this Rental, or if during the term of this Rental bankruptcy or insolvency proceedings are commenced by or against Customer, a receiver is appointed for the business of Customer, or Customer discontinues business, TelNet shall have the right without notice or demand to terminate this Rental, but the termination shall not release Customer from paying damages sustained by TelNet. If upon any termination of this Rental Customer fails or refuses to deliver the Equipment to TelNet, TelNet shall have the right to enter Customer’s premises and take possession of and remove the Equipment without legal process. Customer releases any claim or right of action for trespass or damages caused by the entry and removal. TelNet can pursue any other remedies TelNet has for arrears of rent or breach of any other conditions of this Rental. Customer shall pay all expenses, including attorney fees, which TelNet pays or incurs to enforce this Rental.
-
-13.             ASSIGNMENT
-This Rental is not assignable or transferable by operation of law by Customer. TelNet may assign the Rental without Customer’s consent.</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <Top>14.76042in</Top>
-                <Left>0.60154in</Left>
-                <Height>2.125in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>19</ZIndex>
+                <ZIndex>2</ZIndex>
                 <Style>
                   <PaddingLeft>2pt</PaddingLeft>
                   <PaddingRight>2pt</PaddingRight>
@@ -7994,7 +8807,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>TelNet Worldwide SA | v4.5</Value>
+                      <Value>TelNet Worldwide SA | v4.0</Value>
                       <Style>
                         <FontFamily>Calibri</FontFamily>
                         <FontSize>9pt</FontSize>
@@ -8005,7 +8818,7 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>textbox23</rd:DefaultName>
-              <Top>0.19444in</Top>
+              <Top>0.18056in</Top>
               <Left>0.39483in</Left>
               <Height>0.25in</Height>
               <Width>2.20499in</Width>
@@ -8037,9 +8850,9 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 </Paragraph>
               </Paragraphs>
               <Top>0.18056in</Top>
-              <Left>2.78719in</Left>
+              <Left>3.03719in</Left>
               <Height>0.25in</Height>
-              <Width>3.112in</Width>
+              <Width>2.55854in</Width>
               <ZIndex>2</ZIndex>
               <Style>
                 <PaddingLeft>2pt</PaddingLeft>
@@ -8068,11 +8881,48 @@ This Rental is not assignable or transferable by operation of law by Customer. T
                 </Paragraph>
               </Paragraphs>
               <Top>0.18056in</Top>
-              <Left>6.36808in</Left>
+              <Left>7.32167in</Left>
               <Height>0.25in</Height>
-              <Width>1.375in</Width>
+              <Width>1.07292in</Width>
               <ZIndex>3</ZIndex>
               <Style>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox4">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>CUSTOMER INITIALS  _______</Value>
+                      <Style>
+                        <FontStyle>Normal</FontStyle>
+                        <FontFamily>Calibri</FontFamily>
+                        <FontSize>9pt</FontSize>
+                        <FontWeight>Normal</FontWeight>
+                        <TextDecoration>None</TextDecoration>
+                        <Color>#000000</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox4</rd:DefaultName>
+              <Top>0.18056in</Top>
+              <Left>5.66517in</Left>
+              <Height>0.25in</Height>
+              <Width>1.68537in</Width>
+              <ZIndex>4</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingTop>2pt</PaddingTop>
