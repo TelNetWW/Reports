@@ -8807,7 +8807,7 @@ WHERE        (q_u_r_c.quote_id IN
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>TelNet Worldwide SA | v4.0</Value>
+                      <Value>TelNet Worldwide SA | F34 v4.0</Value>
                       <Style>
                         <FontFamily>Calibri</FontFamily>
                         <FontSize>9pt</FontSize>
