@@ -7200,7 +7200,7 @@ WHERE        (q_u_r_c.quote_id IN
                                   </Style>
                                 </TextRun>
                                 <TextRun>
-                                  <Value>Phone number(s) to be ported </Value>
+                                  <Value>Phone number(s) to be ported</Value>
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Myriad Pro</FontFamily>
@@ -7208,17 +7208,6 @@ WHERE        (q_u_r_c.quote_id IN
                                     <FontWeight>Bold</FontWeight>
                                     <TextDecoration>None</TextDecoration>
                                     <Color>#365f91</Color>
-                                  </Style>
-                                </TextRun>
-                                <TextRun>
-                                  <Value>(Please allow 5-10 business days for number porting.)  </Value>
-                                  <Style>
-                                    <FontStyle>Normal</FontStyle>
-                                    <FontFamily>Myriad Pro</FontFamily>
-                                    <FontSize>7pt</FontSize>
-                                    <FontWeight>Normal</FontWeight>
-                                    <TextDecoration>None</TextDecoration>
-                                    <Color>#000000</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -8269,12 +8258,23 @@ WHERE        (q_u_r_c.quote_id IN
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Comments</Value>
+                                  <Value>Comments </Value>
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Myriad Pro</FontFamily>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
+                                    <TextDecoration>None</TextDecoration>
+                                    <Color>#365f91</Color>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value>(Please note any special instructions or exceptions)</Value>
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Myriad Pro</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Normal</FontWeight>
                                     <TextDecoration>None</TextDecoration>
                                     <Color>#365f91</Color>
                                   </Style>
@@ -8374,7 +8374,7 @@ WHERE        (q_u_r_c.quote_id IN
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>The undersigned authorizes TelNet Worldwide, Inc. to act as our agent for purposes of ordering changes and/or terminating the designated service(s) listed above.  This authorization includes, without limitation, the removal, additions to, or rearrangement of any or all telecommunications services (including, but not limited to local exchange, intraLATA toll, interLATA toll, and/or international interexchange). </Value>
+                                  <Value>The undersigned wishes to change our provider to TelNet Worldwide, Inc. and authorizes TelNet Worldwide, Inc. to act as our agent for purposes of ordering changes and/or terminating service(s) for the designated servicephone number(s) listed above.  This authorization includes, without limitation, the removal, additions to, or rearrangement of any or all telecommunications services (including, but not limited to local exchange, intraLATA toll, interLATA toll, and/or international interexchange).  The undersigned understands that for specific service(s) for the phone number(s) listed above (e.g. local exchange, intraLATA toll, and interLATA toll service,) we may designate only one service provider as our carrier for each service for any one telephone number.  If different service providers are requested for different phone numbers, we must fill out separate forms for each phone number we wish to be treated differently.  The undersigned understands that this authorization may result in a charge to us for changing providers.</Value>
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Myriad Pro</FontFamily>
@@ -8546,79 +8546,7 @@ WHERE        (q_u_r_c.quote_id IN
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value />
-                                  <Style>
-                                    <FontStyle>Normal</FontStyle>
-                                    <FontFamily>Myriad Pro</FontFamily>
-                                    <FontWeight>Normal</FontWeight>
-                                    <TextDecoration>Underline</TextDecoration>
-                                    <Color>#365f91</Color>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Right</TextAlign>
-                                <LineHeight>15pt</LineHeight>
-                              </Style>
-                            </Paragraph>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style>
-                                    <FontStyle>Normal</FontStyle>
-                                    <FontFamily>Myriad Pro</FontFamily>
-                                    <FontWeight>Normal</FontWeight>
-                                    <TextDecoration>Underline</TextDecoration>
-                                    <Color>#365f91</Color>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Left</TextAlign>
-                                <LineHeight>12pt</LineHeight>
-                              </Style>
-                            </Paragraph>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
                                   <Value>Please complete this form, print out, sign and fax to 248.485.1090.</Value>
-                                  <Style>
-                                    <FontStyle>Normal</FontStyle>
-                                    <FontFamily>Myriad Pro</FontFamily>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Normal</FontWeight>
-                                    <TextDecoration>None</TextDecoration>
-                                    <Color>#0a50a1</Color>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style>
-                                    <FontStyle>Normal</FontStyle>
-                                    <FontFamily>Myriad Pro</FontFamily>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Normal</FontWeight>
-                                    <TextDecoration>None</TextDecoration>
-                                    <Color>#0a50a1</Color>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Myriad Pro</FontFamily>
