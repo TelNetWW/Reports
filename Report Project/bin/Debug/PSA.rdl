@@ -1807,7 +1807,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>A.       Pre-Shipment: If Customer cancels any portion of the Product order prior to the shipment date, Customer agrees to pay a liquidated damage in the amount totaling 15% of the canceled order amount, plus any cancellation or restocking fees imposed on TelNet by the applicable equipment manufacturer. Customer agrees that this cancellation charge is a true measure of the damage to TelNet and is not a penalty charge.</Value>
+                        <Value>A.     Pre-Shipment: If Customer cancels any portion of the Product order prior to the shipment date, Customer agrees to pay a liquidated damage in the amount totaling 15% of the canceled order amount, plus any cancellation or restocking fees imposed on TelNet by the applicable equipment manufacturer. Customer agrees that this cancellation charge is a true measure of the damage to TelNet and is not a penalty charge.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -1828,7 +1828,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>B.       Post-Shipment: If Customer cancels any portion of the Product order after shipment has occurred but prior to installation of the Product, Customer shall receive a credit for the invoice amount of the cancelled Product minus (a) a liquidated damage in the amount totaling 15% of the cancelled order amount, minus (b) any  cancellation or restocking fees imposed on TelNet by the applicable equipment manufacturer, and minus (c) the shipping charges, both original and return, associated with the canceled Product. Customer agrees that this  cancellation charge is a true measure of the damage to TelNet and is not a penalty charge. If Customer cancels any portion of the Product order after shipment and installation has occurred, Customer shall not be entitled to receive a credit on the returned Product under any circumstances.</Value>
+                        <Value>B.     Post-Shipment: If Customer cancels any portion of the Product order after shipment has occurred but prior to installation of the Product, Customer shall receive a credit for the invoice amount of the cancelled Product minus (a) a liquidated damage in the amount totaling 15% of the cancelled order amount, minus (b) any  cancellation or restocking fees imposed on TelNet by the applicable equipment manufacturer, and minus (c) the shipping charges, both original and return, associated with the canceled Product. Customer agrees that this  cancellation charge is a true measure of the damage to TelNet and is not a penalty charge. If Customer cancels any portion of the Product order after shipment and installation has occurred, Customer shall not be entitled to receive a credit on the returned Product under any circumstances.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -2210,9 +2210,9 @@ WHERE        (q_u_r_c.quote_id IN
                 </Paragraphs>
                 <rd:DefaultName>textbox37</rd:DefaultName>
                 <Top>0.42361in</Top>
-                <Left>0.61217in</Left>
+                <Left>0.08106in</Left>
                 <Height>12.90516in</Height>
-                <Width>6.35417in</Width>
+                <Width>7.50999in</Width>
                 <ZIndex>1</ZIndex>
                 <Style>
                   <PaddingLeft>2pt</PaddingLeft>
@@ -4978,23 +4978,6 @@ WHERE        (q_u_r_c.quote_id IN
                       <TextAlign>Left</TextAlign>
                     </Style>
                   </Paragraph>
-                </Paragraphs>
-                <Top>0.60071in</Top>
-                <Left>0.60154in</Left>
-                <Height>8.75in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>1</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox56">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
@@ -5003,13 +4986,17 @@ WHERE        (q_u_r_c.quote_id IN
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
+                          <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <Style />
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
                   </Paragraph>
                   <Paragraph>
                     <TextRuns>
@@ -5530,16 +5517,18 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                     </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Center</TextAlign>
                     </Style>
                   </Paragraph>
                 </Paragraphs>
-                <Top>9.35071in</Top>
-                <Left>0.60154in</Left>
-                <Height>9.05556in</Height>
-                <Width>6.35417in</Width>
-                <ZIndex>2</ZIndex>
+                <Top>0.61112in</Top>
+                <Left>0.01615in</Left>
+                <Height>18.64236in</Height>
+                <Width>7.56427in</Width>
+                <ZIndex>1</ZIndex>
                 <Style>
                   <PaddingLeft>2pt</PaddingLeft>
                   <PaddingRight>2pt</PaddingRight>
@@ -5552,7 +5541,7 @@ WHERE        (q_u_r_c.quote_id IN
             <DataElementOutput>ContentsOnly</DataElementOutput>
             <Top>34.2343in</Top>
             <Left>0.37868in</Left>
-            <Height>18.40626in</Height>
+            <Height>19.25348in</Height>
             <Width>7.64612in</Width>
             <ZIndex>3</ZIndex>
             <Visibility>
@@ -8613,7 +8602,7 @@ WHERE        (q_u_r_c.quote_id IN
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>52.64057in</Height>
+        <Height>53.48779in</Height>
         <Style />
       </Body>
       <Width>8.5in</Width>
