@@ -1709,7 +1709,7 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>=Fields!local.Value</Value>
+                                          <Value>=FormatCurrency(Fields!local.Value,3) &amp; " / call"</Value>
                                           <Style>
                                             <FontSize>8pt</FontSize>
                                             <Format>'$'0.000;('$'0.000)</Format>
@@ -1744,7 +1744,7 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>=Fields!intra_lata.Value</Value>
+                                          <Value>=FormatCurrency(Fields!intra_lata.Value,3) &amp; " / min"</Value>
                                           <Style>
                                             <FontSize>8pt</FontSize>
                                             <Format>'$'0.000;('$'0.000)</Format>
@@ -1779,7 +1779,7 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>=Fields!intra_state.Value</Value>
+                                          <Value>=FormatCurrency(Fields!intra_state.Value,3) &amp; " / min"</Value>
                                           <Style>
                                             <FontSize>8pt</FontSize>
                                             <Format>'$'0.000;('$'0.000)</Format>
@@ -1813,7 +1813,7 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>=Fields!inter_state.Value</Value>
+                                          <Value>=FormatCurrency(Fields!inter_state.Value,3) &amp; " / min"</Value>
                                           <Style>
                                             <FontSize>8pt</FontSize>
                                             <Format>'$'0.000;('$'0.000)</Format>
@@ -1848,7 +1848,7 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>=Fields!toll_free_interstate.Value</Value>
+                                          <Value>=FormatCurrency(Fields!toll_free_interstate.Value,3) &amp; " / min"</Value>
                                           <Style>
                                             <FontSize>8pt</FontSize>
                                             <Format>'$'0.000;('$'0.000)</Format>

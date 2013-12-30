@@ -744,21 +744,6 @@ WHERE        (q_u_r_c.quote_id IN
                       <TextRun>
                         <Value />
                         <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Center</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>By executing this Agreement, the "Customer" (defined as the party signing below and made a party to this TelNet Service Agreement) is ordering the services set forth herein and on related documentation. Customer agrees to pay for all services ordered or otherwise used including: taxes, surcharges and fees charged by TelNet Worldwide ("TelNet"), including, but not limited to, applicable federal, state, local use, excise, sales, or privilege taxes, duties or similar liabilities, as further set forth in the TelNet Worldwide Terms and   Conditions (the "T&amp;Cs"). Customer agrees to the T&amp;Cs and all items incorporated therein including those in the applicable tariffs or  rate guides which can be found on www.telnetww.com. Customer also authorizes TelNet to obtain any credit information and/or any customer proprietary network information necessary to provision services and to establish Customer's account, and hereby authorizes the release of such information by any and all third parties to TelNet. Customer understands that number assignments are not guaranteed and cannot be relied on before service is activated. Customer has provided TelNet with a valid Letter of Agency for all applicable services ordered. Customer is responsible for the identification and payment of any termination fees to any third party that may apply when switching to TelNet services.</Value>
-                        <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>9pt</FontSize>
@@ -768,12 +753,15 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <Style />
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
                   </Paragraph>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value />
+                        <Value>By executing this Agreement, the "Customer" (defined as the party signing below and made a party to this TelNet Service Agreement) is ordering the services set forth herein and on related documentation. Customer agrees to pay for all services ordered or otherwise used including: taxes, surcharges and fees charged by TelNet Worldwide ("TelNet"), including, but not limited to, applicable federal, state, local use, excise, sales, or privilege taxes, duties or similar liabilities, as further set forth in the TelNet Worldwide Terms and Conditions (the "T&amp;Cs"). Customer agrees to the T&amp;Cs and all items incorporated therein including those in the applicable tariffs or rate guides which can be found on www.telnetww.com. Customer also authorizes TelNet to obtain any credit information and/or any customer proprietary network information necessary to provision services and to establish Customer's account, and hereby authorizes the release of such information by any and all third parties to TelNet. Customer understands that number assignments are not guaranteed and cannot be relied on before service is activated. Customer has provided TelNet with a valid Letter of Agency for all applicable services ordered. Customer is responsible for the identification and payment of any termination fees to any third party that may apply when switching to TelNet services.
+</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -786,7 +774,24 @@ WHERE        (q_u_r_c.quote_id IN
                     </TextRuns>
                     <Style>
                       <TextAlign>Left</TextAlign>
-                      <LineHeight>5pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
                     </Style>
                   </Paragraph>
                   <Paragraph>
@@ -975,7 +980,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>This Agreement and other terms expressly made a part of this Agreement, (including, but not limited to Purchase Order Terms &amp; Conditions, and Equipment Rental Terms &amp; Conditions, if applicable,) constitute the entire Agreement between TelNet and the Customer with respect to the Services. This Agreement supersedes any previous Agreements for the same services between TelNet and Customer. Except as otherwise provided herein, any changes to this Agreement must be agreed to in writing by TelNet. Any changes to this Agreement without said written approval make such changes null and void at TelNet’s discretion. If the Customer wishes to assign this Agreement to a third party, it must first receive TelNet’s written consent.</Value>
+                        <Value>This Agreement and other terms expressly made a part of this Agreement, (including, but not limited to Purchase Order Terms &amp; Conditions, and Equipment Rental Terms &amp; Conditions, if applicable,) constitute the entire Agreement between TelNet and the Customer with respect to the Services. This Agreement supersedes any previous Agreements for the same services between TelNet and Customer. Except as otherwise provided herein, any changes to this Agreement must be agreed to in writing by TelNet Management. Any changes to this Agreement without said written approval make such changes null and void at TelNet’s discretion. If the Customer wishes to assign this Agreement to a third party, it must first receive TelNet’s written consent.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -1051,6 +1056,7 @@ WHERE        (q_u_r_c.quote_id IN
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -1059,7 +1065,6 @@ WHERE        (q_u_r_c.quote_id IN
                     </TextRuns>
                     <Style>
                       <TextAlign>Left</TextAlign>
-                      <LineHeight>5pt</LineHeight>
                     </Style>
                   </Paragraph>
                   <Paragraph>
@@ -1201,7 +1206,7 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value xml:space="preserve">                         </Value>
+                        <Value>                        ___________________ </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -1460,7 +1465,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>__________________________   ___________   ______________________________________   ______________</Value>
+                        <Value>__________________________   ________________   ______________________________________   ______________</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -1478,25 +1483,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>       Customer Printed Name               Title                        Customer Signature                                             Date</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
+                        <Value>       Customer Printed Name                      Title                             Customer Signature                                                  Date</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -1532,7 +1519,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>__________________________   ___________   ______________________________________   ______________</Value>
+                        <Value>__________________________   ________________   ______________________________________   ______________</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -1550,7 +1537,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>         TelNet Printed Name                  Title                                   Signature                                                    Date</Value>
+                        <Value>         TelNet Printed Name                         Title                                        Signature                                                         Date</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Calibri</FontFamily>
@@ -2205,6 +2192,47 @@ WHERE        (q_u_r_c.quote_id IN
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>THE REMAINDER OF THIS PAGE IS LEFT INTENTIONALLY BLANK
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
                     </Style>
                   </Paragraph>
                 </Paragraphs>
@@ -3886,7 +3914,7 @@ WHERE        (q_u_r_c.quote_id IN
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=Fields!local.Value</Value>
+                                      <Value>=FormatCurrency(Fields!local.Value,3)  &amp; " / call"</Value>
                                       <Style>
                                         <FontSize>8pt</FontSize>
                                         <Format>'$'0.000;('$'0.000)</Format>
@@ -3921,7 +3949,7 @@ WHERE        (q_u_r_c.quote_id IN
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=Fields!intra_lata.Value</Value>
+                                      <Value>=FormatCurrency(Fields!intra_lata.Value,3) &amp; " / min"</Value>
                                       <Style>
                                         <FontSize>8pt</FontSize>
                                         <Format>'$'0.000;('$'0.000)</Format>
@@ -3956,7 +3984,7 @@ WHERE        (q_u_r_c.quote_id IN
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=Fields!intra_state.Value</Value>
+                                      <Value>=FormatCurrency(Fields!intra_state.Value,3) &amp; " / min"</Value>
                                       <Style>
                                         <FontSize>8pt</FontSize>
                                         <Format>'$'0.000;('$'0.000)</Format>
@@ -3990,7 +4018,7 @@ WHERE        (q_u_r_c.quote_id IN
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=Fields!inter_state.Value</Value>
+                                      <Value>=FormatCurrency(Fields!inter_state.Value,3) &amp; " / min"</Value>
                                       <Style>
                                         <FontSize>8pt</FontSize>
                                         <Format>'$'0.000;('$'0.000)</Format>
@@ -4025,7 +4053,7 @@ WHERE        (q_u_r_c.quote_id IN
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=Fields!toll_free_interstate.Value</Value>
+                                      <Value>=FormatCurrency(Fields!toll_free_interstate.Value,3) &amp; " / min"</Value>
                                       <Style>
                                         <FontSize>8pt</FontSize>
                                         <Format>'$'0.000;('$'0.000)</Format>
@@ -5537,6 +5565,9 @@ WHERE        (q_u_r_c.quote_id IN
                 </Style>
               </Textbox>
             </ReportItems>
+            <PageBreak>
+              <BreakLocation>Start</BreakLocation>
+            </PageBreak>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
             <Top>34.2343in</Top>
