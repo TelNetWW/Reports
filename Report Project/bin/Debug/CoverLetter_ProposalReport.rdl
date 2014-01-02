@@ -4319,7 +4319,7 @@ product_templates.name like '%polycom%'</CommandText>
                       <Paragraph>
                         <TextRuns>
                           <TextRun>
-                            <Value>= DatePart(DateInterval.Year, Today())  &amp; "." &amp; DatePart(DateInterval.Month, Today()) &amp; "." &amp; DatePart(DateInterval.Day, Today())</Value>
+                            <Value>= DatePart(DateInterval.Month, Today()) &amp; "/" &amp;  DatePart(DateInterval.Day, Today())&amp; "/" &amp; DatePart(DateInterval.Year, Today())</Value>
                             <Style>
                               <FontStyle>Normal</FontStyle>
                               <FontFamily>Myriad Pro</FontFamily>
