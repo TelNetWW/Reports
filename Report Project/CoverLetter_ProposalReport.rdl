@@ -4429,7 +4429,7 @@ product_templates.name like '%polycom%'</CommandText>
                   </Textbox>
                   <Image Name="AgentLogoPage1">
                     <Source>External</Source>
-                    <Value>="http://10.10.50.59/Portal/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
+                    <Value>="http://portal.telnetww.com/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
                     <Sizing>FitProportional</Sizing>
                     <Top>3.03377in</Top>
                     <Left>0.25in</Left>
@@ -5790,7 +5790,7 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>=FormatCurrency(Fields!local.Value,3) &amp; " / call"</Value>
+                                          <Value>=IIF(Fields!type.Value = "Conference Calling", FormatCurrency(Fields!local.Value,3) &amp; " / min", FormatCurrency(Fields!local.Value,3) &amp; " / call")</Value>
                                           <Style>
                                             <FontSize>8pt</FontSize>
                                             <Format>'$'0.000;('$'0.000)</Format>
@@ -6865,7 +6865,7 @@ product_templates.name like '%polycom%'</CommandText>
               </Textbox>
               <Image Name="AgentLogoPage2">
                 <Source>External</Source>
-                <Value>="http://10.10.50.59/Portal/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
+                <Value>="http://portal.telnetww.com/Uploads/" + First(Fields!Logo.Value, "UserDefaults")</Value>
                 <Sizing>FitProportional</Sizing>
                 <Top>3.96528in</Top>
                 <Left>0.22267in</Left>

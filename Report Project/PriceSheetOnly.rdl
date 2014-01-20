@@ -1709,7 +1709,7 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>=FormatCurrency(Fields!local.Value,3) &amp; " / call"</Value>
+                                          <Value>=IIF(Fields!type.Value = "Conference Calling", FormatCurrency(Fields!local.Value,3) &amp; " / min", FormatCurrency(Fields!local.Value,3) &amp; " / call")</Value>
                                           <Style>
                                             <FontSize>8pt</FontSize>
                                             <Format>'$'0.000;('$'0.000)</Format>
