@@ -13,14 +13,12 @@
       </DataSetParameters>
       <CommandText>  SELECT        accounts.name AS account_name, accounts.billing_address_street, accounts.billing_address_city, accounts.billing_address_state, 
                          accounts.billing_address_postalcode, proposal_cstm.additional_message, proposal_cstm.paragraph_choice, quotes.quote_num, quotes.deal_tot, quotes.total, 
-                         p.FirstName AS agent_firstname, p.LastName AS agent_lastname, p.Email AS agent_email, 
-                        p.Phone AS agent_phone, proposal_cstm.contact_name, proposal_cstm.agent_name, proposal_cstm.company_name, 
+                     proposal_cstm.contact_name, proposal_cstm.agent_name, proposal_cstm.company_name, 
                          proposal_cstm.email_address, proposal_cstm.phone_number
 FROM            quotes INNER JOIN
                          quotes_cstm ON quotes.id = quotes_cstm.id_c INNER JOIN
                          proposal_cstm ON quotes_cstm.proposal_id_c = proposal_cstm.id INNER JOIN
-                         accounts ON quotes_cstm.account_id_c = accounts.id INNER JOIN
-                         [Cantillion].[Compass].dbo.Person p ON quotes_cstm.user_id_c = p.PersonID
+                         accounts ON quotes_cstm.account_id_c = accounts.id
 WHERE        (proposal_cstm.id = @Param2)</CommandText>
     </Query>
     <Fields>
@@ -63,22 +61,6 @@ WHERE        (proposal_cstm.id = @Param2)</CommandText>
       <Field Name="total">
         <DataField>total</DataField>
         <rd:TypeName>System.Decimal</rd:TypeName>
-      </Field>
-      <Field Name="agent_firstname">
-        <DataField>agent_firstname</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
-      <Field Name="agent_lastname">
-        <DataField>agent_lastname</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
-      <Field Name="agent_email">
-        <DataField>agent_email</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
-      <Field Name="agent_phone">
-        <DataField>agent_phone</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
       </Field>
       <Field Name="contact_name">
         <DataField>contact_name</DataField>

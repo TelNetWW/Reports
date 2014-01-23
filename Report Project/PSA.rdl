@@ -5683,19 +5683,19 @@ WHERE        (q_u_r_c.quote_id IN
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.5658in</Width>
+                  <Width>1.60747in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.5658in</Width>
+                  <Width>1.60747in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.5658in</Width>
+                  <Width>1.60747in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.5658in</Width>
+                  <Width>1.60747in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.5658in</Width>
+                  <Width>1.60747in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -7699,25 +7699,25 @@ WHERE        (q_u_r_c.quote_id IN
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Comments </Value>
+                                  <Value>Comments/ Current Provider </Value>
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Myriad Pro</FontFamily>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <TextDecoration>None</TextDecoration>
-                                    <Color>#365f91</Color>
+                                    <Color>#000000</Color>
                                   </Style>
                                 </TextRun>
                                 <TextRun>
-                                  <Value>(Please note any special instructions or exceptions)</Value>
+                                  <Value>(Please note any special instructions or exceptions; include your current provider for any phone numbers outside of Michigan)</Value>
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Myriad Pro</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <FontWeight>Normal</FontWeight>
                                     <TextDecoration>None</TextDecoration>
-                                    <Color>#365f91</Color>
+                                    <Color>#000000</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -8078,9 +8078,9 @@ WHERE        (q_u_r_c.quote_id IN
               </SortExpression>
             </SortExpressions>
             <Top>12.23193in</Top>
-            <Left>0.39483in</Left>
+            <Left>0.1865in</Left>
             <Height>8.67356in</Height>
-            <Width>7.829in</Width>
+            <Width>8.03733in</Width>
             <ZIndex>4</ZIndex>
             <Style>
               <Border>

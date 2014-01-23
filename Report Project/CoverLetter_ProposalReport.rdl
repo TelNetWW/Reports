@@ -4396,9 +4396,9 @@ product_templates.name like '%polycom%'</CommandText>
 + First(Fields!billing_address_street.Value, "DataSet1") + vbcrlf 
 + Trim(First(Fields!billing_address_city.Value, "DataSet1")) + ", " + Trim(First(Fields!billing_address_state.Value, "DataSet1")) + " " + Trim(First(Fields!billing_address_postalcode.Value, "DataSet1")) + vbcrlf 
 + vbcrlf + vbcrlf  + "Presented by: " + vbcrlf 
-+ Trim(First(Fields!agent_firstname.Value, "DataSet1")) + " " + Trim(First(Fields!agent_lastname.Value, "DataSet1")) + vbcrlf + "TelNet Worldwide" + vbcrlf 
-+ Trim(First(Fields!phone_number.Value, "DataSet1")) + vbcrlf
-+ Trim(First(Fields!agent_email.Value, "DataSet1"))</Value>
++ Trim(First(Fields!agent_name.Value, "DataSet1")) + vbcrlf + Trim(First(Fields!company_name.Value, "DataSet1")) + vbcrlf 
++ Trim(First(Fields!email_address.Value, "DataSet1"))+ vbcrlf
++ Trim(First(Fields!phone_number.Value, "DataSet1")) + vbcrlf</Value>
                             <Style>
                               <FontStyle>Normal</FontStyle>
                               <FontFamily>Myriad Pro</FontFamily>
@@ -6834,9 +6834,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <TextRuns>
                       <TextRun>
                         <Label>Rep Info</Label>
-                        <Value>=Trim(First(Fields!agent_firstname.Value, "DataSet1")) + " " + Trim(First(Fields!agent_lastname.Value, "DataSet1"))
-+ VBCRLF + Trim(First(Fields!agent_email.Value, "DataSet1")) 
-+ VBCRLF + Trim(First(Fields!phone_number.Value, "DataSet1"))</Value>
+                        <Value>=Trim(First(Fields!agent_name.Value, "DataSet1")) + VBCRLF + Trim(First(Fields!email_address.Value, "DataSet1")) + VBCRLF + Trim(First(Fields!phone_number.Value, "DataSet1"))</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -7394,9 +7392,9 @@ product_templates.name like '%polycom%'</CommandText>
                     <TextRuns>
                       <TextRun>
                         <Label>Rep Info</Label>
-                        <Value>=Trim(First(Fields!agent_firstname.Value, "DataSet1")) + " " + Trim(First(Fields!agent_lastname.Value, "DataSet1"))
-+ VBCRLF + Trim(First(Fields!agent_email.Value, "DataSet1")) 
-+ VBCRLF + Trim(First(Fields!agent_phone.Value, "DataSet1"))</Value>
+                        <Value>=Trim(First(Fields!agent_name.Value, "DataSet1"))
++ VBCRLF + Trim(First(Fields!email_address.Value, "DataSet1")) 
++ VBCRLF + Trim(First(Fields!phone_number.Value, "DataSet1"))</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
