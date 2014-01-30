@@ -1497,7 +1497,7 @@ WHERE        (q_u_r_c.quote_id IN
                 </Paragraphs>
                 <rd:DefaultName>textbox8</rd:DefaultName>
                 <Left>0.14583in</Left>
-                <Height>8.88373in</Height>
+                <Height>8.60248in</Height>
                 <Width>7.60871in</Width>
                 <Style>
                   <Border>
@@ -1517,7 +1517,7 @@ WHERE        (q_u_r_c.quote_id IN
             <KeepTogether>true</KeepTogether>
             <Top>3.20237in</Top>
             <Left>0.30328in</Left>
-            <Height>8.89414in</Height>
+            <Height>8.65456in</Height>
             <Width>7.84114in</Width>
             <Style>
               <Border>
@@ -1548,7 +1548,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox36</rd:DefaultName>
-                <Top>0.04865in</Top>
+                <Top>0.05907in</Top>
                 <Left>0.02678in</Left>
                 <Height>0.25in</Height>
                 <Width>7.56427in</Width>
@@ -2219,7 +2219,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox37</rd:DefaultName>
-                <Top>0.42365in</Top>
+                <Top>0.43407in</Top>
                 <Left>0.08106in</Left>
                 <Height>12.90516in</Height>
                 <Width>7.50999in</Width>
@@ -2232,11 +2232,14 @@ WHERE        (q_u_r_c.quote_id IN
                 </Style>
               </Textbox>
             </ReportItems>
+            <PageBreak>
+              <BreakLocation>Start</BreakLocation>
+            </PageBreak>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>20.90549in</Top>
-            <Left>0.36805in</Left>
-            <Height>13.32881in</Height>
+            <Top>20.38466in</Top>
+            <Left>0.3519in</Left>
+            <Height>13.84964in</Height>
             <Width>7.64612in</Width>
             <ZIndex>1</ZIndex>
             <Visibility>
@@ -7688,7 +7691,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.62908in</Height>
+                  <Height>0.49366in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -7804,7 +7807,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>2.46242in</Height>
+                  <Height>2.29575in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -7853,25 +7856,6 @@ WHERE        (q_u_r_c.quote_id IN
                               <TextRuns>
                                 <TextRun>
                                   <Value>Authorized Signature</Value>
-                                  <Style>
-                                    <FontStyle>Normal</FontStyle>
-                                    <FontFamily>Myriad Pro</FontFamily>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                    <TextDecoration>None</TextDecoration>
-                                    <Color>#365f91</Color>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Left</TextAlign>
-                                <LineHeight>12pt</LineHeight>
-                              </Style>
-                            </Paragraph>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Myriad Pro</FontFamily>
@@ -8086,11 +8070,14 @@ WHERE        (q_u_r_c.quote_id IN
                 <Value>=Fields!quote_num.Value</Value>
               </SortExpression>
             </SortExpressions>
-            <Top>12.0861in</Top>
-            <Left>0.1865in</Left>
-            <Height>8.81939in</Height>
+            <Top>11.86735in</Top>
+            <Left>0.21833in</Left>
+            <Height>8.51731in</Height>
             <Width>8.03735in</Width>
             <ZIndex>4</ZIndex>
+            <Visibility>
+              <Hidden>=IIF(FIRST(Fields!product_name.Value) = "MPLS", True, False)</Hidden>
+            </Visibility>
             <Style>
               <Border>
                 <Style>None</Style>
