@@ -7893,6 +7893,25 @@ WHERE        (q_u_r_c.quote_id IN
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Myriad Pro</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <TextDecoration>None</TextDecoration>
+                                    <Color>#365f91</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                                <LineHeight>12pt</LineHeight>
+                              </Style>
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
                                   <Value xml:space="preserve">                                                                               </Value>
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
@@ -8075,9 +8094,6 @@ WHERE        (q_u_r_c.quote_id IN
             <Height>8.51731in</Height>
             <Width>8.03735in</Width>
             <ZIndex>4</ZIndex>
-            <Visibility>
-              <Hidden>=IIF(FIRST(Fields!product_name.Value) = "MPLS", True, False)</Hidden>
-            </Visibility>
             <Style>
               <Border>
                 <Style>None</Style>
