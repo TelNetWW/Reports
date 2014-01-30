@@ -1497,7 +1497,7 @@ WHERE        (q_u_r_c.quote_id IN
                 </Paragraphs>
                 <rd:DefaultName>textbox8</rd:DefaultName>
                 <Left>0.14583in</Left>
-                <Height>9.02956in</Height>
+                <Height>8.88373in</Height>
                 <Width>7.60871in</Width>
                 <Style>
                   <Border>
@@ -1517,7 +1517,7 @@ WHERE        (q_u_r_c.quote_id IN
             <KeepTogether>true</KeepTogether>
             <Top>3.20237in</Top>
             <Left>0.30328in</Left>
-            <Height>9.02956in</Height>
+            <Height>8.89414in</Height>
             <Width>7.84114in</Width>
             <Style>
               <Border>
@@ -1548,7 +1548,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox36</rd:DefaultName>
-                <Top>0.04861in</Top>
+                <Top>0.04865in</Top>
                 <Left>0.02678in</Left>
                 <Height>0.25in</Height>
                 <Width>7.56427in</Width>
@@ -2219,7 +2219,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox37</rd:DefaultName>
-                <Top>0.42361in</Top>
+                <Top>0.42365in</Top>
                 <Left>0.08106in</Left>
                 <Height>12.90516in</Height>
                 <Width>7.50999in</Width>
@@ -2234,9 +2234,9 @@ WHERE        (q_u_r_c.quote_id IN
             </ReportItems>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>20.90553in</Top>
+            <Top>20.90549in</Top>
             <Left>0.36805in</Left>
-            <Height>13.32877in</Height>
+            <Height>13.32881in</Height>
             <Width>7.64612in</Width>
             <ZIndex>1</ZIndex>
             <Visibility>
@@ -5683,24 +5683,24 @@ WHERE        (q_u_r_c.quote_id IN
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.5658in</Width>
+                  <Width>1.60747in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.5658in</Width>
+                  <Width>1.60747in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.5658in</Width>
+                  <Width>1.60747in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.5658in</Width>
+                  <Width>1.60747in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.5658in</Width>
+                  <Width>1.60747in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>0.66217in</Height>
+                  <Height>0.67075in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -5821,7 +5821,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25592in</Height>
+                  <Height>0.2645in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -5912,7 +5912,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25592in</Height>
+                  <Height>0.2645in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -6014,7 +6014,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25592in</Height>
+                  <Height>0.2645in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -6117,7 +6117,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25592in</Height>
+                  <Height>0.2645in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -6208,7 +6208,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25592in</Height>
+                  <Height>0.2645in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -6291,7 +6291,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25592in</Height>
+                  <Height>0.2645in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -6385,7 +6385,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25592in</Height>
+                  <Height>0.2645in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -6547,7 +6547,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>1.54759in</Height>
+                  <Height>1.55617in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -6700,7 +6700,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25592in</Height>
+                  <Height>0.2645in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -6885,7 +6885,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25592in</Height>
+                  <Height>0.2645in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -7070,7 +7070,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25592in</Height>
+                  <Height>0.2645in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -7255,7 +7255,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25592in</Height>
+                  <Height>0.2645in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -7440,7 +7440,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25592in</Height>
+                  <Height>0.2645in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -7625,7 +7625,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.31842in</Height>
+                  <Height>0.327in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -7688,7 +7688,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.6205in</Height>
+                  <Height>0.62908in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -7699,25 +7699,25 @@ WHERE        (q_u_r_c.quote_id IN
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Comments </Value>
+                                  <Value>Comments/ Current Provider </Value>
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Myriad Pro</FontFamily>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <TextDecoration>None</TextDecoration>
-                                    <Color>#365f91</Color>
+                                    <Color>#000000</Color>
                                   </Style>
                                 </TextRun>
                                 <TextRun>
-                                  <Value>(Please note any special instructions or exceptions)</Value>
+                                  <Value>(Please note any special instructions or exceptions; include your current provider for any phone numbers outside of Michigan)</Value>
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Myriad Pro</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <FontWeight>Normal</FontWeight>
                                     <TextDecoration>None</TextDecoration>
-                                    <Color>#365f91</Color>
+                                    <Color>#000000</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -7804,7 +7804,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>2.45384in</Height>
+                  <Height>2.46242in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -8072,15 +8072,24 @@ WHERE        (q_u_r_c.quote_id IN
             </TablixRowHierarchy>
             <KeepTogether>true</KeepTogether>
             <DataSetName>LocationDetailQuery1</DataSetName>
+            <Filters>
+              <Filter>
+                <FilterExpression>=Fields!product_name.Value</FilterExpression>
+                <Operator>NotEqual</Operator>
+                <FilterValues>
+                  <FilterValue>MPLS</FilterValue>
+                </FilterValues>
+              </Filter>
+            </Filters>
             <SortExpressions>
               <SortExpression>
                 <Value>=Fields!quote_num.Value</Value>
               </SortExpression>
             </SortExpressions>
-            <Top>12.23193in</Top>
-            <Left>0.39483in</Left>
-            <Height>8.67356in</Height>
-            <Width>7.829in</Width>
+            <Top>12.0861in</Top>
+            <Left>0.1865in</Left>
+            <Height>8.81939in</Height>
+            <Width>8.03735in</Width>
             <ZIndex>4</ZIndex>
             <Style>
               <Border>
