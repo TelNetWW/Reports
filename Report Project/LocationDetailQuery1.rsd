@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <Description />
+  <DataSet Name="LocationDetailQuery1">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@Param2">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>true</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+          <rd:IsMultiValued>false</rd:IsMultiValued>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandText>-- We are doing a union of the product level query and sub-product query to make everything look like a line item
+with q1 as (
+	-- Location Detail Query 1: Gives all line items except MPLS.
+	SELECT        
+		quotes.quote_num, 
+		quotes.deal_tot, 
+		quotes.total, 
+		quotes_cstm.monthly_total_c AS monthly_total, 
+
+		product_templates.name, 
+		product_types.name AS product_name, 
+                         
+		accounts.name AS account_name, 
+		service_addresses_cstm.service_address_street, 
+		service_addresses_cstm.service_address_city, 
+		service_addresses_cstm.phone AS service_address_phone, 
+		service_addresses_cstm.service_address_state, 
+		service_addresses_cstm.service_address_postalcode, 
+						 
+		products_cstm.monthly_price_c AS monthly_price, 
+		products.discount_price, 
+		product_types.description, 
+		product_types_cstm.description2_c, 
+						 
+		products.quantity, 
+					
+		product_terms_cstm.term, 
+		proposal_cstm.proposal_num, 
+		accounts.billing_address_street, 
+		accounts.billing_address_city, 
+		accounts.billing_address_state, 
+		accounts.billing_address_postalcode,
+		accounts.phone_office AS billing_phone,
+
+		product_categories.list_order, 
+		product_templates_cstm.display_order, 
+		product_types.list_order as [list_order2]
+	FROM          
+		quotes 
+		INNER JOIN quotes_cstm 
+			ON quotes.id = quotes_cstm.id_c 
+		INNER JOIN product_terms_cstm 
+			ON product_terms_cstm.id = quotes_cstm.term_id_c 
+
+		INNER JOIN products 
+			ON products.quote_id = quotes.id
+		INNER JOIN products_cstm 
+			ON products.id = products_cstm.id_c 
+
+		INNER JOIN product_templates
+			ON product_templates.id = products.product_template_id
+		INNER JOIN product_templates_cstm 
+			ON product_templates.id = product_templates_cstm.id_c 
+		INNER JOIN  product_categories 
+			ON product_templates.category_id = product_categories.id 
+
+		INNER JOIN proposal_cstm 
+			ON quotes_cstm.proposal_id_c = proposal_cstm.id 
+	
+		INNER JOIN accounts 
+			ON quotes_cstm.account_id_c = accounts.id 
+		INNER JOIN service_addresses_cstm 
+			ON quotes_cstm.service_address_id_c = service_addresses_cstm.id 
+		 
+		INNER JOIN product_types 
+			ON quotes_cstm.product_type_id_c = product_types.id
+		INNER JOIN product_types_cstm 
+			ON product_types.id = product_types_cstm.id_c 
+		
+	WHERE        (quotes_cstm.proposal_id_c = @Param2)
+	--WHERE quotes.quote_num = 749
+	--ORDER BY product_categories.list_order, product_templates_cstm.display_order, product_types.list_order
+), q2 as (
+
+
+	-- Location Detail Query 2: Gives the MPLS line item in the table for sub-products (quote_product_type_cstm)
+	-- Note: Although other things are stored in the sub-product table, they are not used for the bill.
+	SELECT       
+		quotes.quote_num,
+		quotes.deal_tot, 
+		quotes.total, 
+		quotes_cstm.monthly_total_c AS monthly_total,
+
+		product_types.name as [name], 
+		product_types.name as [product_name],
+		accounts.name AS account_name, 
+				
+		service_addresses_cstm.service_address_street, 
+		service_addresses_cstm.service_address_city, 
+		service_addresses_cstm.phone AS service_address_phone, 
+		service_addresses_cstm.service_address_state, 
+		service_addresses_cstm.service_address_postalcode, 
+						 
+			quote_product_type_cstm.cost_price AS monthly_price, -- MPLS is a monthly total
+		0.00 as [discount_price], -- Discount price is actually the NRC, which is stored here
+
+		'' as [description], -- These would be product level descriptions; ok to leave blank
+		'' as [description2_c], 
+		1 as [quantity], -- Always a quantity of 1
+		product_terms_cstm.term, 
+		proposal_cstm.proposal_num, 
+
+		accounts.billing_address_street, 
+		accounts.billing_address_city, 
+		accounts.billing_address_state, 
+		accounts.billing_address_postalcode, 
+		accounts.phone_office AS billing_phone,
+	
+		-- Order by fields
+		100 as list_order,--product_categories.list_order, 
+		0 as display_order,--product_templates_cstm.display_order, 
+		0 as [list_order2]        
+	FROM            
+		[sugarcrm].[dbo].quote_product_type_cstm 
+
+		-- Join quote information
+		INNER JOIN [sugarcrm].[dbo].quotes 
+			ON quote_product_type_cstm.quote_id = quotes.id
+		INNER JOIN [sugarcrm].[dbo].quotes_cstm 
+			ON quotes.id = quotes_cstm.id_c 
+
+		-- Join product information
+		INNER JOIN [sugarcrm].[dbo].product_types 
+			ON quote_product_type_cstm.product_type_id = product_types.id 
+		INNER JOIN [sugarcrm].[dbo].product_types_cstm 
+			ON product_types_cstm.id_c = product_types.id 
+	
+		-- Join service address and account information	
+		INNER JOIN [sugarcrm].[dbo].service_addresses_cstm 
+			ON quotes_cstm.service_address_id_c = service_addresses_cstm.id 
+		INNER JOIN accounts
+			ON quotes_cstm.account_id_c = accounts.id
+
+		-- Join product terms from quote
+		INNER JOIN product_terms_cstm 
+			ON product_terms_cstm.id = quotes_cstm.term_id_c 
+
+		-- Join proposal information from proposal
+		INNER JOIN proposal_cstm 
+			ON quotes_cstm.proposal_id_c = proposal_cstm.id 
+
+	WHERE        (quotes_cstm.proposal_id_c = @Param2)
+	--WHERE quotes.quote_num = 749
+		AND product_types.name = 'MPLS/VPN2'
+
+
+)
+select * from q1
+UNION ALL
+select * from q2
+ORDER BY 
+		list_order,--product_categories.list_order, 
+		display_order,--product_templates_cstm.display_order, 
+		[list_order2]   -- product_types.list_order</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="quote_num">
+        <DataField>quote_num</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="deal_tot">
+        <DataField>deal_tot</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="total">
+        <DataField>total</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="monthly_total">
+        <DataField>monthly_total</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="name">
+        <DataField>name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="product_name">
+        <DataField>product_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="account_name">
+        <DataField>account_name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="service_address_street">
+        <DataField>service_address_street</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="service_address_city">
+        <DataField>service_address_city</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="service_address_state">
+        <DataField>service_address_state</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="service_address_phone">
+        <DataField>service_address_phone</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="service_address_postalcode">
+        <DataField>service_address_postalcode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="monthly_price">
+        <DataField>monthly_price</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="discount_price">
+        <DataField>discount_price</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="description">
+        <DataField>description</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="description2_c">
+        <DataField>description2_c</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="quantity">
+        <DataField>quantity</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="term">
+        <DataField>term</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="proposal_num">
+        <DataField>proposal_num</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="billing_address_street">
+        <DataField>billing_address_street</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="billing_address_city">
+        <DataField>billing_address_city</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="billing_address_state">
+        <DataField>billing_address_state</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="billing_address_postalcode">
+        <DataField>billing_address_postalcode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="billing_phone">
+        <DataField>billing_phone</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="list_order">
+        <DataField>list_order</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="display_order">
+        <DataField>display_order</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="list_order2">
+        <DataField>list_order2</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

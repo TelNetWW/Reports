@@ -16,6 +16,10 @@
       <Name>SummaryQuery.rsd</Name>
       <FullPath>SummaryQuery.rsd</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>LocationDetailQuery1.rsd</Name>
+      <FullPath>LocationDetailQuery1.rsd</FullPath>
+    </ProjectItem>
   </DataSets>
   <Reports>
     <ProjectItem>
