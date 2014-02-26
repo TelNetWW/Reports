@@ -8083,6 +8083,13 @@ WHERE        (q_u_r_c.quote_id IN
                   <FilterValue>MPLS</FilterValue>
                 </FilterValues>
               </Filter>
+              <Filter>
+                <FilterExpression>=Fields!product_name.Value</FilterExpression>
+                <Operator>NotEqual</Operator>
+                <FilterValues>
+                  <FilterValue>OfficeEdge Internet</FilterValue>
+                </FilterValues>
+              </Filter>
             </Filters>
             <SortExpressions>
               <SortExpression>
@@ -8091,7 +8098,7 @@ WHERE        (q_u_r_c.quote_id IN
             </SortExpressions>
             <Top>11.86735in</Top>
             <Left>0.21833in</Left>
-            <Height>8.51731in</Height>
+            <Height>8.51733in</Height>
             <Width>8.03735in</Width>
             <ZIndex>4</ZIndex>
             <Style>
