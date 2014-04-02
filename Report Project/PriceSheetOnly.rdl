@@ -2585,7 +2585,8 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>=Fields!name.Value &amp; IIF(Fields!monthly_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!monthly_price.Value)) &amp; ".00)", " ")</Value>
+                                          <Value>=Fields!name.Value &amp; IIF(Fields!monthly_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!monthly_price.Value)) &amp; ".00)", 
+IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount_price.Value)) &amp; ".00)", " "))</Value>
                                           <Style>
                                             <FontFamily>Verdana</FontFamily>
                                             <FontSize>8pt</FontSize>
