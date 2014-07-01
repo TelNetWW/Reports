@@ -2193,7 +2193,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>account_name1</rd:DefaultName>
-                <Top>0.2882in</Top>
+                <Top>0.35764in</Top>
                 <Left>0.08105in</Left>
                 <Height>0.25in</Height>
                 <Width>7.60872in</Width>
@@ -2228,6 +2228,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox1</rd:DefaultName>
+                <Top>0.06944in</Top>
                 <Left>0.08105in</Left>
                 <Height>0.21875in</Height>
                 <Width>7.63549in</Width>
@@ -3383,7 +3384,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixMembers>
                 </TablixRowHierarchy>
                 <DataSetName>LocationDetailQuery1</DataSetName>
-                <Top>0.69683in</Top>
+                <Top>0.76627in</Top>
                 <Left>0.08105in</Left>
                 <Height>1.2in</Height>
                 <Width>7.63547in</Width>
@@ -3472,13 +3473,22 @@ WHERE        (q_u_r_c.quote_id IN
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>Traditional POTS (Plain Old Telephone Service,) Business Line Basic and Plus, and digital fax are no-term, month to month services; rates subject to change with prior notification.</Value>
+                                      <Value>Traditional POTS (Plain Old Telephone Service,) Business Line Basic and Plus, and digital fax are no-term, month to month services; rates subject to change with prior notification. </Value>
                                       <Style>
                                         <FontStyle>Normal</FontStyle>
                                         <FontSize>8pt</FontSize>
                                         <FontWeight>Normal</FontWeight>
                                         <TextDecoration>None</TextDecoration>
                                         <Color>#000000</Color>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>Digital Fax per page rates for additional pages beyond the included monthly fax plan total are: Fax Plan 500 - $0.020/addl page, Fax Plan 1,000 - $0.018/addl page, Fax Plan 1,500 - $0.015/addl page, Fax Plan 2,500 - $0.013/addl page, Fax Plan 20,000 - $0.007/addl page.</Value>
+                                      <Style>
+                                        <FontStyle>Normal</FontStyle>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                        <TextDecoration>None</TextDecoration>
                                       </Style>
                                     </TextRun>
                                   </TextRuns>
@@ -3493,10 +3503,9 @@ WHERE        (q_u_r_c.quote_id IN
                                       <Value xml:space="preserve"> </Value>
                                       <Style>
                                         <FontStyle>Normal</FontStyle>
-                                        <FontFamily>Calibri</FontFamily>
+                                        <FontSize>8pt</FontSize>
                                         <FontWeight>Normal</FontWeight>
                                         <TextDecoration>None</TextDecoration>
-                                        <Color>#1f497d</Color>
                                       </Style>
                                     </TextRun>
                                   </TextRuns>
@@ -3640,7 +3649,7 @@ WHERE        (q_u_r_c.quote_id IN
                 </TablixRowHierarchy>
                 <KeepTogether>true</KeepTogether>
                 <DataSetName>UsageTableDataSet</DataSetName>
-                <Top>2.93293in</Top>
+                <Top>3.00237in</Top>
                 <Left>0.08106in</Left>
                 <Height>0.2in</Height>
                 <Width>7.63549in</Width>
@@ -4141,7 +4150,7 @@ WHERE        (q_u_r_c.quote_id IN
                   </TablixMembers>
                 </TablixRowHierarchy>
                 <DataSetName>UsageTableDataSet</DataSetName>
-                <Top>2.47738in</Top>
+                <Top>2.54682in</Top>
                 <Left>0.08106in</Left>
                 <Height>0.4in</Height>
                 <Width>7.63548in</Width>
@@ -4460,7 +4469,7 @@ WHERE        (q_u_r_c.quote_id IN
                 </TablixRowHierarchy>
                 <KeepTogether>true</KeepTogether>
                 <DataSetName>SummaryQuery</DataSetName>
-                <Top>1.9246in</Top>
+                <Top>1.99404in</Top>
                 <Left>0.0972in</Left>
                 <Height>0.4in</Height>
                 <Width>7.63552in</Width>
@@ -4486,9 +4495,8 @@ WHERE        (q_u_r_c.quote_id IN
             </ReportItems>
             <PageName>PSA</PageName>
             <KeepTogether>true</KeepTogether>
-            <Top>0.06944in</Top>
             <Left>0.39483in</Left>
-            <Height>3.13293in</Height>
+            <Height>3.20237in</Height>
             <Width>7.73272in</Width>
             <ZIndex>2</ZIndex>
             <Style>
