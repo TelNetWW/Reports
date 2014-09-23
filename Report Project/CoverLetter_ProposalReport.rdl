@@ -4140,6 +4140,515 @@ product_templates.name like '%polycom%'</CommandText>
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
+              <Textbox Name="txtWhyTelNetColo">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Why TelNet is right for you</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>20pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#4f81bd</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>20pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#4f81bd</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.1in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>14pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>TelNet Worldwide is a comprehensive, next-generation provider of essential business communications services and solutions including converged voice, data, and connectivity as well as cloud-based services.  We offer products and services that add value and help businesses achieve more every day. </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.5in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>14pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.5in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>14pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>We know you have myriad choices when it comes to data center offerings. Choose TelNet and you are assured that your service will be well designed, well delivered and well supported to help you gain a competitive advantage.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.5in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>14pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.5in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>14pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Your solution suits you!</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>18pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.5in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>14pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>18pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.5in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>14pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>TelNet Data Center Services </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#4f81bd</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Dedicated colocation cabinet space: offering close proximity to networking resources allowing low access cost within a secure, controlled environment. Designed to house your mission critical equipment. Here are just a few more advantages of TelNet's solution:</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.5in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  Flexible and Scalable </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>so you can easily grow your business and services. Add cabinets, cross connects, Tier 1 uplinks, power and controls when you need them to keep pace with business today.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>16pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>16pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  World class, fully redundant, fiber optic network </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>delivers highly reliable service.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  Gain control</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>11pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>of costs and your time with productivity-enhancing services, online tools and self-managed features.
+ </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.25in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  Monitoring </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>your systems at your fingertips from anywhere. Use of our state-of-art DCIM and NMS systems, give you a complete picture of your systems.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>1in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  Disaster Recovery</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value> providing site redundancy for onsite Enterprise customers. Your critical traffic is easily diverted for business continuity.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>16pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>16pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>»  Our Professional Services free you up to focus on core business </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>14pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#1f497d</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value> - TelNet takes much of the burden out of managing your Colocation services which allows you to spend less time managing your data center services and more time with your customers and team. </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>1in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <ListLevel>1</ListLevel>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>16pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <Top>0.67584in</Top>
+                <Left>0.23821in</Left>
+                <Height>7.30208in</Height>
+                <Width>7.50925in</Width>
+                <ZIndex>7</ZIndex>
+                <Visibility>
+                  <Hidden>=Microsoft.VisualBasic.Interaction.IIf(First(Fields!product_name.Value, "LocationDetailQuery1") = "Colocation", False, True)</Hidden>
+                </Visibility>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <BackgroundColor>White</BackgroundColor>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
             </ReportItems>
             <PageName>Page2</PageName>
             <KeepTogether>true</KeepTogether>
