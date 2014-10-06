@@ -4183,7 +4183,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>TelNet Worldwide is a comprehensive, next-generation provider of essential business communications services and solutions including converged voice, data, and connectivity as well as data center and cloud-based services.  We offer products and services that add value and help businesses achieve more every day. </Value>
+                        <Value>TelNet Worldwide is a comprehensive, next-generation provider of essential business services and data center solutions.  Services include converged voice, data, cloud and network solutions, as well as colocation, managed and hosted solutions. We offer products and services that add value and help businesses achieve more every day.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -4221,7 +4221,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>We know you have myriad choices when it comes to data center offerings. Choose TelNet and you are assured that your service will be well designed, well delivered and well supported to help you gain a competitive advantage.</Value>
+                        <Value>We know you have a myriad choices when it comes to communications and data center offerings. Choose TelNet and you are assured that your service will be well designed, well delivered and well supported to help you gain a competitive advantage.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
@@ -4310,7 +4310,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>Dedicated colocation cabinet space: offering close proximity to networking resources allowing low access cost within a secure, controlled environment. Designed to house your mission critical equipment. Here are just a few more advantages of TelNet's solution:</Value>
+                        <Value>Colocation solution with managed or dedicated cabinet space is designed to house your mission-critical equipment within a secure, controlled environment, in close proximity to diverse, redundant networking and power resources. Here are just a few more advantages of TelNet’s solution:</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Myriad Pro</FontFamily>
