@@ -38,6 +38,18 @@
       <Name>PSA.rdl</Name>
       <FullPath>PSA.rdl</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DCPriceSheetOnly.rdl</Name>
+      <FullPath>DCPriceSheetOnly.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DCPSA.rdl</Name>
+      <FullPath>DCPSA.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DCCoverLetter_ProposalReport.rdl</Name>
+      <FullPath>DCCoverLetter_ProposalReport.rdl</FullPath>
+    </ProjectItem>
   </Reports>
   <Configurations>
     <Configuration>
@@ -53,7 +65,7 @@
         <TargetDatasetFolder>Datasets</TargetDatasetFolder>
         <OverwriteDatasets>true</OverwriteDatasets>
         <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
-        <StartItem>PSA.rdl</StartItem>
+        <StartItem>DCCoverLetter_ProposalReport.rdl</StartItem>
       </Options>
     </Configuration>
     <Configuration>
