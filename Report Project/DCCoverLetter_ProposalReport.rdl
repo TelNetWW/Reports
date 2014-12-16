@@ -1034,9 +1034,9 @@ product_templates.name like '%polycom%'</CommandText>
                     </Style>
                   </Paragraph>
                 </Paragraphs>
-                <Top>4.17584in</Top>
+                <Top>3.82639in</Top>
                 <Left>0.25in</Left>
-                <Height>4.58111in</Height>
+                <Height>4.60764in</Height>
                 <Width>7.77734in</Width>
                 <Style>
                   <Border>
@@ -1128,7 +1128,58 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>We know you have a myriad of choices when it comes to data center offerings. Choose TelNet and you are assured that your service will be designed, delivered and supported to best in class standards. With proven innovation and expertise in data center development and deployment, TelNet has partnered with industry leader EdgeConneX to develop Southeastern Michigan’s newest and most advanced Tier III data center. Our data center is designed to meet compliance standards such as HIPAA, SOC2 and PCI DSS. This facility offers every advantage of the very latest technology, rich power resources, and robust connectivity, providing access to the internet, low latency and enhanced security.</Value>
+                        <Value>We know you have a myriad of choices when it comes to data center offerings. Choose TelNet and you are assured that your service will be designed, delivered and supported to best in class standards. With proven innovation and expertise in data center development and deployment, TelNet has partnered with industry leader EdgeConneX to develop Southeastern Michigan’s </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox19</rd:DefaultName>
+                <Top>1.71264in</Top>
+                <Left>0.25in</Left>
+                <Height>0.5382in</Height>
+                <Width>7.49746in</Width>
+                <ZIndex>3</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Image Name="DataCenterImage">
+                <Source>Embedded</Source>
+                <Value>dcspace</Value>
+                <Sizing>FitProportional</Sizing>
+                <Top>2.2925in</Top>
+                <Left>4.64932in</Left>
+                <Height>1.44708in</Height>
+                <Width>3.25474in</Width>
+                <ZIndex>4</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
+              <Textbox Name="Textbox20">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>newest and most advanced Tier III data center. Our data center is designed to meet compliance standards such as HIPAA, SOC2 and PCI DSS. This facility offers every advantage of the very latest technology, rich power resources, and robust connectivity, providing access to the internet, low latency and enhanced security.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -1158,7 +1209,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>Whether your data center needs are regional or national, TelNet can provide data center services via our strategic partner in locations across the United States.</Value>
+                        <Value>Whether your data center needs are regional or national, TelNet can provide data center services via our strategic partner in locations across the United States. </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -1171,12 +1222,12 @@ product_templates.name like '%polycom%'</CommandText>
                     <Style />
                   </Paragraph>
                 </Paragraphs>
-                <rd:DefaultName>Textbox19</rd:DefaultName>
-                <Top>1.71264in</Top>
-                <Left>0.25in</Left>
-                <Height>2.33333in</Height>
-                <Width>4.46749in</Width>
-                <ZIndex>3</ZIndex>
+                <rd:DefaultName>Textbox20</rd:DefaultName>
+                <Top>2.25084in</Top>
+                <Left>0.25001in</Left>
+                <Height>1.57555in</Height>
+                <Width>4.34375in</Width>
+                <ZIndex>5</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -1187,27 +1238,12 @@ product_templates.name like '%polycom%'</CommandText>
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
-              <Image Name="DataCenterImage">
-                <Source>Embedded</Source>
-                <Value>dcspace</Value>
-                <Sizing>FitProportional</Sizing>
-                <Top>1.71264in</Top>
-                <Left>4.7726in</Left>
-                <Height>1.44708in</Height>
-                <Width>3.25474in</Width>
-                <ZIndex>4</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                </Style>
-              </Image>
             </ReportItems>
             <PageName>Page2</PageName>
             <KeepTogether>true</KeepTogether>
             <Top>17.38194in</Top>
             <Left>0.25in</Left>
-            <Height>9.09028in</Height>
+            <Height>8.54862in</Height>
             <Width>8.25in</Width>
             <Style>
               <Border>
@@ -4298,7 +4334,7 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>»    Our Professional Services allows our clients to focus on core business. </Value>
+                        <Value>»   Our Professional Services allows our clients to focus on core business. </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>12pt</FontSize>
