@@ -1039,7 +1039,6 @@ WHERE        (q_u_r_c.quote_id IN
                       <TextRun>
                         <Value>General Terms and Conditions </Value>
                         <Style>
-                          <FontFamily>Calibri</FontFamily>
                           <FontSize>12pt</FontSize>
                           <FontWeight>Bold</FontWeight>
                           <Color>White</Color>
@@ -1055,7 +1054,6 @@ WHERE        (q_u_r_c.quote_id IN
                       <TextRun>
                         <Value>for Delivery of Service </Value>
                         <Style>
-                          <FontFamily>Calibri</FontFamily>
                           <FontSize>12pt</FontSize>
                           <FontWeight>Bold</FontWeight>
                           <Color>White</Color>
@@ -8940,7 +8938,7 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value xml:space="preserve">       </Value>
+                        <Value xml:space="preserve">    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9038,7 +9036,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>a)        “</Value>
+                        <Value>a)     “</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9077,7 +9075,26 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>b)       </Value>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>b)    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9145,7 +9162,7 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value xml:space="preserve">       </Value>
+                        <Value xml:space="preserve">    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9213,7 +9230,7 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value xml:space="preserve">       </Value>
+                        <Value xml:space="preserve">    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9281,7 +9298,7 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value xml:space="preserve">       </Value>
+                        <Value xml:space="preserve">    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9339,7 +9356,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>a)     </Value>
+                        <Value>a)    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9397,7 +9414,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>b)     </Value>
+                        <Value>b)    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9455,7 +9472,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>c)     </Value>
+                        <Value>c)    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9513,7 +9530,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>d)     </Value>
+                        <Value>d)    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9571,7 +9588,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>e)     </Value>
+                        <Value>e)    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9697,7 +9714,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>a)     </Value>
+                        <Value>a)    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9774,7 +9791,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>b)     </Value>
+                        <Value>b)    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9841,7 +9858,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>c)     </Value>
+                        <Value>c)    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9898,7 +9915,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>d)     </Value>
+                        <Value>d)    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9955,7 +9972,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>e)     </Value>
+                        <Value>e)    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10080,7 +10097,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>a)     </Value>
+                        <Value>a)    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10325,7 +10342,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>b)     </Value>
+                        <Value>b)    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10383,7 +10400,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>i)      </Value>
+                        <Value>i)     </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10441,7 +10458,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>ii)     </Value>
+                        <Value>ii)    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10509,7 +10526,7 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value xml:space="preserve">       </Value>
+                        <Value xml:space="preserve">    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10576,7 +10593,7 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value xml:space="preserve">     </Value>
+                        <Value xml:space="preserve">    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10673,242 +10690,127 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>Power Availability Percentage</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Service Credit</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>&gt; 99.95 %</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>No Credit</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>≤99.95% &gt; 99.5 %</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>3% of MRC</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>≤99.5% &gt; 99.0%</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>5% of MRC</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>≤99.0 % &gt; 98.5%</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>10% of MRC</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>≤98.5 %</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>20% of MRC</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
                         <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
+                          <FontWeight>Bold</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.25in</LeftIndent>
-                    <HangingIndent>0.5in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <Top>1.04167in</Top>
+                <Left>0.25in</Left>
+                <Height>17.78821in</Height>
+                <Width>7.5in</Width>
+                <Style>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="textbox38">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Colocation and Interconnection</Value>
+                        <Style>
+                          <FontSize>12pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <Color>White</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Right</TextAlign>
                     </Style>
                   </Paragraph>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>b)</Value>
+                        <Value>Services Addendum </Value>
+                        <Style>
+                          <FontSize>12pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <Color>White</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Right</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>textbox36</rd:DefaultName>
+                <Top>0.17708in</Top>
+                <Left>4.38993in</Left>
+                <Height>0.54168in</Height>
+                <Width>3.35809in</Width>
+                <ZIndex>1</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <BottomBorder>
+                    <Color>Black</Color>
+                    <Style>None</Style>
+                    <Width>1pt</Width>
+                  </BottomBorder>
+                  <BackgroundColor>#1f487c</BackgroundColor>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Image Name="TelNetLogo3">
+                <Source>Embedded</Source>
+                <Value>telnetlogo</Value>
+                <Sizing>FitProportional</Sizing>
+                <Left>0.25in</Left>
+                <Height>1in</Height>
+                <Width>2.42in</Width>
+                <ZIndex>2</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
+              <Image Name="PowerCredits">
+                <Source>Embedded</Source>
+                <Value>credit</Value>
+                <Sizing>FitProportional</Sizing>
+                <Top>18.89932in</Top>
+                <Left>1.32167in</Left>
+                <Height>2.30154in</Height>
+                <Width>5.51042in</Width>
+                <ZIndex>3</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
+              <Textbox Name="Textbox9">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>a)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10921,7 +10823,8 @@ WHERE        (q_u_r_c.quote_id IN
                         <Value xml:space="preserve">     </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -10990,9 +10893,7 @@ WHERE        (q_u_r_c.quote_id IN
                     </TextRuns>
                     <LeftIndent>0.5in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
+                    <Style />
                   </Paragraph>
                   <Paragraph>
                     <TextRuns>
@@ -11016,7 +10917,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>c)</Value>
+                        <Value>b)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -11029,7 +10930,8 @@ WHERE        (q_u_r_c.quote_id IN
                         <Value xml:space="preserve">     </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -11124,7 +11026,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>d)</Value>
+                        <Value>c)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -11137,7 +11039,8 @@ WHERE        (q_u_r_c.quote_id IN
                         <Value xml:space="preserve">     </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -11182,7 +11085,28 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>i)      The monthly percentages set forth above are calculated by factoring the amount of time such Service is available (for availability Service Levels) and/or stable (for stability Service Levels) against the total time in each month. Unless otherwise indicated, the calculation of any period of unavailability or instability shall begin upon verified receipt of an alarm indicating an outage or the receipt by TelNet’s customer service of a detailed report from TelNet or Customer stating that a Service is unavailable and the opening of a trouble ticket. The period of unavailability or instability shall end when the affected Service has been restored.</Value>
+                        <Value>i)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">      </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>The monthly percentages set forth above are calculated by factoring the amount of time such Service is available (for availability Service Levels) and/or stable (for stability Service Levels) against the total time in each month. Unless otherwise indicated, the calculation of any period of unavailability or instability shall begin upon verified receipt of an alarm indicating an outage or the receipt by TelNet’s customer service of a detailed report from TelNet or Customer stating that a Service is unavailable and the opening of a trouble ticket. The period of unavailability or instability shall end when the affected Service has been restored.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -11220,7 +11144,28 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>ii)     Service credits shall be applied to the individual Service MRC for the Service Level Agreement that has been violated.</Value>
+                        <Value>ii)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Service credits shall be applied to the individual Service MRC for the Service Level Agreement that has been violated.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -11258,7 +11203,28 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>iii)    In the event TelNet fails to meet a stated Service Level in any given month, Customer shall be entitled to receive the corresponding Service Level credit as the sole and exclusive remedy by providing TelNet with a written request for a Service Level credit within thirty (30) days after the month in which the Service Level failure occurred. If there are multiple Service Level failures with the same root cause, only the Service Level with the highest Service Level credit available will apply.</Value>
+                        <Value>iii)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">    </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>In the event TelNet fails to meet a stated Service Level in any given month, Customer shall be entitled to receive the corresponding Service Level credit as the sole and exclusive remedy by providing TelNet with a written request for a Service Level credit within thirty (30) days after the month in which the Service Level failure occurred. If there are multiple Service Level failures with the same root cause, only the Service Level with the highest Service Level credit available will apply.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -11296,7 +11262,28 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>iv)    TelNet’s records and data shall be the basis for all Service Level calculations and determinations and shall be made available to Customer upon reasonable request and to the extent necessary to validate Service Level performance.</Value>
+                        <Value>iv)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">    </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>TelNet’s records and data shall be the basis for all Service Level calculations and determinations and shall be made available to Customer upon reasonable request and to the extent necessary to validate Service Level performance.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -11334,7 +11321,28 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>v)     Notwithstanding anything to the contrary, the maximum amount of credit in any calendar month shall not exceed Customer’s total MRC for the Service in which the Service Level failure occurred.</Value>
+                        <Value>v)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Notwithstanding anything to the contrary, the maximum amount of credit in any calendar month shall not exceed Customer’s total MRC for the Service in which the Service Level failure occurred.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -11372,7 +11380,28 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>vi)    TelNet’s failure to perform will be unconditionally excused and no Service Level credits will apply if and to the extent any failure to perform or meet any Service Level is caused by Customer, a Visitor of Customer, a third party, or an event of force majeure.</Value>
+                        <Value>vi)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">    </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>TelNet’s failure to perform will be unconditionally excused and no Service Level credits will apply if and to the extent any failure to perform or meet any Service Level is caused by Customer, a Visitor of Customer, a third party, or an event of force majeure.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -11410,10 +11439,10 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>8)</Value>
+                        <Value>2)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontFamily>Calibri</FontFamily>
                           <FontWeight>Bold</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -11423,7 +11452,8 @@ WHERE        (q_u_r_c.quote_id IN
                         <Value xml:space="preserve">       </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -11468,10 +11498,21 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>a)     </Value>
+                        <Value>a)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -11516,10 +11557,21 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>i)      </Value>
+                        <Value>i)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">      </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -11574,10 +11626,21 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>ii)     </Value>
+                        <Value>ii)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -11632,10 +11695,21 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>iii)    </Value>
+                        <Value>iii)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">    </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -11710,10 +11784,21 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>b)     </Value>
+                        <Value>b)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -11771,7 +11856,8 @@ WHERE        (q_u_r_c.quote_id IN
                         <Value xml:space="preserve">      </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -11846,10 +11932,21 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>ii)     </Value>
+                        <Value>ii)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -11917,7 +12014,8 @@ WHERE        (q_u_r_c.quote_id IN
                         <Value xml:space="preserve">     </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -11962,7 +12060,28 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>i)      After conclusion of the initial Service Term</Value>
+                        <Value>i)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">      </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>After conclusion of the initial Service Term</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -11982,10 +12101,20 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>Customer will have the right to renew the Service Term of any Form of Service Order for one (1) additional Service Term of the same duration, upon Customer giving TelNet written notice of its intent to renew no less than ninety (90) days before the upcoming expiration of the then current Service Term for such Form of Service Order. Following the expiration of the first renewal period, the parties may extend the Service Term further by mutual consent.</Value>
+                        <Value>Customer will have the right to renew the Service Term of any Form of Service Order for one (1) additional Service Term of the same duration, upon Customer giving TelNet written notice of its intent to renew no less than ninety (90) days before the upcoming expiration of the then current Service Term for such Form of Service Order. Following the expiration of the first renewal period, the parties may extend the Service Term further by mutual consent</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>8pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -12004,7 +12133,7 @@ WHERE        (q_u_r_c.quote_id IN
                         <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontSize>8pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -12033,7 +12162,8 @@ WHERE        (q_u_r_c.quote_id IN
                         <Value xml:space="preserve">     </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -12078,10 +12208,21 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>i)      </Value>
+                        <Value>i)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">      </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -12136,10 +12277,21 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>ii)     </Value>
+                        <Value>ii)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -12207,7 +12359,8 @@ WHERE        (q_u_r_c.quote_id IN
                         <Value xml:space="preserve">     </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -12252,7 +12405,28 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>i)      TelNet will have the option to terminate the impacted Form of Service Orders due to damage, destruction or taking (for any public or quasi-public use, by right of eminent domain or otherwise sold in lieu of condemnation), of all or any portion of the Facility or Space, or TelNet’s possession is otherwise terminated or abated, upon written notice to Customer. If TelNet does not exercise the right to terminate, then TelNet will restore the Facility and/or Space to substantially the same (or better) condition it was in prior to the damage or taking or make available a substantially similar alternative Space and Services reasonably acceptable to Customer, completing the same with reasonable speed considering all of the facts and circumstances. In no event will TelNet have any obligation to repair or replace Customer Equipment. In the event that TelNet fails to complete the repair or provide an alternative Space within one hundred eighty (180) days of the fire, other similar casualty or taking, Customer will have the option to terminate, without any liability, the applicable Form of Service Order(s) adversely impacted with respect to the affected Space by providing TelNet notice of termination within thirty (30) days after expiration of the aforesaid one hundred eighty (180) day period. This termination option will be the sole and exclusive remedy available to Customer against TelNet under this Agreement and the applicable Form of Service Order(s) relating to such failure and the damage to or taking of the Facility and Space.</Value>
+                        <Value>i)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">      </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>TelNet will have the option to terminate the impacted Form of Service Orders due to damage, destruction or taking (for any public or quasi-public use, by right of eminent domain or otherwise sold in lieu of condemnation), of all or any portion of the Facility or Space, or TelNet’s possession is otherwise terminated or abated, upon written notice to Customer. If TelNet does not exercise the right to terminate, then TelNet will restore the Facility and/or Space to substantially the same (or better) condition it was in prior to the damage or taking or make available a substantially similar alternative Space and Services reasonably acceptable to Customer, completing the same with reasonable speed considering all of the facts and circumstances. In no event will TelNet have any obligation to repair or replace Customer Equipment. In the event that TelNet fails to complete the repair or provide an alternative Space within one hundred eighty (180) days of the fire, other similar casualty or taking, Customer will have the option to terminate, without any liability, the applicable Form of Service Order(s) adversely impacted with respect to the affected Space by providing TelNet notice of termination within thirty (30) days after expiration of the aforesaid one hundred eighty (180) day period. This termination option will be the sole and exclusive remedy available to Customer against TelNet under this Agreement and the applicable Form of Service Order(s) relating to such failure and the damage to or taking of the Facility and Space.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12303,7 +12477,8 @@ WHERE        (q_u_r_c.quote_id IN
                         <Value xml:space="preserve">      </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -12348,7 +12523,28 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>i)      Upon any termination other than a termination due to TelNet’s uncured material breach and an early termination under Section 3.9.b in the General T&amp;Cs, Customer will pay TelNet the remaining MRC due for the remainder of each Service Term, unless expressly provided otherwise herein. Upon any termination or expiration, TelNet may immediately cease providing the Services and all payment obligations of Customer under this addendum will become immediately due and payable. In the event Customer has not removed the Customer Equipment as of the termination or expiration date, after providing Customer with at least fifteen (15) days’ notice, TelNet may remove the Customer Equipment from the Space and place the Customer Equipment in storage, at Customer’s expense and/or dispose of the Customer Equipment.</Value>
+                        <Value>i)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">      </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Upon any termination other than a termination due to TelNet’s uncured material breach and an early termination under Section 3.9.b in the General T&amp;Cs, Customer will pay TelNet the remaining MRC due for the remainder of each Service Term, unless expressly provided otherwise herein. Upon any termination or expiration, TelNet may immediately cease providing the Services and all payment obligations of Customer under this addendum will become immediately due and payable. In the event Customer has not removed the Customer Equipment as of the termination or expiration date, after providing Customer with at least fifteen (15) days’ notice, TelNet may remove the Customer Equipment from the Space and place the Customer Equipment in storage, at Customer’s expense and/or dispose of the Customer Equipment.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12399,7 +12595,8 @@ WHERE        (q_u_r_c.quote_id IN
                         <Value xml:space="preserve">     </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -12444,10 +12641,21 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>i)      </Value>
+                        <Value>i)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">      </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -12502,7 +12710,28 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>(a)   Prior to the commencement of any alterations, improvements, installations or other work in the Space, Customer shall, at its sole cost and expense, prepare and deliver to TelNet working drawings, plans and specifications of the proposed work (“</Value>
+                        <Value>(a)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">   </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Prior to the commencement of any alterations, improvements, installations or other work in the Space, Customer shall, at its sole cost and expense, prepare and deliver to TelNet working drawings, plans and specifications of the proposed work (“</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12560,7 +12789,28 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>(b)   Customer shall perform the applicable work (i) in a safe, good and workmanlike manner consistent with generally-accepted construction standards, (ii) in a way as to reasonably minimize interference with the operation of the Facility and the use thereof by other customers at the Facility, and (iii) in accordance with TelNet’s AUP.</Value>
+                        <Value>(b)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">   </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Customer shall perform the applicable work (i) in a safe, good and workmanlike manner consistent with generally-accepted construction standards, (ii) in a way as to reasonably minimize interference with the operation of the Facility and the use thereof by other customers at the Facility, and (iii) in accordance with TelNet’s AUP.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12598,7 +12848,28 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>(c)   Customer shall obtain, prior to commencement of any construction, installation or related work, all required and necessary federal, state, county and municipal permits, licenses and approvals.</Value>
+                        <Value>(c)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">    </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Customer shall obtain, prior to the commencement of any construction, installation or related work, all required and necessary federal, state, county and municipal permits, licenses and approvals.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12636,7 +12907,28 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>(d)   Customer will be solely responsible for the immediate removal from the Licensed Areas and Facility of all packaging materials (especially flammable materials) associated with the Customer Equipment.</Value>
+                        <Value>(d)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">   </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Customer will be solely responsible for the immediate removal from the Licensed Areas and Facility of all packaging materials (especially flammable materials) associated with the Customer Equipment.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12674,7 +12966,28 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>(e)   Customer will maintain the Space and exercise its rights in other Licensed Areas in a clean, safe and orderly fashion. Customer must adhere to industry standards for cable management. Cables must be properly installed and either enclosed in cable management trays or in clean bundles for proper presentation and identification.</Value>
+                        <Value>(e)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">   </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Customer will maintain the Space and exercise its rights in other Licensed Areas in a clean, safe and orderly fashion. Customer must adhere to industry standards for cable management. Cables must be properly installed and either enclosed in cable management trays or in clean bundles for proper presentation and identification.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12712,10 +13025,21 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>(2)   </Value>
+                        <Value>(2)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">   </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -12778,10 +13102,10 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>9)</Value>
+                        <Value>3)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontFamily>Calibri</FontFamily>
                           <FontWeight>Bold</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -12791,7 +13115,8 @@ WHERE        (q_u_r_c.quote_id IN
                         <Value xml:space="preserve">       </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
@@ -12971,7 +13296,6 @@ WHERE        (q_u_r_c.quote_id IN
                           <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
@@ -12988,7 +13312,6 @@ WHERE        (q_u_r_c.quote_id IN
                           <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
@@ -12999,7 +13322,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value xml:space="preserve">                                                                                                                                                                                           
+                        <Value xml:space="preserve">                                                                                                </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">        </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                  
 </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -13009,10 +13350,10 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>Authorized Signature                                                                    Date</Value>
+                        <Value>Authorized Signature                                                                       Date</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontSize>8pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -13031,7 +13372,7 @@ WHERE        (q_u_r_c.quote_id IN
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
+                          <TextDecoration>Underline</TextDecoration>
                         </Style>
                       </TextRun>
                     </TextRuns>
@@ -13043,7 +13384,60 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value xml:space="preserve">                                                                                                                                                                                           
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>11.55pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">        </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">
 </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -13053,10 +13447,10 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>Printed Name                                                                                 Title</Value>
+                        <Value>Printed Name                                                                                     Title</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontSize>8pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -13075,19 +13469,34 @@ WHERE        (q_u_r_c.quote_id IN
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
+                          <TextDecoration>Underline</TextDecoration>
                         </Style>
                       </TextRun>
                     </TextRuns>
                     <Style>
                       <TextAlign>Left</TextAlign>
-                      <LineHeight>11.55pt</LineHeight>
                     </Style>
                   </Paragraph>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value xml:space="preserve">                                                                                          </Value>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -13096,11 +13505,38 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>
-Company Name                                                                            </Value>
+                        <Value xml:space="preserve">        </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Company Name                                                                            </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>8pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -13145,7 +13581,43 @@ Company Name                                  �
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value xml:space="preserve">                                                                                                                                                                                           
+                        <Value xml:space="preserve">                                                                                                </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">        </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">
 </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -13155,10 +13627,10 @@ Company Name                                  �
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>TelNet Worldwide                                                                         Date</Value>
+                        <Value>TelNet Worldwide                                                                             Date</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontSize>8pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -13188,7 +13660,59 @@ Company Name                                  �
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value xml:space="preserve">                                                                                                                                                                                           
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">        </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">
 </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -13198,10 +13722,10 @@ Company Name                                  �
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>Printed Name                                                                                 Title</Value>
+                        <Value>Printed Name                                                                                    Title</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontSize>8pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -13209,146 +13733,25 @@ Company Name                                  �
                     </TextRuns>
                     <Style>
                       <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>THE REMAINDER OF THIS PAGE IS LEFT INTENTIONALLY BLANK</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Center</TextAlign>
                     </Style>
                   </Paragraph>
                 </Paragraphs>
-                <Top>1.04167in</Top>
+                <rd:DefaultName>Textbox9</rd:DefaultName>
+                <Top>21.34084in</Top>
                 <Left>0.25in</Left>
-                <Height>18.49654in</Height>
-                <Width>7.5in</Width>
+                <Height>0.78071in</Height>
+                <Width>7.5248in</Width>
+                <ZIndex>4</ZIndex>
                 <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
                   <PaddingLeft>2pt</PaddingLeft>
                   <PaddingRight>2pt</PaddingRight>
                   <PaddingTop>2pt</PaddingTop>
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
-              <Textbox Name="textbox38">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Colocation and Interconnection</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <Color>White</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Right</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Services Addendum </Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <Color>White</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Right</TextAlign>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>textbox36</rd:DefaultName>
-                <Top>0.17708in</Top>
-                <Left>4.38993in</Left>
-                <Height>0.54168in</Height>
-                <Width>3.35809in</Width>
-                <ZIndex>1</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                  <BottomBorder>
-                    <Color>Black</Color>
-                    <Style>None</Style>
-                    <Width>1pt</Width>
-                  </BottomBorder>
-                  <BackgroundColor>#1f487c</BackgroundColor>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Image Name="TelNetLogo3">
-                <Source>Embedded</Source>
-                <Value>telnetlogo</Value>
-                <Sizing>FitProportional</Sizing>
-                <Left>0.25in</Left>
-                <Height>1in</Height>
-                <Width>2.42in</Width>
-                <ZIndex>2</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                </Style>
-              </Image>
             </ReportItems>
             <PageBreak>
               <BreakLocation>Start</BreakLocation>
@@ -13358,7 +13761,7 @@ Company Name                                  �
             <DataElementOutput>ContentsOnly</DataElementOutput>
             <Top>34.30374in</Top>
             <Left>0.25in</Left>
-            <Height>19.53821in</Height>
+            <Height>22.13544in</Height>
             <Width>8in</Width>
             <ZIndex>3</ZIndex>
             <Style>
@@ -15675,273 +16078,13 @@ Company Name                                  �
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>admin@telnetww.com</Value>
+                        <Value>admin@telnetww.com.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>Blue</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>12pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>12pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>12pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>12pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Acceptable Use Policy (AUP) </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>16pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Center</TextAlign>
-                      <LineHeight>12pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Agreement / User Authorization</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>16pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve">
-</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Center</TextAlign>
-                      <LineHeight>12pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>
-By signing below, User agrees to the terms of TelNet’s AUP. 
-</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>12pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>12pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>___________</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>____________________________                    _______________________________________      </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>
-Signature                                                                                              Date
-
-</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>12pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>_______________________________________                    _______________________________________      
-User Printed Name                                                                            Company
-</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve">
-</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>12pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>_______________________________________  </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>
-Sponsored By (Customer Name, if applicable)</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
@@ -15972,7 +16115,6 @@ Sponsored By (Customer Name, if applicable)</Value>
                       <TextRun>
                         <Value>Acceptable Use Policy</Value>
                         <Style>
-                          <FontFamily>Calibri</FontFamily>
                           <FontSize>12pt</FontSize>
                           <FontWeight>Bold</FontWeight>
                           <Color>White</Color>
@@ -15981,6 +16123,7 @@ Sponsored By (Customer Name, if applicable)</Value>
                     </TextRuns>
                     <Style>
                       <TextAlign>Right</TextAlign>
+                      <LineHeight>1in</LineHeight>
                     </Style>
                   </Paragraph>
                 </Paragraphs>
@@ -16027,8 +16170,8 @@ Sponsored By (Customer Name, if applicable)</Value>
             </PageBreak>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>53.84195in</Top>
-            <Left>0.25in</Left>
+            <Top>56.46696in</Top>
+            <Left>0.2091in</Left>
             <Height>19.53821in</Height>
             <Width>8in</Width>
             <ZIndex>4</ZIndex>
@@ -16038,8 +16181,373 @@ Sponsored By (Customer Name, if applicable)</Value>
               </Border>
             </Style>
           </Rectangle>
+          <Rectangle Name="PageFinal">
+            <ReportItems>
+              <Textbox Name="Textbox7">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>16pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>16pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Acceptable Use Policy (AUP) </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>16pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Agreement / User Authorization</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>16pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>
+By signing below, User agrees to the terms of TelNet’s AUP. 
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>_______________________________________                    _______________________________________      
+Signature                                                                                              Date
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value xml:space="preserve">
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>_______________________________________                    _______________________________________      
+User Printed Name                                                                            Company
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value xml:space="preserve">
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>_______________________________________  
+Sponsored By (Customer Name, if applicable)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox7</rd:DefaultName>
+                <Top>1.43109in</Top>
+                <Left>0.18232in</Left>
+                <Height>2.80208in</Height>
+                <Width>7.5248in</Width>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Image Name="TelNetLogo5">
+                <Source>Embedded</Source>
+                <Value>telnetlogo</Value>
+                <Sizing>FitProportional</Sizing>
+                <Top>0.21234in</Top>
+                <Left>0.18232in</Left>
+                <Height>1in</Height>
+                <Width>2.42in</Width>
+                <ZIndex>1</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
+              <Line Name="Line1">
+                <Top>1.36165in</Top>
+                <Left>0.18232in</Left>
+                <Height>0in</Height>
+                <Width>7.4591in</Width>
+                <ZIndex>2</ZIndex>
+                <Style>
+                  <Border>
+                    <Color>#2e74b5</Color>
+                    <Style>Solid</Style>
+                    <Width>3pt</Width>
+                  </Border>
+                </Style>
+              </Line>
+            </ReportItems>
+            <PageBreak>
+              <BreakLocation>Start</BreakLocation>
+            </PageBreak>
+            <KeepTogether>true</KeepTogether>
+            <Top>76.00517in</Top>
+            <Left>0.25in</Left>
+            <Height>4.57292in</Height>
+            <Width>8in</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Rectangle>
         </ReportItems>
-        <Height>73.38016in</Height>
+        <Height>81.81766in</Height>
         <Style />
       </Body>
       <Width>8.5in</Width>
@@ -16488,6 +16996,68 @@ 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</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="credit">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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
+IlOmTGnSpClcuDAiS/phRrSdyyHYmRqxvGPHjsWLF69ater48eNkUBiXhESABKls2bIkM+ibvINrhcL69eu3atUKXyI2BTWg/X379s2fP3/v3r0MRtYT+cIVLVmyBIEiJ0RYaM3slEROvojDqPi5ZcuWESNGpE2b1nQ5N27coFmkFXcVHR2Nu2JIYWFh9CsVFMUVSIYuh+AkaDt27JgjR4506dIhB6NGjcJwJP7+LaLz+eefE89IgFFk+yypaNGilStX3r9/PwbizTffJJJ5bVy2vYs7bNgwnND48eONIgvICvalSJEi1vyG9iMjI7/44ouRI0ciNJR06NABn7R69eo9e/YwctoneYovXibkXmXKlMHKiMtBery8vLiR5zJhwoSqVauSO77aN6sV5T+L27kcNIFES9795fWxY8eePHkiV+1czt27d3E2np6eX375Zfr06T/44IOMGTMS3YiyeYsdCxYsoDIShzWJ/+Wb+/fv407EJNE4mkZ3nTp1It1699130cONGzeiFRgXZCd16tR58+b97LPPcuXKRbqFoGGMpB1sDW6J8TAqhJTba9eu/f7775sup3v37sjjiRMnFi5cWK5cubfffvutt9565513uEsqKIorkAxdjuRG3333Hd4iICCgRYsWBHmNGjV8fHyWL19uDWMriA6hHhgYSAWj6MWLqKiobNmyEclkPARz5syZcTl4EePyixcXL16k2QwZMiAQRpEFbqF3sjr0wiiyGaPp06fTV48ePcixECO0A82qW7durVq1qlevXrFiRQa8bNkyuzecTZgd3TVo0GDSpEk8FO5q3749jgcn17VrVz8/v0SyQEVxR9zO5RQuXJhAxk/4+vriWgj2U6dOyVWry4EdO3YUKFCgZs2aZErkKmQ73bp1416k4/z583KLFeR37NixpEm0YBUrE/TNVHNyqnnz5iFi5EVdunSZMmUKEocu7d27F7uD8kydOhV1QhixQSVLliRNQtOePn16
+6dKlhg0b4l3I4tasWRMWFoap+uqrr/BJpsvhljx58mDgYmNj8VJoLInl6NGjzc/iFcUVSIYuxwqpzL59+6ZNm0aqhNYULFgwPDxcUig7cBVkMygLonPr1i3yIXzSqFGj0qRJkz9/fgwTa9S8eXOkYebMmVeuXKHlGzdubN26tXTp0h999JEZ+VYwMcOHD8+UKdPIkSNpjTYRHUwS7ZAhsZikXGg3ikbXXl5eI0aMoKZoB2nWihUrHPoVCo8ePYrRadasGZVbt26NDN25cweVpE2cGTInH5kjVY8ePXL4ibuiuBFu6nLwE7t27apatWr27Nlnz559+/ZtrlpdDqri7++PgGA+0BO5nXSlc+fOH3/8MXEdX2xRJ9Tm888/x3lY33h2CBWCg4OpjLIdOXLkoQ3aRz3QHNQf3aAairF//35sDfqG6aFQ3o7y9vaWP4ZHRtDAEiVKfPjhh/FdDhPR7+UoLktydjko4/Pnz4lAApVQJ5vBW6CSN2/eNGpYYF4ELU4I07B06dLo6GgMB1GdPn16cTn37t2TL/ZiazA6aEFERAQLki5dunfeecehy3ny5AnagcAVLVoULcM/kdux3FmyZHn77bfpDpfD2Hr27MlV+RCdu5AYBDFr1qyNGjVC0RLyKIyHhGzlypVYLjrCUTHBMWPGoKTcFRQUNGDAAHwPfujBgwfGPYrinripy+HsJ06XL1/+1Vdf4XWQUJIWHIbpcsjB8BYojPlOD6DFxPUbb7wxevRootsofQlC0a1bt/gfrzvEdDnjxo0jO5JC1AxFqlGjBopE6iXExsZOmDAhVapU+C0SpLZt25YqVWrevHlyCzASRo7cqctR3Ivk7HKuXbu2detWZJFwRUc8PT1RScYvZsKOp0+fHj9+vGPHjgQqoZszZ06UqG/fvq1atSpevDihi9sgmKdPn16zZk2ynMyZM+MqqI80ZMuWjfg3GrKAopE5IUZNmjQpWLAgSkfjyMesWbNQkz59+ly9
+epXBYGuQQh6AfMROCYJevnx5ho2PSeifNGU8XGJI3HjhwoUZM2YgW9u2bUOhGFW7du2GDh3ao0ePSpUqoWXGPYrinrivyyFOr1+/7u3tjWhgC+7evYtLMF3O+vXriXRAl4ybbbpBEoXLQW+t7kcgc8OypE6dmpB3mLBZMV1OSEiI+a7w5s2bydbSpEnDz1/+YS4bDJjM6q9//SuLfPDgQTwZ42d4cgsw8sjISLROXY7iXiRDl0PIyefEvr6+Xl5ederU4cifOHEi4Sd/cmnUiweX0JSIiAgEaPz48VFRUStWrGjUqBHu4cCBA1KHFqKjo7EpY8eOXbBgAS5q0qRJHh4eeB2pYAfqjDpgVlCZUaNG8ZNbwsPDESl+ffDgwaNHj1Aixmzc8BI6LVas2Nq1a39ztXFF+BjqT506NS4uDn1Evxjh6dOnmTJCNnLkSHI1o7aiuCHu63L4FWHBN5AdEYxBQUHt27c3Xc6qVauqVKli1jSJiYnB5XTt2hUpM4oszJs3L2PGjOjb2bNnjSILFy9eXLJkSWBgIGJluhyGZFx+8QJVYXglSpRAGP3igYAcPXqUIZFlrVu3zrjH9uax/MMZ6nIU9yIZupzLly+jhmQnuITmzZtz3l9Jwj+QheG4cOHC7du3zZokYRs2bChYsGCvXr3QGspRDTA/ACI3krd20SniXwqtcAsqQx0E2iiy/fF5QEBApkyZFi5c+PTpU3QK04NNwazIezkIOivs6elZunTpPXv2JPRejgljxnIxWWzNnTt38F7oI+kal27dusXYeMDy11iK4qa4tctBKJCC2bNnU1igQAHKQVwO+U/9+vUxBydOnDDfa6Ey7ocoxnPE/8QKcBJYEBohEzP1CqSj1atXV6pUKXfu3EeOHHHoclAVtKV169bm/9UAIlZ0x6iQrHr16iF9jJk2RZcQE5wTwqUuR3EvkqHLwZEMGDBgxIgRhw8fJvxwD2agJgKzI7lBRk1DgKpiR9KkSYNA
+4B7IkDp27Ojl5YWySIXnz5+TchH2RDsOQwqtIBloWaFChdAso+jFi/3799etW7dGjRoIHF2QV+XPn79z5853X/6fD48ePSLzy5s3L33hYBL6Xo4J40GwmDLJFvNFmNBH0Rpur1WrFjmfuhzFrXFrlwPoj/wtwptvvvm3v/0tX7584nKQU1Tlo48+2rZtm/mPRyA1yBdRjEF5+PChFFpBr/39/VOnTk1oU9kotb2ti+YgJjlz5uzbt29C7+UcOnSoatWqWW3/aLtRZPu/txhSy5YtN27cePPmzUmTJuGTUJUnT56I/aJThkpT6nIU9yJ5fmJFqBPhjNNMj34TcqlGjRphdMhXMCJAzFepUqV27drEPwKEXoSEhBQrVqxt27ZbtmzBQq1YsYLXmTNnXrp0KZ3SF9W4HWkgnXrw4AGFW7duRdFatWq1bt2648ePb9682dvbmxK8CLkRi87P6tWrk+ENHTp0+/bt8o901axZE4lEnmgwkSlwiQxs4MCBtI9y8RqZ27Bhw7vvvrtw4UJW4OTJk0WKFBk0aBC9GPcoihvi7i4Hnj59SpCS3qRKlYocRlwOyHeTGzZsuHjx4n379uESsDhlypQpV64c9Ylo434LKBuhXa1aNaK7WbNmERERKBJSs2zZMhSJxjEx3Es1hy6HwvDwcFxO/fr10S50CeUZN25c0aJF27dvT8LGjWfPnqWRUqVKTZkyJTo6mlSKCvge67+XY+dyunTpki1bNubF2KSCorgCyfnbx7+L27dvY00wHMhNDxuICO5h/fr1Ml88BNkY2QzWp127dj4+PtTEjhDz8q4ynoOafn5+WCWWFWOBNNMspger1LRp0169etFgnTp1eEFTZuqGNjVo0KBChQosb7du3Ro3bozGIS48FamQEI8ePUKhqB8QEMBr8UPfffcd3ZFXzZkzZ8KECfJpWrJ8ZErKwb1cDvkPYU6w24Xw/fv30ZNKlSqhM/PmzZOovHbt2pAhQ2rVquXl
+5UXYdujQAeVBW2jkbrz/6dOEe2mKLtANzAr3ogN169YtXbo0UoNzQq8QBBYNH4Mi0Zpxp20xUSeSHywXyoOCYVDoFNAKOpX0CWNEm56enugS0GzXrl3xVdgdaYcWmAh+iMEwi4kTJ+KKaGTYsGHyDrpUU5T/LOpy/hcC+8CBA0OHDm1uA59hTcUE3AnBjxKhDn379pV/RRTV4BJRTbq2cOFCUjHypzu2f4iCS/fu3VuyZAn2pV69evzkNSVyi0C/rCo5EOYJ0PENGzYk5c+/b968ib/h+R08eNAosqWMp06dQv7IzFCo0NBQfSNHcXfcy+WcPHly/vz5EulGkYXIyMiQkJBDhw5ZNXfz5s2YA1EepOCEo/8XLz4oAPaFPKqZDV9fX/TH+k8FogY0NWPGDLv3V0SsoqKi/P396RFBIyOijnVI6BL3jh49ukmTJiRvq1atIp1j5OZ/cbNp0yZ+Rei4C1tz48aNwMDAnj17YoNMVVSU/zjqcv4XIv/JkyekMoQrkHgR58a1lzx//hz/gW9ASghveQfF/NIPrymhBRRZ3mrmkvwJOrdcvXqVn7ymxPo9Ie6iI7pDs+D7779//PhxUjSCLpBRsD4RWmOQdIQhY5B05/BNb0VxI9zL5RDOxJ1EulFkQS5Rh1A1il68IOQJ/ESUxyGENoLDjddtoEiok1XKRQ1YuvgNcsnsFLmQTq1D4jUllEvLdER3jNxUG148fPiQQmoiaLygdxrkFimRaoryn0VdjqIoro57uRxFUVwHdTmKorg66nIURXEOdTmKorg66nIURXEOdTmKorg66nIURXEOdTmKorg66nIURXEOdTmKorg66nIURXEOdTmKorg66nIURXEOdTmKorg66nIURXEOdTmKorg66nIURXEOdTmKorg66nIURXEOdTmKorg66nIURXEOdTmKorg66nIURXEOdTmKorg66nIURXEOdTmKorg66nIURXGO3+FyVqxYUbNmzWXLlu3Z
+s+ewoijK6+LgwYPR0dFdbBhFiqIoSWDgwIFt2rQ5fvz4s2fPDDdjw4HLWbhwYfHixZs0adKpU6duiuIyDFaSO+hUnz59KlWqVLZsWaNIUZI7hsApfwxEo27durt3737y5InhZmw4cDkRERGenp6TJ09etGjRckVRlNdFZGTkggULmjdv3rRpU6NIURQlCfzjH/9o2bJlklzO+vXrW7RoERMTc+XKlbuKoiivizt37ly4cGHQoEF+fn5GkaIoShIICAjo27fvv/71r+fPnxtuxoZ++1hRFFdBv32sKIpzfPvtt19//bX+jZWiKK6LuhxFUZxDXY6iKK6OuhxFUZxDXY6iKK6OuhxFUZxDXY6iKK6OuhxFUZxDXY6iKK6OuhxFUZxDXY6iKK6OuhxFUZxDXY6iKK6OuhxFUZxDXY6iKK6OuhxFUZxDXY6iKK6OuhxFUZxDXY6iKK6OuhxFUZxDXY6iKK6OuhxFUZxDXY6iKK6OuhxFUZxDXY6iKK6OuhxFUZwjhbqcn3/++aeffrp16xbT2b9//4kTJ65du/bs2bN///vfRg0bP/zww/nz54/ZOHfu3L1793788UfjWgJwy+XLl2nw6NGjsbGxdEFHxjUbDx48+C4eV65coRwpp8Ljx48Z1aFDh2iBS0+ePLGO6s6dO6dOneIR2A31VcFomQIb4vjx44yB6XO6yMAE+mWhWC7myNKdPXv2+++/5y6W1KgRDxaNpbt06ZJMVrhw4YKsuVHp17AdaZYVkKfDMlr/03xGeP369bi4ODXcKQS3czmy5xGNI0eOEEdsfuLauGYLIuKaKGCHc/XMmTPWq0yWe9n5/LSGnnPQwt27d+mCBuHGjRvxg44o5hKDQYXs9Epg/HI7FfiV8JTBS6GVkydPomZPnz61GzlTZk1MyRUQmUREQFFeCSnF5UiMoSzEHuexxNuyZcu6detWs2bNNm3azJkzh3OX4DTdA9NEgIYNG9bMRr9+/aKiojAZDlUA
+5PjnSJ48eXK7du2aNGnSs2fPiIgITmu6kzp0ffDgwYEDB7Lo/hamT59++PBhbqcm8uHj48OovLy8uMSzYVRyO1fXr19P+enTp802XyFMDWHds2fP8OHDmzdvXq9ePV7s3buXQqnA+BkkCzV79mzmWL169d69e69du5bFZDwJGR2UkaUbN27ckCFDZL7AiRUYGMh6GpV+DYu2YcOGBg0alClTpkWLFizj7du3zUeDfZw4cWKvXr3wOlKiJG8IWzdyOcQC25W4QDQaNWpUv379CRMmoAxmIPOCuCYc6tSpQ6QjFGxpM6JxPDt37ixevPi2bdvsdNkJ0LGNGzd26NCBBsuWLbt48WJMj3HtJb6+vlyqW7cuzuPRo0dGqQ1RS8KNCoB8UcizIJypX7FixWq/BlmYMmUKAkU7ZsDyAu3F0ISGhnbu3LlChQqlS5fmJ6E9d+7cixcvWnMYRXm1pBSXw5hxD0uXLiXPIGg5HXESJUqUqFy5Mieut7d3lSpVOLOxGmaQz58/n6jOnTt3x44du3fvXqtWLV5zuhOrUsEOuuBgRrby5MnTqlUrjn8EzsPDA2kmpZM6BDMr/sUXX+TLlw/RIdQFLAVKhBDwJJAPjvYlS5YQ/7QWEBCAq5DbWXyUkdGiUwlZij8CU8PtZcmSBQFCFlki1oeVmTVrllTA4jAGRlWyZEm0G3Fs2rQpSte+ffurV6+aMm0HzTJsVrtgwYLGhEuX9vT0xFzyOIxKv2b79u3ly5dnDXGio0aNypEjx9atW82Nh1bysDZt2oTaSomSvHEvl0MUk7dkz54d0SCP6tKlS9GiRbHs6INUIKKJa/zNvHnzMEPEOzaIu+Qqfojkqm3btlQzjYLT4LfoqHDhwi1btpw6derRo0dNs2VCPvPee++lS5eOYVy6dMkotYFkEfK1a9emAhCGFKI/SCJ6WKpUKeTIBNeCZubMmbNAgQJbtmwxA5YXJEsMA90rV64cwjJy5EiiG3nJnDkz
+vgd3JTUV5ZWTzF0OQ718+XJMTAzz5NiuUaMGQX7nzp2IiAhCtFmzZugOk5c3YIjPwYMHx8XFoQKkFwQ2BzNhf+zYMSqsX7++YcOGyNaaNWuM1i2gwjgnjny8C/GPW2KhOKr79OlTpEiRsLCwH374gWoozqBBg1KlSkV3kZGRy1+CItAjLmHPnj0oBb6KYZAPDRw40MvL69ChQ9ILHgvtY8z4ISlJCGZ96tSps2fPkhfavXWcCDxisjFEio5YKFpYuXIlnoZZy3M/f/48xwxSxbwYqrzRjddBxIODgxN6ZwV/icRjhjBwxoSXL2cZSVVlWexgHWbMmIHZIqO9desWPzNmzMiQ5F0xnlePHj3wkSympoApBPdyOStWrCA3qFSp0urVq5EOQomRkxhwnLNjMS5ENElC3759CSv2M+VIBwElb5wsWrSIeHlVJp6oJJTICqKioggZoji+ICCMH330EelZ3bp1TbURiNDw8HB8GKr1xhtvbN68mUIikTFTv1+/fid/zbp163B1VMbEoA/SyIEDB9q1a0cUo41UYNYI1JkzZxBVynFgqGIib5Mryh8hGbocRAQpuX//PrPigJwyZQpuBonBf3A6njt3jugiDrNmzRoaGmoek7GxsUQsdZgmmcqyZcvy5s1LJJtfl6FB4jN//vwc8M/ifYMHY4Q6kAwhT8ePH5dC+QALiaEdTnpK6AUHQ5KH9NCCXSOAqyDjGT58+LVr16gTGBhI6oMbQPsYAEc7vZtDSgQm7ufnx5FA7oXW4BUYYfzu7Bg6dGiuXLmwevIWC/WZwtixY4sVK4Ytu3nz5q5du1iiChUq8EJuAV5XrVo1vj6a4JbwlJ06dcIvGkWJwkMh0/3qq6/kbTO2HKkhDolf0VzSXx7o3LlzpbKSEnAvlzN9+nRMzIIFC+QDWUKPtKd8+fLEEVkHZznhSU5FTHHYs6uJd6Ke2CfM+bVnz56oRFICFlgZ2uQuwhyTgc4Q7CLRaDp2ZO/e
+vWnSpGncuPHu3buRFCJabrSCy8mcOTPygirKMIwLtrdtunXrRoqC0bFzObgTolKqmXAvPaZPnx6fFx0dLRoycuTIHDlykDciBdbGGSeSSM1GjRqR1P3xj+cUJT7J0OVwRhLzOBIiJ0OGDDgPFCQ4OPjSpUtMkqjbv39/5cqVUZmYmBjjHtu3eufMmYMczJo1Cy0gLDnOkSHzgyFilXICm+NcPvaScoGwX758+eeffz569GhzfbgXxaF3kHd6SdeQP36V9yHiKw75lpeXl7gcFFDeYUITxXiR8EVGRiblsyoeE7kUduqLL76gu6lTp164cOE33wHCBZKfWd9ioS/EGnVu2LAhAsocs2XL5u3tTftSAXiN5KFiDt/lAsb/5ptvDhs27OrVq0bRb8HETZeDMtL4+PHj+ZX19PT0ZMuy4FJTSQm4l8tBAZBUYlZUIikuh6hfu3Ytcbdw4UIsTkRERFLCHB49enT06FGMUdGiRT/77DPsCBJEIscl0hK6ICd59913sR3Vq1cn83H4GTEux8PDA5VIlSoVcWp9D+nGjRuIXps2bYjxpLgcwGyRIjISRJgVoEfUI2fOnKtWrTK/4ScwRwR56dKlyBod6Xs5yp9BMnQ5GzdubN++PRGInxg6dOiKFSvIEjAx5gwPHjxI9kDwk9xICaA1ZGAEORpBVoTu0AIaYVy2SdXFixcLFSpUqVKluLg4u/W6f/8+ORCWAntk/RQGoSlXrhwBj0fh18WLF/MrXWNBWrRogWFq164duibv9MCJEydYZPRox44dTKR58+Zt27ZFxSiXT3zsPjVPCJ4RArpp0yYOBrwRzgBVHThwIEKDAprvYNmBfcmVKxcPWv6SQggPDy9SpAgtsCzMkWXp06ePyKiAqHXo0CF16tRMxCiywGosWrQIfcR00j5qDr6+vlgixNTOLJpwC0tNg0eOHEEBke/Q0FCMGrpZrVo17rVbfyV5414uh5ObAxuwIIQhnoadX7JkSQKQ
+Qq4SPrgEApMYJ9IxGUQ9YY4KNW7c2N/fP4n5AKaBGMc8yedfo0aNQlhoDW1B3OiaeCfWPv30U+r069ePgEKpjJstcAv6QFP58+dv3bo1aiPlVMbWFCxYcMSIEbSTuMthXgjL+fPnOVTef/99xkA7CBFzxIGRNJq2zw564eFyLy0YRYry6kiGLic4OLhEiRKEWa9evVavXi3vYVjjRz6x4jhfsmSJOBI09Pjx48zuww8/RIlwRXLKok24CiKTCrdu3eKMz5o1K24jvlGgC2QlS5YsJD3Hjh3jFnrEKyBwGTJkKFWqFMkZ1aZMmYI05MiRo1atWi1btuTAJulBXzBYSAC9IB+4CtI+MqoBAwY0aNCAThkbk8qePTutMWBAF3gK1JfeE4JhkCHFxMRMnDgRHaxcuXLNmjXRwX379ll9jAmmMHfu3GPHjkUfaRyoxq/ZsmVj2MyapjCImLPo6Gh5Z4if27ZtY4Lki0FBQdKOFQYQEBCAPqJ09M6sMUxIHnNnpgm9JYOjYpw8pjFjxvCiTp06p06dIiHmibBfUVKmhsQ/fPjQ4TvwSjKDrehGLseEkJk1axZ7Pm3atOxh881Otu769evr1avXv39/ZkRMkf8grWvXruU11oScSsIcn4QxSuh9HYxRx44dv/rqq8DAQEKGWKNHPz8/PA3pEyUs2qFDh+gdR0XUW5M9K7gcZG3Pnj2dOnWqXbs26iflZF+kbZQsX7580KBBdi4HHWNqjFwgnOfPn49+kqQha7ymGrOYO3cuv9KFtKkor5lk6HIOHDhAWpMxY0Y8B0f7nDlzzp07h4fgPBa9wK/Mnj07ffr0TIfKXLp+/fq8efMI2r/97W9Er+hFhQoVChQowAJx5N+8eROHQWupUqVy6HLg9u3bRHKRIkUwKNyCoNB4165dP/nkEw74sLAw6pBslbH9aTRZDkJGnQULFiAB9IVXEN+AAi5btqxnz56o1YYNG1ht/BOa1b17d0SHge3fv3/L
+li1YMUQkKdkPhgCt5MZp06Yxks8//3zw4MHmn31ZWbp0KQYRo4McM2UWateuXdiRzz77TFxOXFwcA2NtkTx2AkvHTzYQFd566y28mtGQBZaC7lKnTs3P2NhYjismyDrky5ePjpBgSoyqFhgzD4VMsVu3bhgdJo6hQUYZ/969e1F/rrIIDO/ixYusm2aByRs3dTlRUVGELdGdKVMmLH5oaCimXPYqcU2Yo1R9+vTZuHEjWxoTj2Uh6gk0YuTgwYPscISCMCQcHBodkh8SBqwJCm4UvXhBTDVp0oQ0D1vDXdeuXcMGoXXke0aNeIjL4UZGSLwzZgYJSE3Dhg2JVgItvstJkybNO++885EN8sO///3vb775JpFONmV+J0ldjvIfJxm6HNwDQciBOmPGDKId20Fmw2Epf0aOysgJiqBgYnA2Hh4epUqVKl++fJs2bT744AM8CvFJHRKaqlWrcqLjSzj7oXXr1gm9lwP0u3XrVpwQikbLNMiNtEzv5Gf0Th3ECwslw0BE6OXBgwf+/v5U9vX15Sp1sGJIA1PAQ+BOWG2OeTolbzt+/Pj48eMLFSqET6JNnhwHvEOXYIWnS3bo4+ODq2D8ZJBIlcP3cuh05syZ2bNnz5kzJ/OlC6ZQq1YtT09PZsGsHz9+jBYjWLly5cKmsHQsL4NnMZE5h98IZmOh4EeOHGE6zBrZZYI8nd69eyORPCPcoVHVAtVYHG5kSPxktemXJUJbqS+f5dW1/XMdrVq1ioiIYKGMO5XkiJu6HIKXDXzp0qVNmzZVr16deCGZYSJcIvwlzIFqbHLCB92IiYlBIkJCQsgr6tSpwyYnUtArwkHatDJixAgMREBAADmMUfTiBb4fEcNwyNdiku5ycFSkE/SILRPxIfcjzAk3ZN/hezmICYoBjKFp06ZkUM2aNcOcIS8yYHU5yn+cZOhyTMiByEWCgoI6dOhANHJacxhzVHOJ4/b06dNTp0719vbmUo8ePebMmTN79uxU
+qVKNGzeOq3L7hg0b+vXrxzkKyCsJjZz958+fj//Gr8jW7t27hwwZgrviFjRoyZIlSFXt2rXXr19v1ItHWFgY+RO3oB1G0UsYCeamffv2JHwsO1apQYMGqB4jGTx4MLqZ0J+bYrnwUnv37iXbw+EhMYyBx8dqkCMiqQ5Fk7Pk5s2b5HN0wXhYt+nTp9MCw0P74uLiZI4I8fDhw9u1a8fSoX3z589ncTJnzhweHm409FswZrQP0SRNRIWN0gSgU1zO6NGjEVCSYxR/4MCBPAWezpo1a1q2bMkwJHFUkitu6nIEiRqcB46hf//+ly9fNi5YICo72SAA165dy5YmbIluAqR06dJkKQ53OCKQJ0+ehQsXWlMFAgoRI7iIRwIn6S4HbWeR/fz8ihcvjlMhpyK6cWYcDzin+C4HT8ak6BqYFGKLJtAOCdW5c+fkmECIdu7cSbLHLHBODmUHieNebomfOirKHyc5uxyBuCICly9fjmqQUnBCM1WCmcOSw54XpC/8JIxxOZkyZSKLQpWoQwWMDgkNl0iVCGxKiH+Of8p/ivfnAJI23bt3T9qkU9q/evVq5cqVGzZsKH9lzUKjNQ8fPqQLuQsWL16MX2nevLmdy6EOrY0ZMwa3gehQwumOy8FIPXnyZPv27YxE/hpL6luhI8wTTqtgwYI4MyQJv5VQRmgiySXDY4KMH6i/evVqT09PlItfcV1MijoIFnWYJpuBLYErKlmypCigHbTGjfI+kFFk6wgJRjSRY9oxShMAoWQ6mFRfX1+6ptPGjRtjT7mELJJEpk+fnvQ3/hNRkg3u4nJ+tv3RECHJhmfnW8ONbKFYsWLELDmSUWRD1AYTz67G1hBQQ4cOpSaZDFPes2dPhQoVMBPkGMYNFignwBFxaxARLKzSW2+9RWYlopRElyNvUROYSBZSs2jRohYtWiAdBDuNxHc5dt8+RhyOHDlSs2bNHDlyjBw5EtnkqRGVjK1Ro0Y4vK1bt6IeRm0bzJ3o
+pmUvLy+SJatEKMqrIvm7HCCWCDZCiHQB4SBbwlgMGDCAHEJUiZ8nTpzo2rUrgoJ7INQ5mIlzkiSpAAR2ZGQksUquw69G0xYI4H79+s2bNw9LJLewUIcPH/7yyy8xWDgM6lStWrVMmTJEu3wFR8DHYER69OiBmhhFNlAoHgxpEFIia963b1+kkEfACMl+cD8MxqHLWbFiBcKBco0dO/bUqVM8XVbA4bCt4KUmT54cFRXFXGQKFGIj8HZz5sxhBVgWXgQFBaHUUoH1QY6ZVNOmTc1/KMgKMo3wZcuWjRU2imxC7O/vj2jiKXE8RmkCsHQTJkxgOmvWrEFJY2NjcW8oo1xlMGnSpOF44FCREiX54S4uh4ggtNu1a5c/f36UhDEbF168mDFjBnE0ZMgQu4AllvEBVapUIZEgp6IFZIR8DHUiNMiOyH969eolb0LbQWImOQwBZRTZvphIML7//vvR0dH8+ntdDv0y/kKFCnXs2LFZs2arVq1CfJLickQqEUCM16effkq0SmhTyFNDAZgIKYpUFlgrNFn+MTP5DqJxQVFeHcnQ5RBdXbp0qR+PunXrVq9enWzj3r17YWFh6Aixx5HJLcT/tGnTcufOPXjwYFIQ7AWGA0fSoEEDzATZBregWXggtID2pSOO7WU2JJEi8qlvHsZEeExMDEaEZnFLlFAHjSOeERGkhDa5EWNRvnx5VIbKUsfkypUrqBjJ3969e1F5SnAG6JcMaceOHWRaqAymTepbOXv2LAPGdmARrI4qcXjEZF2IETciuIwQ6aldu3adOnVoR8wf6SOqRMKHmWPA7AcmxRzN7xvCzp07uZE5UoG9haF89913We2TJ0/iNZkXLrNatWpMXP4eTe5yCFdpB83FC8q/eMTDYk169uzJVbYiK5AlSxa7f21MSWa40Xs5DHXixIlFihQhzPEoyAKRQmQR42Qs1n+MSuAqqUXr1q2pw720MGLECGrKH0ISSqVLl2bWDj0KodGmTZv0
+6dOHhoaSeBCz2AgSG/xHvXr15E2j3+ty0JPx48d/8MEHhBUKI28AJ8XlCMQ7+aH8JTlKJYUHDx5kgozT19cXxUOdqEZ369atQ5lRD3I82tS3Y5U/g2Tockg+yELwNA7hWOXUZxa1atXioCV0ObBxD5zlNWvWRJUkneJ4HjlyJMHfqVOn+fPnT58+vX379gVs/wIviyUdEaLy3gxBy6+IV1BQEEFLAiRveCAEXPXz85MKQJol/5YPh7R8Za9Vq1b0y2OQfqUaoHe7d+9u2LAhRkfeB4Lly5cjaqNHj8biTJgwgavr1693+D1ihMmJUz8uLg6fV7Ro0T59+jD+KVOmYKrwPbg0qYDvWbt2bbly5fBzDJ68jdlh7DBzGCBzD3Xv3p11iIiIwNMwL/wWhgYZ7du3b0hICCosphOvQ4NyS0JwBtALK89q8FBYFm7BNnE7zeKlvL29GSESadygJEfcxeUIyAjbkjjq1atXYGCgfDNX1MbuYyxekywRHSiMma6sXr2amCKd2LhxI2GO41mxYoXDSGFNkLtixYoRDkOHDg0ODiZ+K1eujHARGvJOEs3mz5+fkRChcld8SBvIZHBIhDBRhhHBGGXOnJkxUILxohG812effUbQUZ/BEMtEdPw/q+R2PA26x7CnTp2KAiBrjIQ2ETpuwX7169ePpWBIDJvQRj2wdMb9ivKqSRGfWMWHUNy7dy+GI3v27J9//jk/cTOUUG7UsH37mBwLR5IuXTqyEIKWFMf6xglxi1XKly8fa8KvBPPTp08xJRUqVKBNQH2wStxi6hrtk9+QuJC+0CzZEnqEd7H7uBqwYrNmzaIpEjLzdoaExaFH9KJs2bIkRjwLDgC5+kog4cOB5cqVi/GjdJg/zJx1WXAtJI6enp6sCXU8PDyYo/yrQkaNFy9wmYimvNfNryidvK1Fs2nTpuUnqrrM9s8k/iaHDx/GcskyGkW2f/gRn0SOW6JECawegs7KG9eU5Ih7uRzEFE0g
+jgoVKkSYEEfVq1cnWZI3fa2QGhEIRAT73Ciy/eMLZAJIBOFPmBNNiSQD2KaoqChclBlc7dq1I0CMyzZHQhpAeha/dxNyFUTp2rVrEsUMoK2Nbdu2SQUECruGR5HvFzJstJGIdhjFVCbDodPevXub8kWEkuwNGTKkZMmSNnX8HPWrVKkSoiruSu5VlFdOCnU5OBJsxO3btwmwI0eO8JPXlFjfTSE4Hzx4cOXKlZMnT545c+bq1atEr/Us57zn6EURzCOW2xGd69evk58B98qfFZAMmRXo5c6dO9iCo0eP0i+VMQHx36ql6x07drDmrLZ5O019//33u3btQlz27NnDaxo0r74S2AcyPJaFWd+4cUOyMeOyZY5cpQ5zZFm4yzoMWkBSkUK5kZ8sESUya4SPdbN73z4hcF0sArfYOS0Uk0Ug65UNaR2hkvxwL5fDbmS7EgWIAxte4ogNb1UPgcIDBw5gSqzhQDShGwQ4Ozw6OhppSuSjHFaG/U9wESMSXLwmQIzLtn+Zghbs3kOyAydkjWIRAeTFlHoaQQeIeglDOqU+g3QYxVSmnE6tbbImz58/5xYUg5gV1aVB6lCu8av8eaRQl+P6oCYoBdjFvwgommU99ZMxmEIWgd1ptw5INvqImiORRpGSfHEvl5N02L3IKTBBo8gGu509z85n/xtFiqI4hbocRVFcneTqchRF+bNRl6MoiqujLkdRFOdQl6MoiqujLkdRFOdQl6MoiqujLkdRFOdQl6MoiqujLkdRFOdQl6MoiqujLkdRFOdQl6MoiqujLkdRFOdQl6MoiqujLkdRFOdQl6MoiqujLkdRFOdQl6MoiqujLkdRFOdQl6MoiqujLkdRFOdQl6MoiqujLkdRFOdQl6MoiqujLkdRFOf4HS5nzZo1jRo12rJlS2xs7CVFUZTXBQp18uTJvn379u7d2yhSFEVJAiNHjvTx8Tl+/PizZ88MN2PDgctZvHhxxYoVx40bN3fu3EWKoiiv
+i9DQ0KCgoMaNGzds2NAoUhRFSQLt2rVr0aLF7t27nzx5YrgZGw5czvz584sUKVKvXr02bdp0VJRkTU/FlSAV69y5c5kyZYoXL24UKYp7YkiM8rooWbIkviVJLkc/sVIU5T+CfmKlKIpzjBw5Et3417/+9fz5c8PN2NBvHyuK4irot48VRXEO/RsrRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4R4p2Oc+ePbt79y6Tv3XrlsNJsSho6/Xr12/cuHH//n2jNFFo5148KPzpp5+kwuPHjy9fvvzdd9/dvHkzfqd37tyhO+OXP4F///vfzPr777+nF2b95MkTzg/jmg0q/Pjjjw8fPmR4jPPRo0fmyBOBu5iX3EKzdv/BPS388MMPly5dYtZXr16lfeOCDRaBW3gQDMwoUpRf43Yuh03Oljbi/yWEFeUECxUICsLwog1qxg+Kc+fOETV24ekEEvIoGA0COmbXF6AGXEIJEQQZnh0M/sKFC9QRyaIFgp36tiYNiG56YVIMW+6KD8qAxEn98+fP0298CVKUV0sKcjlyfksM85NTmbBcs2bN9OnTly1bduLECTQI6fn555+lPgHJkbx9+/ZFixaFhoZu2bKFAH769KlDFQBu5PajR4+ujsexY8dk0WgzNjY2MDBw1KhR8+bNI9S5xRwSV6lMua29Vw99cVQw61WrVoWEhDBrnqZV9RgD47xy5cqePXvCwsKos2/fPixI4v6DrYNMHzlyZPHixTNmzFi+fLnIpVxlWR48eEA7XBo9evScOXPQR3O3cRWVZ3k3bdpEI1KoKHa4l8shjogaokzC3wQxEUPD
+dAiKqKioSZMmTZw4cePGjZz95mFPBZRhyJAh6IadLjsBLWBQgoODEXp/f/9du3bFdyFLliwhNlFCnIddsIus7dixg3FSh9CmEJVYt27dtGnTxo0bN+ElU6ZMCQ8PX7FixYEDB1AV+jW1lBdMin4ZSUREBMOA4cOHz507106CFOWVk4JcDsM+e/asDJ54w0zUrFkzX758ZcuWLVKkSKlSpQYNGkRuYcbbwYMHe/XqlTlzZi5B0aJFqYnXSehNHW4klencuXO6ePj6+l6+fJk6eKA+ffpUqFChX79+NWrUaNq0KeUiK/zcv39/9+7dJ0+ebGvv1YNpw2AVLFjQw8OjdOnSxYoVy5Ejx8yZM0W5gMWJiYlhYIUKFaIOs86bN2/Pnj3xKFLBIWwJNIs1hBIlSrCk1apVwz7KVTYW8+JSq1atevTowZqzGtwiVzF2yGLx4sU3b96M75RCRbHDvVwOcbR27Voj+C2UL19+79697HPyJQKEMEEuiK/8+fPjD27fvi23E484hnLlyp06dSqhnCrp0FfHjh0J5AIFClSpUoXcJr7LadSo0aeffpo1a1aSELv3kk1ZS5UqFXUwahTeu3evd+/eefLkyZYtm8ijQCAjKdmzZ2/duvXp06fNQ4UX+CcsEXW4SyojMtSkPu7KlCBFeeUkf5fDxJgewUm2QTAfPnwYudy9ezfnMTFPdoLcLF68mDCmhCDHdhDYpFx9+/YlFJs1a4YArVy5MiAgAFvQpk0bfIDR9K/Bphw/fpw2iV7i2Qq5GqkbdUJCQhgDCRxZGm6GI3/RokXyHgbmyc/Pr1u3bocOHbK1lyAM79q1ayR/T58+NYqSBsaucuXKeDVkRd7OwXkw4Pnz5/NM0VMWh3VAd1BeBrZ8+XISyqpVq/r4+KB9Dt/RQe9mz56NcrVr1472sSzMDrFjofCU8gZ1UFAQEk9rR44cYcOxPvQut585cwZzyTrIskuhotjhXi4HY4FNeeONNxBMQwJs
+BAcHX7lyBUU6ceIEgdaiRYuoqCi0qH79+l26dCEFkts3bNiASowaNcrOcDgHjRDRRD0ZDn2R6thpPZDYvP3222nTpu3QocPJkyeNUhsoA6ldmTJl3nvvPWZENkIhE2T8OXPmbNu2LdooEPtI5YgRI2gtTZo0zJfJSiPfffcd8ps7d+66deuOHTuWyrQTERExbNgwCkmo0CKRIKmvKK+Q5OlyiBbmQyiSQOzbt48Aa9CgAUcv5ysegpAbMGDAl19+iY6Yn5JQXqdOnYoVK2JiyHV27txJ6kO4Ij1yupPQjB8/vkiRIkQv57H5ZqwJKRrR6+np2bVrV6MoHoMHD8Y2SZsoDibD398fy8KS4pBQohkzZjx69MionQBURhRCQ0OZGuYAe4SZMK4lAAuCJWrYsGHRokVnzZolyRztkG/RKUOSHYDxKliwYJMmTTAfzPGnn366detWjx49sHd4QYdvYqGJTZs2zZw5M0mq6BQdeXt7s5LMhY5YbXwMzdIXDbJ/0qdPj81iATm6kEV6x1zGzy8VxcS9XM6FCxdQ1Q8++CChjAh5wTegJMQd4T98+PB69ephbpgm6RBnP77ffOM5cSSOuOvmzZu4Cn4SSpIw8JPXJFTYl+bNmyNxCX02hNClSpWKNC9//vwYL6vb4BbGw6WsWbPauZzChQszBalm8vDhQ3KYzz//3MvLa//+/fJZ1ZIlS8gY8+XLxxypYFS1iSqag9FheLx2ODZF+YMkT5fDqc/xjA8gJSKrSJcuHS5n3rx5SACBdPjwYTnvo6OjTbNCxjNt2rRMmTLNnz+f16NHjybgCW8z4Jn1uXPnsD4tW7YkyFEWKTdBaKZOnYpecK9RFA9cDs4GD8EIkYCOHTv6+fkhcyga8k1Kh3GJ75/sQHdwHtmyZcuYMaOPjw/C8Zs535MnTzB8WA264GGLmtARs2M85cuXx8Tg0vr3709+Rk5mGhrq4KhQZPNDNztIyCpVqoRGs+Aycn7iXapV
+q0bLLFRsbCxzrFChArPmKpP96quvkDYWkB6pQxbLvRggW3uK4gD3cjkHDhxo3749CiN7Pj64nHLlys2ePZvIFZeDbhBKxOmOHTtat249YsQIYvM3pQAkjrZs2YLh6N2798SJE3ft2sVacYmf27dvR44++ugjbAoVSMMISbnRCr1jNchGPv74Y0TM+q4tsUks161bt3HjxklxOYyZM4LuSpcujZIwPCq3bds2e/bsKMnt27etk+I1gd+nTx9aQw9/M1tTFCdIhi6HEU6YMIHI5PTF3GAsOMIxKAQbEUVcEU4VK1bkaLdmWoTfwoULSXq4l+VAdzw8PAIDA43Ltg+k0KNChQpVqVKFXM1uveDu3bu9evVCvBCLoKAgxILb161bR45iRi+K07Rp040bNyJMjArPgbW6evUqTgVRWLBgAZoiNRMBj/Ldd9+hid27dyfnK1u2LJkQvmHv3r30FX9g8OjRI2ZNLkVNO0vh7e1NmjV37lzSvk6dOiF2W7duteZbjJOx1a5dOy4uziiyEBAQwDoPGDDA+k4P2kph8eLFGQ86PnbsWLwm0s8isyDoHd2xXJGRkS1atGAirE9SBF1JsbiXy4mKiqpatSqxibxOnz59ypQpGJpjx44R9VKBYESg+vXrd/r0acQEXSUQyHDQKIK6W7dudh8bJQRSgNyRd3l6epJpEN116tSpXr360KFDETFCLzg4GHeCy8mTJ0+zZs2I1oRcDiKwbNmyLFmykEGhllKO1B86dIjUDk3r2bNnUlwOMsJJgVuiTWaEb9uzZ0/JkiVRTtIkhx+yUw5olPU9JEV5VSRDl4NX4OB/99138RDz5s2Tb4cY12wcPXq0YcOGRB0JkHnenz9/ftiwYZ988gk/Y2NjZ82aVaRIEcQCYZLY4+An4DEBOCR5M0ZuNME9SEqEumFlMFgIGXDGMwbpiBwOdUBHwsPDfX19kbbDhw+jaGh35cqVHZqnhGBg4nXQSqSNTmmNTI5cEKGx
++hjAol25coXkkpp0J7kadajJUuB+Ro4c+eDBAz8/v1y5crFoYrYk00KgqYAIOkxMMZHYPsTOaoxYYaT2q6++whcyTnYOXTNHfKSPjw+yi/yxJrwgZ2UWxm2KkgDu5XJCQkIKFixIboAENWrUiKBDkbp06UIgyB9OI7ijRo0icyBgyYUI3kmTJuF4CBx0AAVLosbSzpgxY9KnT09+snTp0l27doWFhRHRuAoaJLJOnToVGhqaOnVqhIjow12ZTssKwoWsoU7cW7du3U2bNkk58Uv4M3g0AaNj53LQOvI6kisrWKV27dqRLhLa5G94l0WLFuGTsH3IjvoY5fWTDF0OYUZIE/kcosgNpykxyZjND30vXrzInDNmzIhAkO5w0iOgRG+5cuXee+899OLEiRMHDhwgU0F9eH3v3j3q0A4n+pdffpmIy0FcsmXLhlIsX7589erVKDKne6pUqSZMmCDfPibOGV6FChVwAIQ9kkTYU5kkjDrSEaMFXsTvwiHoJlrG7XgR+kKScEsUGpctYLwYz7Rp03A8mBIGHBMTgxxnyJABy0XvU6dOpRFEGT/HgAGdQp3RLFYjIZfDastbQUaR7XsJKJ24HH5lOjNnzkT0c+TIUalSJXwYy75u3brMmTNjNNFBOrpr+8dFaIQzQN/XUexwL5eDd8mZMycmgAwHHSDMW7ZsmT17dqQjLi6O2ESLLl261LFjR+oAIYauAslG+/bt5Xt7hAOBw6zRroTMQWRkJOlH+fLlUSejyCbUnp6exBraxa/EIJGIdBOVUiE+4nLwQMgI+QkOjB4JQ0bSunXrrl270mZ8l0Oz9PJLJletGmqGP0NMEF7iulWrVvLWLxGNOOTNm5cubF0pyusmGbockhUGybHapk0bbAfHNsOOiIg4f/68VGD8nOLyd9Q4ISSpX79+ZF0cwH//+9/79OmDCUBlfHx88ufPz9lMUoJadevWrVChQp9++mlCLodm5e+S0C9Obrh9+3ZUVFSW
+LFlwS/LpGNrB8DjjUaWbN29yuiN5aBwjlLdtx48fj00pU6YMT+Xw4cPScuLQyL59+4YNG4YRweUwPNqXd2vsWLVqVZUqVfA0HTp0QMiQrRIlSuTKlQvrI2/GMKoePXqQ+aF0XB09ejTiRQXW4fe6HGZkuhx504hR0cKNGzeYMupJ+xhKHOexY8d69uzJ4tMp00dAk/6GlpJCcC+XQ44UGhqKm0cB0AE2PxkFAoIWSWaFgcDo3LlzB+UF9jwBu2HDBiwLrojw2b59e926dbEvLVq0IC+iEaPpXzNlyhREiVBCOowiW/T5+fn97W9/I4Xg16S7HCIRYSScvby8CFLWfP369YgDssal+C4HZUNFvW1wS/HixUmH2rZty4CZuCikuhzlP04ydDnAZFAQjtJ58+aRMOFgiDHMRGBgIBKD1eBEX7t2LYFap06dZs2aNWnSpHfv3uQxn3zyCUe7vKl7/PhxJLVWrVpcJaHp3r37woULifmEXA6iQPqFHpmfFtEREoNqYJUIdSm0gnAjZ7QfEhKCcDCAhg0b9u3bFwtCNobzoALNGrV/DX2dPn0aGcKENW/evHbt2jg2vA6+igfk8C6kNjw8XN5Cb9q0KVkj9VkfZjR9+nT0iMEfOXLE19e3Xr16iCwKyxINHz5cLIg1XzSRT6xwitZPrA4ePIg9Ml2OFdaE4bEaDIO5s52YdYUKFchi6Zfp84zk8zJFMXEvl0McEZ52YRgcHIx6NGjQwOFHtHFxcQQjcYdfISMi7og+tIjwJEfCfFizCBOiL0+ePPPnz0fujCKbrUE6cCRkXJinpLsc9AQVwrLgXbA1SOW0adMKFix48uRJ7o3vcvAu/fv3P2WDlGzJkiUEMkyaNOnuy3/NmUVYuXIlE0fQrNpohREy60S0TlH+CMnT5ZgQ5Ddu3CA9wqOQJxFs+/fvJ5YoRzVQFvInDn5Cl3JMTPr06WfOnEmmRR0qsC4kZETvunXrTpw48eDBgzJlyqAI
+xKT5+Zcgb1dQ3wxvATno0KFD2bJlZ8+ebRS9hPP+/PnziAVKwaoyTg8PDx8fHwTl6dOnqBuuxaGdov0rV64wcm5kMEwKKzZ27FhcndVqxIcHh3JRbcWKFZGRkYgpw6NHHAmLgAbRMrOgDgtCCevGqLCD6CxWzHwzzAo6iMtBba3fPt64cSPGDhGkKaPoJUyHycrbV0yTMbRp06ZHjx6cCvKmDioZGxtr1FYUG+7icuRNGmw6Ecr2th7ba9asQYLIeeyyBVGb0NBQEg/EhwCcPHkyUYA5IChQ3SJFipCEWN+tMcF54HIQKALZKHrxgq6xRziSiIgIQj7pLkfUhohG5aZOnbpt2zYCE+OFhaKR+C7H7tvHjJzsBYeEjjFZBk8hDRLOKEyBAgWQULtvBcncFy1axJRRYIfvQCvKHySZuxwgkPATuJCLFy8iFvx88uTJ1atXd+3aJe/rEGb8JMEilyJxIQGihGgkf+Lc5ZLAKU7Y58qVq2vXrvxqtP4S7AUNsj6oFXJslNr+dKt27drVq1dftmyZUfQS4j86OvrLL79EziTlypAhA9Eujfv7+9epUwc7YqcLgHygPtmzZ8+aNWunTp2wO4xNZsFkjUqO4NkxKTSLh01l5JjGSS4rVaq0b98+RBnxQoKBcrPBGTNmlChRgtOFERoNWWDwSCSGjJkaRS9e4BeR6ebNm1vFV2CoGLJmzZqhg/zKsuDnEFYkkofC9NOlS3f8+HGprCgCu9EtXA46w55nG/v6+hJHSI1xwfZvcpYsWZKgsHMbojZYHC4RRLRA9kKGQDZCUBCw9evXpzWH1p+OSHL8/PysHgg1HzhwoDgS4vf3uhxUDmfTsGHDoUOHenl5jR8/nuwuKS4HuSBTYjB0h9E5ffq0FHJeeHt7o1c0ZZf2yNwbNWpEffPf8VKUV0sydDmow/z58yfFY8yYMQMGDJA/KQ8ODuZoNz0EP/EK5cuX79ChAxNkLYhqQh1x4ejFDQDlnMfo
+FNEoHZGxoQvA7VTgRaFChTANO3bskAp0tG7dOrwIzbLEUmhy6tQpJBt1w2ChBSJG5udlSAzBHxUVZRVKgfXHrvHktm7dSrMYLHo3riVK37596Y675AkiqUuXLmXM+DaEDMVZu3Zt69atcXukg1TAezFrSsjtWFXuogSTxBoyZvlciQGwLDlz5sSaUAGVvHnzJiXlypWLL1tcjYuLK1u2LF2I3mGS2rZti1gzCwwojyl37tyij4pi4i4uB1fBJkdScQAjR46UOEJP5F1bkii8jp3151ccf61atQIDA7mXFshwihcvTopF+MTExFSpUgXhki/z2kHAcjVfvnzyN9vICC2sXr0ay5InT57f++1jFIzbiWjG/9lnn6GQeJ0DBw5IDvabLoeR85ioj117//33iXHGLIWkjkQ9ShgSEmIqIQMm0gcPHpw5c2bElvIk6pii/C6SoctZtmwZB3PVBDhy5Agn+pYtW0qUKEE1jA46wk8OZuIc1bh37558/NSuXTtKJk6cuH37dmJ7+PDhCEePHj3MM3j//v14kX79+iEB/Hr//n1SFgwBN5IP7dy5c+HChbiK0qVLh4eHWxcNMUI45s6dS2zTo3zWg+eoXLky7e/evZsuOPu5F2GyezCAFuAkEP3fKwqYiWrVqrVv3x7vxaQYXk0bWA2pgEKxJmSHQUFBVOCJk1YyKvIzBsywRXb79OmDZZR/VIN5hYaGlipVqnfv3sgrtiwgIIBfW7ZsSfZpN3icDbNmifCUMnikHAvI4uOi6M7HxwebmIgcKykTd3E5AgFFoBFHGBdRD0S2QoUKrVq1ImsilIx6tnmdPXu2WbNmyIiYEpg9e7anpyc/Dx48SJAWKVKErMzhl9UQbtYkR44c6Aad7tq1i58tWrQgYcN/yC2/1+WQZaFX7733Xtq0aXv16oUeMsikuByBx8QYMDQeHh4M/pHtX8FhnNTMlSsXYoKtWbx4McZuzpw5KAmiysosWbIErcASGa0o
+yqsjGbocLEJkZCS64BBxJA8fPhw9ejRGJ2fOnFgfwo9UQz4Ul0YAeeLE/fLLLzmVScJy2/4TluPHj5srxYlep04dTnR0il85ti9fvozRQXQQOLKxvHnzolCLFi2yfpoDuCgEqEuXLqgbi4mIUEjX06dPJ3nq1q0bjwSNwFc9Tfi/QHcChodUIUCFbP8ZJzPiBfoiNgsQOFwXhVyiAi+ozIywIFKBQWIQudqpUyeZNeBdxo8fz6zJKYsVK5YqVSpE0/wnN6xgMcnzOKjML2DyIMaOHVugQIFRo0Z1796dsyF+sqso7uVyCCjCSuKIn/L31fIn4kaNl+B48A3EDr5f3sQFrD9Ki+ygA1iWkiVLEmsJpTRoNxYHBaMReb8E8Rk2bJgpLDdu3CAwe/bseenSJbklPo0bN5Z/9lPEDZVj5JgY89uEpFXIkd3/1omXmjZtmlSwgsaSHdECru7KlSsychRvwoQJpHzp0qWjHUAoMmfOTJaF4zElSFFeOcnQ5ZCOcBijiQ6RkCP+iauYmJiwsLCQkBBc0alTp+RTG2kEmCbZD3kJ525oaOjGjRsJdXlLQyoQwMQ8Xke8EYkIjXPks1DcQqaCYzh//jxX7RSKtT506NDIkSORNlqTDIauGQDdDRgwANmKiIhAF16hxQH6xW9FR0cznaCgoGXLlvHgrX/4QHfMGgtC71Sg2p49e5g1ZksqMBG0El1m6VhMs5DXKDjLSPZGIkgLpmRbYbmwMlzlGUkJs2aaGEFfX18OMPSO5TLHoygC+4Q95i4uhw1MWJlxhMjss/27xmYcmaBCxAtSgBcxg/2J7V/AYqY+Pj7jxo3bv38/Nyb0PgdBTcvUwVfNnTuXvjBJNGsKCxFNIO/YsYMhyS3xQYhWrVplCiBLjRBRYn7dh0aYAqbn6tWr/IoM7tq1i3g333+ywtWLFy8yr+XLlyOSEs6iEhgpWqYdDh5Ekn6RFxrXkFf+PJKhy0k6qAlycOfOHU5Wu/kL
+RCbSgIiQu8Q/trmFpQCrN+I1JbQJCckKdWiQ8L778v8KNaEccUTjUARrs68KtA8Nol+Gh6gZpfHgEhWoZnV1wGvWhHVDdnlhlL50eA8fPmStGLn1khVmZ+aLJlSmO7JV/FMiQ1JSMsSCG7kcE4kjtn1CsUwoEWXXrl0j0IwiG5QjyrGxsfgMXltj0CHcTl9EH4JmphCCqI01mYkP98rX+8QY8YLV5hYzVGlEZE1KGI9kkg6TGVEJRgJ2gxf/RzuyLA5vV5RXS4p2OYqiuAVu6nIURfmPoy5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijO8TtczqZNm9q3b3/ixIkHDx78qCiK8rp49uzZnTt3hg8f7u/vbxQpiqIkgWnTpg0cOPC77777bZezcuXKOnXqrF69+sCBA3gdRVGU18OxY8diYmK6devm7e1tFCmKoiSBr7/+Guk4efIkyZLhZmw4cDmBgYFp06bNlStXoUKFiiiKorwuChcuXKBAgfTp0yNB/FpcSUnIHlAU50A3qlSpsmfPnidPnhhuxkaC7+WEh4dv3759n6IoyusiJiYmKiqqc+fOHTt2NIoURVGSQP/+/bt3737mzJnnz58bbsaGfvtYURRXQb99rCiKc+jfWCmK4uqoy1EUxTnU5SiK4uqoy1EUxTnU5SiK4uqoy1EUxTnU5SiK4uqoy1EUxTnU5SiK4uqoy1EUxTnU5SiK4uqoy1EUxTnU5SiK4uqoy1EUxTnU5SiK4uqoy1EUxTnU5SiK4uqoy1EUxTnU5SiK4uqoy1EUxTnU5SiK4uqoy1EUxTnU5SiK4uqoy1EUxTnU5SiK4uqoy1EUxTlS
+usv597///eOPP/LT+P3V8dNPPyHNxi+JQk2W9P79+8+fP7cbCb8+evTo6dOn1DGK/hx+/vnn31yHpM8oKdDdQxvPnj0zil7COjx+/JiJ/xnPRXFH3NflsIfR1h9++MFOYU2okEjoER2JKANhwiWj6I/B8B48eHDv3j2G+qradA5RBmYNKgLKHyeFuhwOdSKZqL5x48aFCxf4SUQxL2tEEWzE2Pfff3/LBi+Ifwq516jhCFEl6l+6dOnatWu8jq9QJpTTIJVPnz4dHR393XffMSSzMi8Y0r59+86ePRvfCvxxmAhdIJR3795lBdgE/ERf7DRXFkpmdOXKFdaBUSXuup48eSKLYIVezJ3DdOhrv43z58/brTzrdvjwYXZaQgeDktJwX5fD3iZqTpw4QeAYRTbY8GQvhIkpQUQZsSbyIrFJMKIJO3fuJEaoSWDKvVzl3kOHDh05coS7pPCPQDxevnx5165dq1evPnr06J07d4wLL2EWxC9RnJBdYzzcJRVknKYSxuf27ds8TSpYtZTXqAqSy0iQhc2bN2/ZsoUJXr9+nd5fYX6lpDRSqMshwJjIoEGDihcvniFDhoIFC3bq1GnTpk3WqV29enXBggVVq1bNmzdvpkyZatSoERgYGH+l7ECSunfvnitXrowZM3p4ePj4+Jw8eZLQNS7/GqSBkO7WrVupUqXKlStXtGjRxYsXIxPmVQbJABYtWmQ1Aa8KhAM7Eh4e7uXllTNnTgZcsWLFkSNHMiS6Niq9eIFADx8+nCWiAktRu3btlStXIj3GZUewks2bN+cWK3Xq1OFGqcAqdenShVkXLly4adOmGzduxGzJJZgzZ07btm1phOEZRUrKxn1dzqlTp3x9fatVq8bJbRTZQGp27Njh7e1NaIgE+fn5Ee9IE1clNom78uXLV69enUiZMWMGiiT3YiMI0oYNG06fPv2VxEhMTAwRly5durRp0zZp0oSQNy68JDg4GIFCBhlkbGysUWoBR0Is
+Z82alQoyToK6fv363GIH2liyZMmBAwdip2SyApPC6s2ePZv5ykiAlUGUQkND4xsvRUkiyd/l4A8YMMnQtm3bxo0bR27Er8yiXbt2xA9H7NixY4cNG4Zk1KtXb+vWraRc3EJSxdJQoWzZsgQk8tqhQ4cyZcpMnjz5zJkzRtO/hoglblkihIlQHz16NMKBNCBk8VVDIKppEP80ZMiQ5cuXYyA6d+5M+iJXGSoDbtWqFc1KSULw8JjU73VCZFQLFy6sUqUK0+zfvz99dezYsWbNmowhLi6OvArdQbCGDh3KIrRo0QIDxLzQazR3xYoVphuLz9SpU0uUKCHOpkGDBqwtP7E10dHRyDcZHvJNp5GRkXgsJshVUTHWEP+EQ8L5Xbt2zUxelRSOm7qc48ePEz6c/cQCzt4otVkcLmECCHliasyYMUSBp6cnoYd9IZwfPny4Z88eFKlXr14bNmzo2bMnSmUmCejGsmXLCC407ZV8lj1x4kSUipAkxteuXXvr1i3jwkuQKWbxxhtvkIkxHqP0JUjBhAkT3nvvvTfffBMBvHDhAoWMEG0hL+rduzf6JqClXbt2paN8+fJh/tBhaYEFwTz16dOHSygMa4IcARkjqks7+Dl6eSWTVVIaydnlPH36FMuCV8C7BAQEcJTmyZOHrIXjk8Qoffr0KMuxY8eo+ejRI0wGGQbHPI6EG3FFHO3FihVbtGgRVzlumThZDgd8WFgYmmt9r1Xg8CaMEQt+0gKeg7jt0aNHxowZ582bZ313xOTcuXO4Cjo9cOAAujZt2jQMAWkTl6i/bt06hG/x4sXYEamfEKhSVFQUI0ci0QKHw4sPM2LKyBb90rsMGH1JlSoV5oPpkCby0JEYfNjZs2f5lZEsWbIkTZo07ASckNFQPFArVo+9dfLkSVZSuHLlCr2wz9htjRo1wgJSk195NDwL2kfCeF7MF+nHfklTigLu5XLYyYTPqVOn+vXrlzNnzg8++IDD3upyiFNsAb6B
+n/fu3aOE3Im8i0BYvXo1JTdv3iQusPtbtmwh7nbv3k3IDB48mJrE6eHDh9EuKly6dMnW3m/DkEghkDKwvoNCOSWMk9yMwZBjOEwtcDm5cuVKnTp12rRpSQupY1UYlKRNmzbvvvuuncvBh6GZ1o/qiHfkl0uFCxdGIswwRxPwNEwfY7dx40bRTxEE9LC4DUQykcxKURIiObscZsWR2aJFi48++girUbdu3ZkzZyIfuAGOWJIJbIT5/sfFixfJY3Lnzo3dwTQEBQXxum/fvmYFAgyHhFqRi6A7ZrkJCRZtckLv3btXSlioXbt2oQve3t4MRgqtIG2Eur+/P7pA+3PnziWPGTFiBJeoj+HAVNHsb1oWeilUqBAyhA7S++PHjzkVjGsJgzFClcioMILSBT+PHj2aLVu2bt26kWsyJFaMIQ0aNMisgA4WKFAATUR/bc04AFdETsZWQU+5xcrz58/xUmg0bUpllhrbhLThgbhUuXLl0aNHm2/OKwq4l8shcNavX08c4WMIFg7v/PnzW13Ovn37SGBq1arFC4KCEn6GhoZSv3fv3kQBUYYskP/s37+fkEEoCBlClZrE1Jw5c4j306dP26l2IjAkrBXSB9aPmykn0hF2bAQCiHpYTYkJLsfDw4McjBQI8aQOFsS49uIFIy9dujTG5e23307c5QAzxcYR/kgfZ48UbtiwAb0tWLAgp4xVWqnMrzx0EtRevXoxBeOCoiSZZOhy8Cic+kOGDCEt4DD28vJCHDE0cXFxd+7cYZ5EMgHGaYrEGPfY7kI70KPAwEBUYNSoUSVLlpwyZYpx2fYlXOoUKVKE0CWFsst4WBNa4/b27dufPXtWCpFmanILpz4OSQqtUJNLPXv2xFtwxmMpGjRoIO/lhIeHIxDTp0+nXConwu3btxcsWEDXVapUKVeuHCkghok2kbD4bkzg0vz589944w0sxZUrV4zSl2/w0M7WrVuZVERERIUKFdA1zhimTAnNZsqUCct4
+8uRJ4x4L1KFmmTJlWHxUGGUHhFVupwLrz27jobCX5NdJkyaxbiS+LO/KlSvRSrq2ppuK4l4uh1N8xYoVxCNRjAMgNcKUWF0OqRQeqFOnTmx7o8j25Rh0idDD2ZCMjRs3jkDevn3706dPKSFbk7kfOXIEJ9SvXz/cQ0LRbYWYJSHhFnxV/fr1aZ/oI+rPnTvHJQYgKR8xSE5FL4incacFXA5jI+/CDJH27N692/p9oD59+pQoUYKrH3zwwW+6HLh7926PHj2wTfLu1P3795lsunTpaIGMS+pYQTE2bdrEUK2dKkoSSYYuZ+PGjagDJzFBixZs3rwZE2Cd3sGDBwl1gpZYNYpevOCknzBhApkKCQ3mY/z48QQhsWe+N8usiUAys4oVK5JaYXrkRoFAXbNmzRdffMFqWqOarmvWrIkuMCqjyAJ2CjeGswkJCdm2bRupW5s2bXiBCnh7e/MrPdo9GIdwBuBacBUYtS5duiBndMoLnu6OHTtIgOxGC48fP0Z/cTnDhw/n8Ush7ZDYMceiRYsuXbqUrlkKkkic0+zZszEfa9euJaNiYfF/8cULWCV2CJkrq4RTZAw8i65du06dOpVyBkkXrBWyyJog62wqZorjxIDin5A5ftWMTbHDvVwOwYWHwNzzAnODcQeryyEnQSsIvfPnzxtFti/xYDiwEdR88OABsUaqgATxKz9btmxJWsIxz2tUAu1y+CG4HcQjYtWoUSPkjruQuBEjRuB1SL2GDRuGvJCGUUgA5syZE0fCCluNlwkuh2yHARP+aMvYsWN5HJQjLBiyqlWrNmzYEIlAP60uh5rVq1fHoiEjJkwTqURDKlWqRDJGTbQXifj8888jIyORvl/6U5RXRzJ0ObNmzSKxyJ49O/nKoUOH5A+YTbMCcXFxxCq51MKFCzl3nz17RgUyJFzFhx9+SJLBXYRorly5yMYwIlylDkdvcHAw5smhy+HI5xYCFTkwimxQjnaQ03DVKLKAThH2CARt
+okQIDc/j4sWL5F61atWaOXMm4o5QPnz4UMaZlNSN+tiFgQMHIqzvv/8+lgX1cagd2ClyL+Z44MABmSPV1q9f/+WXX5J9IkCsGNNk5JhCpob1YU3Spk3r7+/PsBmb0ZAFtG/Dhg1krjSCXrOkTB9JTZ06tfXLhitXrqxbty4iWKZMGXQwLCwM68Pyor8MntfMgp+PHj1iX5oPTkmxuJfLseLQ5UyfPp2I4OeNGzeMItvn1927dy9ZsiSByXwJyXbt2uFOUAZCj6CLjY3Fl2ApSN64KsoA8i0Wo5Vfg4GYOHEiMTto0CDz633Yjtq1a6M2y5cvlygePHgwWQchj85IHTtMlxMeHk5Wxu2MnE5RjNWrV5MF0YIIoNXlYJ7kc39yOY4ZxjBgwAAqEPVZs2bt37+/5DPUpzBdunQskb5bo7xykqHLwSWQKnFe5suXj+MWpSAOSVnMD0HQBUoIM5KJOXPmcKwyNeIQJXr33XfJKlATYrhGjRo5cuTA9BB76AKWCK3BNyTkcsi0fq/LQSZYd8ZG3rZkyZK9e/feu3cPA9GsWTPkgF7u3LmDrIwcORJBxIclpEFWaJOZ0khISIiHhwe+zdvbmy6MyxYoJHfMnz9/hw4d1q1bh9dh3XAerAyFSB7t8LhZwAwZMmDFcI3yVaE8efLQuMO/7WSEzKVTp04BAQGks9RBW1lArAx6N3XqVKmGQLPIoaGhixcvZl7MGvnu3Llz79696ZQb8T2II0+HauaDU1IsyczloBJoBdvbGkSmyyGC5PsopFjkDCjApk2bbt68ef78+WHDhrVo0WLr1q0SaKNGjSIqd+zYQUpgtPJrjh8/3rJlS9okcZKPjIFOCT3yEERPBpB0l0MGSLqSMWPGY8eO4a7QEDLGNm3akLfEdznly5fHzCGbiAY/yTypgCwT6QQ+GitDoj4iw3iQWbtzSFH+OMnQ5TATvAVByEmMatStW5cAxrtMmzaNJIkDldC6desW1gHzQWLE
+pBAOApUj9qOPPqIcPaXO+vXrKUcgmjZtSp3WrVsT3oRo4u/ljBkzxpqOJO5yhJ9++olTn4FxnKNWrDOayE+WGh2kd0wDvderV0/edDFucwSW4uDBgxgy7Aj5VpUqVTp27IgAYeyMGhbolAYRQdwe5qZ9+/YsAvUpKV26NNrKYJA/Ei8KUTfyQnR21apVXPXy8mKERkMWWHx0E8uCQJvvnzGq4OBgNA5TRZuSPkpNfkUrWXDEmt4RbnSWR0D7PDvmzgDo2ta2knJJZi4HaUqbNi2KRJgYRb9+L0dKRBnu3r3LTyALQn9IeA4fPoz7IU6JWaSJjI5fzbdqrHAL7oSa8sekAtpFaoer6NKli7ybknSXgwLMnj2b9G/evHkYr9OnTxcsWJDgpcH4Loc20QrkCNFYvnx5YGAgioTd8fHxwX6ZfcknVizI5s2bHQ4AYdT3eBSnSYYux4QpXbt2bc2aNd7e3gRbiRIlMAqMn0vIB6IQGRkpXwQhp+E16UWaNGnMbxxzOyaAS1QgLIltDu9y5cp5enqyXmZiJGAjNm7cyO3+/v7W/IxeatWqheEg3zKKEoXh0SOqRBfIYuXKlXv06EEetnTp0syZM48bN87hd1aQAOTy1KlTYWFhjJbMifliKfAWrEDi74UwxwkTJnAXoFwITfPmzRkznZJsIWGMgUKjtu0bSJw0ZGlDhw41iiywsI8ePaKOdZOgXDiVPHnysP7x/xUchnf27Fm8FM3GxcWh4LyWzw1nzJiB/cI4GlWVlEoyczlITbZs2TAHhLlRZPvnN+Ujqj179hhFFq5evYq/KVCgAGkMoUHiQQ6AuYmKiiJL6datGz7DqGoBw4Tu2X3NmcWk3/Tp05uOJOkuh/hlIsggcsFINm3alCpVKsQTXYrvcuJ/+5g0hsQyU6ZMyCnmRgpJ8AYNGsS9M2fOpH0ptELj27dvl+85GUWKkmSSs8sBeeMXOD5nzZqFHJhvDJiXhEuXLskf+3DSSwWw
+1iHAcDmoDO6BFaDEqPSSixcvfvXVVyyRVbkI2uzZs2MakviGBL3XrVuXkEZuQkNDkQPEAttECoX5INXDlBhVLXB11KhRJFgoRZEiRXh98uRJ+bRe3k1JBLt14Mb8+fOTI5L8MXhmhPLSvlHbZllQQyQPYTWKLHCVLI3ULdbyD6SaLqdFixZInvVvUAEJQ90Qd7wUPSL9NE7+h/ths2GMEEqjqpJSSWYuB3dSsmRJX1/fM5Z/YpQKxYoVI/wdagXy27p1a0SMCKIm8YJeoVq4H9bEy8uLtMSoakHabNiwobVN5Gv//v1p06Z1zuUggySHzIjBEK25cuVCNMw3sxN3OeRjHDlffvll7ty5WQQpRILmzJnzxRdfYN2wMlJoZcWKFSxX3rx5T58+bRQpSpJJhi6HsCeGt/6a9evXkz8xW6aKaYiIiOjSpYvVMaACjRs3LlWqVHR0NOcr1bAUgYGBvObsp8L169eRFSSDwEZzicwff/yRq2aF27dvV65cmVMZj2Jr8pe3PeiX6PXx8XGYo1ihHdYW69C5c2e0BiuAy8mYMSMRjkygLAgZLoGpGTdYOHv2LHcx4ODgYEzGjRs3UBMZVSLg/Fq1aoV+nTt3Tkru3r27aNGi999/f+zYsbdslC5dmklZP5wi8fL396ecn1LCUBn88+fPWRa6HjJkCOkaimmuDIXTpk2Tf/GCfWZnvHbv3o3CcoCx5qwSSsrta9asoUHOAFSSiRtVlZRKMnM5BGmzZs0qVqxovm1DXJDhkGX17duXwJRCgSBCEEaOHNmgQQNCiZricuTfvJCQIUZwFcYNFrAFZGUYEWTElHjyMaIel0ObIua/y+Uga5GRkSRgxGbTpk0JahKVJLoc5oLa9O7dO126dG3atDE/R0PWGADWJyQkBNmRQhBVJNHKly8fj57pGxcUJckkQ5ezatUqxonbcAhxRdRxlpMZMHOMDhaBn2PGjClRogRhjwSwFtRBg2rWrMmsT506xV0E
+LcpC0Jr/nsT58+fXrVuHYZIwRiBmzJhRo0aNfv36HT16lKRk06ZNHTp0KFSoEH7lNz9XRsSnTp2KaoSHh0sJwlSkSBESJiwODZYvXx4FdJjNoAuMBPlw+P2bhKBZRlulShXUjTnCypUryReLFi0aExODvtAaC1KpUiUsFEtE16wD/oN1QL/Wrl1LI3gRKi9cuBC9pj4+acGCBZhFJoK5lKVjIkgki8kgpWsTlg6xxjPR/uPHj/mVpjw9PbFr2KkdO3ag7A7fNFJSFMnM5eBO2PYEGtMRCdq2bRtnOXaEGMFGGPVsPH36lBBDScivpOTgwYO1atUaNmwY8cW9JFHkP3tf/mOkVggoxAf30L59e7qgMrqEwhDUBJ35bsrvcjnII+kHQ82aNStSgCDwaOgoKS4HCHM8TfHixQsUKDBu3DiEkYeLgjFOckiGgQySKLIsVENksEQsVO3atTl6flNFFSU+ydDlEBiciw0TgCzqxx9/JA6JQA8PDw71ESNG8JODmYBkIcxvjYwfPx4hwFsgAURa5cqVs2TJIt/JlQobN24kJolA1oRfuZGcplOnTvKJD14HU4W+cDt+Qm5JCFKcq1evyt+I0ogU4mzIw7p27bp582YkI0eOHDNnzrQmOn8QJoL/kDkOsIGQlSlTZunSpTJHc0Z58uRh6QYNGsQ6lCtXLnv27CiROCpqcvZkyJAhICCAyggW26NHjx4sCyvG3JFg2ifzw1nayTfgjbp37z5kyBC5hKAjxPghOmL6iCBuCccjlZUUi/u6HAwKIQa8MIpskYXUIDjITvPmzZEg82u5djGCMuASCD35t0OlUD4zql+/PmkJskzYDh06NCGRIfFo1aoVloJqdNTL9u9dISbTp083v/vMqiJW+IxHCfy/wuRv1atXJxWUd1MYUsuWLeW/0uQ1hwe9kF5mzpyZcCZRpA6/Nm7cuE2bNlyytfG/PHjwAMeGTmKSqExCRSF6QvvkdfLvEzZr1owJ4g7T
+pEmDMK5evVruVZTfSzJ0Ofj9e/fu4QYc8vz5859t/wwMpymTx0N07NiRnyEhIayCXJV2UFUME6JABU56TlzSC0IRwZUKyJavry8VRCzkMyz8U1BQUOfOnTE6/fv3DwsL4yrNyi0JgbRt2bJF/lbCtFkoDl00atQIBfTy8uI50bh59Y8jjoTHislgtMALfqVQ5igzwrssXLiQJaICG4A6u3btYoWlDiNnjqgzDoya3IIuI4V4Glk6b2/vkSNHyh+7mktngltilXgWsv+4lxcRERFoKA6ShJWU1y4XVFIg7Bw3dTmYj2E2rC5EJAjBYXuTEhAm2HoyKAyBXYyI70cEFi9eLG4AiNCTJ0/iJ+QvG7gdA5SQyPz000937twhHgcOHEjNdu3amfFoisny5ctJ6kg5zC7sQBbwJWvWrMGg8Csai1IhBbNmzaJ9pvP48ePDhw8T8nPnzpWA5dfJkyczwfhfGabfm7b/qAv9xKhJm/KIUbwpU6YwSOwRySdzpEFWIH4jipJEkqHLSQpyfmN6iB9mxE9eU0K5UcMG4Xfu3DmpcPXqVSpwDBvXbAlNnA3rgkhawy3Asjo82uODllEZ6WEYRpHtyMfoyNu227ZtI+mhmnHt1YFvw53IgHkh79BYsc4oNjaWcaJx5jogi7dv30bBL126ZL7djfBxi7l0NGs6JztQ5xO2/x7VurAswsGDB2XWeERaMy4oKRX3dTkEBZELdh8G2UnQ+fPn0QrjmgXqkDNs3brV+pUUgoWA4q5NmzZt3LiRF79pAmicLqgJV65ciR9x8oWbhMSKS9yFW5JzgmqUENfmu0GME+kg5LEv5nszXKVZLkkdE5k7V6nPT6u1YmAMRsYJLA4y+5tZoqIkQgp1OYqiuBHu63IURfnPoi5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRX
+R12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijOoS5HURRXR12OoijO8Ttczpo1axo1arRly5YzZ85cVBRFeV1cuHDhxIkTffv27d27t1GkKIqSBEaMGIFuxMbGPn/+3HAzNhy4nODg4Fy5cpUvX75mzZr1XIluiqIka7p27dqxY8dixYp5eHgYRYqiJHeMM/6PkS9fPkzLnj17njx5YrgZGw5czpIlS6pUqULHQ4cOHaX8MbCMiqIkkaCgoKlTpzZo0KBOnTpGkaIoroFxqrkqtWvXbtSo0e7du3/b5axbt6558+a7du26ePHibUVRlNfFjRs34uLiBgwY0K9fP6NIURQlCYwbN65jx45Hjx599uyZ4WZs6LePFUVxFfTbx4qiOMe3337bu3dv/RsrRVFcF3U5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4h7ocRVFcHXU5iqI4Rwp1OT///DO6yUTu379/9+7de/fuPXr06Mcff6TcqPHixb///e9nz549ePCAq9ShJvW5y7jsCG55/Pgxle3gxp9++smoZIHuuOWHH364c+fOzZs36YIeKTGvMqTvv/+e281CRUmBuJ3LYcBPnjxhzKIAhDa/WqNYohu5sJMXqwRRwqUbN24gAk+fPrXeTk0uIR00YhT9AWiEpm7dukVfjPn58+fGhZegSzIXhuSwR24xK4jWUUKblNjBfKnpsB0mSEcPHz5kvughIIx2qqgov5cU6nLQCIJnw4YN/v7+Xbp06dWr1+LFiy9cuGBdBULr5MmTLFCPHj2oQ03qE37G5XgQ
+hyhRZGTkgHisXLmScDXqWWAYLObChQsbNWpUokQJah49epR+5SoqcOXKlRYtWoSGhpqFipICIVI4Gt3I5SAv27dvZ7RIh7e395AhQ6Kjozn1jcu26L5+/fqyZcsQH+oMHjwYgeUuZmrUePEiKioKyfXw8GjduvXOnTutIoAQcdeoUaOQCKPoD0AjwcHBVapUKVy4sI+Pz+nTp40LL9myZYtIZXh4uMMeuWXQoEHdunVDrETrDh8+HBAQwC12IKc8RybL9OVeQfTzyJEjEydORPSKFy+OJDZu3Jg5WlVRUX4vKcXlPHjw4Ny5c1u3biVfQUeIwwkTJtS0gQa1adOmQYMGLERsbKw5O2SFoK1YsSISQwUvL68yZcrgSC5fviwV7EC2rl271rZt2xw5ctT5NVOmTHFojxA1htS0adOOHTuOGTOmbt2648aNi4uLk6vkVWFhYdyOXDp8K0hRUgju5XKQCCIX6WjYsGH79u2Jbk9PTxQmJCQEo0Mso7ZXr14dNmwYqsKJjgQR+7wODAxEKCT5OXXqFDdyO5pAHV9f30OHDkn76MaOHTvKlStHgw8fPpTCP8KSJUtq1KhRtGhRhjF69Gg7/wGzZs0qVqzY559/ziD37t1rlL7kyZMn8+fPz5gxY5o0aVBRUch169ZRmTaZAhMUmAhdYKfKli3LZE3DxJSZ+Ny5c5s0aVKpUiV+kvjxkwUsXbo0LWzatOn58+f6jo7iBMnc5ZABYGvOnj1LkKCPxAxpAbqAt8iePXv58uWZ/4ULF4hbRKRQoUJjx45lLX62fZ5FzkFmQ/KxZ8+eY8eOzZs3L1euXNWqVdu8ebPR+q8hEUGGkDYCm8TICobp0aNHRj0Lly5dohfiedu2bSgXCR+5C+kdl4hnWmvVqtX48eOpJvUVJWXiXi6HA75q1aoFChTg7MesnD59evr06cgCBzZKghSQZUVERJAOEeBoERJE+sQtBQsWPHjw4OPHj2/fvh0UFFSvXr2l
+S5fy64oVK1AG1EnaR4T9/Pw6deoU/00X5xg8eDAp3IABA44fP3737l27wwAmT57MaP/+979nzZoVL8LjsH6yhllBP99+++2//OUvnBFMh0J0jBwS84SOUSLs2rWLiTP49OnTI5UbNmyQFuiU10y/SJEi/fv3R3IRbfJSlBOFZOnq169PCXZK6itK0knmLoesYsGCBbVq1fr0009JREinTp48eebMGSKHcEWDiFWBeZFqEE6YGJItlIVUiTg8ceIEVokK165dw4WgXKRWRuu/hiwNqapQoYKPj4+0acWo9GsYCV0Q1bzgduQDFyXt0ykyh/FiYA4/CFeUlIN7uZyvv/46X758yMv3339vxP/PP/v7+4t6XL9+/fDhw7iWPHnyrF+/3rj8889z5szh7A8ICEC1qEP9jh077t+///nz5+gD9fv27Svtr1q1iqa2bNnyqqQYl4PyoD/Wz9Ss4HLy589fsmTJ999/v3v37vRrfVtlx44dGJpMmTK99dZbVpdTp06dJk2aWBdBwOQ1b96cHHLo0KHSwr59+zw9PTNkyDB79mysjFHP9rVF+urcuTNJqSyd1FeUpJMMXQ5BcunSJSQArSHMyJ8aNWqEOCIo58+f5yrCQUiXLVs2JibGuOfFC+Jn2rRpX3311bx584gujE6JEiWwIORe8pEw0oPLITJHjx4tt9iBCpNs0TIV7t+/f/Xq1Xv37hnXEgDxYhg8ALyUuBwvL69JkyZxKTo6mtjGAKER+j6tksJxL5fDAT9hwoTvvvvO+m2SKVOmYBSGDx9OvkQqxWscwNGjR43LL15s3bqVLKtp06YUUgeX07p16z179tAIKkR5v379qEazI0eO5N4bN26wLHJvIqDs3EIChp6Q5rVq1QodYwBoFCpH1teiRQv8FklgqVKl8FLbt2837rSAy0FIe/XqhdvA0EjuZ1x78QLdK1++PKP9+9//7tDlSDUTumYudIe74ldGGBISgvbi6hiPVe6QYua4
+a9cuRBUBd/iOuKIkTjJ0OUeOHBkzZkyVKlXwKA0bNkQRcAw3b9403xHB3JQpU6Zy5cpWl0OF4ODg1KlTE04yQR8fHxohvA8cOIDKyLvQ9evXJ9jkFjvu3r3r7e2NN8Ka4FQGDRo0atSopUuXsmIJfXZ+8eJFArtZs2Zr1qw5derUwIEDURxeMwCyHNIdNO7p06dGbUVJqbiXy3nw4MGdO3fM75FgJvi1R48eBQoUIIni1A8LC0ufPj1nPP5DbgGECxeCNBH11JkzZ06tWrXIfKjDXaRq+CSqLVmypH379niIpOgwYyA9QwM9PT1RPDwH7WBT+EkLpHb4FV7nzJkzQ4YMhQoVqlu37s6dO42bLSCDFSpUwKIxQnR1wYIF8q4Pooq4oVpkd4jeJ598YnU5tWvXrlev3rlz55iOCZ0eOnQIZS5XrpzMCOVE+tDe2bNno8O/9Pdr5C/R6JGVNIoUJckkQ5cTGBhIuKZKlWrYsGFkRfIn4tb84Pjx4xiLXLlyrV69WjISgufs2bOIDlGKO5H3RYl2fEbmzJm7dOkijufDDz+cOHHirVu3bM3Yc/v2bXKXrFmz5siRAwkD0iN+kgAhJQ4/dSKnWbt2LVrGM5g5cybyQe+xsbFxcXE4KlKuJ0+eoFMYHcbJFMhsjDsVJSXhXi7HCmGLD9i8eXP58uVLlizJkU84BwUFIVDjx4+3/r3SmTNnunfvTh2Uhzp4hRo1amBoFi1a5OXl1bZtW9wPJz2WAsPEqY8mADVZnISUAQNB1vTll19iZbZt24Z0ozl4puLFi5ctW3b79u0ijEn5xEpcTkBAADU7deqEb6NT1BWNLVWqVOfOnbE1KJ7V5VATK7Ny5cqtFsLDw/E0X331FYZp//791KQ+d6VNmzYqKiqhASiK0yRDl7N79+4OHTp88cUX2bNnb9269eLFi8lmrO+I3LhxY8KECQSVt7f34cOHKSFiiUkyrXfeeYcAZjkoRB3atGmTKVMm0iAo
+WrQoDmbGjBnolK0Ze0hTUKXSpUv7+fmRfl28eJEWWrZsidEZOnSowz+/RJ5YTMyW/BEmmQ03nj9/fsCAAWgZioCK8WtMTMzBgwepSX3jTkVJSbivy+HYJnixOCVKlCBHkowL04AhmD17NqmRUc/icsh8qENNXAjGAplCHzAESAoGBceDUUAZSMZoed++fSiPnXybINe0mTt37rCwMFImmmUl0bcxY8akS5cOmyWuIukuByOCNOXNmxddYoTXrl2jqZo1a5Jbxnc5iOG777772WefUW6SJUsW5sik9u7dK7JM/VatWqGT5J/iuhTlFZIMXQ6Z09mzZ+fPn9+zZ8+GDRsSgZieadOmRUdHM09CndCKjY3lEglNvXr1+vfv7+vrS5jhSD788MOvv/760qVLUqFSpUqjR49Ga5CY0NDQZs2aUYLQPH78OH400uymTZuWL19u/in4gwcPduzYkT9/fsbg8H1ggbSMgWGebt26hZTTV5EiRVBAYp70q0+fPoyti+1f1EBZ9D1bJQXipi6H3GblypX169cvVarUyJEjJX2C6dOnp06deubMmdY3hk2XY/4VJ1JGhoYWceP9+/dPnDiB/qADhw4d4jWq1b59+65du/br1+/o0aOIktxlBTGpWrUqKsctRpHtHxvctWsXaR4KKe9bJ93loP+jRo3CqWDF7t69y9i40cfHB6WK73JIDvFDjHPYsGFkbuhYzpw5yRVRswMHDvBApXHzvRwacTgLRfkjJEOXY3Lz5s1169YRYwhH2bJlmzZtOmHCBHlPBUeyZ88e8gmMjoeHR5UqVYhDgpy0IyAg4OrVq0FBQcRnp06dSLbEWKA4+CSyIjQLaYj/CZR8Uc7O/dy5cweJkU+yjaJEYXg8EgZ86tSpI0eOoAt16tRhSEOGDEFBFi5c+JvfaFaU5IfbuRz09Pvvvyc1IsMpWLAgIzctDoSFhWXIkAE5wsQYRS9eYFw6duyIH8KCGEUWaC0iIoK7NmzY
+QE08U7FixVAt+VIzEnHx4kWjqgV8A2KCE0K3jSLbh2j0mz59etORJN3lXLt2DX9TtGhRFAmNQkVxJ8HBwdid+C7H+u1j0kvKBw4cyATRW7I+fJut7V/+8qNbt27YPpbL4fdysFOsHtCIUaQoSSY5uxwBj4JrmT17NjnNBx98QNgbF2y+5NmzZ8QtdYg0cTmkWZQQz0Q1Xseo+hKyEywLWdfzeP8IOtrByti5HyK8Q4cONDVnzhyjKFE2bdqEs2G03IhM5MmTZ/HixbyWv8bq0aPHsWPHjKqKkmIQl+Pj4+MuLkdMSa5cufAikZGRdpqJUcB84C2Ia6PoxYu9e/eiUeXKlYv/z+7B/v37u3fv3rx5c7wCFqF8+fL4jO++++7SpUt9+vQhhXP4bjGFJHLt2rXDGBlFtq8M06/TLoemWrRogXtbs2bNvHnzcDmMTfQqEZcjILOknVRr0KCBfFsAyDkxfJ988om/v7/169gmW7ZsoR2ElIPKKFKUJJMMXQ6BSij+4vxtEHJnz54lDsmByHjOnTt3584dwmb+/PlEFEYHi8NP8hL556fWr19PPjFu3LhChQoRe0ajNmkg+UBcHLoc3NLRo0ebNWs2depUMz+jZTSIW8hdVq9eLYUJgUli5CNGjCD+GQDPY8GCBSjR8uXLkQkm0rJlS1I96zvPipJCcC+Xc+XKFY7/bNmyccyTpaAbjN+4ZgM5QhMaNWpkDWckInv27J07d7a+7wIoA/JC5oOx2Lp168OHD/EumCESJ4SCFA5zgEfBVRg3WMBJ1KpVC1mz/n34rVu3wsPDU6dO3bdvX8SQkt/lcuh0xowZWbNmHTBgAJpZv359hDSJLoeJxMTE1K1bN2PGjCNHjhSpZIKIs4eHR+nSpTllrEcREsoI6Rc1xuQ5/HajoiROMnQ5u3btGjt2bP94kEP07NkzNjb29u3bwcHBmI+goCDCjCAkLAn7smXLEkhYInQkKiqKJIyU5ciRI0Q1t3Dj
+okWLCDYSI2RC3iJCrZCPe/fusXynT58uXLgwSoQv4RaCk1sWLlyYI0cO3ElC31k2YVXxXq1btzb/PR5yQXkvh9bQES8vr65du+Kl5KqipBzcxeVwYD99+nTFihVlypT57LPPxowZs2PHDnRAQGdQG7QCwR02bBhiQq4lEoSu+vn5cfbjZuz+ipOEint72cCFoDwYBU9PT5wHSRS3cyNWA302brCALWAMOBLSJ7qgIxpHstAZdAkZlM+AfpfLYYLoHm3iS6pWrTpz5ky0jpaT4nKAX5cuXcrtGDXqkD2yaEwE05M3b94uXbps27bt/PnzjJOp4QIxcyxmiRIlVq1aZX7IpShJJxm6HLxLqVKl0icAaRBRSvCQ35BLEefIUGBgIDIhGQ9xjqQyx06dOmF0+El0MfcpU6YQ1TghzId0tG7dOsKYyJR/Zx0VRm6o0KxZM2QOyzJx4kRGArRAEiN3OYQer1+/3qZNG4L81KlTUoiW4WwQKZwNrwsWLDh06FDiX64qSsrBXVyOvPfQvn37jz/+GD3p0aPH1xYCAgI4wkmikKCDBw/my5cPAUGvKPT39+cgL126NPmM9VPvn3/+mYlPmjQJIUJSpPDEiRNoBb2gZocPH27VqhX5m907QAJNkbbhEtAluti8eTNa1K1bN0wGRsf8+JtLtWrVMv8VnPhMmzatSpUq33zzDTLFr2R9lStXTp06dfHixeVv4/EuK1euRGDJxDhOqMOvDRo0IFG0czlACeU5c+Zs2rQprzl7GOfFixdRTtaE/BPlRGYRZ2adPXt2NHbQoEFost1bYoqSFJKhy7l79y6Bh/NwiPx51KNHjwhC1IEoJYSQgM6dO2/atIlyrqIs/ERuxo4dS7JSsmRJ1Icgb9iw4YYNG8x8ApdDIdZHPlwnUG/cuDF16lRim0CVrzwTt7t27ULXaFDucghtonT4GALb9EPIJb/KH4LVrl2b1AevY/ecFCUl4C4uBxG4cuUKFoTTulCh
+QgSv5DkCniYkJASBQg1QUcSkXbt2lFMNrSDDQSue2P5/A6M5W4OXLl2qVKkSWmQqD0uxceNGbqlZsybpWZ48edasWePw3wWmKfSEpA6Vp750xDCGDBmC6JtSQwrXoUMHDFBC2o4BQi3JBhElfsUMjR8/vkaNGr169WKETIchRUVFoZO0LE6IX5lRnz59uGRr43+hX0xey5Ytq1WrtnTpUubFOFE2jM7kyZOZEe2weoA/a9KkSVhY2K1bt0SZjSYUJckk/28fOwTRJLRIZZYtWzZ79uy1a9cyL0LX6kUIxatXr27fvp06ixYtQlaOHDnCXWY+gfpgTUzfQwQS8ET4/v37sVChoaHYoJMnTzr8s3M75E1gHgZtGkW2d6qJbbqeMGECgySTi68XipIScBeXQ6QjI3v37kVS4kMInz17lmA3a544cWL16tVz585dv349l+wkCPgV2zR9+nQE6qeX/4oEOnPv3j2cDeUQERGBUCT0Pgct0CM5G12Eh4dTeefOnegMjRg1bH/Ejv5cvnzZWmjlwoULpFjm4Kl2/vz56Oho8wN0xArp44w4fvy4HBD8ipU5fPiwwz/UYKZcZUGYl7Rp6ie3sFbz5s3DWqGudPH999+bc1eU30sKdTmKorgR7uJyFEVxNdTlKIri6qjLURTFOdTlKIri6qjLURTFOdTlKIri6qjLURTFOdTlKIri6qjLURTFOdTlKIri6qjLURTFOdTlKIri6qjLURTFOdTlKIri6qjLURTFOdTlKIri6qjLURTFOdTlKIri6qjLURTFOdTlKIri6qjLURTFOdTlKIri6qjLURTFOdTlKIri6qjLURTFOdTlKIri6qjLURTFOX6Hy1m/fn2LFi1iYmKuXLlyV1EU5XVx586dCxcudOjQwc/PzyhSFEVJAgEBAV26dImNjX3+/LnhZmw4cDlLly6tWLHirFmzli9fvk5RFOV1sWbNmoiIiGrVqpFoGUWKoihJoFu3bg0bNty9
+e/eTJ08MN2PD8SdWTZs2JZ3y8fHpoyiK8rro1asX2VhzG0aRoihKEmjVqhU/jxw58uzZM8PN2HDgci5evLjPxqFDh7hBURTl9XD48OH9+/cjPgcOHDCKFEVRkgCiceLEievXr//444+Gm7HhwOUoiqIoiqIkA9TlKIqiKIqSPFGXoyiKoihK8kRdjqIoiqIoyRN1OYqiKIqiJE/U5SiKoiiKkjxRl6MoiqIoSvJEXY6iKIqiKMmRFy/+P4xCjvgC+BuQAAAAAElFTkSuQmCC</ImageData>
     </EmbeddedImage>
   </EmbeddedImages>
   <Language>en-US</Language>
