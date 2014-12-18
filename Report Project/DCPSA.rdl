@@ -7126,6 +7126,7 @@ WHERE        (q_u_r_c.quote_id IN
             </ReportItems>
             <PageBreak>
               <BreakLocation>Start</BreakLocation>
+              <ResetPageNumber>true</ResetPageNumber>
             </PageBreak>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
@@ -16349,7 +16350,7 @@ By signing below, User agrees to the terms of TelNet’s AUP.
                     <TextRuns>
                       <TextRun>
                         <Value>_______________________________________                    _______________________________________      
-Signature                                                                                              Date
+Signature                                                                                       Date
 </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -16409,7 +16410,7 @@ Signature                                                                       
                     <TextRuns>
                       <TextRun>
                         <Value>_______________________________________                    _______________________________________      
-User Printed Name                                                                            Company
+User Printed Name                                                                     Company
 </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
