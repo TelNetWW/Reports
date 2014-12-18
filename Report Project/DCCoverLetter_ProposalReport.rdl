@@ -1104,27 +1104,21 @@ product_templates.name like '%polycom%'</CommandText>
                     </TextRuns>
                     <Style />
                   </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>Textbox18</rd:DefaultName>
-                <Top>0.80639in</Top>
-                <Left>0.25in</Left>
-                <Height>0.76042in</Height>
-                <Width>7.86265in</Width>
-                <ZIndex>2</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="Textbox19">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
@@ -1141,12 +1135,12 @@ product_templates.name like '%polycom%'</CommandText>
                     <Style />
                   </Paragraph>
                 </Paragraphs>
-                <rd:DefaultName>Textbox19</rd:DefaultName>
-                <Top>1.71264in</Top>
+                <rd:DefaultName>Textbox18</rd:DefaultName>
+                <Top>0.80639in</Top>
                 <Left>0.25in</Left>
-                <Height>0.5382in</Height>
-                <Width>7.49746in</Width>
-                <ZIndex>3</ZIndex>
+                <Height>1.27084in</Height>
+                <Width>7.86265in</Width>
+                <ZIndex>2</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -1154,18 +1148,17 @@ product_templates.name like '%polycom%'</CommandText>
                   <PaddingLeft>2pt</PaddingLeft>
                   <PaddingRight>2pt</PaddingRight>
                   <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
               <Image Name="DataCenterImage">
                 <Source>Embedded</Source>
                 <Value>dcspace</Value>
                 <Sizing>FitProportional</Sizing>
-                <Top>2.2925in</Top>
-                <Left>4.64932in</Left>
+                <Top>2.07723in</Top>
+                <Left>4.60765in</Left>
                 <Height>1.44708in</Height>
                 <Width>3.25474in</Width>
-                <ZIndex>4</ZIndex>
+                <ZIndex>3</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -1223,11 +1216,11 @@ product_templates.name like '%polycom%'</CommandText>
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox20</rd:DefaultName>
-                <Top>2.25084in</Top>
+                <Top>2.07723in</Top>
                 <Left>0.25001in</Left>
-                <Height>1.57555in</Height>
+                <Height>1.74916in</Height>
                 <Width>4.34375in</Width>
-                <ZIndex>5</ZIndex>
+                <ZIndex>4</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -3094,7 +3087,7 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                         <Value>=Format(Globals!ExecutionTime, "Long Date")</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -3133,7 +3126,7 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
 		Trim(First(Fields!account_name.Value, "DataSet1")) + "," )</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -3204,7 +3197,6 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <RightIndent>1in</RightIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                     </Style>
@@ -3215,7 +3207,7 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                         <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -3233,7 +3225,7 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
 )</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -3242,7 +3234,7 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                         <Value xml:space="preserve"> </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -3256,7 +3248,7 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                         <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -3284,7 +3276,7 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                         <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -3298,7 +3290,7 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                         <Value>Thank you for your consideration.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -3312,7 +3304,7 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                         <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -3328,7 +3320,7 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                         <Value>=Trim(First(Fields!agent_name.Value, "DataSet1")) + VBCRLF + Trim(First(Fields!email_address.Value, "DataSet1")) + VBCRLF + Trim(First(Fields!phone_number.Value, "DataSet1"))</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                         </Style>
@@ -3337,7 +3329,7 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                     <Style />
                   </Paragraph>
                 </Paragraphs>
-                <Top>1.60732in</Top>
+                <Top>1.6212in</Top>
                 <Left>0.25in</Left>
                 <Height>3.30935in</Height>
                 <Width>6.91574in</Width>
@@ -4034,11 +4026,22 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                           <FontFamily>Symbol</FontFamily>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
+                          <Color>CornflowerBlue</Color>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value xml:space="preserve">        </Value>
+                        <Value xml:space="preserve">    </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>CornflowerBlue</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">    </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Times New Roman</FontFamily>
@@ -4077,26 +4080,40 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                       <LineHeight>13pt</LineHeight>
                     </Style>
                   </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox6</rd:DefaultName>
+                <Top>0.19667in</Top>
+                <Left>0.22267in</Left>
+                <Height>1.08333in</Height>
+                <Width>7.73923in</Width>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox4">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
                         <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
+                          <FontFamily>Symbol</FontFamily>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#404040</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.75in</LeftIndent>
-                    <RightIndent>1.1875in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
+                    <Style />
                   </Paragraph>
                   <Paragraph>
                     <TextRuns>
@@ -4107,11 +4124,22 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                           <FontFamily>Symbol</FontFamily>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
+                          <Color>CornflowerBlue</Color>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value xml:space="preserve">        </Value>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>CornflowerBlue</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">       </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Times New Roman</FontFamily>
@@ -4132,7 +4160,7 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value> expertly handles ordering and scheduling of the components required for your service, provides timing, and coordinates install and testing with you</Value>
+                        <Value> expertly handles ordering and scheduling of the components required for your service, provides timing, and coordinates install and testing with you.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -4180,11 +4208,22 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                           <FontFamily>Symbol</FontFamily>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
+                          <Color>CornflowerBlue</Color>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value xml:space="preserve">        </Value>
+                        <Value xml:space="preserve">   </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>CornflowerBlue</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Times New Roman</FontFamily>
@@ -4252,11 +4291,22 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                           <FontFamily>Symbol</FontFamily>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
+                          <Color>CornflowerBlue</Color>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value xml:space="preserve">        </Value>
+                        <Value xml:space="preserve">  </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>7pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>CornflowerBlue</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">      </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Times New Roman</FontFamily>
@@ -4321,10 +4371,31 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                         <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#1f497d</Color>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <RightIndent>1.1875in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
@@ -4349,7 +4420,7 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>TelNet’s team takes much of the burden out of managing and maintaining your colocation services, allowing you to spend more time focused on your customers. TelNet’s certified Professional Services team is available for prompt and accurate configuration and troubleshooting services. We can assist in your design, build, implementation, and maintenance of your equipment.</Value>
+                        <Value>TelNet’s team takes much of the burden out of managing and maintaining your colocation services, allowing you to spend more time focused on your customers. TelNet’s certified Professional Services team is available for prompt and accurate configuration and troubleshooting services. We can assist in your design, build, implementation, and maintenance of your equipment. </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -4367,31 +4438,13 @@ IIF(Fields!discount_price.Value &lt; ABS(0), " ($" &amp; Abs(Fix(Fields!discount
                       <LineHeight>13pt</LineHeight>
                     </Style>
                   </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>1.1875in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>12pt</LineHeight>
-                    </Style>
-                  </Paragraph>
                 </Paragraphs>
-                <rd:DefaultName>Textbox6</rd:DefaultName>
-                <Top>0.19667in</Top>
+                <rd:DefaultName>Textbox4</rd:DefaultName>
+                <Top>1.08209in</Top>
                 <Left>0.22267in</Left>
-                <Height>3.75in</Height>
+                <Height>4.18925in</Height>
                 <Width>7.73923in</Width>
+                <ZIndex>1</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>

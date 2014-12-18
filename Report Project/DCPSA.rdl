@@ -1174,9 +1174,9 @@ WHERE        (q_u_r_c.quote_id IN
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox8</rd:DefaultName>
-                <Left>0.14583in</Left>
+                <Left>0.25in</Left>
                 <Height>4.93581in</Height>
-                <Width>7.60871in</Width>
+                <Width>7.5in</Width>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -1194,9 +1194,9 @@ WHERE        (q_u_r_c.quote_id IN
             <PageName>MSA</PageName>
             <KeepTogether>true</KeepTogether>
             <Top>3.20237in</Top>
-            <Left>0.30328in</Left>
+            <Left>0.25in</Left>
             <Height>4.99831in</Height>
-            <Width>7.84114in</Width>
+            <Width>8in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1243,14 +1243,17 @@ WHERE        (q_u_r_c.quote_id IN
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox36</rd:DefaultName>
-                <Top>0.00694in</Top>
-                <Left>4.31481in</Left>
+                <Top>0.20415in</Top>
+                <Left>4.41671in</Left>
                 <Height>0.5174in</Height>
                 <Width>3.35809in</Width>
                 <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
                   <BottomBorder>
                     <Color>Black</Color>
-                    <Style>Solid</Style>
+                    <Style>None</Style>
                     <Width>1pt</Width>
                   </BottomBorder>
                   <BackgroundColor>#1f487c</BackgroundColor>
@@ -7254,17 +7257,7 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value> Customer shall notify TelNet of any changes to its addresses/contact information listed on any Customer Order.</Value>
+                        <Value>. Customer shall notify TelNet of any changes to its addresses/contact information listed on any Customer Order.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -7792,9 +7785,9 @@ WHERE        (q_u_r_c.quote_id IN
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox37</rd:DefaultName>
-                <Top>0.52434in</Top>
-                <Left>0.08106in</Left>
-                <Height>24.99192in</Height>
+                <Top>1.13822in</Top>
+                <Left>0.25in</Left>
+                <Height>24.33567in</Height>
                 <Width>7.50999in</Width>
                 <ZIndex>1</ZIndex>
                 <Style>
@@ -7804,16 +7797,30 @@ WHERE        (q_u_r_c.quote_id IN
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
+              <Image Name="TelNetLogo2">
+                <Source>Embedded</Source>
+                <Value>telnetlogo</Value>
+                <Sizing>FitProportional</Sizing>
+                <Left>0.25in</Left>
+                <Height>1in</Height>
+                <Width>2.42in</Width>
+                <ZIndex>2</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
             </ReportItems>
             <PageBreak>
               <BreakLocation>Start</BreakLocation>
             </PageBreak>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>8.20763in</Top>
-            <Left>0.3519in</Left>
-            <Height>26.02667in</Height>
-            <Width>7.6729in</Width>
+            <Top>8.25in</Top>
+            <Left>0.25in</Left>
+            <Height>26.04821in</Height>
+            <Width>8in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -7845,7 +7852,7 @@ WHERE        (q_u_r_c.quote_id IN
                 </Paragraphs>
                 <rd:DefaultName>account_name1</rd:DefaultName>
                 <Top>0.35764in</Top>
-                <Left>0.08105in</Left>
+                <Left>0.22588in</Left>
                 <Height>0.25in</Height>
                 <Width>7.60872in</Width>
                 <Style>
@@ -7880,7 +7887,7 @@ WHERE        (q_u_r_c.quote_id IN
                 </Paragraphs>
                 <rd:DefaultName>textbox1</rd:DefaultName>
                 <Top>0.06944in</Top>
-                <Left>0.08105in</Left>
+                <Left>0.22588in</Left>
                 <Height>0.21875in</Height>
                 <Width>7.63549in</Width>
                 <ZIndex>1</ZIndex>
@@ -9036,7 +9043,7 @@ WHERE        (q_u_r_c.quote_id IN
                 </TablixRowHierarchy>
                 <DataSetName>LocationDetailQuery1</DataSetName>
                 <Top>0.76627in</Top>
-                <Left>0.08105in</Left>
+                <Left>0.22588in</Left>
                 <Height>1.2in</Height>
                 <Width>7.63547in</Width>
                 <ZIndex>2</ZIndex>
@@ -9215,7 +9222,7 @@ WHERE        (q_u_r_c.quote_id IN
                 <KeepTogether>true</KeepTogether>
                 <DataSetName>UsageTableDataSet</DataSetName>
                 <Top>3.00237in</Top>
-                <Left>0.08106in</Left>
+                <Left>0.22589in</Left>
                 <Height>0.2in</Height>
                 <Width>7.63549in</Width>
                 <ZIndex>3</ZIndex>
@@ -9534,7 +9541,7 @@ WHERE        (q_u_r_c.quote_id IN
                 <KeepTogether>true</KeepTogether>
                 <DataSetName>SummaryQuery</DataSetName>
                 <Top>1.99404in</Top>
-                <Left>0.0972in</Left>
+                <Left>0.24203in</Left>
                 <Height>0.4in</Height>
                 <Width>7.63552in</Width>
                 <ZIndex>4</ZIndex>
@@ -9559,9 +9566,9 @@ WHERE        (q_u_r_c.quote_id IN
             </ReportItems>
             <PageName>PSA</PageName>
             <KeepTogether>true</KeepTogether>
-            <Left>0.39483in</Left>
+            <Left>0.25in</Left>
             <Height>3.20237in</Height>
-            <Width>7.73272in</Width>
+            <Width>8in</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -9599,6 +9606,7 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                     </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
                     <Style />
                   </Paragraph>
                   <Paragraph>
@@ -9641,7 +9649,82 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>Definitions. If a capitalized term is not defined in this Colocation and Interconnection Services Addendum (“Addendum”), such term shall have the meaning ascribed to it in TelNet’s General Terms and Conditions for Delivery of Service (“T&amp;Cs”) available at www.telnetww.com/infosource/terms_and_conditions.pdf.</Value>
+                        <Value>Definitions. </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>If a capitalized term is not defined in this Colocation and Interconnection Services Addendum (“</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Addendum</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>”), such term shall have the meaning ascribed to it in TelNet’s General Terms and Conditions for Delivery of Service (“</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>T&amp;Cs”</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>) available at www.telnetww.com/infosource/terms_and_conditions.pdf.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Times New Roman</FontFamily>
@@ -9683,7 +9766,29 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>“Colocation Services” means the provision of the Colocation Space(s), along with associated power, cooling, fire suppression and maintenance at a Facility.</Value>
+                        <Value>“</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Colocation Services</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>” means the provision of the Colocation Space(s), along with associated power, cooling, fire suppression and maintenance at a Facility.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Times New Roman</FontFamily>
@@ -9725,7 +9830,38 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>Meet-Me Room (“MMR”) means the physical telecommunication space in the Facility.</Value>
+                        <Value>Meet-Me Room (“MMR”) </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>means the physical telecommunication space in the Facility.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Times New Roman</FontFamily>
@@ -9766,7 +9902,38 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>General. TelNet provides data center services to support its Customers’ access to local networks, content and end users.</Value>
+                        <Value>General</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>. TelNet provides data center services to support its Customers’ access to local networks, content and end users.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontFamily>Times New Roman</FontFamily>
@@ -9836,6 +10003,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>4)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -9868,6 +10054,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>TelNet responsibilities consist of the following:</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -9936,6 +10141,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>b)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -9968,6 +10192,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value> TelNet shall be responsible for maintaining the Facility as necessary to provide the Services in accordance with the Service Levels.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10036,6 +10279,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>d)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -10068,6 +10330,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value> TelNet shall supply a fire suppression system for the Facility in accordance with the generally accepted and applicable industry standards and the requirements of any governmental authority having jurisdiction over the Facility and will be responsible for repairing and maintaining the fire suppression system in compliance with the system’s manufacturer’s specifications.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10136,6 +10417,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>5)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -10168,6 +10468,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>Customer responsibilities consist of the following:</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10611,6 +10930,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>a)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -10643,6 +10981,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>. If ordered by Customer in a Customer Order, TelNet will provide Interconnection Services to facilitate Customer needs of connectivity to other customers and carriers within the MMR and Facility. Interconnection Services may include:</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10721,6 +11078,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>ii)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -10781,6 +11157,24 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>Pricing and rates for the applicable type of Interconnection Services shall be provided in the applicable Customer Order between the Parties. Customer must request and obtain approval from TelNet prior to altering or changing the form of Interconnection Services. Changes are subject to the pricing set forth in the Customer Order Form for the applicable form of Interconnection Service. TelNet reserves the right to physically audit Interconnection Services and if unused for greater than ninety (90) days, TelNet reserves the right to discontinue the Interconnection Service. In the event a conduit build-out is required, the terms and conditions for such conduit build-outs extending connectivity to termination points outside of the Licensed Areas or the MMR (e.g. to other customers or tenants within the Facility not in the MMR) will be on mutually agreed terms and will be set forth in a Customer Order.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -10799,7 +11193,43 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>Pursuant to a signed Interconnection Services Letter of Authorization (LOA), Customer authorizes TelNet to act as its agent to arrange Interconnection Services with the receiving party identified in the Customer Order using the requested facilities.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10849,6 +11279,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>. If requested by Customer, TelNet will provide on-site assistance, categorized as follows: (Additional and/or Professional Services charges may apply.)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10917,6 +11366,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>ii)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -10949,6 +11417,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>, consisting of on-site technical assistance and trouble-shooting with a two (2) hour targeted response time.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -11641,6 +12128,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>i)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -11663,6 +12169,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>The monthly percentages set forth above are calculated by factoring the amount of time such Service is available (for availability Service Levels) and/or stable (for stability Service Levels) against the total time in each month. Unless otherwise indicated, the calculation of any period of unavailability or instability shall begin upon verified receipt of an alarm indicating an outage or the receipt by TelNet’s customer service of a detailed report from TelNet or Customer stating that a Service is unavailable and the opening of a trouble ticket. The period of unavailability or instability shall end when the affected Service has been restored.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -11721,6 +12246,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>iii)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -11743,6 +12287,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>In the event TelNet fails to meet a stated Service Level in any given month, Customer shall be entitled to receive the corresponding Service Level credit as the sole and exclusive remedy by providing TelNet with a written request for a Service Level credit within thirty (30) days after the month in which the Service Level failure occurred. If there are multiple Service Level failures with the same root cause, only the Service Level with the highest Service Level credit available will apply.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -11801,6 +12364,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>v)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -11823,6 +12405,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>Notwithstanding anything to the contrary, the maximum amount of credit in any calendar month shall not exceed Customer’s total MRC for the Service in which the Service Level failure occurred.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -11881,6 +12482,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>8)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -11921,6 +12541,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>a)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -11943,6 +12582,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>Suspension of Services.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12011,6 +12669,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>ii)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -12043,6 +12720,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>. To the extent necessary, and after sufficient notice to Customer to cure, in order to protect the Facility or Space or to remedy AUP violations, TelNet may charge Customer for AUP violations and/or restrict or suspend Customer’s rights under this Agreement or any Form of Service Order, including suspension of the Services or access to the Space or Facility, without liability to Customer. TelNet will notify Customer promptly if and when such restriction or suspension is no longer necessary. Suspension of the Services as provided above or pursuant to this Section will not be a breach of this Agreement.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12131,6 +12827,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>b)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -12153,6 +12868,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>Additional Fees and Billing</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12241,6 +12975,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>ii)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -12291,6 +13044,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>c)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -12313,6 +13085,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>Renewals.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12401,6 +13192,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>d)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -12423,6 +13233,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>Insurance</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12491,6 +13320,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>ii)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -12523,6 +13371,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>. Customer will also maintain (a) an “all risk” personal property insurance in an amount at least equal to the full replacement value of the Customer Equipment, and (b) business loss and interruption insurance in an amount sufficient to compensate Customer and Customer’s end users for loss of the Services, Equipment and any content or data relating thereto. Customer acknowledges that it retains the risk of loss for, loss of (including loss of use), or damage to, the Customer Equipment and other personal property located in the Space or at the Facility. TelNet’s insurance policies do not provide coverage for Customer’s personal property. Customer agrees that Customer shall not pursue, and shall cause the Customer Representatives to not pursue any claims against TelNet for any liability TelNet may have under or relating to this Agreement or any Service unless and until Customer or the Customer Representative, as applicable, first files a claim against Customer’s insurance policy and the applicable insurance provider(s) finally resolve such claims. Customer shall name TelNet as an additional insured on all general liability insurance policies, such policies may not be cancelled without thirty (30) days prior notice to TelNet and Customer shall provide policy endorsements upon request. Customer shall ensure that each policy required hereunder contains a waiver of subrogation provision for the benefit of TelNet.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12581,6 +13448,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>i)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -12603,6 +13489,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>TelNet will have the option to terminate the impacted Form of Service Orders due to damage, destruction or taking (for any public or quasi-public use, by right of eminent domain or otherwise sold in lieu of condemnation), of all or any portion of the Facility or Space, or TelNet’s possession is otherwise terminated or abated, upon written notice to Customer. If TelNet does not exercise the right to terminate, then TelNet will restore the Facility and/or Space to substantially the same (or better) condition it was in prior to the damage or taking or make available a substantially similar alternative Space and Services reasonably acceptable to Customer, completing the same with reasonable speed considering all of the facts and circumstances. In no event will TelNet have any obligation to repair or replace Customer Equipment. In the event that TelNet fails to complete the repair or provide an alternative Space within one hundred eighty (180) days of the fire, other similar casualty or taking, Customer will have the option to terminate, without any liability, the applicable Form of Service Order(s) adversely impacted with respect to the affected Space by providing TelNet notice of termination within thirty (30) days after expiration of the aforesaid one hundred eighty (180) day period. This termination option will be the sole and exclusive remedy available to Customer against TelNet under this Agreement and the applicable Form of Service Order(s) relating to such failure and the damage to or taking of the Facility and Space.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12661,6 +13566,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>i)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -12683,6 +13607,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>Upon any termination other than a termination due to TelNet’s uncured material breach and an early termination under Section 3.9.b in the General T&amp;Cs, Customer will pay TelNet the remaining MRC due for the remainder of each Service Term, unless expressly provided otherwise herein. Upon any termination or expiration, TelNet may immediately cease providing the Services and all payment obligations of Customer under this addendum will become immediately due and payable. In the event Customer has not removed the Customer Equipment as of the termination or expiration date, after providing Customer with at least fifteen (15) days’ notice, TelNet may remove the Customer Equipment from the Space and place the Customer Equipment in storage, at Customer’s expense and/or dispose of the Customer Equipment.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12741,6 +13684,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>i)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -12773,6 +13735,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value> Customer will have the right to install Customer Equipment, panels and cabling within its Space, or have TelNet construct and install such cabinets, racks, panels, cabling and any other improvements for a mutually agreed fee as and if described in the Form of Service Order for the Space.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.75in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12851,6 +13832,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>1.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>(b)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -12891,7 +13891,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>(c)</Value>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12900,19 +13900,36 @@ WHERE        (q_u_r_c.quote_id IN
                           <Color>#000000</Color>
                         </Style>
                       </TextRun>
+                    </TextRuns>
+                    <LeftIndent>1.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
                       <TextRun>
-                        <Value xml:space="preserve">    </Value>
+                        <Value>(c)   Customer shall obtain, prior to commencement of any construction, installation or related work, all required and necessary federal, state, county and municipal permits, licenses and approvals.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
-                          <FontFamily>Times New Roman</FontFamily>
-                          <FontSize>7pt</FontSize>
+                          <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#000000</Color>
                         </Style>
                       </TextRun>
+                    </TextRuns>
+                    <LeftIndent>1.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
                       <TextRun>
-                        <Value>Customer shall obtain, prior to the commencement of any construction, installation or related work, all required and necessary federal, state, county and municipal permits, licenses and approvals.</Value>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -12971,6 +13988,25 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>1.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>(e)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -12993,6 +14029,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>Customer will maintain the Space and exercise its rights in other Licensed Areas in a clean, safe and orderly fashion. Customer must adhere to industry standards for cable management. Cables must be properly installed and either enclosed in cable management trays or in clean bundles for proper presentation and identification.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>1.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -13111,6 +14166,25 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                       <TextRun>
                         <Value>Confidentiality</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -13575,10 +14649,10 @@ WHERE        (q_u_r_c.quote_id IN
                     </Style>
                   </Paragraph>
                 </Paragraphs>
-                <Top>0.61112in</Top>
-                <Left>0.01615in</Left>
-                <Height>18.99653in</Height>
-                <Width>7.56427in</Width>
+                <Top>1.04167in</Top>
+                <Left>0.25in</Left>
+                <Height>18.49654in</Height>
+                <Width>7.5in</Width>
                 <Style>
                   <PaddingLeft>2pt</PaddingLeft>
                   <PaddingRight>2pt</PaddingRight>
@@ -13624,15 +14698,18 @@ WHERE        (q_u_r_c.quote_id IN
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox36</rd:DefaultName>
-                <Top>0.09372in</Top>
-                <Left>4.26125in</Left>
-                <Height>0.5174in</Height>
+                <Top>0.17708in</Top>
+                <Left>4.38993in</Left>
+                <Height>0.54168in</Height>
                 <Width>3.35809in</Width>
                 <ZIndex>1</ZIndex>
                 <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
                   <BottomBorder>
                     <Color>Black</Color>
-                    <Style>Solid</Style>
+                    <Style>None</Style>
                     <Width>1pt</Width>
                   </BottomBorder>
                   <BackgroundColor>#1f487c</BackgroundColor>
@@ -13642,16 +14719,30 @@ WHERE        (q_u_r_c.quote_id IN
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
+              <Image Name="TelNetLogo3">
+                <Source>Embedded</Source>
+                <Value>telnetlogo</Value>
+                <Sizing>FitProportional</Sizing>
+                <Left>0.25in</Left>
+                <Height>1in</Height>
+                <Width>2.42in</Width>
+                <ZIndex>2</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
             </ReportItems>
             <PageBreak>
               <BreakLocation>Start</BreakLocation>
             </PageBreak>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>34.2343in</Top>
-            <Left>0.37868in</Left>
-            <Height>19.60765in</Height>
-            <Width>7.64612in</Width>
+            <Top>34.30374in</Top>
+            <Left>0.25in</Left>
+            <Height>19.53821in</Height>
+            <Width>8in</Width>
             <ZIndex>3</ZIndex>
             <Style>
               <Border>
@@ -13676,6 +14767,9 @@ WHERE        (q_u_r_c.quote_id IN
               <Sizing>FitProportional</Sizing>
               <Height>1in</Height>
               <Width>8.5in</Width>
+              <Visibility>
+                <Hidden>=IIF(Globals.PageNumber &lt; 2, False, True)</Hidden>
+              </Visibility>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -14091,6 +15185,18 @@ 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</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="telnetlogo">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
     </EmbeddedImage>
   </EmbeddedImages>
   <Language>en-US</Language>
