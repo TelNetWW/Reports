@@ -1030,62 +1030,6 @@ WHERE        (q_u_r_c.quote_id IN
           </Rectangle>
           <Rectangle Name="PageGeneralTerms">
             <ReportItems>
-              <Textbox Name="textbox36">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>General Terms and Conditions </Value>
-                        <Style>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <Color>White</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Right</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>for Delivery of Service </Value>
-                        <Style>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <Color>White</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Right</TextAlign>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>textbox36</rd:DefaultName>
-                <Top>0.20415in</Top>
-                <Left>4.41671in</Left>
-                <Height>0.5174in</Height>
-                <Width>3.35809in</Width>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                  <BottomBorder>
-                    <Color>Black</Color>
-                    <Style>None</Style>
-                    <Width>1pt</Width>
-                  </BottomBorder>
-                  <BackgroundColor>#1f487c</BackgroundColor>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
               <Textbox Name="textbox37">
                 <CanGrow>true</CanGrow>
                 <KeepTogether>true</KeepTogether>
@@ -1258,7 +1202,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -1325,7 +1268,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -1392,7 +1334,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -1486,7 +1427,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -1553,7 +1493,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -1620,7 +1559,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -1687,7 +1625,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -1820,7 +1757,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -1887,7 +1823,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -1954,7 +1889,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -2021,7 +1955,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -2086,7 +2019,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -2149,7 +2081,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -2216,7 +2147,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -2484,7 +2414,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -2551,7 +2480,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -2638,7 +2566,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -2705,7 +2632,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -2859,7 +2785,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -2992,7 +2917,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -3636,7 +3560,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -3878,7 +3801,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>1.07986in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-12.95pt</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -6423,19 +6345,6 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value />
-                        <Style>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
                         <Value>SECTION 7</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -6544,7 +6453,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -6611,7 +6519,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -6698,7 +6605,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -6763,7 +6669,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -6830,7 +6735,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -6897,7 +6801,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -6964,7 +6867,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -7031,7 +6933,6 @@ WHERE        (q_u_r_c.quote_id IN
                       </TextRun>
                     </TextRuns>
                     <LeftIndent>0.7in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.3in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -7097,11 +6998,10 @@ WHERE        (q_u_r_c.quote_id IN
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>textbox37</rd:DefaultName>
-                <Top>1.13822in</Top>
+                <Top>0.02012in</Top>
                 <Left>0.25in</Left>
-                <Height>24.33567in</Height>
+                <Height>25.45377in</Height>
                 <Width>7.50999in</Width>
-                <ZIndex>1</ZIndex>
                 <Style>
                   <PaddingLeft>2pt</PaddingLeft>
                   <PaddingRight>2pt</PaddingRight>
@@ -7109,20 +7009,6 @@ WHERE        (q_u_r_c.quote_id IN
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
-              <Image Name="TelNetLogo2">
-                <Source>Embedded</Source>
-                <Value>telnetlogo</Value>
-                <Sizing>FitProportional</Sizing>
-                <Left>0.25in</Left>
-                <Height>1in</Height>
-                <Width>2.42in</Width>
-                <ZIndex>2</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                </Style>
-              </Image>
             </ReportItems>
             <PageBreak>
               <BreakLocation>Start</BreakLocation>
@@ -10707,9 +10593,9 @@ WHERE        (q_u_r_c.quote_id IN
                     </Style>
                   </Paragraph>
                 </Paragraphs>
-                <Top>1.04167in</Top>
+                <Top>0.00836in</Top>
                 <Left>0.25in</Left>
-                <Height>17.78821in</Height>
+                <Height>18.82152in</Height>
                 <Width>7.5in</Width>
                 <Style>
                   <PaddingLeft>2pt</PaddingLeft>
@@ -10718,77 +10604,6 @@ WHERE        (q_u_r_c.quote_id IN
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
-              <Textbox Name="textbox38">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Colocation and Interconnection</Value>
-                        <Style>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <Color>White</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Right</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Services Addendum </Value>
-                        <Style>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <Color>White</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Right</TextAlign>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>textbox36</rd:DefaultName>
-                <Top>0.17708in</Top>
-                <Left>4.38993in</Left>
-                <Height>0.54168in</Height>
-                <Width>3.35809in</Width>
-                <ZIndex>1</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                  <BottomBorder>
-                    <Color>Black</Color>
-                    <Style>None</Style>
-                    <Width>1pt</Width>
-                  </BottomBorder>
-                  <BackgroundColor>#1f487c</BackgroundColor>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Image Name="TelNetLogo3">
-                <Source>Embedded</Source>
-                <Value>telnetlogo</Value>
-                <Sizing>FitProportional</Sizing>
-                <Left>0.25in</Left>
-                <Height>1in</Height>
-                <Width>2.42in</Width>
-                <ZIndex>2</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                </Style>
-              </Image>
               <Image Name="PowerCredits">
                 <Source>Embedded</Source>
                 <Value>credit</Value>
@@ -10797,7 +10612,7 @@ WHERE        (q_u_r_c.quote_id IN
                 <Left>1.32167in</Left>
                 <Height>2.30154in</Height>
                 <Width>5.51042in</Width>
-                <ZIndex>3</ZIndex>
+                <ZIndex>1</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -13724,7 +13539,7 @@ WHERE        (q_u_r_c.quote_id IN
                 <Left>0.25in</Left>
                 <Height>0.78071in</Height>
                 <Width>7.5248in</Width>
-                <ZIndex>4</ZIndex>
+                <ZIndex>2</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -13736,10 +13551,6 @@ WHERE        (q_u_r_c.quote_id IN
                 </Style>
               </Textbox>
             </ReportItems>
-            <PageBreak>
-              <BreakLocation>Start</BreakLocation>
-              <ResetPageNumber>true</ResetPageNumber>
-            </PageBreak>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
             <Top>34.30374in</Top>
@@ -16078,9 +15889,9 @@ WHERE        (q_u_r_c.quote_id IN
                     </Style>
                   </Paragraph>
                 </Paragraphs>
-                <Top>1.04167in</Top>
+                <Top>0.04166in</Top>
                 <Left>0.25in</Left>
-                <Height>18.49654in</Height>
+                <Height>19.49655in</Height>
                 <Width>7.5in</Width>
                 <Style>
                   <PaddingLeft>2pt</PaddingLeft>
@@ -16089,63 +15900,6 @@ WHERE        (q_u_r_c.quote_id IN
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
-              <Textbox Name="textbox39">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Acceptable Use Policy</Value>
-                        <Style>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <Color>White</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Right</TextAlign>
-                      <LineHeight>1in</LineHeight>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>textbox36</rd:DefaultName>
-                <Top>0.17708in</Top>
-                <Left>4.38993in</Left>
-                <Height>0.54168in</Height>
-                <Width>3.35809in</Width>
-                <ZIndex>1</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                  <BottomBorder>
-                    <Color>Black</Color>
-                    <Style>None</Style>
-                    <Width>1pt</Width>
-                  </BottomBorder>
-                  <BackgroundColor>#1f487c</BackgroundColor>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Image Name="TelNetLogo4">
-                <Source>Embedded</Source>
-                <Value>telnetlogo</Value>
-                <Sizing>FitProportional</Sizing>
-                <Left>0.25in</Left>
-                <Height>1in</Height>
-                <Width>2.42in</Width>
-                <ZIndex>2</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                </Style>
-              </Image>
             </ReportItems>
             <PageBreak>
               <BreakLocation>Start</BreakLocation>
@@ -16470,9 +16224,9 @@ Sponsored By (Customer Name, if applicable)</Value>
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox7</rd:DefaultName>
-                <Top>1.43109in</Top>
+                <Top>0.20192in</Top>
                 <Left>0.18232in</Left>
-                <Height>2.80208in</Height>
+                <Height>4.03125in</Height>
                 <Width>7.5248in</Width>
                 <Style>
                   <Border>
@@ -16484,27 +16238,12 @@ Sponsored By (Customer Name, if applicable)</Value>
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
-              <Image Name="TelNetLogo5">
-                <Source>Embedded</Source>
-                <Value>telnetlogo</Value>
-                <Sizing>FitProportional</Sizing>
-                <Top>0.21234in</Top>
-                <Left>0.18232in</Left>
-                <Height>1in</Height>
-                <Width>2.42in</Width>
-                <ZIndex>1</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                </Style>
-              </Image>
               <Line Name="Line1">
-                <Top>1.36165in</Top>
-                <Left>0.18232in</Left>
+                <Top>0.06944in</Top>
+                <Left>0.25in</Left>
                 <Height>0in</Height>
                 <Width>7.4591in</Width>
-                <ZIndex>2</ZIndex>
+                <ZIndex>1</ZIndex>
                 <Style>
                   <Border>
                     <Color>#2e74b5</Color>
@@ -16540,14 +16279,180 @@ Sponsored By (Customer Name, if applicable)</Value>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
+            <Textbox Name="textboxAddendumTag">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Colocation and Interconnection</Value>
+                      <Style>
+                        <FontSize>12pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>White</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Services Addendum </Value>
+                      <Style>
+                        <FontSize>12pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>White</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.3913in</Top>
+              <Left>4.89191in</Left>
+              <Height>0.54168in</Height>
+              <Width>3.35809in</Width>
+              <Visibility>
+                <Hidden>=IIF(Globals!OverallPageNumber &gt;= 10 AND Globals!OverallPageNumber &lt;=15, False, True)</Hidden>
+              </Visibility>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <BackgroundColor>#1f487c</BackgroundColor>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="textboxAcceptableUseTag">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Acceptable Use Policy</Value>
+                      <Style>
+                        <FontSize>12pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>White</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                    <LineHeight>1in</LineHeight>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.37916in</Top>
+              <Left>4.89191in</Left>
+              <Height>0.54168in</Height>
+              <Width>3.35809in</Width>
+              <ZIndex>1</ZIndex>
+              <Visibility>
+                <Hidden>=IIF(Globals!OverallPageNumber &gt;= 16 AND Globals!OverallPageNumber &lt;= 20, False, True)</Hidden>
+              </Visibility>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <BackgroundColor>#1f487c</BackgroundColor>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
             <Image Name="ProposalHeader2">
               <Source>Embedded</Source>
               <Value>DCPageHead</Value>
               <Sizing>FitProportional</Sizing>
               <Height>1.3in</Height>
               <Width>8.5in</Width>
+              <ZIndex>2</ZIndex>
               <Visibility>
                 <Hidden>=IIF(Globals.TotalPages &gt; 2, True, False)</Hidden>
+              </Visibility>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+              </Style>
+            </Image>
+            <Textbox Name="textboxGeneralTermsTag">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>General Terms and Conditions </Value>
+                      <Style>
+                        <FontSize>12pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>White</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>for Delivery of Service  </Value>
+                      <Style>
+                        <FontSize>12pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>White</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.3913in</Top>
+              <Left>4.89191in</Left>
+              <Height>0.5174in</Height>
+              <Width>3.35809in</Width>
+              <ZIndex>3</ZIndex>
+              <Visibility>
+                <Hidden>=IIF(Globals!OverallPageNumber &gt;= 3 AND Globals!OverallPageNumber &lt;=9, False, True)</Hidden>
+              </Visibility>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <BackgroundColor>#1f487c</BackgroundColor>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Image Name="TelNetLogo6">
+              <Source>Embedded</Source>
+              <Value>telnetlogo</Value>
+              <Sizing>FitProportional</Sizing>
+              <Top>0.15in</Top>
+              <Left>0.2091in</Left>
+              <Height>1in</Height>
+              <Width>2.42in</Width>
+              <ZIndex>4</ZIndex>
+              <Visibility>
+                <Hidden>=IIF(Globals.OverallPageNumber &gt; 2, False,  True)</Hidden>
               </Visibility>
               <Style>
                 <Border>
