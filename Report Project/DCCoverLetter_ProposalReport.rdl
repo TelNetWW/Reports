@@ -3199,7 +3199,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>Thank you for the opportunity to present you with a proposal for data center services from TelNet Worldwide. Based on your requirements, we believe our solution is a strong match for your organization’s needs both today and into the future.</Value>
+                        <Value>Thank you for the opportunity to present you with a proposal for data center services from TelNet Worldwide. Based on your requirements, we believe our solution is a strong match for your organization’s needs both today and into the future. </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -3207,63 +3207,11 @@ product_templates.name like '%polycom%'</CommandText>
                           <TextDecoration>None</TextDecoration>
                         </Style>
                       </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>1in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>When it comes to mission critical operations, infrastructure, and business continuity, it is imperative to have a strong service provider. TelNet’s advanced, next generation Tier III data center facility, with rich power resources, scalable service, vendor neutral connectivity and state-of-the-art online management tools will exceed all of your data center needs. TelNet’s premier data center design along with robust broadband network connectivity empowers our customers to operate more efficiently and adjust resources effortlessly as technology and business needs change.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
                       <TextRun>
                         <Label>Paragraph Choice</Label>
                         <Value>=iif(IsNothing(First(Fields!paragraph_choice.Value, "DataSet1")), 
-	"When it comes to business communications, it is imperative to have a robust, reliable network, and the ability to support the services provided. TelNet continues to make a substantial investment in our network’s infrastructure and in innovative cloud-based technology to ensure our customers’ communications platform has the stability and scalability to be a critical component of a successful business.  We are well-equipped to take care of your business.",
-	First(Fields!paragraph_choice.Value, "DataSet1") + " " + TRIM(First(Fields!additional_message.Value, "DataSet1"))
+	"",
+	VbCrlf + VbCrlf + TRIM(First(Fields!paragraph_choice.Value, "DataSet1"))
 )</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -3274,6 +3222,19 @@ product_templates.name like '%polycom%'</CommandText>
                       </TextRun>
                       <TextRun>
                         <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Label>AdditionalMessage</Label>
+                        <Value>=iif(IsNothing(First(Fields!additional_message.Value, "DataSet1")), 
+	"",
+	VbCrLf + VbCrlf + TRIM(First(Fields!additional_message.Value, "DataSet1"))
+)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
