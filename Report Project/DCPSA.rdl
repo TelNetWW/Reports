@@ -695,7 +695,87 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>By executing this Agreement, you (the “Customer") are ordering the services set forth in the Form of Service Order. Customer agrees to pay for all services ordered or otherwise used including: taxes, surcharges and fees charged by TelNet Worldwide, Inc. ("TelNet"), including, but not limited to, applicable federal, state, local use, excise, sales, or privilege taxes, duties or similar liabilities, as further set forth in this Agreement. The term “this Agreement” refers to and incorporates this Form of Service Order with Customer, the TelNet General Terms and Conditions for Delivery of Service (“T&amp;Cs”), Acceptable Use Policy (“AUP”), related Service Addendums, any related equipment Rental or Purchase Agreements, and any tariffs or rate guides. The T&amp;Cs, AUP and tariffs or service guides are posted at www.telnetww.com. </Value>
+                        <Value>By executing this Agreement, you (the “</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Customer</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>") are ordering the services set forth in the Form of Service Order. Customer agrees to pay for all services ordered or otherwise used including: taxes, surcharges and fees charged by TelNet Worldwide, Inc. ("</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>TelNet</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>"), including, but not limited to, applicable federal, state, local use, excise, sales, or privilege taxes, duties or similar liabilities, as further set forth in this Agreement. The term “this Agreement” refers to and incorporates this Form of Service Order with Customer, the TelNet General Terms and Conditions for Delivery of Service (“</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>T&amp;Cs</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>”), Acceptable Use Policy (“</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>AUP</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>”), related Service Addendums, any related equipment Rental or Purchase Agreements, and any tariffs or rate guides. The T&amp;Cs, AUP and tariffs or service guides are posted at www.telnetww.com. </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -785,6 +865,23 @@ WHERE        (q_u_r_c.quote_id IN
                     </TextRuns>
                     <Style>
                       <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
                       <LineHeight>5pt</LineHeight>
                     </Style>
                   </Paragraph>
@@ -801,7 +898,41 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>     ___________________________________     </Value>
+                        <Value>     ___________________________________  </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value xml:space="preserve">   </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -874,13 +1005,31 @@ WHERE        (q_u_r_c.quote_id IN
                     </TextRuns>
                     <Style>
                       <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
                       <LineHeight>5pt</LineHeight>
                     </Style>
                   </Paragraph>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>By placing Customer’s signature in the space provided, Customer agrees to the terms of this Agreement.</Value>
+                        <Value>By placing Customer’s signature in the space provided, Customer agrees to the terms of this Agreement.
+</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -908,8 +1057,10 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                     </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
                     </Style>
                   </Paragraph>
                   <Paragraph>
@@ -927,12 +1078,15 @@ WHERE        (q_u_r_c.quote_id IN
                     </TextRuns>
                     <Style>
                       <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
                     </Style>
                   </Paragraph>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>__________________________   _____________________   ______________________________________   ______________</Value>
+                        <Value>_______________________________________                    _______________________________________      
+Customer Authorized Signature                                                      Date
+</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -944,23 +1098,7 @@ WHERE        (q_u_r_c.quote_id IN
                     </TextRuns>
                     <Style>
                       <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>       Customer Printed Name                      Title                                 Customer Signature                                                  Date</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
                     </Style>
                   </Paragraph>
                   <Paragraph>
@@ -978,6 +1116,46 @@ WHERE        (q_u_r_c.quote_id IN
                     </TextRuns>
                     <Style>
                       <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value xml:space="preserve">
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>_______________________________________                    _______________________________________      
+Customer Printed Name                                                                  Title
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
                     </Style>
                   </Paragraph>
                   <Paragraph>
@@ -995,12 +1173,13 @@ WHERE        (q_u_r_c.quote_id IN
                     </TextRuns>
                     <Style>
                       <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
                     </Style>
                   </Paragraph>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>__________________________   _____________________   ______________________________________   ______________</Value>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -1012,12 +1191,13 @@ WHERE        (q_u_r_c.quote_id IN
                     </TextRuns>
                     <Style>
                       <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
                     </Style>
                   </Paragraph>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>         TelNet Printed Name                          Title                                            Signature                                                       Date</Value>
+                        <Value />
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -1029,6 +1209,158 @@ WHERE        (q_u_r_c.quote_id IN
                     </TextRuns>
                     <Style>
                       <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>_______________________________________                       
+Company Name         </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>_______________________________________                    _______________________________________      
+TelNet Signature                                                                              Date
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value xml:space="preserve">
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>_______________________________________                    _______________________________________      
+TelNet Printed Name                                                                        Title
+
+ </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>12pt</LineHeight>
                     </Style>
                   </Paragraph>
                 </Paragraphs>
@@ -6994,25 +7326,6 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
                         <Value>CUSTOMER INITIALS: _________
 </Value>
                         <Style>
@@ -10488,7 +10801,6 @@ WHERE        (q_u_r_c.quote_id IN
                     </Style>
                   </Paragraph>
                 </Paragraphs>
-                <Top>0.06944in</Top>
                 <Left>0.25in</Left>
                 <Height>20.04027in</Height>
                 <Width>7.5in</Width>
@@ -13446,6 +13758,10 @@ WHERE        (q_u_r_c.quote_id IN
                 </Style>
               </Textbox>
             </ReportItems>
+            <PageBreak>
+              <BreakLocation>Start</BreakLocation>
+              <ResetPageNumber>true</ResetPageNumber>
+            </PageBreak>
             <PageName>PageAddendum</PageName>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
