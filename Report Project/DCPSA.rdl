@@ -661,6 +661,40 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>By executing this Agreement, you (the “Customer") are ordering the services set forth in the Form of Service Order. Customer agrees to pay for all services ordered or otherwise used including: taxes, surcharges and fees charged by TelNet Worldwide, Inc. ("TelNet"), including, but not limited to, applicable federal, state, local use, excise, sales, or privilege taxes, duties or similar liabilities, as further set forth in this Agreement. The term “this Agreement” refers to and incorporates this Form of Service Order with Customer, the TelNet General Terms and Conditions for Delivery of Service (“T&amp;Cs”), Acceptable Use Policy (“AUP”), related Service Addendums, any related equipment Rental or Purchase Agreements, and any tariffs or rate guides. The T&amp;Cs, AUP and tariffs or service guides are posted at www.telnetww.com. </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -7000,7 +7034,7 @@ WHERE        (q_u_r_c.quote_id IN
                 <rd:DefaultName>textbox37</rd:DefaultName>
                 <Top>0.02012in</Top>
                 <Left>0.25in</Left>
-                <Height>25.45377in</Height>
+                <Height>25.91697in</Height>
                 <Width>7.50999in</Width>
                 <Style>
                   <PaddingLeft>2pt</PaddingLeft>
@@ -7018,7 +7052,7 @@ WHERE        (q_u_r_c.quote_id IN
             <DataElementOutput>ContentsOnly</DataElementOutput>
             <Top>8.25in</Top>
             <Left>0.25in</Left>
-            <Height>26.04821in</Height>
+            <Height>25.99265in</Height>
             <Width>8in</Width>
             <ZIndex>1</ZIndex>
             <Style>
@@ -8252,185 +8286,6 @@ WHERE        (q_u_r_c.quote_id IN
                   </Border>
                 </Style>
               </Tablix>
-              <Tablix Name="Tablix7">
-                <TablixBody>
-                  <TablixColumns>
-                    <TablixColumn>
-                      <Width>1.58968in</Width>
-                    </TablixColumn>
-                    <TablixColumn>
-                      <Width>0.73959in</Width>
-                    </TablixColumn>
-                    <TablixColumn>
-                      <Width>0.72731in</Width>
-                    </TablixColumn>
-                    <TablixColumn>
-                      <Width>0.85404in</Width>
-                    </TablixColumn>
-                    <TablixColumn>
-                      <Width>0.85444in</Width>
-                    </TablixColumn>
-                    <TablixColumn>
-                      <Width>2.87043in</Width>
-                    </TablixColumn>
-                  </TablixColumns>
-                  <TablixRows>
-                    <TablixRow>
-                      <Height>0.2in</Height>
-                      <TablixCells>
-                        <TablixCell>
-                          <CellContents>
-                            <Textbox Name="Textbox311">
-                              <CanGrow>true</CanGrow>
-                              <KeepTogether>true</KeepTogether>
-                              <Paragraphs>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value>The pricing and solution quoted are based on client provided information and are subject to change.</Value>
-                                      <Style>
-                                        <FontSize>8pt</FontSize>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style>
-                                    <TextAlign>Left</TextAlign>
-                                    <LineHeight>0.22in</LineHeight>
-                                  </Style>
-                                </Paragraph>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value>© TelNet Worldwide, Inc. Privileged and confidential – do not copy, duplicate or distribute.</Value>
-                                      <Style>
-                                        <FontSize>8pt</FontSize>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style>
-                                    <TextAlign>Left</TextAlign>
-                                    <LineHeight>0.22in</LineHeight>
-                                  </Style>
-                                </Paragraph>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value />
-                                      <Style>
-                                        <FontStyle>Normal</FontStyle>
-                                        <FontSize>8pt</FontSize>
-                                        <FontWeight>Normal</FontWeight>
-                                        <TextDecoration>None</TextDecoration>
-                                        <Color>#000000</Color>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style>
-                                    <TextAlign>Left</TextAlign>
-                                  </Style>
-                                </Paragraph>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value>CUSTOMER INITIALS: __________</Value>
-                                      <Style>
-                                        <FontStyle>Normal</FontStyle>
-                                        <FontSize>8pt</FontSize>
-                                        <FontWeight>Normal</FontWeight>
-                                        <TextDecoration>None</TextDecoration>
-                                        <Color>#000000</Color>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style>
-                                    <TextAlign>Right</TextAlign>
-                                  </Style>
-                                </Paragraph>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value />
-                                      <Style>
-                                        <FontSize>8pt</FontSize>
-                                        <TextDecoration>Underline</TextDecoration>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style>
-                                    <TextAlign>Left</TextAlign>
-                                    <LineHeight>0.22in</LineHeight>
-                                  </Style>
-                                </Paragraph>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value />
-                                      <Style>
-                                        <FontStyle>Normal</FontStyle>
-                                        <FontSize>0.125in</FontSize>
-                                        <FontWeight>Normal</FontWeight>
-                                        <TextDecoration>None</TextDecoration>
-                                        <Color>#000000</Color>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style>
-                                    <TextAlign>Right</TextAlign>
-                                    <LineHeight>0.22in</LineHeight>
-                                  </Style>
-                                </Paragraph>
-                              </Paragraphs>
-                              <rd:DefaultName>Textbox310</rd:DefaultName>
-                              <Style>
-                                <Border>
-                                  <Style>None</Style>
-                                </Border>
-                                <PaddingLeft>2pt</PaddingLeft>
-                                <PaddingRight>2pt</PaddingRight>
-                                <PaddingTop>2pt</PaddingTop>
-                                <PaddingBottom>2pt</PaddingBottom>
-                              </Style>
-                            </Textbox>
-                            <ColSpan>6</ColSpan>
-                          </CellContents>
-                        </TablixCell>
-                        <TablixCell />
-                        <TablixCell />
-                        <TablixCell />
-                        <TablixCell />
-                        <TablixCell />
-                      </TablixCells>
-                    </TablixRow>
-                  </TablixRows>
-                </TablixBody>
-                <TablixColumnHierarchy>
-                  <TablixMembers>
-                    <TablixMember />
-                    <TablixMember />
-                    <TablixMember />
-                    <TablixMember />
-                    <TablixMember />
-                    <TablixMember />
-                  </TablixMembers>
-                </TablixColumnHierarchy>
-                <TablixRowHierarchy>
-                  <TablixMembers>
-                    <TablixMember />
-                  </TablixMembers>
-                </TablixRowHierarchy>
-                <KeepTogether>true</KeepTogether>
-                <DataSetName>UsageTableDataSet</DataSetName>
-                <Top>3.00237in</Top>
-                <Left>0.22589in</Left>
-                <Height>0.2in</Height>
-                <Width>7.63549in</Width>
-                <ZIndex>3</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                </Style>
-              </Tablix>
               <Tablix Name="SolutionTotals">
                 <TablixBody>
                   <TablixColumns>
@@ -8743,7 +8598,7 @@ WHERE        (q_u_r_c.quote_id IN
                 <Left>0.24203in</Left>
                 <Height>0.4in</Height>
                 <Width>7.63552in</Width>
-                <ZIndex>4</ZIndex>
+                <ZIndex>3</ZIndex>
                 <Style>
                   <Border>
                     <Color>DimGray</Color>
@@ -8762,11 +8617,87 @@ WHERE        (q_u_r_c.quote_id IN
                   <FontSize>8pt</FontSize>
                 </Style>
               </Tablix>
+              <Textbox Name="Textbox40">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Unless specified, prices do not include applicable taxes, professional services or other time and material charges.</Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>© TelNet Worldwide, Inc. Privileged and confidential – do not copy, duplicate or distribute.</Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>0.22in</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>CUSTOMER INITIALS: __________</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Right</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox40</rd:DefaultName>
+                <Top>2.66061in</Top>
+                <Left>0.25001in</Left>
+                <Height>0.47232in</Height>
+                <Width>7.58459in</Width>
+                <ZIndex>4</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
             </ReportItems>
             <PageName>PSA</PageName>
             <KeepTogether>true</KeepTogether>
             <Left>0.25in</Left>
-            <Height>3.20237in</Height>
+            <Height>3.13293in</Height>
             <Width>8in</Width>
             <ZIndex>2</ZIndex>
             <Style>
@@ -10556,46 +10487,10 @@ WHERE        (q_u_r_c.quote_id IN
                       <TextAlign>Left</TextAlign>
                     </Style>
                   </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
                 </Paragraphs>
-                <Top>0.00836in</Top>
+                <Top>0.06944in</Top>
                 <Left>0.25in</Left>
-                <Height>18.82152in</Height>
+                <Height>20.04027in</Height>
                 <Width>7.5in</Width>
                 <Style>
                   <PaddingLeft>2pt</PaddingLeft>
@@ -10608,7 +10503,7 @@ WHERE        (q_u_r_c.quote_id IN
                 <Source>Embedded</Source>
                 <Value>credit</Value>
                 <Sizing>FitProportional</Sizing>
-                <Top>18.89932in</Top>
+                <Top>18.56109in</Top>
                 <Left>1.32167in</Left>
                 <Height>2.30154in</Height>
                 <Width>5.51042in</Width>
@@ -10626,7 +10521,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>a)</Value>
+                        <Value>b)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10733,7 +10628,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>b)</Value>
+                        <Value>c)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10842,7 +10737,7 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>c)</Value>
+                        <Value>d)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -13535,9 +13430,9 @@ WHERE        (q_u_r_c.quote_id IN
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox9</rd:DefaultName>
-                <Top>21.34084in</Top>
-                <Left>0.25in</Left>
-                <Height>0.78071in</Height>
+                <Top>21.35332in</Top>
+                <Left>0.25001in</Left>
+                <Height>1.54113in</Height>
                 <Width>7.5248in</Width>
                 <ZIndex>2</ZIndex>
                 <Style>
@@ -13551,11 +13446,12 @@ WHERE        (q_u_r_c.quote_id IN
                 </Style>
               </Textbox>
             </ReportItems>
+            <PageName>PageAddendum</PageName>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>34.30374in</Top>
+            <Top>34.24265in</Top>
             <Left>0.25in</Left>
-            <Height>22.13544in</Height>
+            <Height>22.92222in</Height>
             <Width>8in</Width>
             <ZIndex>3</ZIndex>
             <Style>
@@ -15889,9 +15785,8 @@ WHERE        (q_u_r_c.quote_id IN
                     </Style>
                   </Paragraph>
                 </Paragraphs>
-                <Top>0.04166in</Top>
                 <Left>0.25in</Left>
-                <Height>19.49655in</Height>
+                <Height>18.79863in</Height>
                 <Width>7.5in</Width>
                 <Style>
                   <PaddingLeft>2pt</PaddingLeft>
@@ -15907,9 +15802,9 @@ WHERE        (q_u_r_c.quote_id IN
             </PageBreak>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>56.46696in</Top>
+            <Top>57.20654in</Top>
             <Left>0.2091in</Left>
-            <Height>19.53821in</Height>
+            <Height>18.79863in</Height>
             <Width>8in</Width>
             <ZIndex>4</ZIndex>
             <Style>

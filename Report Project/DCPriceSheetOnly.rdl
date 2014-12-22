@@ -1893,185 +1893,6 @@ product_templates.name like '%polycom%'</CommandText>
                   </Border>
                 </Style>
               </Tablix>
-              <Tablix Name="Tablix7">
-                <TablixBody>
-                  <TablixColumns>
-                    <TablixColumn>
-                      <Width>1.58968in</Width>
-                    </TablixColumn>
-                    <TablixColumn>
-                      <Width>0.73959in</Width>
-                    </TablixColumn>
-                    <TablixColumn>
-                      <Width>0.72731in</Width>
-                    </TablixColumn>
-                    <TablixColumn>
-                      <Width>0.85404in</Width>
-                    </TablixColumn>
-                    <TablixColumn>
-                      <Width>0.85444in</Width>
-                    </TablixColumn>
-                    <TablixColumn>
-                      <Width>2.87043in</Width>
-                    </TablixColumn>
-                  </TablixColumns>
-                  <TablixRows>
-                    <TablixRow>
-                      <Height>0.2in</Height>
-                      <TablixCells>
-                        <TablixCell>
-                          <CellContents>
-                            <Textbox Name="Textbox311">
-                              <CanGrow>true</CanGrow>
-                              <KeepTogether>true</KeepTogether>
-                              <Paragraphs>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value>The pricing and solution quoted are based on client provided information and are subject to change.</Value>
-                                      <Style>
-                                        <FontSize>8pt</FontSize>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style>
-                                    <TextAlign>Left</TextAlign>
-                                    <LineHeight>0.22in</LineHeight>
-                                  </Style>
-                                </Paragraph>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value>© TelNet Worldwide, Inc. Privileged and confidential – do not copy, duplicate or distribute.</Value>
-                                      <Style>
-                                        <FontSize>8pt</FontSize>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style>
-                                    <TextAlign>Left</TextAlign>
-                                    <LineHeight>0.22in</LineHeight>
-                                  </Style>
-                                </Paragraph>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value />
-                                      <Style>
-                                        <FontStyle>Normal</FontStyle>
-                                        <FontSize>8pt</FontSize>
-                                        <FontWeight>Normal</FontWeight>
-                                        <TextDecoration>None</TextDecoration>
-                                        <Color>#000000</Color>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style>
-                                    <TextAlign>Left</TextAlign>
-                                  </Style>
-                                </Paragraph>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value>CUSTOMER INITIALS: __________</Value>
-                                      <Style>
-                                        <FontStyle>Normal</FontStyle>
-                                        <FontSize>8pt</FontSize>
-                                        <FontWeight>Normal</FontWeight>
-                                        <TextDecoration>None</TextDecoration>
-                                        <Color>#000000</Color>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style>
-                                    <TextAlign>Right</TextAlign>
-                                  </Style>
-                                </Paragraph>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value />
-                                      <Style>
-                                        <FontSize>8pt</FontSize>
-                                        <TextDecoration>Underline</TextDecoration>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style>
-                                    <TextAlign>Left</TextAlign>
-                                    <LineHeight>0.22in</LineHeight>
-                                  </Style>
-                                </Paragraph>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value />
-                                      <Style>
-                                        <FontStyle>Normal</FontStyle>
-                                        <FontSize>0.125in</FontSize>
-                                        <FontWeight>Normal</FontWeight>
-                                        <TextDecoration>None</TextDecoration>
-                                        <Color>#000000</Color>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style>
-                                    <TextAlign>Right</TextAlign>
-                                    <LineHeight>0.22in</LineHeight>
-                                  </Style>
-                                </Paragraph>
-                              </Paragraphs>
-                              <rd:DefaultName>Textbox310</rd:DefaultName>
-                              <Style>
-                                <Border>
-                                  <Style>None</Style>
-                                </Border>
-                                <PaddingLeft>2pt</PaddingLeft>
-                                <PaddingRight>2pt</PaddingRight>
-                                <PaddingTop>2pt</PaddingTop>
-                                <PaddingBottom>2pt</PaddingBottom>
-                              </Style>
-                            </Textbox>
-                            <ColSpan>6</ColSpan>
-                          </CellContents>
-                        </TablixCell>
-                        <TablixCell />
-                        <TablixCell />
-                        <TablixCell />
-                        <TablixCell />
-                        <TablixCell />
-                      </TablixCells>
-                    </TablixRow>
-                  </TablixRows>
-                </TablixBody>
-                <TablixColumnHierarchy>
-                  <TablixMembers>
-                    <TablixMember />
-                    <TablixMember />
-                    <TablixMember />
-                    <TablixMember />
-                    <TablixMember />
-                    <TablixMember />
-                  </TablixMembers>
-                </TablixColumnHierarchy>
-                <TablixRowHierarchy>
-                  <TablixMembers>
-                    <TablixMember />
-                  </TablixMembers>
-                </TablixRowHierarchy>
-                <KeepTogether>true</KeepTogether>
-                <DataSetName>UsageTableDataSet</DataSetName>
-                <Top>3.00237in</Top>
-                <Left>0.22589in</Left>
-                <Height>0.2in</Height>
-                <Width>7.63549in</Width>
-                <ZIndex>3</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                </Style>
-              </Tablix>
               <Tablix Name="SolutionTotals">
                 <TablixBody>
                   <TablixColumns>
@@ -2384,7 +2205,7 @@ product_templates.name like '%polycom%'</CommandText>
                 <Left>0.24203in</Left>
                 <Height>0.4in</Height>
                 <Width>7.63552in</Width>
-                <ZIndex>4</ZIndex>
+                <ZIndex>3</ZIndex>
                 <Style>
                   <Border>
                     <Color>DimGray</Color>
@@ -2403,12 +2224,88 @@ product_templates.name like '%polycom%'</CommandText>
                   <FontSize>8pt</FontSize>
                 </Style>
               </Tablix>
+              <Textbox Name="Textbox40">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Unless specified, prices do not include applicable taxes, professional services or other time and material charges.</Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>© TelNet Worldwide, Inc. Privileged and confidential – do not copy, duplicate or distribute.</Value>
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>0.22in</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontSize>8pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>CUSTOMER INITIALS: __________</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Right</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox40</rd:DefaultName>
+                <Top>2.89413in</Top>
+                <Left>0.25001in</Left>
+                <Height>0.73532in</Height>
+                <Width>7.58459in</Width>
+                <ZIndex>4</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
             </ReportItems>
             <PageName>PSA</PageName>
             <KeepTogether>true</KeepTogether>
             <Top>0.69837in</Top>
             <Left>0.25in</Left>
-            <Height>3.20237in</Height>
+            <Height>3.62945in</Height>
             <Width>8in</Width>
             <Style>
               <Border>
