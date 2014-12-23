@@ -1444,732 +1444,6 @@ WHERE        (q_u_r_c.quote_id IN
               </Border>
             </Style>
           </Rectangle>
-          <Rectangle Name="rectangle6">
-            <ReportItems>
-              <Textbox Name="textbox36">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>PURCHASE ORDER TERMS &amp; CONDITIONS</Value>
-                        <Style>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>12pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Center</TextAlign>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>textbox36</rd:DefaultName>
-                <Top>0.05907in</Top>
-                <Left>0.02678in</Left>
-                <Height>0.25in</Height>
-                <Width>7.56427in</Width>
-                <Style>
-                  <BottomBorder>
-                    <Color>Black</Color>
-                    <Style>Solid</Style>
-                    <Width>1pt</Width>
-                  </BottomBorder>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="textbox37">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>In addition to the general terms and conditions contained in the TelNet Service Agreement (“SA”) between TelNet Worldwide (“TelNet”)  and Customer (the “Agreement”), of which this Purchase Order is a part, the following terms and conditions apply to the purchase of the Product, as defined below. In the event of any inconsistency between the Agreement and this Schedule, this Schedule shall control.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>0.4375in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>1.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve">     </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>PURCHASE OF PRODUCT &amp; PRICE
-</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>Customer is purchasing from TelNet the equipment described on the attached SA (“Product”). Customer shall pay all amounts due under the SA, in accordance to the payment terms set forth in the Agreement. If Customer does not pay in accordance to the payment terms, late payment charges will be billed in the amount of 1.5% of the total overdue amount or the maximum lawful rate allowable, whichever is less. Customer also agrees to pay all reasonable costs and expenses involved in the collection of the amounts due, including but not limited to, attorney fees, expenses, court costs and service charges. Customer also agrees to pay all applicable handling charges, interest charges, shipping charges, insurance charges, cancellation fees or restocking fees, or any applicable sales, excise, use, property and similar taxes (other than income taxes on payments made by Customer to TelNet under this Agreement) and related charges that may be imposed or assessed by any governmental entity or taxing authority with respect to such Product.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>2.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve">     </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>CANCELLATION POLICY
-</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>The following cancellation policy shall apply to the Product purchased by Customer:</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>A.     Pre-Shipment: If Customer cancels any portion of the Product order prior to the shipment date, Customer agrees to pay a liquidated damage in the amount totaling 15% of the canceled order amount, plus any cancellation or restocking fees imposed on TelNet by the applicable equipment manufacturer. Customer agrees that this cancellation charge is a true measure of the damage to TelNet and is not a penalty charge.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>B.     Post-Shipment: If Customer cancels any portion of the Product order after shipment has occurred but prior to installation of the Product, Customer shall receive a credit for the invoice amount of the cancelled Product minus (a) a liquidated damage in the amount totaling 15% of the cancelled order amount, minus (b) any  cancellation or restocking fees imposed on TelNet by the applicable equipment manufacturer, and minus (c) the shipping charges, both original and return, associated with the canceled Product. Customer agrees that this  cancellation charge is a true measure of the damage to TelNet and is not a penalty charge. If Customer cancels any portion of the Product order after shipment and installation has occurred, Customer shall not be entitled to receive a credit on the returned Product under any circumstances.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <RightIndent>0.4375in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>3.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve">     </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>ENVIRONMENT &amp; DELIVERY
-</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>Customer agrees, at its sole expense, to provide the proper environment and electrical and telecommunications connections for the Product such as, but not limited to, ensuring appropriate power supply and surge protection is used. Customer is solely responsible for correcting any hazardous conditions that may adversely affect Product. TelNet shall use commercially reasonable efforts to complete the delivery of the Products in advance of the installation date requested by customer, but TelNet does not guarantee that it will be able to do so. If Customer is unable or unwilling to schedule or accept delivery or installation on the date that TelNet tenders delivery or installation, TelNet shall have the right to initiate billing for the amounts due hereunder as of the date that delivery or installation was tendered. Product prices and Installation or Service charges are subject to change at TelNet’s sole discretion if Customer delays delivery or installation by more than thirty (30) days.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>4.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve">     </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>TITLE, RISK OF LOSS &amp; SECURITY INTEREST
-</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>Title to the Product ordered by Customer shall pass to Customer upon payment in full of all invoiced amounts. Until TelNet receives the full amount due hereunder from the Customer, Customer grants to TelNet a continuing purchase money security interest in the Products ordered under this Agreement, and Customer agrees to support TelNet in the perfection of such security interest. Risk or loss or damage to the Product shall pass from TelNet to Customer upon initial delivery by TelNet or its suppliers to the delivery carrier (“FOB Origin”). Customer agrees to pay all transportation, handling, insurance and associated charges, including but not limited to, additional charges for non-standard shipment. TelNet shall use commercially reasonable efforts to meet Customer’s requested delivery dates, but TelNet does not guarantee any delivery dates. Customer shall be solely responsible to coordinate all delivery arrangements necessary to comply with project schedule date.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>5.     </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>WARRANTY &amp; DISCLAIMERS
-</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>TELNET DOES NOT WARRANT EQUIPMENT OR GOODS (“PRODUCTS”) PURCHASED HEREUNDER. TO THE MAXIMIM EXTENT PERMITTED BY LAW, TELNET DISCLAIMS AND EXCLUDES ALL REPRESENTATIONS, WARRANTIES AND CONDITIONS, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO REPRESENTATIONS, WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, SATISFACTORY CONDITION OR QUALITY, MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE, WITH RESPECT TO THE PRODUCTS AND ANY SERVICES, OR OTHER MATERIALS OR INFORMATION PROVIDED BY TELNET WITH THE PRODUCT(S). TELNET WARRANTS ONLY THAT ITS SERVICES SHALL BE PERFORMED IN A TIMELY, PROFESSIONAL AND WORKMANLIKE MANNER BY QUALIFIED PERSONNEL. IF SERVICES ARE NOT PERFORMED AS DESCRIBED, AND CUSTOMER NOTIFIES TELNET IN WRITING WITHIN THIRTY (30) DAYS, CUSTOMER’S EXCLUSIVE REMEDY SHALL BE FOR TELNET TO RE-PERFORM THE NON-CONFORMING SERVICES. CUSTOMER’S EXCLUSIVE REMEDY WITH RESPECT TO THE PRODUCTS PURCHASED FROM TELNET HEREUNDER IS AS SET FORTH IN THE WARRANTY, IF ANY, PROVIDED BY  THE EQUIPMENT MANUFACTURER. SUCH WARRANTIES, IF ANY, FROM THE EQUIPMENT MANUFACTURER ARE CUSTOMER’S EXCLUSIVE WARRANTIES AND SOLE REMEDIES AND REPLACE ALL OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, WITH RESPECT TO PRODUCTS PURCHASED HEREUNDER, INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>6.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve">     </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>LIMITATION OF LIABILITY
-</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>IN NO EVENT WILL TELNET BE LIABLE TO CUSTOMER OR ANY THIRD PARTY, IN CONTRACT, TORT OR OTHERWISE, FOR ANY LOSS OF PROFITS OR BUSINESS, OR ANY INCIDENTAL, SPECIAL, INDIRECT, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES, ARISING FROM OR AS A RESULT OF THESE CONTRACT TERMS OR ANY AGREEMENT BETWEEN THE PARTIES RELATING TO THE PRODUCTS, SERVICES OR DELIVERABLES TELNET PROVIDES, EVEN IF TELNET HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                      <LineHeight>13pt</LineHeight>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>7.     </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>RETURN
-</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>If Customer is required to return any Product to TelNet for service, Customer agrees to obtain TelNet’s concurrence prior to returning the Product. Customer agrees to reference any Return Material Authorization Number (RMA Number) issued by TelNet on all paperwork or documentation accompanying the returned Product. Customer further agrees to ship the Product pre-paid and suitably packaged to the TelNet specified location. Any returned product becomes the property of TelNet and, subject to TelNet’s receipt of the exchanged Product, the replacement becomes Customer’s property. Customer agrees to ensure that any returned Product is free from any and all legal obligations or restrictions that may prevent its exchange and represents that all returned Products are genuine and unaltered. The replacement Product may not be new, but will be in working order and equivalent to the item exchanged as determined in good faith by TelNet. Additional terms and conditions for the return of Product can be found in the General Terms and Conditions located on the TelNet website and are made a part of the Agreement.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve"> </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Center</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>CUSTOMER INITIALS: __________</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Center</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>THE REMAINDER OF THIS PAGE IS LEFT INTENTIONALLY BLANK
-</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontFamily>Calibri</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
-                    <RightIndent>0.4375in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Center</TextAlign>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>textbox37</rd:DefaultName>
-                <Top>0.43407in</Top>
-                <Left>0.08106in</Left>
-                <Height>12.90516in</Height>
-                <Width>7.50999in</Width>
-                <ZIndex>1</ZIndex>
-                <Style>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-            </ReportItems>
-            <PageBreak>
-              <BreakLocation>Start</BreakLocation>
-            </PageBreak>
-            <KeepTogether>true</KeepTogether>
-            <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>20.38466in</Top>
-            <Left>0.3519in</Left>
-            <Height>13.84964in</Height>
-            <Width>7.64612in</Width>
-            <ZIndex>1</ZIndex>
-            <Visibility>
-              <Hidden>=IIF(CBool(Parameters!hasPurchase.Value) = False,True,False)</Hidden>
-            </Visibility>
-            <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
-            </Style>
-          </Rectangle>
           <Rectangle Name="Rectangle3">
             <ReportItems>
               <Textbox Name="account_name3">
@@ -4498,7 +3772,7 @@ WHERE        (q_u_r_c.quote_id IN
             <Left>0.39483in</Left>
             <Height>3.20237in</Height>
             <Width>7.73272in</Width>
-            <ZIndex>2</ZIndex>
+            <ZIndex>1</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -4527,7 +3801,7 @@ WHERE        (q_u_r_c.quote_id IN
                     </Style>
                   </Paragraph>
                 </Paragraphs>
-                <Top>0.22571in</Top>
+                <Top>0.29515in</Top>
                 <Left>0.01063in</Left>
                 <Height>0.25in</Height>
                 <Width>7.60871in</Width>
@@ -5612,7 +4886,7 @@ WHERE        (q_u_r_c.quote_id IN
                     </Style>
                   </Paragraph>
                 </Paragraphs>
-                <Top>0.61112in</Top>
+                <Top>0.68056in</Top>
                 <Left>0.01615in</Left>
                 <Height>18.99653in</Height>
                 <Width>7.56427in</Width>
@@ -5630,11 +4904,11 @@ WHERE        (q_u_r_c.quote_id IN
             </PageBreak>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>34.2343in</Top>
-            <Left>0.37868in</Left>
-            <Height>19.60765in</Height>
+            <Top>36.97736in</Top>
+            <Left>0.33575in</Left>
+            <Height>19.67709in</Height>
             <Width>7.64612in</Width>
-            <ZIndex>3</ZIndex>
+            <ZIndex>2</ZIndex>
             <Visibility>
               <Hidden>=IIF(CBool(Parameters!hasRental.Value) = False,True,False)</Hidden>
             </Visibility>
@@ -8062,7 +7336,7 @@ WHERE        (q_u_r_c.quote_id IN
             <Left>0.21833in</Left>
             <Height>8.51733in</Height>
             <Width>8.03735in</Width>
-            <ZIndex>4</ZIndex>
+            <ZIndex>3</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -8668,11 +7942,11 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
               <BreakLocation>Start</BreakLocation>
             </PageBreak>
             <KeepTogether>true</KeepTogether>
-            <Top>53.85584in</Top>
-            <Left>0.38931in</Left>
+            <Top>56.73084in</Top>
+            <Left>0.30328in</Left>
             <Height>8.54888in</Height>
             <Width>7.66851in</Width>
-            <ZIndex>5</ZIndex>
+            <ZIndex>4</ZIndex>
             <Visibility>
               <Hidden>=IIF(
 	First(Fields!product_name.Value, "LocationDetailQuery1").ToString().Contains("Essential"), 
@@ -8691,8 +7965,1269 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
               </Border>
             </Style>
           </Rectangle>
+          <Rectangle Name="CustomerContactProfile">
+            <ReportItems>
+              <Textbox Name="Textbox4">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value xml:space="preserve">
+ 
+</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value>Company</Value>
+                        <Style>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>
+Legal Company Name: </Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                            </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>  Telephone:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                  </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">
+
+
+</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value>Primary Contact</Value>
+                        <Style>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>
+Name:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                    </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">    </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Telephone:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                   </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>                                       
+Email:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                    </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Cell Phone:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                  </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                       
+
+
+</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value>Billing Contact</Value>
+                        <Style>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>
+Name:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                    </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">    </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Telephone:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                   </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>                                       
+Email:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                    </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Cell Phone:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                  </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                 
+ 
+ 
+</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value>Onsite Contact</Value>
+                        <Style>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>
+Name:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                    </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">    </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Telephone:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                   </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>                                       
+Email:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                    </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Cell Phone:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                  </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                       
+ 
+ 
+</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value>Technical Contact (Data/Voice Vendor)</Value>
+                        <Style>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>
+Name:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                    </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">    </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Telephone:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                   </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>                                       
+Email:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                                                                    </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Cell Phone:</Value>
+                        <Style />
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                  </Value>
+                        <Style>
+                          <TextDecoration>Underline</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                       </Value>
+                        <Style />
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox4</rd:DefaultName>
+                <Top>0.66268in</Top>
+                <Left>0.4038in</Left>
+                <Height>0.97917in</Height>
+                <Width>6.97917in</Width>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox5">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Customer Contact Profile</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Myriad Pro</FontFamily>
+                          <FontSize>12pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#365f91</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox5</rd:DefaultName>
+                <Top>0.34324in</Top>
+                <Left>2.74594in</Left>
+                <Height>0.25in</Height>
+                <Width>2.79144in</Width>
+                <ZIndex>1</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Image Name="Image1">
+                <Source>Embedded</Source>
+                <Value>ebilloption</Value>
+                <Sizing>Fit</Sizing>
+                <Top>1.71129in</Top>
+                <Left>0.4038in</Left>
+                <Height>1.88537in</Height>
+                <Width>6.97917in</Width>
+                <ZIndex>2</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
+            </ReportItems>
+            <KeepTogether>true</KeepTogether>
+            <Top>20.42635in</Top>
+            <Left>0.30328in</Left>
+            <Height>3.59667in</Height>
+            <Width>7.76006in</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="rectangle6">
+            <ReportItems>
+              <Textbox Name="textbox36">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>PURCHASE ORDER TERMS &amp; CONDITIONS</Value>
+                        <Style>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>12pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>textbox36</rd:DefaultName>
+                <Left>0.02678in</Left>
+                <Height>0.25in</Height>
+                <Width>7.56427in</Width>
+                <Style>
+                  <BottomBorder>
+                    <Color>Black</Color>
+                    <Style>Solid</Style>
+                    <Width>1pt</Width>
+                  </BottomBorder>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="textbox37">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>In addition to the general terms and conditions contained in the TelNet Service Agreement (“SA”) between TelNet Worldwide (“TelNet”)  and Customer (the “Agreement”), of which this Purchase Order is a part, the following terms and conditions apply to the purchase of the Product, as defined below. In the event of any inconsistency between the Agreement and this Schedule, this Schedule shall control.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.4375in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>1.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>PURCHASE OF PRODUCT &amp; PRICE
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Customer is purchasing from TelNet the equipment described on the attached SA (“Product”). Customer shall pay all amounts due under the SA, in accordance to the payment terms set forth in the Agreement. If Customer does not pay in accordance to the payment terms, late payment charges will be billed in the amount of 1.5% of the total overdue amount or the maximum lawful rate allowable, whichever is less. Customer also agrees to pay all reasonable costs and expenses involved in the collection of the amounts due, including but not limited to, attorney fees, expenses, court costs and service charges. Customer also agrees to pay all applicable handling charges, interest charges, shipping charges, insurance charges, cancellation fees or restocking fees, or any applicable sales, excise, use, property and similar taxes (other than income taxes on payments made by Customer to TelNet under this Agreement) and related charges that may be imposed or assessed by any governmental entity or taxing authority with respect to such Product.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>2.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>CANCELLATION POLICY
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>The following cancellation policy shall apply to the Product purchased by Customer:</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>A.     Pre-Shipment: If Customer cancels any portion of the Product order prior to the shipment date, Customer agrees to pay a liquidated damage in the amount totaling 15% of the canceled order amount, plus any cancellation or restocking fees imposed on TelNet by the applicable equipment manufacturer. Customer agrees that this cancellation charge is a true measure of the damage to TelNet and is not a penalty charge.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>B.     Post-Shipment: If Customer cancels any portion of the Product order after shipment has occurred but prior to installation of the Product, Customer shall receive a credit for the invoice amount of the cancelled Product minus (a) a liquidated damage in the amount totaling 15% of the cancelled order amount, minus (b) any  cancellation or restocking fees imposed on TelNet by the applicable equipment manufacturer, and minus (c) the shipping charges, both original and return, associated with the canceled Product. Customer agrees that this  cancellation charge is a true measure of the damage to TelNet and is not a penalty charge. If Customer cancels any portion of the Product order after shipment and installation has occurred, Customer shall not be entitled to receive a credit on the returned Product under any circumstances.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <RightIndent>0.4375in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>3.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>ENVIRONMENT &amp; DELIVERY
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Customer agrees, at its sole expense, to provide the proper environment and electrical and telecommunications connections for the Product such as, but not limited to, ensuring appropriate power supply and surge protection is used. Customer is solely responsible for correcting any hazardous conditions that may adversely affect Product. TelNet shall use commercially reasonable efforts to complete the delivery of the Products in advance of the installation date requested by customer, but TelNet does not guarantee that it will be able to do so. If Customer is unable or unwilling to schedule or accept delivery or installation on the date that TelNet tenders delivery or installation, TelNet shall have the right to initiate billing for the amounts due hereunder as of the date that delivery or installation was tendered. Product prices and Installation or Service charges are subject to change at TelNet’s sole discretion if Customer delays delivery or installation by more than thirty (30) days.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>4.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>TITLE, RISK OF LOSS &amp; SECURITY INTEREST
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Title to the Product ordered by Customer shall pass to Customer upon payment in full of all invoiced amounts. Until TelNet receives the full amount due hereunder from the Customer, Customer grants to TelNet a continuing purchase money security interest in the Products ordered under this Agreement, and Customer agrees to support TelNet in the perfection of such security interest. Risk or loss or damage to the Product shall pass from TelNet to Customer upon initial delivery by TelNet or its suppliers to the delivery carrier (“FOB Origin”). Customer agrees to pay all transportation, handling, insurance and associated charges, including but not limited to, additional charges for non-standard shipment. TelNet shall use commercially reasonable efforts to meet Customer’s requested delivery dates, but TelNet does not guarantee any delivery dates. Customer shall be solely responsible to coordinate all delivery arrangements necessary to comply with project schedule date.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>5.     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>WARRANTY &amp; DISCLAIMERS
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>TELNET DOES NOT WARRANT EQUIPMENT OR GOODS (“PRODUCTS”) PURCHASED HEREUNDER. TO THE MAXIMIM EXTENT PERMITTED BY LAW, TELNET DISCLAIMS AND EXCLUDES ALL REPRESENTATIONS, WARRANTIES AND CONDITIONS, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO REPRESENTATIONS, WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, SATISFACTORY CONDITION OR QUALITY, MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE, WITH RESPECT TO THE PRODUCTS AND ANY SERVICES, OR OTHER MATERIALS OR INFORMATION PROVIDED BY TELNET WITH THE PRODUCT(S). TELNET WARRANTS ONLY THAT ITS SERVICES SHALL BE PERFORMED IN A TIMELY, PROFESSIONAL AND WORKMANLIKE MANNER BY QUALIFIED PERSONNEL. IF SERVICES ARE NOT PERFORMED AS DESCRIBED, AND CUSTOMER NOTIFIES TELNET IN WRITING WITHIN THIRTY (30) DAYS, CUSTOMER’S EXCLUSIVE REMEDY SHALL BE FOR TELNET TO RE-PERFORM THE NON-CONFORMING SERVICES. CUSTOMER’S EXCLUSIVE REMEDY WITH RESPECT TO THE PRODUCTS PURCHASED FROM TELNET HEREUNDER IS AS SET FORTH IN THE WARRANTY, IF ANY, PROVIDED BY  THE EQUIPMENT MANUFACTURER. SUCH WARRANTIES, IF ANY, FROM THE EQUIPMENT MANUFACTURER ARE CUSTOMER’S EXCLUSIVE WARRANTIES AND SOLE REMEDIES AND REPLACE ALL OTHER WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, WITH RESPECT TO PRODUCTS PURCHASED HEREUNDER, INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>6.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>LIMITATION OF LIABILITY
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>IN NO EVENT WILL TELNET BE LIABLE TO CUSTOMER OR ANY THIRD PARTY, IN CONTRACT, TORT OR OTHERWISE, FOR ANY LOSS OF PROFITS OR BUSINESS, OR ANY INCIDENTAL, SPECIAL, INDIRECT, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES, ARISING FROM OR AS A RESULT OF THESE CONTRACT TERMS OR ANY AGREEMENT BETWEEN THE PARTIES RELATING TO THE PRODUCTS, SERVICES OR DELIVERABLES TELNET PROVIDES, EVEN IF TELNET HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.5in</LeftIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                      <LineHeight>13pt</LineHeight>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>7.     </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>RETURN
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>If Customer is required to return any Product to TelNet for service, Customer agrees to obtain TelNet’s concurrence prior to returning the Product. Customer agrees to reference any Return Material Authorization Number (RMA Number) issued by TelNet on all paperwork or documentation accompanying the returned Product. Customer further agrees to ship the Product pre-paid and suitably packaged to the TelNet specified location. Any returned product becomes the property of TelNet and, subject to TelNet’s receipt of the exchanged Product, the replacement becomes Customer’s property. Customer agrees to ensure that any returned Product is free from any and all legal obligations or restrictions that may prevent its exchange and represents that all returned Products are genuine and unaltered. The replacement Product may not be new, but will be in working order and equivalent to the item exchanged as determined in good faith by TelNet. Additional terms and conditions for the return of Product can be found in the General Terms and Conditions located on the TelNet website and are made a part of the Agreement.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>CUSTOMER INITIALS: __________</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>THE REMAINDER OF THIS PAGE IS LEFT INTENTIONALLY BLANK
+</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Calibri</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.25in</LeftIndent>
+                    <RightIndent>0.4375in</RightIndent>
+                    <HangingIndent>-0.25in</HangingIndent>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>textbox37</rd:DefaultName>
+                <Top>0.31944in</Top>
+                <Left>0.08106in</Left>
+                <Height>12.60712in</Height>
+                <Width>7.50999in</Width>
+                <ZIndex>1</ZIndex>
+                <Style>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+            </ReportItems>
+            <PageBreak>
+              <BreakLocation>Start</BreakLocation>
+            </PageBreak>
+            <KeepTogether>true</KeepTogether>
+            <DataElementOutput>ContentsOnly</DataElementOutput>
+            <Top>24.0369in</Top>
+            <Left>0.30328in</Left>
+            <Height>12.92656in</Height>
+            <Width>7.64612in</Width>
+            <ZIndex>6</ZIndex>
+            <Visibility>
+              <Hidden>=IIF(CBool(Parameters!hasPurchase.Value) = False,True,False)</Hidden>
+            </Visibility>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Rectangle>
         </ReportItems>
-        <Height>62.40472in</Height>
+        <Height>65.27972in</Height>
         <Style />
       </Body>
       <Width>8.5in</Width>
@@ -9131,6 +9666,55 @@ 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</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="ebilloption">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
     </EmbeddedImage>
   </EmbeddedImages>
   <Language>en-US</Language>
