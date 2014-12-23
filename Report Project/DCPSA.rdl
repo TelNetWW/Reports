@@ -9038,7 +9038,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style />
                   </Paragraph>
                   <Paragraph>
@@ -9139,7 +9138,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9197,7 +9195,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9216,7 +9214,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9255,7 +9253,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9323,7 +9321,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9342,7 +9339,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9391,7 +9387,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9410,7 +9405,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9459,7 +9453,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9517,7 +9510,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9536,7 +9529,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9575,7 +9568,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9594,7 +9587,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9633,7 +9626,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9652,7 +9645,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9691,7 +9684,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9710,7 +9703,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9749,7 +9742,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9817,7 +9810,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9845,13 +9837,22 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>a)    </Value>
+                        <Value>a)   </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
                           <Color>#333333</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve"> </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
                         </Style>
                       </TextRun>
                       <TextRun>
@@ -9861,41 +9862,19 @@ TelNet Printed Name                                                             
                           <FontSize>9pt</FontSize>
                           <FontWeight>Bold</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>. Customer shall provide to TelNet the identity of its Visitors to be allowed access to the Colocation Space; and TelNet, upon signing the AUP, shall provide Visitors with access to the Colocation Space. Visitors shall be required to enter a PIN </Value>
+                        <Value>. Customer shall provide to TelNet the identity of its Visitors to be allowed access to the Colocation Space; and TelNet, upon signing the AUP, shall provide Visitors with access to the Colocation Space. Visitors shall be required to enter a PIN and submit a digital photograph to gain access to the Facility. Customer and TelNet agree that TelNet shall not allow persons not authorized by Customer as a Visitor to have access to Customer’s Colocation Space.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#333333</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value>and submit a digital photograph</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value> to gain access to the Facility. Customer and TelNet agree that TelNet shall not allow persons not authorized by Customer as a Visitor to have access to Customer’s Colocation Space.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#333333</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -9962,7 +9941,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -10005,7 +9984,6 @@ TelNet Printed Name                                                             
                           <FontSize>9pt</FontSize>
                           <FontWeight>Bold</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
                         </Style>
                       </TextRun>
                       <TextRun>
@@ -10015,11 +9993,10 @@ TelNet Printed Name                                                             
                           <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#333333</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -10062,7 +10039,6 @@ TelNet Printed Name                                                             
                           <FontSize>9pt</FontSize>
                           <FontWeight>Bold</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
                         </Style>
                       </TextRun>
                       <TextRun>
@@ -10072,11 +10048,10 @@ TelNet Printed Name                                                             
                           <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#333333</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -10091,7 +10066,6 @@ TelNet Printed Name                                                             
                           <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
@@ -10109,7 +10083,6 @@ TelNet Printed Name                                                             
                           <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#333333</Color>
                         </Style>
                       </TextRun>
                       <TextRun>
@@ -10119,7 +10092,6 @@ TelNet Printed Name                                                             
                           <FontSize>9pt</FontSize>
                           <FontWeight>Bold</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
                         </Style>
                       </TextRun>
                       <TextRun>
@@ -10129,11 +10101,10 @@ TelNet Printed Name                                                             
                           <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#333333</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -10200,7 +10171,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -10258,7 +10228,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -10286,7 +10256,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>i)      Customer-to-customer interconnection in the Facility, enabling the exchange of local content traffic within the Facility (a “</Value>
+                        <Value>i)     Customer-to-customer interconnection in the Facility, enabling the exchange of local content traffic within the Facility (a “</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -10316,7 +10286,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.75in</LeftIndent>
+                    <LeftIndent>0.5in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -10335,7 +10305,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.75in</LeftIndent>
+                    <LeftIndent>0.5in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -10374,7 +10344,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.75in</LeftIndent>
+                    <LeftIndent>0.5in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -10411,7 +10381,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                     </Style>
@@ -10447,7 +10417,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                     </Style>
@@ -10503,7 +10473,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -10561,7 +10531,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.75in</LeftIndent>
+                    <LeftIndent>0.5in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -10619,7 +10589,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.75in</LeftIndent>
+                    <LeftIndent>0.5in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -10687,7 +10657,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -10794,7 +10763,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14075,7 +14044,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14135,7 +14103,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -14173,7 +14140,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.75in</LeftIndent>
+                    <LeftIndent>0.5in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14193,7 +14160,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.75in</LeftIndent>
+                    <LeftIndent>0.5in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14213,7 +14180,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.75in</LeftIndent>
+                    <LeftIndent>0.5in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14233,7 +14200,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.75in</LeftIndent>
+                    <LeftIndent>0.5in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14253,7 +14220,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.75in</LeftIndent>
+                    <LeftIndent>0.5in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14293,7 +14260,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -14312,7 +14278,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -14331,7 +14296,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -14350,7 +14314,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -14369,7 +14332,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -14388,7 +14350,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -14407,7 +14368,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -14426,7 +14386,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -14445,7 +14404,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -14503,7 +14461,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14543,7 +14500,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14563,7 +14520,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14583,7 +14540,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14603,7 +14560,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14623,7 +14580,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14643,7 +14600,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14663,7 +14620,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14683,7 +14640,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14703,7 +14660,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14723,7 +14680,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14743,7 +14700,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14763,7 +14720,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14783,7 +14740,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14803,7 +14760,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14823,7 +14780,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14843,7 +14800,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14863,7 +14820,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14923,7 +14880,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -14963,7 +14919,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -15021,7 +14976,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15061,7 +15015,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -15115,7 +15068,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15175,7 +15127,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -15213,7 +15164,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15233,7 +15184,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15253,7 +15204,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15273,7 +15224,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15293,7 +15244,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15313,7 +15264,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15333,7 +15284,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15353,7 +15304,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15373,7 +15324,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15393,7 +15344,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15413,7 +15364,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15433,7 +15384,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15453,7 +15404,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15473,7 +15424,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15493,7 +15444,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15513,7 +15464,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15533,7 +15484,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15553,7 +15504,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15573,7 +15524,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15593,7 +15544,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15613,7 +15564,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.5in</LeftIndent>
+                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15653,7 +15604,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -15711,7 +15661,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15771,7 +15720,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -15829,7 +15777,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15869,7 +15816,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>
@@ -15927,7 +15873,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -15967,7 +15912,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>11pt</LineHeight>
@@ -15986,7 +15930,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>11pt</LineHeight>
@@ -16044,7 +15987,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -16094,7 +16036,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.25in</LeftIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                       <LineHeight>12pt</LineHeight>

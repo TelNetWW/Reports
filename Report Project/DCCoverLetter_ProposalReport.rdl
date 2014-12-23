@@ -575,6 +575,20 @@ product_templates.name like '%polycom%'</CommandText>
         <ReportItems>
           <Rectangle Name="Page2">
             <ReportItems>
+              <Image Name="DataCenterImage">
+                <Source>Embedded</Source>
+                <Value>dcspace</Value>
+                <Sizing>FitProportional</Sizing>
+                <Top>1.91056in</Top>
+                <Left>4.64931in</Left>
+                <Height>1.44708in</Height>
+                <Width>3.25474in</Width>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
               <Textbox Name="txtWhyTelNetColo">
                 <CanGrow>true</CanGrow>
                 <KeepTogether>true</KeepTogether>
@@ -1038,6 +1052,7 @@ product_templates.name like '%polycom%'</CommandText>
                 <Left>0.25in</Left>
                 <Height>4.60764in</Height>
                 <Width>7.77734in</Width>
+                <ZIndex>1</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -1074,7 +1089,7 @@ product_templates.name like '%polycom%'</CommandText>
                 <Left>0.25in</Left>
                 <Height>0.25in</Height>
                 <Width>6.276in</Width>
-                <ZIndex>1</ZIndex>
+                <ZIndex>2</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -1082,6 +1097,71 @@ product_templates.name like '%polycom%'</CommandText>
                   <PaddingLeft>2pt</PaddingLeft>
                   <PaddingRight>2pt</PaddingRight>
                   <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox20">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>newest and most advanced Tier III data center. Our data center is designed to meet compliance standards such as HIPAA, SOC2 and PCI DSS. This facility offers every advantage of the very latest technology, rich power resources, and robust connectivity, providing access to the internet, low latency and enhanced security.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Whether your data center needs are regional or national, TelNet can provide data center services via our strategic partner in locations across the United States. </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#404040</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox20</rd:DefaultName>
+                <Top>1.8064in</Top>
+                <Left>0.25in</Left>
+                <Height>1.55124in</Height>
+                <Width>4.34375in</Width>
+                <ZIndex>3</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
@@ -1140,86 +1220,6 @@ product_templates.name like '%polycom%'</CommandText>
                 <Left>0.25in</Left>
                 <Height>1.27084in</Height>
                 <Width>7.86265in</Width>
-                <ZIndex>2</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                </Style>
-              </Textbox>
-              <Image Name="DataCenterImage">
-                <Source>Embedded</Source>
-                <Value>dcspace</Value>
-                <Sizing>FitProportional</Sizing>
-                <Top>2.07723in</Top>
-                <Left>4.60765in</Left>
-                <Height>1.44708in</Height>
-                <Width>3.25474in</Width>
-                <ZIndex>3</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                </Style>
-              </Image>
-              <Textbox Name="Textbox20">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>newest and most advanced Tier III data center. Our data center is designed to meet compliance standards such as HIPAA, SOC2 and PCI DSS. This facility offers every advantage of the very latest technology, rich power resources, and robust connectivity, providing access to the internet, low latency and enhanced security.</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Whether your data center needs are regional or national, TelNet can provide data center services via our strategic partner in locations across the United States. </Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#404040</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>Textbox20</rd:DefaultName>
-                <Top>2.07723in</Top>
-                <Left>0.25001in</Left>
-                <Height>1.74916in</Height>
-                <Width>4.34375in</Width>
                 <ZIndex>4</ZIndex>
                 <Style>
                   <Border>
@@ -1227,7 +1227,7 @@ product_templates.name like '%polycom%'</CommandText>
                   </Border>
                   <PaddingLeft>2pt</PaddingLeft>
                   <PaddingRight>2pt</PaddingRight>
-                  <PaddingBottom>2pt</PaddingBottom>
+                  <PaddingTop>2pt</PaddingTop>
                 </Style>
               </Textbox>
             </ReportItems>
@@ -3465,7 +3465,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>that meet your data center needs today with real options for future growth</Value>
+                        <Value>that meet your data center needs today with real options for future growth.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -3536,7 +3536,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>with highly competitive and customized pricing</Value>
+                        <Value>with highly competitive and customized pricing.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -4065,7 +4065,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value> coordinate technical requirements and solution design to ensure integrity of every element of your service order</Value>
+                        <Value> coordinate technical requirements and solution design to ensure integrity of every element of your service order.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -4247,7 +4247,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value> highly skilled, certified technicians and network engineers monitor, maintain and manage services, and are on hand 24/7 for issue mitigation</Value>
+                        <Value> highly skilled, certified technicians and network engineers monitor, maintain and manage services, and are on hand 24/7 for issue mitigation.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -4350,7 +4350,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>TelNet provides acclaimed customer service and tiered technical support for a better level of personalized service</Value>
+                        <Value>TelNet provides acclaimed customer service and tiered technical support for a better level of personalized service.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
