@@ -776,8 +776,7 @@ product_templates.name like '%polycom%'</CommandText>
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>= Fields!service_address_street.Value &amp; ", "&amp;
- Fields!service_address_city.Value &amp; " " &amp; Fields!service_address_state.Value &amp; " " &amp; Fields!service_address_postalcode.Value</Value>
+                                      <Value>=Fields!service_address_street.Value &amp; ", " &amp; Fields!service_address_city.Value &amp; " " &amp; Fields!service_address_state.Value &amp; " " &amp; Fields!service_address_postalcode.Value</Value>
                                       <Style>
                                         <FontFamily>Verdana</FontFamily>
                                         <FontSize>8pt</FontSize>
@@ -842,6 +841,50 @@ product_templates.name like '%polycom%'</CommandText>
                             <ColSpan>3</ColSpan>
                           </CellContents>
                         </TablixCell>
+                        <TablixCell />
+                        <TablixCell />
+                      </TablixCells>
+                    </TablixRow>
+                    <TablixRow>
+                      <Height>0.25in</Height>
+                      <TablixCells>
+                        <TablixCell>
+                          <CellContents>
+                            <Textbox Name="Textbox91">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!description.Value</Value>
+                                      <Style>
+                                        <FontFamily>Verdana</FontFamily>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox91</rd:DefaultName>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <ColSpan>6</ColSpan>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell />
+                        <TablixCell />
+                        <TablixCell />
                         <TablixCell />
                         <TablixCell />
                       </TablixCells>
@@ -1024,7 +1067,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </TablixCell>
                         <TablixCell>
                           <CellContents>
-                            <Textbox Name="Textbox16">
+                            <Textbox Name="Textbox17">
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
@@ -1127,7 +1170,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </TablixCell>
                         <TablixCell>
                           <CellContents>
-                            <Textbox Name="Textbox17">
+                            <Textbox Name="Textbox21">
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
@@ -1233,7 +1276,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </TablixCell>
                         <TablixCell>
                           <CellContents>
-                            <Textbox Name="Textbox18">
+                            <Textbox Name="Textbox22">
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
@@ -1613,7 +1656,7 @@ product_templates.name like '%polycom%'</CommandText>
                       </TablixCells>
                     </TablixRow>
                     <TablixRow>
-                      <Height>0.2in</Height>
+                      <Height>0.19027in</Height>
                       <TablixCells>
                         <TablixCell>
                           <CellContents>
@@ -1855,6 +1898,9 @@ product_templates.name like '%polycom%'</CommandText>
                           <KeepWithGroup>After</KeepWithGroup>
                         </TablixMember>
                         <TablixMember>
+                          <KeepWithGroup>After</KeepWithGroup>
+                        </TablixMember>
+                        <TablixMember>
                           <Group Name="quote_num">
                             <GroupExpressions>
                               <GroupExpression>=Fields!quote_num.Value</GroupExpression>
@@ -1884,7 +1930,7 @@ product_templates.name like '%polycom%'</CommandText>
                 <DataSetName>LocationDetailQuery1</DataSetName>
                 <Top>0.76627in</Top>
                 <Left>0.22588in</Left>
-                <Height>1.2in</Height>
+                <Height>1.44027in</Height>
                 <Width>7.63547in</Width>
                 <ZIndex>2</ZIndex>
                 <Style>
@@ -2107,7 +2153,7 @@ product_templates.name like '%polycom%'</CommandText>
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=SUM(Fields!monthly_total.Value)</Value>
+                                      <Value>=Sum(Fields!monthly_total.Value)</Value>
                                       <Style>
                                         <FontFamily>Verdana</FontFamily>
                                         <FontSize>8pt</FontSize>
@@ -2145,7 +2191,7 @@ product_templates.name like '%polycom%'</CommandText>
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=SUM(Fields!total.Value)</Value>
+                                      <Value>=Sum(Fields!total.Value)</Value>
                                       <Style>
                                         <FontFamily>Verdana</FontFamily>
                                         <FontSize>8pt</FontSize>
@@ -2201,7 +2247,7 @@ product_templates.name like '%polycom%'</CommandText>
                 </TablixRowHierarchy>
                 <KeepTogether>true</KeepTogether>
                 <DataSetName>SummaryQuery</DataSetName>
-                <Top>1.99404in</Top>
+                <Top>2.25in</Top>
                 <Left>0.24203in</Left>
                 <Height>0.4in</Height>
                 <Width>7.63552in</Width>
@@ -2303,7 +2349,7 @@ product_templates.name like '%polycom%'</CommandText>
             </ReportItems>
             <PageName>PSA</PageName>
             <KeepTogether>true</KeepTogether>
-            <Top>0.69837in</Top>
+            <Top>0.48483in</Top>
             <Left>0.25in</Left>
             <Height>3.62945in</Height>
             <Width>8in</Width>
