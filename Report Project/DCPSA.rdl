@@ -16953,60 +16953,6 @@ Sponsored By (Customer Name, if applicable)</Value>
                 </Border>
               </Style>
             </Image>
-            <Textbox Name="textboxGeneralTermsTag">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>General Terms and Conditions </Value>
-                      <Style>
-                        <FontSize>12pt</FontSize>
-                        <FontWeight>Bold</FontWeight>
-                        <Color>White</Color>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>for Delivery of Service  </Value>
-                      <Style>
-                        <FontSize>12pt</FontSize>
-                        <FontWeight>Bold</FontWeight>
-                        <Color>White</Color>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <Top>0.3913in</Top>
-              <Left>4.89191in</Left>
-              <Height>0.5174in</Height>
-              <Width>3.35809in</Width>
-              <ZIndex>1</ZIndex>
-              <Visibility>
-                <Hidden>=IIF(Globals!OverallPageNumber &gt;= 3 AND Globals!OverallPageNumber &lt;=9, False, True)</Hidden>
-              </Visibility>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <BackgroundColor>#1f487c</BackgroundColor>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
             <Textbox Name="textboxAddendumTag">
               <CanGrow>true</CanGrow>
               <KeepTogether>true</KeepTogether>
@@ -17046,7 +16992,7 @@ Sponsored By (Customer Name, if applicable)</Value>
               <Left>4.89191in</Left>
               <Height>0.54168in</Height>
               <Width>3.35809in</Width>
-              <ZIndex>2</ZIndex>
+              <ZIndex>1</ZIndex>
               <Visibility>
                 <Hidden>=IIF(Globals!OverallPageNumber &gt;= 10 AND Globals!OverallPageNumber &lt;=15, False, True)</Hidden>
               </Visibility>
@@ -17055,10 +17001,64 @@ Sponsored By (Customer Name, if applicable)</Value>
                   <Style>None</Style>
                 </Border>
                 <BackgroundColor>#1f487c</BackgroundColor>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
+                <PaddingLeft>4pt</PaddingLeft>
+                <PaddingRight>4pt</PaddingRight>
+                <PaddingTop>4pt</PaddingTop>
+                <PaddingBottom>4pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="textboxGeneralTermsTag">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>General Terms and Conditions </Value>
+                      <Style>
+                        <FontSize>12pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>White</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>for Delivery of Service  </Value>
+                      <Style>
+                        <FontSize>12pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>White</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.3913in</Top>
+              <Left>4.89191in</Left>
+              <Height>0.5174in</Height>
+              <Width>3.35809in</Width>
+              <ZIndex>2</ZIndex>
+              <Visibility>
+                <Hidden>=IIF(Globals!OverallPageNumber &gt;= 3 AND Globals!OverallPageNumber &lt;=9, False, True)</Hidden>
+              </Visibility>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <BackgroundColor>#1f487c</BackgroundColor>
+                <PaddingLeft>4pt</PaddingLeft>
+                <PaddingRight>4pt</PaddingRight>
+                <PaddingTop>4pt</PaddingTop>
+                <PaddingBottom>4pt</PaddingBottom>
               </Style>
             </Textbox>
             <Textbox Name="textboxAcceptableUseTag">
@@ -17095,10 +17095,10 @@ Sponsored By (Customer Name, if applicable)</Value>
                   <Style>None</Style>
                 </Border>
                 <BackgroundColor>#1f487c</BackgroundColor>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
+                <PaddingLeft>4pt</PaddingLeft>
+                <PaddingRight>4pt</PaddingRight>
+                <PaddingTop>4pt</PaddingTop>
+                <PaddingBottom>4pt</PaddingBottom>
               </Style>
             </Textbox>
             <Image Name="TelNetLogo6">
