@@ -826,6 +826,23 @@ WHERE        (q_u_r_c.quote_id IN
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>Business Type:  </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -836,7 +853,67 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>  □ Corporation    □ Partnership    □ Proprietorship</Value>
+                        <Value xml:space="preserve">  </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>□ </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>16pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Corporation    </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>□ </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>16pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Partnership    </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>□ </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>16pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Proprietorship</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -959,7 +1036,87 @@ WHERE        (q_u_r_c.quote_id IN
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>  □ None    □ Federal    □ State    □ Local                                                                                        </Value>
+                        <Value xml:space="preserve">  </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>□ </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>16pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>None    </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>□ </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>16pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Federal    </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>□ </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>16pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>State    </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>□ </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>16pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Local                                                                                        </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -7418,7 +7575,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>Form of Service Order</Value>
+                        <Value>Proposed Pricing for</Value>
                         <Style>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>16pt</FontSize>
@@ -7427,7 +7584,7 @@ TelNet Printed Name                                                             
                       </TextRun>
                     </TextRuns>
                     <Style>
-                      <TextAlign>Center</TextAlign>
+                      <TextAlign>Left</TextAlign>
                     </Style>
                   </Paragraph>
                 </Paragraphs>
@@ -7482,8 +7639,7 @@ TelNet Printed Name                                                             
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>= Fields!service_address_street.Value &amp; ", "&amp;
- Fields!service_address_city.Value &amp; " " &amp; Fields!service_address_state.Value &amp; " " &amp; Fields!service_address_postalcode.Value</Value>
+                                      <Value>="Data Center Location: 21005 LAHSER RD, SOUTHFIELD MI 48033"</Value>
                                       <Style>
                                         <FontFamily>Verdana</FontFamily>
                                         <FontSize>8pt</FontSize>
@@ -7506,9 +7662,10 @@ TelNet Printed Name                                                             
                                 <PaddingBottom>2pt</PaddingBottom>
                               </Style>
                             </Textbox>
-                            <ColSpan>3</ColSpan>
+                            <ColSpan>4</ColSpan>
                           </CellContents>
                         </TablixCell>
+                        <TablixCell />
                         <TablixCell />
                         <TablixCell />
                         <TablixCell>
@@ -7545,10 +7702,9 @@ TelNet Printed Name                                                             
                                 <PaddingBottom>2pt</PaddingBottom>
                               </Style>
                             </Textbox>
-                            <ColSpan>3</ColSpan>
+                            <ColSpan>2</ColSpan>
                           </CellContents>
                         </TablixCell>
-                        <TablixCell />
                         <TablixCell />
                       </TablixCells>
                     </TablixRow>
@@ -8948,7 +9104,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>© TelNet Worldwide, Inc. Privileged and confidential – do not copy, duplicate or distribute.</Value>
+                        <Value>© 2015 TelNet Worldwide, Inc. Privileged and confidential – do not copy, duplicate or distribute.</Value>
                         <Style>
                           <FontSize>8pt</FontSize>
                         </Style>

@@ -712,7 +712,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>Form of Service Order</Value>
+                        <Value>Proposed Pricing for</Value>
                         <Style>
                           <FontFamily>Calibri</FontFamily>
                           <FontSize>16pt</FontSize>
@@ -721,7 +721,7 @@ product_templates.name like '%polycom%'</CommandText>
                       </TextRun>
                     </TextRuns>
                     <Style>
-                      <TextAlign>Center</TextAlign>
+                      <TextAlign>Left</TextAlign>
                     </Style>
                   </Paragraph>
                 </Paragraphs>
@@ -776,7 +776,7 @@ product_templates.name like '%polycom%'</CommandText>
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=Fields!service_address_street.Value &amp; ", " &amp; Fields!service_address_city.Value &amp; " " &amp; Fields!service_address_state.Value &amp; " " &amp; Fields!service_address_postalcode.Value</Value>
+                                      <Value>="Data Center Location: 21005 LAHSER RD, SOUTHFIELD MI 48033"</Value>
                                       <Style>
                                         <FontFamily>Verdana</FontFamily>
                                         <FontSize>8pt</FontSize>
@@ -799,9 +799,10 @@ product_templates.name like '%polycom%'</CommandText>
                                 <PaddingBottom>2pt</PaddingBottom>
                               </Style>
                             </Textbox>
-                            <ColSpan>3</ColSpan>
+                            <ColSpan>4</ColSpan>
                           </CellContents>
                         </TablixCell>
+                        <TablixCell />
                         <TablixCell />
                         <TablixCell />
                         <TablixCell>
@@ -838,10 +839,9 @@ product_templates.name like '%polycom%'</CommandText>
                                 <PaddingBottom>2pt</PaddingBottom>
                               </Style>
                             </Textbox>
-                            <ColSpan>3</ColSpan>
+                            <ColSpan>2</ColSpan>
                           </CellContents>
                         </TablixCell>
-                        <TablixCell />
                         <TablixCell />
                       </TablixCells>
                     </TablixRow>
@@ -2288,7 +2288,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>© TelNet Worldwide, Inc. Privileged and confidential – do not copy, duplicate or distribute.</Value>
+                        <Value>© 2015 TelNet Worldwide, Inc. Privileged and confidential – do not copy, duplicate or distribute.</Value>
                         <Style>
                           <FontSize>8pt</FontSize>
                         </Style>
@@ -2404,7 +2404,6 @@ product_templates.name like '%polycom%'</CommandText>
               <Source>Embedded</Source>
               <Value>DCCoverFoot</Value>
               <Sizing>FitProportional</Sizing>
-              <Top>0in</Top>
               <Height>1in</Height>
               <Width>8.5in</Width>
               <Style>
