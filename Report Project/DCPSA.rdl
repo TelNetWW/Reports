@@ -4134,7 +4134,6 @@ TelNet Printed Name                                                             
                           <FontSize>9pt</FontSize>
                           <FontWeight>Bold</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#222222</Color>
                         </Style>
                       </TextRun>
                       <TextRun>
@@ -4144,7 +4143,6 @@ TelNet Printed Name                                                             
                           <FontSize>9pt</FontSize>
                           <FontWeight>Normal</FontWeight>
                           <TextDecoration>None</TextDecoration>
-                          <Color>#222222</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
@@ -5242,7 +5240,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>A)   Customer may cancel a Customer Order following TelNet’s acceptance of the same and prior to the Service Commencement Date upon prior written notice to TelNet. If Customer does so, or if the delivery of Service is terminated by TelNet prior to delivery of a Connection Notice due to a failure of Customer to comply with this Agreement, Customer shall pay termination fees equal to the sum of:</Value>
+                        <Value>A)  Customer may cancel a Customer Order following TelNet’s acceptance of the same and prior to the Service Commencement Date upon prior written notice to TelNet. If Customer does so, or if the delivery of Service is terminated by TelNet prior to delivery of a Connection Notice due to a failure of Customer to comply with this Agreement, Customer shall pay termination fees equal to the sum of:</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -5491,7 +5489,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>0.9in</LeftIndent>
+                    <LeftIndent>1.25in</LeftIndent>
                     <RightIndent>0.275in</RightIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -5519,7 +5517,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>B)   In addition to Customer’s right of cancellation under Section 3.9 (A) above, Customer may terminate Service prior to the end of the Service Term upon thirty (30) days’ prior written notice to TelNet on the proper TelNet Disconnect Authorization form, subject to the payment of liquidated damages as set forth below. If, after either the Service Ready Date or Customer’s receipt of the Connection Notice for a particular Service and prior to the end of the Service Term, Customer terminates Service, or if the delivery of Service is terminated due to a failure of Customer to comply with this Agreement, Customer shall pay TelNet liquidated damages equal to fifty percent (50%) of the sum of the Monthly Fees multiplied by the number of months remaining in the Service Term plus any waived installation or labor charges.</Value>
+                        <Value>B)  In addition to Customer’s right of cancellation under Section 3.9 (A) above, Customer may terminate Service prior to the end of the Service Term upon thirty (30) days’ prior written notice to TelNet on the proper TelNet Disconnect Authorization form, subject to the payment of liquidated damages as set forth below. If, after either the Service Ready Date or Customer’s receipt of the Connection Notice for a particular Service and prior to the end of the Service Term, Customer terminates Service, or if the delivery of Service is terminated due to a failure of Customer to comply with this Agreement, Customer shall pay TelNet liquidated damages equal to fifty percent (50%) of the sum of the Monthly Fees multiplied by the number of months remaining in the Service Term plus any waived installation or labor charges.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -5558,7 +5556,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>C)   If all or part of the Customer’s Service is terminated or switched to another carrier without prior notice to TelNet, TelNet will continue to invoice the Customer until Customer notifies TelNet in writing on the proper TelNet Disconnect Authorization form and requests that its Service be discontinued and for 30 days after the date TelNet receives such notice. Customer shall be responsible for paying such charges, in addition to any applicable liquidated damages, as noted above.</Value>
+                        <Value>C)  If all or part of the Customer’s Service is terminated or switched to another carrier without prior notice to TelNet, TelNet will continue to invoice the Customer until Customer notifies TelNet in writing on the proper TelNet Disconnect Authorization form and requests that its Service be discontinued and for 30 days after the date TelNet receives such notice. Customer shall be responsible for paying such charges, in addition to any applicable liquidated damages, as noted above.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -5866,7 +5864,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>C)   A Customer will also be deemed in violation of this Section if TelNet determines, in its sole discretion, that that any action of Customer, whether or not in connection with the Customer's use of the Services, has resulted in: (i) any harm to TelNet, its reputation, its services or its customers; (ii) any third party blacklisting, blocking, filtering, or refusing any e-mail or any other network application or communications protocol from TelNet or it customers; or (iii) interference in any manner with the free flow of e-mail or any other network application or communications protocol from or to TelNet or its customers.</Value>
+                        <Value>C)  A Customer will also be deemed in violation of this Section if TelNet determines, in its sole discretion, that that any action of Customer, whether or not in connection with the Customer's use of the Services, has resulted in: (i) any harm to TelNet, its reputation, its services or its customers; (ii) any third party blacklisting, blocking, filtering, or refusing any e-mail or any other network application or communications protocol from TelNet or it customers; or (iii) interference in any manner with the free flow of e-mail or any other network application or communications protocol from or to TelNet or its customers.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -5905,17 +5903,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>D)</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value xml:space="preserve">   </Value>
+                        <Value>D)  </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -5964,7 +5952,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>E)   AN ATTEMPTED OR INDIRECT VIOLATION OF THIS SECTION, AND AN ATTEMPTED, ACTUAL, OR INDIRECT VIOLATION BY A THIRD PARTY ON CUSTOMER'S BEHALF, IS AN UNACCEPTABLE USE UNDER THIS SECTION.</Value>
+                        <Value>E)  AN ATTEMPTED OR INDIRECT VIOLATION OF THIS SECTION, AND AN ATTEMPTED, ACTUAL, OR INDIRECT VIOLATION BY A THIRD PARTY ON CUSTOMER'S BEHALF, IS AN UNACCEPTABLE USE UNDER THIS SECTION.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -7497,7 +7485,7 @@ TelNet Printed Name                                                             
                     <RightIndent>0.4375in</RightIndent>
                     <HangingIndent>-0.25in</HangingIndent>
                     <Style>
-                      <TextAlign>Left</TextAlign>
+                      <TextAlign>Right</TextAlign>
                     </Style>
                   </Paragraph>
                 </Paragraphs>
@@ -16508,6 +16496,88 @@ Sponsored By (Customer Name, if applicable)</Value>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
+            <Textbox Name="textboxAcceptableUseTag">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Acceptable Use Policy</Value>
+                      <Style>
+                        <FontSize>12pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>White</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                    <LineHeight>1in</LineHeight>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.37916in</Top>
+              <Left>4.89191in</Left>
+              <Height>0.54168in</Height>
+              <Width>3.35809in</Width>
+              <Visibility>
+                <Hidden>=IIF(Globals!OverallPageNumber &gt;= 16 AND Globals!OverallPageNumber &lt;= 19, False, True)</Hidden>
+              </Visibility>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <BackgroundColor>#1f487c</BackgroundColor>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>4pt</PaddingLeft>
+                <PaddingRight>10pt</PaddingRight>
+                <PaddingTop>4pt</PaddingTop>
+                <PaddingBottom>4pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="textbox3">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Form of Service Order</Value>
+                      <Style>
+                        <FontSize>12pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>White</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                    <LineHeight>0.54in</LineHeight>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>textbox1</rd:DefaultName>
+              <Top>0.37916in</Top>
+              <Left>4.89191in</Left>
+              <Height>0.54168in</Height>
+              <Width>3.33851in</Width>
+              <ZIndex>1</ZIndex>
+              <Visibility>
+                <Hidden>=IIF(Globals!OverallPageNumber&lt;=2,False,True)</Hidden>
+              </Visibility>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <BackgroundColor>#1f487c</BackgroundColor>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>10pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
             <Textbox Name="textboxAddendumTag">
               <CanGrow>true</CanGrow>
               <KeepTogether>true</KeepTogether>
@@ -16543,10 +16613,11 @@ Sponsored By (Customer Name, if applicable)</Value>
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>0.3913in</Top>
+              <Top>0.37916in</Top>
               <Left>4.89191in</Left>
               <Height>0.54168in</Height>
               <Width>3.35809in</Width>
+              <ZIndex>2</ZIndex>
               <Visibility>
                 <Hidden>=IIF(Globals!OverallPageNumber &gt;= 10 AND Globals!OverallPageNumber &lt;=15, False, True)</Hidden>
               </Visibility>
@@ -16556,7 +16627,7 @@ Sponsored By (Customer Name, if applicable)</Value>
                 </Border>
                 <BackgroundColor>#1f487c</BackgroundColor>
                 <PaddingLeft>4pt</PaddingLeft>
-                <PaddingRight>4pt</PaddingRight>
+                <PaddingRight>10pt</PaddingRight>
                 <PaddingTop>4pt</PaddingTop>
                 <PaddingBottom>4pt</PaddingBottom>
               </Style>
@@ -16568,7 +16639,7 @@ Sponsored By (Customer Name, if applicable)</Value>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>General Terms and Conditions </Value>
+                      <Value>General Terms and Conditions</Value>
                       <Style>
                         <FontSize>12pt</FontSize>
                         <FontWeight>Bold</FontWeight>
@@ -16583,7 +16654,7 @@ Sponsored By (Customer Name, if applicable)</Value>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>for Delivery of Service  </Value>
+                      <Value>for Delivery of Service </Value>
                       <Style>
                         <FontSize>12pt</FontSize>
                         <FontWeight>Bold</FontWeight>
@@ -16600,7 +16671,7 @@ Sponsored By (Customer Name, if applicable)</Value>
               <Left>4.89191in</Left>
               <Height>0.5174in</Height>
               <Width>3.35809in</Width>
-              <ZIndex>1</ZIndex>
+              <ZIndex>3</ZIndex>
               <Visibility>
                 <Hidden>=IIF(Globals!OverallPageNumber &gt;= 3 AND Globals!OverallPageNumber &lt;=9, False, True)</Hidden>
               </Visibility>
@@ -16610,47 +16681,7 @@ Sponsored By (Customer Name, if applicable)</Value>
                 </Border>
                 <BackgroundColor>#1f487c</BackgroundColor>
                 <PaddingLeft>4pt</PaddingLeft>
-                <PaddingRight>4pt</PaddingRight>
-                <PaddingTop>4pt</PaddingTop>
-                <PaddingBottom>4pt</PaddingBottom>
-              </Style>
-            </Textbox>
-            <Textbox Name="textboxAcceptableUseTag">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>Acceptable Use Policy</Value>
-                      <Style>
-                        <FontSize>12pt</FontSize>
-                        <FontWeight>Bold</FontWeight>
-                        <Color>White</Color>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                    <LineHeight>1in</LineHeight>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <Top>0.37916in</Top>
-              <Left>4.89191in</Left>
-              <Height>0.54168in</Height>
-              <Width>3.35809in</Width>
-              <ZIndex>2</ZIndex>
-              <Visibility>
-                <Hidden>=IIF(Globals!OverallPageNumber &gt;= 16 AND Globals!OverallPageNumber &lt;= 19, False, True)</Hidden>
-              </Visibility>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <BackgroundColor>#1f487c</BackgroundColor>
-                <PaddingLeft>4pt</PaddingLeft>
-                <PaddingRight>4pt</PaddingRight>
+                <PaddingRight>10pt</PaddingRight>
                 <PaddingTop>4pt</PaddingTop>
                 <PaddingBottom>4pt</PaddingBottom>
               </Style>
@@ -16663,53 +16694,13 @@ Sponsored By (Customer Name, if applicable)</Value>
               <Left>0.2091in</Left>
               <Height>1in</Height>
               <Width>2.42in</Width>
-              <ZIndex>3</ZIndex>
+              <ZIndex>4</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
                 </Border>
               </Style>
             </Image>
-            <Textbox Name="textbox3">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>Form of Service  Order  </Value>
-                      <Style>
-                        <FontSize>12pt</FontSize>
-                        <FontWeight>Bold</FontWeight>
-                        <Color>White</Color>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>textbox1</rd:DefaultName>
-              <Top>0.37916in</Top>
-              <Left>4.89191in</Left>
-              <Height>0.54168in</Height>
-              <Width>3.33851in</Width>
-              <ZIndex>4</ZIndex>
-              <Visibility>
-                <Hidden>=IIF(Globals!OverallPageNumber&lt;=2,False,True)</Hidden>
-              </Visibility>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <BackgroundColor>#1f487c</BackgroundColor>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
           </ReportItems>
           <Style>
             <Border>
