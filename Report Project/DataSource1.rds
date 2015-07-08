@@ -2,7 +2,7 @@
 <RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DataSource1">
   <ConnectionProperties>
     <Extension>SQL</Extension>
-    <ConnectString>Data Source=10.10.50.59;Initial Catalog=sugarcrmqa;</ConnectString>
+    <ConnectString>Data Source=10.10.50.146;Initial Catalog=sugarcrm;</ConnectString>
   </ConnectionProperties>
   <DataSourceID>fc22e05a-b1e7-45a1-94ae-c187985310e2</DataSourceID>
 </RptDataSource>

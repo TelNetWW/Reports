@@ -31,12 +31,8 @@
       <FullPath>CoverLetter_ProposalReport.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>PriceSheetOnly.rdl</Name>
-      <FullPath>PriceSheetOnly.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>PSA.rdl</Name>
-      <FullPath>PSA.rdl</FullPath>
+      <Name>DCCoverLetter_ProposalReport.rdl</Name>
+      <FullPath>DCCoverLetter_ProposalReport.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DCPriceSheetOnly.rdl</Name>
@@ -47,8 +43,16 @@
       <FullPath>DCPSA.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DCCoverLetter_ProposalReport.rdl</Name>
-      <FullPath>DCCoverLetter_ProposalReport.rdl</FullPath>
+      <Name>PriceSheetOnly.rdl</Name>
+      <FullPath>PriceSheetOnly.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>PSA.rdl</Name>
+      <FullPath>PSA.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DCCoverLetter_ProposalReport_20150707.rdl</Name>
+      <FullPath>DCCoverLetter_ProposalReport_20150707.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
