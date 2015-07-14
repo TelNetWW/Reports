@@ -35,6 +35,10 @@
       <FullPath>DCCoverLetter_ProposalReport.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>DCCoverLetter_ProposalReport_2.rdl</Name>
+      <FullPath>DCCoverLetter_ProposalReport_2.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>DCPriceSheetOnly.rdl</Name>
       <FullPath>DCPriceSheetOnly.rdl</FullPath>
     </ProjectItem>
@@ -49,10 +53,6 @@
     <ProjectItem>
       <Name>PSA.rdl</Name>
       <FullPath>PSA.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>DCCoverLetter_ProposalReport_20150707.rdl</Name>
-      <FullPath>DCCoverLetter_ProposalReport_20150707.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
