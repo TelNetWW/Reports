@@ -31,12 +31,12 @@
       <FullPath>CoverLetter_ProposalReport.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DCCoverLetter_ProposalReport.rdl</Name>
-      <FullPath>DCCoverLetter_ProposalReport.rdl</FullPath>
+      <Name>DCCoverLetter_ProposalReport_OLD.rdl</Name>
+      <FullPath>DCCoverLetter_ProposalReport_OLD.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DCCoverLetter_ProposalReport_2.rdl</Name>
-      <FullPath>DCCoverLetter_ProposalReport_2.rdl</FullPath>
+      <Name>DCCoverLetter_ProposalReport.rdl</Name>
+      <FullPath>DCCoverLetter_ProposalReport.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DCPriceSheetOnly.rdl</Name>
