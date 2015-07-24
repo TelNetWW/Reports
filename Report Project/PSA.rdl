@@ -4904,8 +4904,8 @@ WHERE        (q_u_r_c.quote_id IN
             </PageBreak>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>42.33225in</Top>
-            <Left>0.31362in</Left>
+            <Top>42.12583in</Top>
+            <Left>0.32362in</Left>
             <Height>19.46876in</Height>
             <Width>7.67302in</Width>
             <ZIndex>2</ZIndex>
@@ -7942,8 +7942,8 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
               <BreakLocation>Start</BreakLocation>
             </PageBreak>
             <KeepTogether>true</KeepTogether>
-            <Top>69.76282in</Top>
-            <Left>0.32362in</Left>
+            <Top>69.88626in</Top>
+            <Left>0.33362in</Left>
             <Height>8.54888in</Height>
             <Width>7.66851in</Width>
             <ZIndex>4</ZIndex>
@@ -8705,8 +8705,8 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
             </PageBreak>
             <KeepTogether>true</KeepTogether>
             <DataElementOutput>ContentsOnly</DataElementOutput>
-            <Top>29.39181in</Top>
-            <Left>0.33344in</Left>
+            <Top>29.19927in</Top>
+            <Left>0.36103in</Left>
             <Height>12.92656in</Height>
             <Width>7.64612in</Width>
             <ZIndex>6</ZIndex>
@@ -8736,16 +8736,31 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
-                        <Image Name="Image1">
-                          <Source>Embedded</Source>
-                          <Value>logo</Value>
-                          <Sizing>FitProportional</Sizing>
+                        <Textbox Name="Textbox6">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox6</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>None</Style>
                             </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
                           </Style>
-                        </Image>
+                        </Textbox>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -8761,8 +8776,7 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>TelNet UC | Unified Communications 
-</Value>
+                                          <Value>TelNet UC </Value>
                                           <Style>
                                             <FontStyle>Normal</FontStyle>
                                             <FontFamily>Calibri</FontFamily>
@@ -8777,7 +8791,7 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                                           <Style>
                                             <FontStyle>Normal</FontStyle>
                                             <FontFamily>Calibri</FontFamily>
-                                            <FontSize>16pt</FontSize>
+                                            <FontSize>12pt</FontSize>
                                             <FontWeight>Bold</FontWeight>
                                             <TextDecoration>None</TextDecoration>
                                             <Color>White</Color>
@@ -8785,12 +8799,12 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                                         </TextRun>
                                       </TextRuns>
                                       <Style>
-                                        <TextAlign>Right</TextAlign>
+                                        <TextAlign>Center</TextAlign>
                                       </Style>
                                     </Paragraph>
                                   </Paragraphs>
                                   <rd:DefaultName>Textbox43</rd:DefaultName>
-                                  <Height>0.5625in</Height>
+                                  <Height>0.32292in</Height>
                                   <Width>2.77083in</Width>
                                   <Style>
                                     <Border>
@@ -8804,9 +8818,9 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                                 </Textbox>
                               </ReportItems>
                               <KeepTogether>true</KeepTogether>
-                              <Top>0.11458in</Top>
-                              <Left>2.3933in</Left>
-                              <Height>0.5625in</Height>
+                              <Top>0.26041in</Top>
+                              <Left>0.08876in</Left>
+                              <Height>0.32292in</Height>
                               <Width>2.77083in</Width>
                               <Style>
                                 <Border>
@@ -8872,7 +8886,7 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                           <rd:DefaultName>Textbox14</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>LightGrey</Color>
+                              <Color>White</Color>
                               <Style>Solid</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -8927,9 +8941,12 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                           <rd:DefaultName>account_name</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
+                              <Style>None</Style>
+                              <Width>0.5pt</Width>
                             </Border>
+                            <BottomBorder>
+                              <Style>Solid</Style>
+                            </BottomBorder>
                             <VerticalAlign>Bottom</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -9003,9 +9020,12 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                           <rd:DefaultName>service_address_city</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
+                              <Style>None</Style>
+                              <Width>0.5pt</Width>
                             </Border>
+                            <BottomBorder>
+                              <Style>Solid</Style>
+                            </BottomBorder>
                             <VerticalAlign>Bottom</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -9013,12 +9033,13 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>6.1875in</Height>
+                  <Height>6.53125in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -9029,7 +9050,7 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value> Company/Account Name                                          Service Location Address</Value>
+                                  <Value> Company/Account Name                                                            Service Location Address</Value>
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Calibri</FontFamily>
@@ -9068,7 +9089,7 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Wingdings</FontFamily>
-                                    <FontSize>24pt</FontSize>
+                                    <FontSize>14pt</FontSize>
                                     <FontWeight>Normal</FontWeight>
                                     <TextDecoration>None</TextDecoration>
                                     <Color>#000000</Color>
@@ -9256,7 +9277,7 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Wingdings</FontFamily>
-                                    <FontSize>24pt</FontSize>
+                                    <FontSize>14pt</FontSize>
                                     <FontWeight>Normal</FontWeight>
                                     <TextDecoration>None</TextDecoration>
                                     <Color>#000000</Color>
@@ -9498,7 +9519,7 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Wingdings</FontFamily>
-                                    <FontSize>24pt</FontSize>
+                                    <FontSize>14pt</FontSize>
                                     <FontWeight>Normal</FontWeight>
                                     <TextDecoration>None</TextDecoration>
                                     <Color>#000000</Color>
@@ -9570,7 +9591,7 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                                   </Style>
                                 </TextRun>
                                 <TextRun>
-                                  <Value>www.telneww.com/infosource</Value>
+                                  <Value>www.telnetww.com/infosource</Value>
                                   <ActionInfo>
                                     <Actions>
                                       <Action>
@@ -9613,7 +9634,7 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Wingdings</FontFamily>
-                                    <FontSize>24pt</FontSize>
+                                    <FontSize>14pt</FontSize>
                                     <FontWeight>Normal</FontWeight>
                                     <TextDecoration>None</TextDecoration>
                                     <Color>#000000</Color>
@@ -9668,7 +9689,7 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Wingdings</FontFamily>
-                                    <FontSize>24pt</FontSize>
+                                    <FontSize>14pt</FontSize>
                                     <FontWeight>Normal</FontWeight>
                                     <TextDecoration>None</TextDecoration>
                                     <Color>#000000</Color>
@@ -9723,7 +9744,7 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Wingdings</FontFamily>
-                                    <FontSize>24pt</FontSize>
+                                    <FontSize>14pt</FontSize>
                                     <FontWeight>Normal</FontWeight>
                                     <TextDecoration>None</TextDecoration>
                                     <Color>#000000</Color>
@@ -9778,7 +9799,7 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Wingdings</FontFamily>
-                                    <FontSize>24pt</FontSize>
+                                    <FontSize>14pt</FontSize>
                                     <FontWeight>Normal</FontWeight>
                                     <TextDecoration>None</TextDecoration>
                                     <Color>#000000</Color>
@@ -9833,7 +9854,7 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
                                     <FontFamily>Wingdings</FontFamily>
-                                    <FontSize>24pt</FontSize>
+                                    <FontSize>14pt</FontSize>
                                     <FontWeight>Normal</FontWeight>
                                     <TextDecoration>None</TextDecoration>
                                     <Color>#000000</Color>
@@ -9947,8 +9968,8 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                           <rd:DefaultName>Textbox11</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
+                              <Color>White</Color>
+                              <Style>None</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -10006,9 +10027,9 @@ More information regarding VOIP and 911 service can be found at http://www.fcc.g
                 <Value>=Fields!quote_num.Value</Value>
               </SortExpression>
             </SortExpressions>
-            <Top>61.8149in</Top>
-            <Left>0.32362in</Left>
-            <Height>7.94792in</Height>
+            <Top>61.59459in</Top>
+            <Left>0.33362in</Left>
+            <Height>8.29167in</Height>
             <Width>7.64612in</Width>
             <ZIndex>7</ZIndex>
             <Style>
