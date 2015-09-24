@@ -2774,6 +2774,41 @@ WHERE        (q_u_r_c.quote_id IN
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontStyle>Normal</FontStyle>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                        <TextDecoration>None</TextDecoration>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                    <LineHeight>0.22in</LineHeight>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>With UC-One Mobile Client, features vary by device, settings and quality of signal. When Wi-Fi is not available or cellular usage is selected, phone plan roaming, data and voice usage charges apply. Mobile client calls may drop or lose quality when Wi-Fi or cellular signals are lost or weak. Firewall settings may also impact use. TelNet is not responsible for loss of call quality and/or dropped calls with UC-One Mobile Client.</Value>
+                                      <Style>
+                                        <FontStyle>Normal</FontStyle>
+                                        <FontSize>8pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                        <TextDecoration>None</TextDecoration>
+                                        <Color>#000000</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                    <LineHeight>0.22in</LineHeight>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
                                       <Value xml:space="preserve"> </Value>
                                       <Style>
                                         <FontStyle>Normal</FontStyle>
