@@ -823,6 +823,7 @@ product_templates.name like '%polycom%'</CommandText>
             </ReportItems>
             <PageName>CoverPage</PageName>
             <KeepTogether>true</KeepTogether>
+            <Left>0.01226in</Left>
             <Height>5.51587in</Height>
             <Width>8.49998in</Width>
             <Style>
@@ -857,7 +858,7 @@ product_templates.name like '%polycom%'</CommandText>
                   </Paragraph>
                 </Paragraphs>
                 <Top>0.45708in</Top>
-                <Left>0.30205in</Left>
+                <Left>0.35255in</Left>
                 <Height>0.25in</Height>
                 <Width>7.32982in</Width>
                 <Style>
@@ -894,7 +895,7 @@ product_templates.name like '%polycom%'</CommandText>
                   </Paragraph>
                 </Paragraphs>
                 <Top>0.88069in</Top>
-                <Left>0.30205in</Left>
+                <Left>0.35255in</Left>
                 <Height>0.25in</Height>
                 <Width>7.32982in</Width>
                 <ZIndex>1</ZIndex>
@@ -1053,7 +1054,7 @@ product_templates.name like '%polycom%'</CommandText>
                   </Paragraph>
                 </Paragraphs>
                 <Top>1.3087in</Top>
-                <Left>0.30205in</Left>
+                <Left>0.35255in</Left>
                 <Height>4.93783in</Height>
                 <Width>7.71482in</Width>
                 <ZIndex>2</ZIndex>
@@ -1072,7 +1073,7 @@ product_templates.name like '%polycom%'</CommandText>
                 <Value>telnet_exterior</Value>
                 <Sizing>FitProportional</Sizing>
                 <Top>3.91665in</Top>
-                <Left>0.31501in</Left>
+                <Left>0.36551in</Left>
                 <Height>1.60417in</Height>
                 <Width>3.61459in</Width>
                 <ZIndex>3</ZIndex>
@@ -1125,7 +1126,7 @@ product_templates.name like '%polycom%'</CommandText>
                       </Paragraph>
                     </Paragraphs>
                     <Top>2.59894in</Top>
-                    <Left>0.30237in</Left>
+                    <Left>0.35287in</Left>
                     <Height>0.5825in</Height>
                     <Width>7.33332in</Width>
                     <Style>
@@ -1161,7 +1162,7 @@ product_templates.name like '%polycom%'</CommandText>
                     </Paragraphs>
                     <rd:DefaultName>Textbox16</rd:DefaultName>
                     <Top>0.04248in</Top>
-                    <Left>0.30237in</Left>
+                    <Left>0.35287in</Left>
                     <Height>0.25in</Height>
                     <Width>6.276in</Width>
                     <ZIndex>1</ZIndex>
@@ -1197,7 +1198,7 @@ product_templates.name like '%polycom%'</CommandText>
                     </Paragraphs>
                     <rd:DefaultName>Textbox18</rd:DefaultName>
                     <Top>0.36192in</Top>
-                    <Left>0.30237in</Left>
+                    <Left>0.35287in</Left>
                     <Height>0.70833in</Height>
                     <Width>7.70186in</Width>
                     <ZIndex>2</ZIndex>
@@ -1262,7 +1263,7 @@ product_templates.name like '%polycom%'</CommandText>
                     </Paragraphs>
                     <rd:DefaultName>Textbox18</rd:DefaultName>
                     <Top>1.07025in</Top>
-                    <Left>0.28941in</Left>
+                    <Left>0.33991in</Left>
                     <Height>1.45924in</Height>
                     <Width>5.01811in</Width>
                     <ZIndex>3</ZIndex>
@@ -1280,7 +1281,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <Value>telnet_lockers</Value>
                     <Sizing>FitProportional</Sizing>
                     <Top>0.93484in</Top>
-                    <Left>5.37696in</Left>
+                    <Left>5.42746in</Left>
                     <Height>1.69882in</Height>
                     <Width>2.25872in</Width>
                     <ZIndex>4</ZIndex>
@@ -1662,7 +1663,7 @@ product_templates.name like '%polycom%'</CommandText>
                       </Paragraph>
                     </Paragraphs>
                     <Top>3.237in</Top>
-                    <Left>0.30237in</Left>
+                    <Left>0.35287in</Left>
                     <Height>4.45139in</Height>
                     <Width>5.38963in</Width>
                     <ZIndex>5</ZIndex>
@@ -1682,7 +1683,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <Value>telnet_power_breakers</Value>
                     <Sizing>FitProportional</Sizing>
                     <Top>3.34811in</Top>
-                    <Left>5.74756in</Left>
+                    <Left>5.79806in</Left>
                     <Height>1.40624in</Height>
                     <Width>1.90109in</Width>
                     <ZIndex>6</ZIndex>
@@ -1795,7 +1796,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </Paragraphs>
                         <rd:DefaultName>Textbox6</rd:DefaultName>
                         <Top>0.12499in</Top>
-                        <Left>0.31501in</Left>
+                        <Left>0.36551in</Left>
                         <Height>1.19792in</Height>
                         <Width>7.70186in</Width>
                         <Style>
@@ -1813,7 +1814,7 @@ product_templates.name like '%polycom%'</CommandText>
                         <Value>telnet_dc_technology_partners</Value>
                         <Sizing>Fit</Sizing>
                         <Top>6.43874in</Top>
-                        <Left>0.94956in</Left>
+                        <Left>1.00006in</Left>
                         <Height>1.52083in</Height>
                         <Width>6.44792in</Width>
                         <ZIndex>1</ZIndex>
@@ -1828,7 +1829,7 @@ product_templates.name like '%polycom%'</CommandText>
                         <Value>telnet_dc_standards</Value>
                         <Sizing>FitProportional</Sizing>
                         <Top>1.36458in</Top>
-                        <Left>0.94956in</Left>
+                        <Left>1.00006in</Left>
                         <Height>1.37153in</Height>
                         <Width>6.66169in</Width>
                         <ZIndex>2</ZIndex>
@@ -2353,7 +2354,7 @@ product_templates.name like '%polycom%'</CommandText>
                         </Paragraphs>
                         <rd:DefaultName>Textbox6</rd:DefaultName>
                         <Top>2.40625in</Top>
-                        <Left>0.31501in</Left>
+                        <Left>0.36551in</Left>
                         <Height>3.96305in</Height>
                         <Width>7.84722in</Width>
                         <ZIndex>3</ZIndex>
@@ -2367,633 +2368,646 @@ product_templates.name like '%polycom%'</CommandText>
                           <PaddingBottom>2pt</PaddingBottom>
                         </Style>
                       </Textbox>
-                      <Rectangle Name="Rectangle1">
+                      <Rectangle Name="Rectangle2">
                         <ReportItems>
-                          <Textbox Name="txtWhyTelNetColo3">
-                            <CanGrow>true</CanGrow>
+                          <Rectangle Name="Rectangle1">
+                            <ReportItems>
+                              <Textbox Name="txtWhyTelNetColo3">
+                                <CanGrow>true</CanGrow>
+                                <KeepTogether>true</KeepTogether>
+                                <Paragraphs>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>TelNet BaaS - Back up and recover data with greater ease, speed and certainty.</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>14pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                      <TextRun>
+                                        <Value xml:space="preserve"> </Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>12pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <Style />
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value />
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <Style />
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>TelNet Worldwide data protection solutions provide your business with the simplest, most reliable and capable data storage, backup and management systems available. You'll be able to easily back up your valuable IT assets and day-to-day data onto the TelNet Cloud using TelNet Backup as a Service (BaaS). Keep your business running with minimal disruption by restoring the data you need, whenever and wherever you need it in minutes versus the hours or days it takes with other solutions.</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <Style />
+                                  </Paragraph>
+                                </Paragraphs>
+                                <Top>0.06944in</Top>
+                                <Left>0.29439in</Left>
+                                <Height>1.11375in</Height>
+                                <Width>7.72248in</Width>
+                                <Style>
+                                  <Border>
+                                    <Style>None</Style>
+                                  </Border>
+                                  <BackgroundColor>White</BackgroundColor>
+                                  <PaddingLeft>2pt</PaddingLeft>
+                                  <PaddingRight>2pt</PaddingRight>
+                                  <PaddingTop>2pt</PaddingTop>
+                                  <PaddingBottom>2pt</PaddingBottom>
+                                </Style>
+                              </Textbox>
+                              <Image Name="BaaS">
+                                <Source>Embedded</Source>
+                                <Value>telnet_baas</Value>
+                                <Sizing>FitProportional</Sizing>
+                                <Top>1.18319in</Top>
+                                <Left>0.94956in</Left>
+                                <Height>1.40625in</Height>
+                                <Width>6.44792in</Width>
+                                <ZIndex>1</ZIndex>
+                                <Style>
+                                  <Border>
+                                    <Style>None</Style>
+                                  </Border>
+                                </Style>
+                              </Image>
+                              <Textbox Name="txtWhyTelNetColo4">
+                                <CanGrow>true</CanGrow>
+                                <KeepTogether>true</KeepTogether>
+                                <Paragraphs>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>What makes TelNet Cloud Storage and Backup as a Solution (BaaS) your best choice:</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>12pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <Style />
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value />
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>12pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <Style />
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value />
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>1pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <Style />
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value />
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>1pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <Style />
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>     • Our storage infrastructure does the work, not yours</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>12pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>           No need to invest in dedicated off-premise infrastructure; we've invested in leading edge technologies to provide the highly scalable, "always on" services your business demands at a fair and affordable price.</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value />
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>12pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>     • File and protect</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>12pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                      <TextRun>
+                                        <Value xml:space="preserve"> </Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>12pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f487c</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>           Our innovative file system design not only stores your data reliably but also constantly monitors its integrity.</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value />
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>12pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>     • Improve your storage availability</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>12pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>           Our "shared nothing" network architecture eliminates single points of failure common to other Cloud storage and backup solutions.</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value />
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>     • Recover just what you want, when you want it... fast</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>12pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>           Recover entire VMs, VDMI, or individual files and achieve rapid recovery time objectives. Intelligent data compression optimizes the time and space needed for backup and recovery, and optional WAN acceleration can provide even quicker access to mission-critical information.</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value />
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>     • Why should you have to shut down in order to grow</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>12pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <RightIndent>1.125in</RightIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>12pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>           Storage space can expand on the fly, seamlessly, with no downtime and a virtually limitless storage pool.</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value />
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>     • Gain control and visibility</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>12pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>           Access your TelNet Cloud backup environment and track your usage from a simple and powerful management portal. Full, real-time and historic analysis of your data storage and usage is readily available.</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value />
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>     • Designed for reliability</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>12pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>           Our promise is that your backed up files, applications or virtual servers are recoverable every time.</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value />
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>     • Virtual storage, real-world reliability</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>12pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#1f497d</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>           Powered by TelNet's premier Tier III data center in Southeastern Michigan, your IT assets are secure and available.</Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Normal</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#404040</Color>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <HangingIndent>-0.35in</HangingIndent>
+                                    <Style>
+                                      <TextAlign>Left</TextAlign>
+                                      <LineHeight>13pt</LineHeight>
+                                    </Style>
+                                  </Paragraph>
+                                </Paragraphs>
+                                <Top>2.60333in</Top>
+                                <Left>0.28941in</Left>
+                                <Height>5.40669in</Height>
+                                <Width>7.65881in</Width>
+                                <ZIndex>2</ZIndex>
+                                <Style>
+                                  <Border>
+                                    <Style>None</Style>
+                                  </Border>
+                                  <BackgroundColor>White</BackgroundColor>
+                                  <PaddingLeft>2pt</PaddingLeft>
+                                  <PaddingRight>2pt</PaddingRight>
+                                  <PaddingTop>2pt</PaddingTop>
+                                  <PaddingBottom>2pt</PaddingBottom>
+                                </Style>
+                              </Textbox>
+                            </ReportItems>
                             <KeepTogether>true</KeepTogether>
-                            <Paragraphs>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>TelNet BaaS - Back up and recover data with greater ease, speed and certainty.</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>14pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                  <TextRun>
-                                    <Value xml:space="preserve"> </Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>12pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <Style />
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value />
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <Style />
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>TelNet Worldwide data protection solutions provide your business with the simplest, most reliable and capable data storage, backup and management systems available. You'll be able to easily back up your valuable IT assets and day-to-day data onto the TelNet Cloud using TelNet Backup as a Service (BaaS). Keep your business running with minimal disruption by restoring the data you need, whenever and wherever you need it in minutes versus the hours or days it takes with other solutions.</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <Style />
-                              </Paragraph>
-                            </Paragraphs>
-                            <Top>0.06944in</Top>
-                            <Left>0.29439in</Left>
-                            <Height>1.11375in</Height>
-                            <Width>7.72248in</Width>
-                            <Style>
-                              <Border>
-                                <Style>None</Style>
-                              </Border>
-                              <BackgroundColor>White</BackgroundColor>
-                              <PaddingLeft>2pt</PaddingLeft>
-                              <PaddingRight>2pt</PaddingRight>
-                              <PaddingTop>2pt</PaddingTop>
-                              <PaddingBottom>2pt</PaddingBottom>
-                            </Style>
-                          </Textbox>
-                          <Image Name="BaaS">
-                            <Source>Embedded</Source>
-                            <Value>telnet_baas</Value>
-                            <Sizing>FitProportional</Sizing>
-                            <Top>1.18319in</Top>
-                            <Left>0.94956in</Left>
-                            <Height>1.40625in</Height>
-                            <Width>6.44792in</Width>
-                            <ZIndex>1</ZIndex>
+                            <Left>0.00798in</Left>
+                            <Height>8.01002in</Height>
+                            <Width>8.27062in</Width>
                             <Style>
                               <Border>
                                 <Style>None</Style>
                               </Border>
                             </Style>
-                          </Image>
-                          <Textbox Name="txtWhyTelNetColo4">
-                            <CanGrow>true</CanGrow>
-                            <KeepTogether>true</KeepTogether>
-                            <Paragraphs>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>What makes TelNet Cloud Storage and Backup as a Solution (BaaS) your best choice:</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>12pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <Style />
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value />
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>12pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <Style />
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value />
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>1pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <Style />
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value />
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>1pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <Style />
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>     • Our storage infrastructure does the work, not yours</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>12pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>           No need to invest in dedicated off-premise infrastructure; we've invested in leading edge technologies to provide the highly scalable, "always on" services your business demands at a fair and affordable price.</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value />
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>12pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>     • File and protect</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>12pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                  <TextRun>
-                                    <Value xml:space="preserve"> </Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>12pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f487c</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>           Our innovative file system design not only stores your data reliably but also constantly monitors its integrity.</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value />
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>12pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>     • Improve your storage availability</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>12pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>           Our "shared nothing" network architecture eliminates single points of failure common to other Cloud storage and backup solutions.</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value />
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>     • Recover just what you want, when you want it... fast</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>12pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>           Recover entire VMs, VDMI, or individual files and achieve rapid recovery time objectives. Intelligent data compression optimizes the time and space needed for backup and recovery, and optional WAN acceleration can provide even quicker access to mission-critical information.</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value />
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>     • Why should you have to shut down in order to grow</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>12pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <RightIndent>1.125in</RightIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>12pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>           Storage space can expand on the fly, seamlessly, with no downtime and a virtually limitless storage pool.</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value />
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>     • Gain control and visibility</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>12pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>           Access your TelNet Cloud backup environment and track your usage from a simple and powerful management portal. Full, real-time and historic analysis of your data storage and usage is readily available.</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value />
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>     • Designed for reliability</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>12pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>           Our promise is that your backed up files, applications or virtual servers are recoverable every time.</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value />
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>     • Virtual storage, real-world reliability</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>12pt</FontSize>
-                                      <FontWeight>Bold</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#1f497d</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value>           Powered by TelNet's premier Tier III data center in Southeastern Michigan, your IT assets are secure and available.</Value>
-                                    <Style>
-                                      <FontStyle>Normal</FontStyle>
-                                      <FontSize>9pt</FontSize>
-                                      <FontWeight>Normal</FontWeight>
-                                      <TextDecoration>None</TextDecoration>
-                                      <Color>#404040</Color>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <HangingIndent>-0.35in</HangingIndent>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                  <LineHeight>13pt</LineHeight>
-                                </Style>
-                              </Paragraph>
-                            </Paragraphs>
-                            <Top>2.60333in</Top>
-                            <Left>0.28941in</Left>
-                            <Height>5.40669in</Height>
-                            <Width>7.65881in</Width>
-                            <ZIndex>2</ZIndex>
-                            <Style>
-                              <Border>
-                                <Style>None</Style>
-                              </Border>
-                              <BackgroundColor>White</BackgroundColor>
-                              <PaddingLeft>2pt</PaddingLeft>
-                              <PaddingRight>2pt</PaddingRight>
-                              <PaddingTop>2pt</PaddingTop>
-                              <PaddingBottom>2pt</PaddingBottom>
-                            </Style>
-                          </Textbox>
+                          </Rectangle>
                         </ReportItems>
                         <KeepTogether>true</KeepTogether>
-                        <Top>7.89013in</Top>
+                        <Top>7.94859in</Top>
                         <Height>8.01002in</Height>
-                        <Width>8.27062in</Width>
+                        <Width>8.37162in</Width>
                         <ZIndex>4</ZIndex>
                         <Visibility>
-                          <Hidden>true</Hidden>
+                          <Hidden>=IIf(1&gt;2, true, false)</Hidden>
                         </Visibility>
                         <Style>
                           <Border>
@@ -3005,8 +3019,8 @@ product_templates.name like '%polycom%'</CommandText>
                     <PageName>Page3</PageName>
                     <KeepTogether>true</KeepTogether>
                     <Top>8.34072in</Top>
-                    <Height>15.90015in</Height>
-                    <Width>8.27062in</Width>
+                    <Height>16.00028in</Height>
+                    <Width>8.41192in</Width>
                     <ZIndex>7</ZIndex>
                     <Style>
                       <Border>
@@ -3020,7 +3034,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <Value>telnet_meet_me</Value>
                     <Sizing>FitProportional</Sizing>
                     <Top>4.89672in</Top>
-                    <Left>5.74757in</Left>
+                    <Left>5.79807in</Left>
                     <Height>2.52083in</Height>
                     <Width>1.90108in</Width>
                     <ZIndex>8</ZIndex>
@@ -3037,8 +3051,8 @@ product_templates.name like '%polycom%'</CommandText>
                 <PageName>Page2</PageName>
                 <KeepTogether>true</KeepTogether>
                 <Top>6.81825in</Top>
-                <Height>24.24087in</Height>
-                <Width>8.27062in</Width>
+                <Height>24.341in</Height>
+                <Width>8.41192in</Width>
                 <ZIndex>4</ZIndex>
                 <Style>
                   <Border>
@@ -3054,9 +3068,8 @@ product_templates.name like '%polycom%'</CommandText>
             <PageName>Page1</PageName>
             <KeepTogether>true</KeepTogether>
             <Top>5.58781in</Top>
-            <Left>0.03824in</Left>
-            <Height>31.05912in</Height>
-            <Width>8.28326in</Width>
+            <Height>31.15925in</Height>
+            <Width>8.41192in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -3455,7 +3468,7 @@ product_templates.name like '%polycom%'</CommandText>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
             <Top>40.44595in</Top>
-            <Left>0.05088in</Left>
+            <Left>0.06314in</Left>
             <Height>6.68255in</Height>
             <Width>8.35898in</Width>
             <ZIndex>2</ZIndex>
@@ -4971,7 +4984,6 @@ product_templates.name like '%polycom%'</CommandText>
                 <PageName>PSA</PageName>
                 <KeepTogether>true</KeepTogether>
                 <Top>0.08458in</Top>
-                <Left>0.01412in</Left>
                 <Height>3.62945in</Height>
                 <Width>7.96949in</Width>
                 <Style>
@@ -4985,10 +4997,11 @@ product_templates.name like '%polycom%'</CommandText>
               <BreakLocation>End</BreakLocation>
             </PageBreak>
             <PageName>Page4</PageName>
+            <KeepTogether>true</KeepTogether>
             <Top>36.66248in</Top>
-            <Left>0.14892in</Left>
+            <Left>0.15117in</Left>
             <Height>3.71403in</Height>
-            <Width>8.06327in</Width>
+            <Width>8.07328in</Width>
             <ZIndex>3</ZIndex>
             <Style>
               <Border>
@@ -5006,7 +5019,7 @@ product_templates.name like '%polycom%'</CommandText>
           <BackgroundColor>White</BackgroundColor>
         </Style>
       </Body>
-      <Width>8.49998in</Width>
+      <Width>8.51224in</Width>
       <Page>
         <PageHeader>
           <Height>1.29389in</Height>
@@ -5017,6 +5030,7 @@ product_templates.name like '%polycom%'</CommandText>
               <Source>Embedded</Source>
               <Value>DCPageHead</Value>
               <Sizing>FitProportional</Sizing>
+              <Left>0.01226in</Left>
               <Height>1.22445in</Height>
               <Width>8.49998in</Width>
               <Visibility>
@@ -5032,6 +5046,7 @@ product_templates.name like '%polycom%'</CommandText>
               <Source>Embedded</Source>
               <Value>telnet_lockers_top</Value>
               <Sizing>FitProportional</Sizing>
+              <Left>0.01226in</Left>
               <Height>1.29389in</Height>
               <Width>8.49in</Width>
               <ZIndex>1</ZIndex>
@@ -5063,7 +5078,7 @@ product_templates.name like '%polycom%'</CommandText>
               <Value>DCCoverFoot1</Value>
               <Sizing>FitProportional</Sizing>
               <Top>0.01389in</Top>
-              <Left>0.03474in</Left>
+              <Left>0.047in</Left>
               <Height>1in</Height>
               <Width>8.23589in</Width>
               <Visibility>
@@ -5115,7 +5130,7 @@ product_templates.name like '%polycom%'</CommandText>
                 </Paragraph>
               </Paragraphs>
               <Top>0in</Top>
-              <Left>0.52063in</Left>
+              <Left>0.53289in</Left>
               <Height>0.25in</Height>
               <Width>2in</Width>
               <ZIndex>1</ZIndex>
@@ -5155,7 +5170,7 @@ product_templates.name like '%polycom%'</CommandText>
                 </Paragraph>
               </Paragraphs>
               <Top>0in</Top>
-              <Left>6.77063in</Left>
+              <Left>6.78289in</Left>
               <Height>0.25in</Height>
               <Width>1.5in</Width>
               <ZIndex>2</ZIndex>
