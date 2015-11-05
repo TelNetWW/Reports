@@ -3001,13 +3001,16 @@ product_templates.name like '%polycom%'</CommandText>
                             </Style>
                           </Rectangle>
                         </ReportItems>
+                        <PageBreak>
+                          <BreakLocation>Start</BreakLocation>
+                        </PageBreak>
                         <KeepTogether>true</KeepTogether>
                         <Top>7.94859in</Top>
                         <Height>8.01002in</Height>
                         <Width>8.37162in</Width>
                         <ZIndex>4</ZIndex>
                         <Visibility>
-                          <Hidden>=IIf(1&gt;2, true, false)</Hidden>
+                          <Hidden>=IIf(1&lt;2, true, false)</Hidden>
                         </Visibility>
                         <Style>
                           <Border>
@@ -4994,7 +4997,7 @@ product_templates.name like '%polycom%'</CommandText>
               </Rectangle>
             </ReportItems>
             <PageBreak>
-              <BreakLocation>End</BreakLocation>
+              <BreakLocation>StartAndEnd</BreakLocation>
             </PageBreak>
             <PageName>Page4</PageName>
             <KeepTogether>true</KeepTogether>
