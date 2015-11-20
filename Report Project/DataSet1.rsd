@@ -14,7 +14,8 @@
       <CommandText>  SELECT        accounts.name AS account_name, accounts.billing_address_street, accounts.billing_address_city, accounts.billing_address_state, 
                          accounts.billing_address_postalcode, proposal_cstm.additional_message, proposal_cstm.paragraph_choice, quotes.quote_num, quotes.deal_tot, quotes.total, 
                      proposal_cstm.contact_name, proposal_cstm.agent_name, proposal_cstm.company_name, 
-                         proposal_cstm.email_address, proposal_cstm.phone_number
+                         proposal_cstm.email_address, proposal_cstm.phone_number,
+	quotes_cstm.product_type_id_c
 FROM            quotes INNER JOIN
                          quotes_cstm ON quotes.id = quotes_cstm.id_c INNER JOIN
                          proposal_cstm ON quotes_cstm.proposal_id_c = proposal_cstm.id INNER JOIN
@@ -80,6 +81,10 @@ WHERE        (proposal_cstm.id = @Param2)</CommandText>
       </Field>
       <Field Name="phone_number">
         <DataField>phone_number</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="product_type_id_c">
+        <DataField>product_type_id_c</DataField>
         <rd:TypeName>System.String</rd:TypeName>
       </Field>
     </Fields>
