@@ -2629,7 +2629,7 @@ product_templates.name like '%polycom%'</CommandText>
                   </TablixColumns>
                   <TablixRows>
                     <TablixRow>
-                      <Height>13.71735in</Height>
+                      <Height>14.15956in</Height>
                       <TablixCells>
                         <TablixCell>
                           <CellContents>
@@ -3244,7 +3244,7 @@ product_templates.name like '%polycom%'</CommandText>
                                       <rd:DefaultName>Textbox42</rd:DefaultName>
                                       <Top>0.0923in</Top>
                                       <Left>0.28187in</Left>
-                                      <Height>1.10417in</Height>
+                                      <Height>1.3125in</Height>
                                       <Width>7.64058in</Width>
                                       <Style>
                                         <Border>
@@ -3260,10 +3260,10 @@ product_templates.name like '%polycom%'</CommandText>
                                       <Source>Embedded</Source>
                                       <Value>telnet_baas_standards</Value>
                                       <Sizing>FitProportional</Sizing>
-                                      <Top>1.19647in</Top>
-                                      <Left>0.42873in</Left>
+                                      <Top>1.54022in</Top>
+                                      <Left>0.77525in</Left>
                                       <Height>1.20833in</Height>
-                                      <Width>6.87393in</Width>
+                                      <Width>6.52741in</Width>
                                       <ZIndex>1</ZIndex>
                                       <Style>
                                         <Border>
@@ -3368,7 +3368,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         </Paragraph>
                                       </Paragraphs>
                                       <rd:DefaultName>Textbox42</rd:DefaultName>
-                                      <Top>2.47425in</Top>
+                                      <Top>2.87008in</Top>
                                       <Left>0.25774in</Left>
                                       <Height>1.10417in</Height>
                                       <Width>7.64058in</Width>
@@ -3387,10 +3387,10 @@ product_templates.name like '%polycom%'</CommandText>
                                       <Source>Embedded</Source>
                                       <Value>telnet_cloud_partners</Value>
                                       <Sizing>FitProportional</Sizing>
-                                      <Top>3.57841in</Top>
-                                      <Left>0.42873in</Left>
+                                      <Top>4.11293in</Top>
+                                      <Left>0.77525in</Left>
                                       <Height>1.05208in</Height>
-                                      <Width>6.87393in</Width>
+                                      <Width>6.52741in</Width>
                                       <ZIndex>3</ZIndex>
                                       <Style>
                                         <Border>
@@ -3438,8 +3438,8 @@ product_templates.name like '%polycom%'</CommandText>
                                         </Paragraph>
                                       </Paragraphs>
                                       <rd:DefaultName>Textbox42</rd:DefaultName>
-                                      <Top>4.69994in</Top>
-                                      <Left>0.25774in</Left>
+                                      <Top>5.23445in</Top>
+                                      <Left>0.28187in</Left>
                                       <Height>0.9375in</Height>
                                       <Width>7.64058in</Width>
                                       <ZIndex>4</ZIndex>
@@ -3460,7 +3460,7 @@ product_templates.name like '%polycom%'</CommandText>
                                   <KeepTogether>true</KeepTogether>
                                   <Top>7.98761in</Top>
                                   <Left>0.06546in</Left>
-                                  <Height>5.72974in</Height>
+                                  <Height>6.17195in</Height>
                                   <Width>8.11656in</Width>
                                   <ZIndex>3</ZIndex>
                                   <Style>
@@ -3498,11 +3498,11 @@ product_templates.name like '%polycom%'</CommandText>
                 <DataSetName>DataSet1</DataSetName>
                 <Top>23.93272in</Top>
                 <Left>0.0106in</Left>
-                <Height>13.71735in</Height>
+                <Height>14.15956in</Height>
                 <Width>8.24291in</Width>
                 <ZIndex>1</ZIndex>
                 <Visibility>
-                  <Hidden>=IIF(2&lt;3, False, True)</Hidden>
+                  <Hidden>=IIF(2&gt;3, False, True)</Hidden>
                 </Visibility>
                 <Style>
                   <Border>
@@ -3518,7 +3518,7 @@ product_templates.name like '%polycom%'</CommandText>
             <KeepTogether>true</KeepTogether>
             <Top>12.03453in</Top>
             <Left>0.00193in</Left>
-            <Height>37.65007in</Height>
+            <Height>38.09228in</Height>
             <Width>8.3662in</Width>
             <Style>
               <Border>
@@ -3916,7 +3916,7 @@ product_templates.name like '%polycom%'</CommandText>
               </Textbox>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
-            <Top>54.01439in</Top>
+            <Top>54.29565in</Top>
             <Left>0.00915in</Left>
             <Height>6.68255in</Height>
             <Width>8.35898in</Width>
@@ -5973,9 +5973,9 @@ product_templates.name like '%polycom%'</CommandText>
               </Rectangle>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
-            <Top>49.75405in</Top>
+            <Top>50.19626in</Top>
             <Left>0.00193in</Left>
-            <Height>4.05508in</Height>
+            <Height>4.02995in</Height>
             <Width>8.31195in</Width>
             <ZIndex>4</ZIndex>
             <Style>
@@ -5985,7 +5985,7 @@ product_templates.name like '%polycom%'</CommandText>
             </Style>
           </Rectangle>
         </ReportItems>
-        <Height>60.69694in</Height>
+        <Height>60.9782in</Height>
         <Style>
           <Border>
             <Style>None</Style>
