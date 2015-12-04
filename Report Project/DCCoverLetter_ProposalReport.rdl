@@ -4255,7 +4255,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>Thank you for the opportunity to present you with a proposal for data center services from TelNet Worldwide. Based on your requirements, we believe our solution is a strong match for your organization’s needs both today and into the future.</Value>
+                        <Value>TelNet Data Center Solutions appreciates this opportunity to present our proposal for data center services. We are proud to offer high quality IT infrastructure services from our premier, next-generation data center located in Southfield, MI.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -4283,7 +4283,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>When it comes to mission-critical operations, infrastructure and availability, it is imperative to have a reliable service provider to meet your service level requirements. TelNet's advanced Tier III data center facility, with rich power resources, scalable service, carrier-neutral connectivity and state-of-the-art online management tools will exceed your data center needs. TelNet's premier data center design along with robust network connectivity empowers our customers to operate efficiently and adjust resources as technology and business needs change. </Value>
+                        <Value>The mission-critical applications of today's leading enterprises require a highly reliable and secure IT infrastructure delivering scalable space, power, cooling and network connectivity. TelNet's advanced Tier III data center design and Cloud Solutions empower businesses to support their strategic IT operations with solutions that enable the achievement of business objectives. </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -4297,15 +4297,6 @@ product_templates.name like '%polycom%'</CommandText>
 	"",
 	VbCrLf + VbCrlf + TRIM(First(Fields!additional_message.Value, "DataSet1"))
 )</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value> If you have any questions about this proposal, please contact me at the number provided. I look forward to working with you to help meet your information technology objectives and establish a long-lasting, successful relationship.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -4333,7 +4324,7 @@ product_templates.name like '%polycom%'</CommandText>
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>Thank you for your consideration.</Value>
+                        <Value>Thank you for your consideration of this proposal.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>

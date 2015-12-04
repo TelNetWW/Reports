@@ -1968,6 +1968,120 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
+                    <LeftIndent>0.7in</LeftIndent>
+                    <HangingIndent>-0.3in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>1.5    Cloud or Cloud Services</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>:</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value> Services or applications made available to users via the Internet from source other than Customer's own on-premises servers.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.7in</LeftIndent>
+                    <HangingIndent>-0.3in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.7in</LeftIndent>
+                    <HangingIndent>-0.3in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>1.6    Cloud Services Addendum</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>:</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value> The Cloud Services Addendum sets forth various Cloud-related services and other responsibilities which shall apply as further described or referenced in the Customer Order. The Cloud Services Addendum describes responsibilities relating to the provision of server and storage resources.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.7in</LeftIndent>
+                    <HangingIndent>-0.3in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
                     <LeftIndent>0.5in</LeftIndent>
                     <RightIndent>0.275in</RightIndent>
                     <Style>
@@ -1977,7 +2091,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.5</Value>
+                        <Value>1.7</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2043,7 +2157,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.6</Value>
+                        <Value>1.8</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2109,7 +2223,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.7</Value>
+                        <Value>1.9</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2175,7 +2289,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.8</Value>
+                        <Value>1.10</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2184,7 +2298,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value xml:space="preserve">    </Value>
+                        <Value xml:space="preserve">  </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2241,7 +2355,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.9</Value>
+                        <Value>1.11</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2250,7 +2364,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value xml:space="preserve">    </Value>
+                        <Value xml:space="preserve">  </Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2307,7 +2421,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.10</Value>
+                        <Value>1.12</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2373,7 +2487,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.11</Value>
+                        <Value>1.13</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2439,7 +2553,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.12</Value>
+                        <Value>1.14</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2503,7 +2617,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.13</Value>
+                        <Value>1.15</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2565,7 +2679,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.14</Value>
+                        <Value>1.16</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2631,7 +2745,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.15</Value>
+                        <Value>1.17</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2659,7 +2773,7 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                       <TextRun>
-                        <Value>Abuilding or portion of a building owned or leased by TelNet for the purpose of, among other things, providing service or locating and colocating communications equipment. Facility includes parking areas, loading areas, truck maneuvering areas and common areas.</Value>
+                        <Value>A building or portion of a building owned or leased by TelNet for the purpose of, among other things, providing service or locating and colocating communications equipment. Facility includes parking areas, loading areas, truck maneuvering areas and common areas.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2697,7 +2811,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.16</Value>
+                        <Value>1.18</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2764,7 +2878,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.17</Value>
+                        <Value>1.19</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2831,7 +2945,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.18</Value>
+                        <Value>1.20</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2889,6 +3003,73 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
+                    <LeftIndent>0.7in</LeftIndent>
+                    <RightIndent>0.275in</RightIndent>
+                    <HangingIndent>-0.3in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>1.21</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">  </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Professional Services Addendum: </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>The Professional Services Addendum sets forth various IT/technical support related services and other responsibilities which shall apply as further described or referenced in the Customer Order or in the Statement of Work.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.7in</LeftIndent>
+                    <HangingIndent>-0.3in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
                     <LeftIndent>0.5in</LeftIndent>
                     <RightIndent>0.275in</RightIndent>
                     <Style>
@@ -2898,7 +3079,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.19</Value>
+                        <Value>1.22</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -2964,7 +3145,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.20</Value>
+                        <Value>1.23</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -3030,7 +3211,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.21</Value>
+                        <Value>1.24</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -3116,7 +3297,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.22</Value>
+                        <Value>1.25</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -3182,7 +3363,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.23</Value>
+                        <Value>1.26</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -3269,7 +3450,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.24</Value>
+                        <Value>1.27</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -3326,6 +3507,72 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
+                    <LeftIndent>0.7in</LeftIndent>
+                    <HangingIndent>-0.3in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>1.28</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">  </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>Statement of Work or SOW: </Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>A formal document that captures and defines the work activities, deliverables, and timeline TelNet and Customer must execute in performance of specified work for Customer. The SOW may include detailed requirements and pricing with standard regulatory and governance terms and conditions assigned as part of the Customer Order.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.7in</LeftIndent>
+                    <HangingIndent>-0.3in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
                     <RightIndent>0.275in</RightIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
@@ -3334,7 +3581,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.25</Value>
+                        <Value>1.29</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -3401,7 +3648,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>1.26</Value>
+                        <Value>1.30</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -5547,6 +5794,46 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
+                    <LeftIndent>0.9in</LeftIndent>
+                    <RightIndent>0.275in</RightIndent>
+                    <HangingIndent>-0.2in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>C)  If, after either the Service Ready Date or Customer's receipt of the Connection Notice for a particular Service and prior to the end of the Service term, TelNet terminates the Customer Order or Service pursuant to Section 4.1, items A-F, Customer shall pay TelNet liquidated damages equal to the sum of the Monthly Fees multiplied by the number of months remaining in the Service Term plus any waived installation or labor charges.</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <LeftIndent>0.9in</LeftIndent>
+                    <RightIndent>0.275in</RightIndent>
+                    <HangingIndent>-0.2in</HangingIndent>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
                     <LeftIndent>0.5in</LeftIndent>
                     <RightIndent>0.275in</RightIndent>
                     <Style>
@@ -5556,7 +5843,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>C)  If all or part of the Customer’s Service is terminated or switched to another carrier without prior notice to TelNet, TelNet will continue to invoice the Customer until Customer notifies TelNet in writing on the proper TelNet Disconnect Authorization form and requests that its Service be discontinued and for 30 days after the date TelNet receives such notice. Customer shall be responsible for paying such charges, in addition to any applicable liquidated damages, as noted above.</Value>
+                        <Value>D)  If all or part of the Customer’s Service is terminated or switched to another carrier without prior notice to TelNet, TelNet will continue to invoice the Customer until Customer notifies TelNet in writing on the proper TelNet Disconnect Authorization form and requests that its Service be discontinued and for 30 days after the date TelNet receives such notice. Customer shall be responsible for paying such charges, in addition to any applicable liquidated damages, as noted above.</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -6247,7 +6534,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>D)  if Customer's Service is delivered by TelNet within a third party colocation facility and TelNet's right to provide Service to that facility is terminated;</Value>
+                        <Value>D)   if Customer engages in fraudulent use of Service;</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -6287,7 +6574,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>E)   if Customer engages in fraudulent use of Service;</Value>
+                        <Value>E)  if Customer files bankruptcy, for reorganization, or fails to discharge an involuntary petition therefore within sixty (60) days;</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -6327,7 +6614,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>F)   if a court or other government authority prohibits TelNet from furnishing Service;</Value>
+                        <Value>F)  if Customer's use of Service materially exceeds Customer's credit limit, unless within thirty (30) day written notice by TelNet, Customer provides adequate security for payment for Service;</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -6357,9 +6644,9 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>1in</LeftIndent>
+                    <LeftIndent>0.9in</LeftIndent>
                     <RightIndent>0.275in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
+                    <HangingIndent>-0.2in</HangingIndent>
                     <Style>
                       <TextAlign>Left</TextAlign>
                     </Style>
@@ -6367,7 +6654,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>G)  if Customer files bankruptcy, for reorganization, or fails to discharge an involuntary petition therefore within sixty (60) days;</Value>
+                        <Value>G)   if a court or other government authority prohibits TelNet from furnishing Service; or</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
@@ -6397,26 +6684,6 @@ TelNet Printed Name                                                             
                         </Style>
                       </TextRun>
                     </TextRuns>
-                    <LeftIndent>1in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>H)  if Customer's use of Service materially exceeds Customer's credit limit, unless within thirty (30) day written notice by TelNet, Customer provides adequate security for payment for Service; or</Value>
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
                     <LeftIndent>0.9in</LeftIndent>
                     <RightIndent>0.275in</RightIndent>
                     <HangingIndent>-0.2in</HangingIndent>
@@ -6427,27 +6694,7 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value />
-                        <Style>
-                          <FontStyle>Normal</FontStyle>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                          <TextDecoration>None</TextDecoration>
-                          <Color>#000000</Color>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <LeftIndent>1in</LeftIndent>
-                    <RightIndent>0.275in</RightIndent>
-                    <HangingIndent>-0.25in</HangingIndent>
-                    <Style>
-                      <TextAlign>Left</TextAlign>
-                    </Style>
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>I)    if Customer fails to cure a breach (other than as addressed in sub-Sections A, B, C or D of this Section (4.1) of this Agreement within thirty (30) days after written notice thereof provided by TelNet.</Value>
+                        <Value>H)  if Customer's Service is delivered by TelNet within a third party colocation facility and TelNet's right to provide Service to that facility is terminated;</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
                           <FontSize>9pt</FontSize>
