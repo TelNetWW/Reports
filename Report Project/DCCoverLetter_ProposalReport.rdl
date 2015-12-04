@@ -589,7 +589,7 @@ product_templates.name like '%polycom%'</CommandText>
                       </TablixColumns>
                       <TablixRows>
                         <TablixRow>
-                          <Height>8.03926in</Height>
+                          <Height>8.2272in</Height>
                           <TablixCells>
                             <TablixCell>
                               <CellContents>
@@ -674,7 +674,7 @@ product_templates.name like '%polycom%'</CommandText>
                                       <Source>Embedded</Source>
                                       <Value>telnet_baas</Value>
                                       <Sizing>FitProportional</Sizing>
-                                      <Top>1.16309in</Top>
+                                      <Top>1.2742in</Top>
                                       <Left>1.00748in</Left>
                                       <Height>1.40625in</Height>
                                       <Width>6.44792in</Width>
@@ -751,7 +751,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         <Paragraph>
                                           <TextRuns>
                                             <TextRun>
-                                              <Value>     • Our storage infrastructure does the work, not yours</Value>
+                                              <Value>     • Our storage infrastructure does the work for you.</Value>
                                               <Style>
                                                 <FontStyle>Normal</FontStyle>
                                                 <FontSize>12pt</FontSize>
@@ -770,7 +770,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         <Paragraph>
                                           <TextRuns>
                                             <TextRun>
-                                              <Value>           No need to invest in dedicated off-premise infrastructure; we've invested in leading edge technologies to provide the highly scalable, "always on" services your business demands at a fair and affordable price.</Value>
+                                              <Value>           No need to invest significant time and money in dedicated off-premise infrastructure; we've invested in leading edge technologies to provide the highly scalable, "always on" services your business demands at a fair and affordable price.</Value>
                                               <Style>
                                                 <FontStyle>Normal</FontStyle>
                                                 <FontSize>9pt</FontSize>
@@ -808,23 +808,13 @@ product_templates.name like '%polycom%'</CommandText>
                                         <Paragraph>
                                           <TextRuns>
                                             <TextRun>
-                                              <Value>     • File and protect</Value>
+                                              <Value>     • File and protect.</Value>
                                               <Style>
                                                 <FontStyle>Normal</FontStyle>
                                                 <FontSize>12pt</FontSize>
                                                 <FontWeight>Bold</FontWeight>
                                                 <TextDecoration>None</TextDecoration>
                                                 <Color>#1f497d</Color>
-                                              </Style>
-                                            </TextRun>
-                                            <TextRun>
-                                              <Value xml:space="preserve"> </Value>
-                                              <Style>
-                                                <FontStyle>Normal</FontStyle>
-                                                <FontSize>12pt</FontSize>
-                                                <FontWeight>Normal</FontWeight>
-                                                <TextDecoration>None</TextDecoration>
-                                                <Color>#1f487c</Color>
                                               </Style>
                                             </TextRun>
                                           </TextRuns>
@@ -875,7 +865,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         <Paragraph>
                                           <TextRuns>
                                             <TextRun>
-                                              <Value>     • Improve your storage availability</Value>
+                                              <Value>     • Improve your storage availability.</Value>
                                               <Style>
                                                 <FontStyle>Normal</FontStyle>
                                                 <FontSize>12pt</FontSize>
@@ -894,7 +884,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         <Paragraph>
                                           <TextRuns>
                                             <TextRun>
-                                              <Value>           Our "shared nothing" network architecture eliminates single points of failure common to other Cloud storage and backup solutions.</Value>
+                                              <Value>           Our "shared nothing" storage and network architecture eliminates single points of failure common to other Cloud storage and backup solutions.</Value>
                                               <Style>
                                                 <FontStyle>Normal</FontStyle>
                                                 <FontSize>9pt</FontSize>
@@ -932,7 +922,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         <Paragraph>
                                           <TextRuns>
                                             <TextRun>
-                                              <Value>     • Recover just what you want, when you want it... fast</Value>
+                                              <Value>     • Recover just what you want, when you want it... fast.</Value>
                                               <Style>
                                                 <FontStyle>Normal</FontStyle>
                                                 <FontSize>12pt</FontSize>
@@ -951,7 +941,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         <Paragraph>
                                           <TextRuns>
                                             <TextRun>
-                                              <Value>           Recover entire VMs, VDMI, or individual files and achieve rapid recovery time objectives. Intelligent data compression optimizes the time and space needed for backup and recovery, and optional WAN acceleration can provide even quicker access to mission-critical information.</Value>
+                                              <Value>           Recover entire VMs, VDIs, or individual files and achieve rapid recovery time objectives. Intelligent data compression optimizes the time and space needed for backup and recovery, and optional WAN acceleration can provide even quicker access to mission-critical information.</Value>
                                               <Style>
                                                 <FontStyle>Normal</FontStyle>
                                                 <FontSize>9pt</FontSize>
@@ -989,7 +979,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         <Paragraph>
                                           <TextRuns>
                                             <TextRun>
-                                              <Value>     • Why should you have to shut down in order to grow</Value>
+                                              <Value>     • No need to disrupt your service in order to grow.</Value>
                                               <Style>
                                                 <FontStyle>Normal</FontStyle>
                                                 <FontSize>12pt</FontSize>
@@ -1046,7 +1036,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         <Paragraph>
                                           <TextRuns>
                                             <TextRun>
-                                              <Value>     • Gain control and visibility</Value>
+                                              <Value>     • Gain control and visibility.</Value>
                                               <Style>
                                                 <FontStyle>Normal</FontStyle>
                                                 <FontSize>12pt</FontSize>
@@ -1103,7 +1093,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         <Paragraph>
                                           <TextRuns>
                                             <TextRun>
-                                              <Value>     • Designed for reliability</Value>
+                                              <Value>     • Designed for reliability.</Value>
                                               <Style>
                                                 <FontStyle>Normal</FontStyle>
                                                 <FontSize>12pt</FontSize>
@@ -1122,7 +1112,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         <Paragraph>
                                           <TextRuns>
                                             <TextRun>
-                                              <Value>           Our promise is that your backed up files, applications or virtual servers are recoverable every time.</Value>
+                                              <Value>           Our promise is that your backed up files, applications or virtual servers are recoverable every time by deploying a ZFS-based high availability storage infrastructure.</Value>
                                               <Style>
                                                 <FontStyle>Normal</FontStyle>
                                                 <FontSize>9pt</FontSize>
@@ -1160,7 +1150,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         <Paragraph>
                                           <TextRuns>
                                             <TextRun>
-                                              <Value>     • Virtual storage, real-world reliability</Value>
+                                              <Value>     • Virtual storage, real-world reliability.</Value>
                                               <Style>
                                                 <FontStyle>Normal</FontStyle>
                                                 <FontSize>12pt</FontSize>
@@ -1196,9 +1186,9 @@ product_templates.name like '%polycom%'</CommandText>
                                           </Style>
                                         </Paragraph>
                                       </Paragraphs>
-                                      <Top>2.58323in</Top>
-                                      <Left>0.34733in</Left>
-                                      <Height>5.40669in</Height>
+                                      <Top>2.79503in</Top>
+                                      <Left>0.33462in</Left>
+                                      <Height>5.33377in</Height>
                                       <Width>7.65881in</Width>
                                       <ZIndex>2</ZIndex>
                                       <Style>
@@ -1244,7 +1234,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <DataSetName>DataSet1</DataSetName>
                     <Top>15.81013in</Top>
                     <Left>0.0106in</Left>
-                    <Height>8.03926in</Height>
+                    <Height>8.2272in</Height>
                     <Width>8.2576in</Width>
                     <Visibility>
                       <Hidden>=IIF(1&gt;2, False, True)</Hidden>
@@ -2611,7 +2601,7 @@ product_templates.name like '%polycom%'</CommandText>
                 </ReportItems>
                 <PageName>Page2</PageName>
                 <KeepTogether>true</KeepTogether>
-                <Height>23.86327in</Height>
+                <Height>24.03733in</Height>
                 <Width>8.3662in</Width>
                 <Style>
                   <Border>
@@ -3496,7 +3486,7 @@ product_templates.name like '%polycom%'</CommandText>
                   </TablixMembers>
                 </TablixRowHierarchy>
                 <DataSetName>DataSet1</DataSetName>
-                <Top>23.93272in</Top>
+                <Top>24.10678in</Top>
                 <Left>0.0106in</Left>
                 <Height>14.15956in</Height>
                 <Width>8.24291in</Width>
@@ -3518,7 +3508,7 @@ product_templates.name like '%polycom%'</CommandText>
             <KeepTogether>true</KeepTogether>
             <Top>12.03453in</Top>
             <Left>0.00193in</Left>
-            <Height>38.09228in</Height>
+            <Height>38.26634in</Height>
             <Width>8.3662in</Width>
             <Style>
               <Border>
@@ -3916,7 +3906,7 @@ product_templates.name like '%polycom%'</CommandText>
               </Textbox>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
-            <Top>54.29565in</Top>
+            <Top>54.57691in</Top>
             <Left>0.00915in</Left>
             <Height>6.68255in</Height>
             <Width>8.35898in</Width>
@@ -5964,7 +5954,7 @@ product_templates.name like '%polycom%'</CommandText>
               </Rectangle>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
-            <Top>50.19626in</Top>
+            <Top>50.37031in</Top>
             <Left>0.00193in</Left>
             <Height>4.02995in</Height>
             <Width>8.31195in</Width>
@@ -5976,7 +5966,7 @@ product_templates.name like '%polycom%'</CommandText>
             </Style>
           </Rectangle>
         </ReportItems>
-        <Height>60.9782in</Height>
+        <Height>61.25946in</Height>
         <Style>
           <Border>
             <Style>None</Style>
@@ -6094,6 +6084,7 @@ product_templates.name like '%polycom%'</CommandText>
                   </Style>
                 </Paragraph>
               </Paragraphs>
+              <Top>0in</Top>
               <Left>0.56388in</Left>
               <Height>0.25in</Height>
               <Width>2in</Width>
@@ -6133,6 +6124,7 @@ product_templates.name like '%polycom%'</CommandText>
                   </Style>
                 </Paragraph>
               </Paragraphs>
+              <Top>0in</Top>
               <Left>6.81388in</Left>
               <Height>0.25in</Height>
               <Width>1.5in</Width>
