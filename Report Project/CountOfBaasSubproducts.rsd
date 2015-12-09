@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@Param2">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandText>select COUNT(*) AS Count from products p where quote_id in (
+select q.id from proposal_cstm pc
+INNER JOIN quotes_cstm qc on qc.proposal_id_c = pc.id
+INNER JOIN quotes q ON q.id = qc.id_c
+where pc.id = @Param2
+)
+and p.type_id = '6D80C4C8-A02A-434F-865C-2792D2B525BC'</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="Count">
+        <DataField>Count</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

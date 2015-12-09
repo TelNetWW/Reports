@@ -97,8 +97,9 @@
           <DataField>phone_number</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="product_type">
-          <Value>product_type_id_c</Value>
+        <Field Name="product_type_id_c">
+          <DataField>product_type_id_c</DataField>
+          <rd:UserDefined>true</rd:UserDefined>
         </Field>
       </Fields>
     </DataSet>
@@ -311,6 +312,10 @@
         <Field Name="list_order2">
           <DataField>list_order2</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="product_type_id">
+          <DataField>product_type_id</DataField>
+          <rd:UserDefined>true</rd:UserDefined>
         </Field>
       </Fields>
     </DataSet>
@@ -568,6 +573,22 @@ product_templates.name like '%polycom%'</CommandText>
         <Field Name="ID">
           <DataField />
           <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="CountOfBaasSubproducts">
+      <SharedDataSet>
+        <SharedDataSetReference>CountOfBaasSubproducts</SharedDataSetReference>
+        <QueryParameters>
+          <QueryParameter Name="@Param2">
+            <Value>=Parameters!Param2.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+      </SharedDataSet>
+      <Fields>
+        <Field Name="Count">
+          <DataField>Count</DataField>
+          <rd:UserDefined>true</rd:UserDefined>
         </Field>
       </Fields>
     </DataSet>
@@ -1231,13 +1252,16 @@ product_templates.name like '%polycom%'</CommandText>
                         </TablixMember>
                       </TablixMembers>
                     </TablixRowHierarchy>
-                    <DataSetName>DataSet1</DataSetName>
+                    <DataSetName>CountOfBaasSubproducts</DataSetName>
                     <Top>15.81013in</Top>
                     <Left>0.0106in</Left>
                     <Height>8.2272in</Height>
                     <Width>8.2576in</Width>
                     <Visibility>
-                      <Hidden>=IIF(1&gt;2, False, True)</Hidden>
+                      <Hidden>=IIf(Fields!Count.Value &gt; 0,
+    False,
+    True
+)</Hidden>
                     </Visibility>
                     <Style>
                       <Border>
@@ -2590,7 +2614,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <Width>8.30135in</Width>
                     <ZIndex>1</ZIndex>
                     <Visibility>
-                      <Hidden>=IIF(1&lt;2, False, True)</Hidden>
+                      <Hidden>=IIF(First(Fields!product_type_id_c.Value) &lt;&gt; "6868BE43-055F-4013-8AF8-7666EF84EFE6", False, True)</Hidden>
                     </Visibility>
                     <Style>
                       <Border>
@@ -2619,7 +2643,7 @@ product_templates.name like '%polycom%'</CommandText>
                   </TablixColumns>
                   <TablixRows>
                     <TablixRow>
-                      <Height>14.15956in</Height>
+                      <Height>14.59705in</Height>
                       <TablixCells>
                         <TablixCell>
                           <CellContents>
@@ -2629,7 +2653,7 @@ product_templates.name like '%polycom%'</CommandText>
                                   <Source>Embedded</Source>
                                   <Value>telnet_baas</Value>
                                   <Sizing>FitProportional</Sizing>
-                                  <Top>2.17972in</Top>
+                                  <Top>1.82555in</Top>
                                   <Left>1.00748in</Left>
                                   <Height>1.40625in</Height>
                                   <Width>6.44792in</Width>
@@ -2714,7 +2738,7 @@ product_templates.name like '%polycom%'</CommandText>
                                       <Style />
                                     </Paragraph>
                                   </Paragraphs>
-                                  <Top>0.625in</Top>
+                                  <Top>0.27083in</Top>
                                   <Left>0.35231in</Left>
                                   <Height>1.50264in</Height>
                                   <Width>7.72248in</Width>
@@ -3117,7 +3141,7 @@ product_templates.name like '%polycom%'</CommandText>
                                       </Style>
                                     </Paragraph>
                                   </Paragraphs>
-                                  <Top>3.65542in</Top>
+                                  <Top>3.30125in</Top>
                                   <Left>0.35231in</Left>
                                   <Height>4.26275in</Height>
                                   <Width>7.65881in</Width>
@@ -3232,7 +3256,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         </Paragraph>
                                       </Paragraphs>
                                       <rd:DefaultName>Textbox42</rd:DefaultName>
-                                      <Top>0.0923in</Top>
+                                      <Top>0.41522in</Top>
                                       <Left>0.28187in</Left>
                                       <Height>1.3125in</Height>
                                       <Width>7.64058in</Width>
@@ -3250,7 +3274,7 @@ product_templates.name like '%polycom%'</CommandText>
                                       <Source>Embedded</Source>
                                       <Value>telnet_baas_standards</Value>
                                       <Sizing>FitProportional</Sizing>
-                                      <Top>1.54022in</Top>
+                                      <Top>1.86314in</Top>
                                       <Left>0.77525in</Left>
                                       <Height>1.20833in</Height>
                                       <Width>6.52741in</Width>
@@ -3358,7 +3382,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         </Paragraph>
                                       </Paragraphs>
                                       <rd:DefaultName>Textbox42</rd:DefaultName>
-                                      <Top>2.87008in</Top>
+                                      <Top>3.193in</Top>
                                       <Left>0.25774in</Left>
                                       <Height>1.10417in</Height>
                                       <Width>7.64058in</Width>
@@ -3377,7 +3401,7 @@ product_templates.name like '%polycom%'</CommandText>
                                       <Source>Embedded</Source>
                                       <Value>telnet_cloud_partners</Value>
                                       <Sizing>FitProportional</Sizing>
-                                      <Top>4.11293in</Top>
+                                      <Top>4.43585in</Top>
                                       <Left>0.77525in</Left>
                                       <Height>1.05208in</Height>
                                       <Width>6.52741in</Width>
@@ -3410,7 +3434,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         <Paragraph>
                                           <TextRuns>
                                             <TextRun>
-                                              <Value>           FroTelNet Worldwide is a comprehensive, next-generation provider of data center solutions and essential business communications services that help businesses achieve more every day. In addition to Cloud storage and backup, TelNet offers colocation, managed and hosted data center solutions, as well as contact center services, cloud-based voice, data, and network solutions. All are high quality products and services that add value to any business.</Value>
+                                              <Value>           TelNet Worldwide is a comprehensive, next-generation provider of data center solutions and essential business communications services that help businesses achieve more every day. In addition to Cloud storage and backup, TelNet offers colocation, managed and hosted data center solutions, as well as contact center services, cloud-based voice, data, and network solutions. All are high quality products and services that add value to any business.</Value>
                                               <Style>
                                                 <FontStyle>Normal</FontStyle>
                                                 <FontSize>9pt</FontSize>
@@ -3428,7 +3452,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         </Paragraph>
                                       </Paragraphs>
                                       <rd:DefaultName>Textbox42</rd:DefaultName>
-                                      <Top>5.23445in</Top>
+                                      <Top>5.55737in</Top>
                                       <Left>0.28187in</Left>
                                       <Height>0.9375in</Height>
                                       <Width>7.64058in</Width>
@@ -3448,9 +3472,9 @@ product_templates.name like '%polycom%'</CommandText>
                                     <BreakLocation>Start</BreakLocation>
                                   </PageBreak>
                                   <KeepTogether>true</KeepTogether>
-                                  <Top>7.98761in</Top>
+                                  <Top>7.91468in</Top>
                                   <Left>0.06546in</Left>
-                                  <Height>6.17195in</Height>
+                                  <Height>6.49487in</Height>
                                   <Width>8.11656in</Width>
                                   <ZIndex>3</ZIndex>
                                   <Style>
@@ -3488,11 +3512,11 @@ product_templates.name like '%polycom%'</CommandText>
                 <DataSetName>DataSet1</DataSetName>
                 <Top>24.10678in</Top>
                 <Left>0.0106in</Left>
-                <Height>14.15956in</Height>
+                <Height>14.59705in</Height>
                 <Width>8.24291in</Width>
                 <ZIndex>1</ZIndex>
                 <Visibility>
-                  <Hidden>=IIF(2&gt;3, False, True)</Hidden>
+                  <Hidden>=IIF(First(Fields!product_type_id_c.Value) = "6868BE43-055F-4013-8AF8-7666EF84EFE6", False, True)</Hidden>
                 </Visibility>
                 <Style>
                   <Border>
@@ -3508,7 +3532,7 @@ product_templates.name like '%polycom%'</CommandText>
             <KeepTogether>true</KeepTogether>
             <Top>12.03453in</Top>
             <Left>0.00193in</Left>
-            <Height>38.26634in</Height>
+            <Height>38.70383in</Height>
             <Width>8.3662in</Width>
             <Style>
               <Border>
@@ -3906,7 +3930,7 @@ product_templates.name like '%polycom%'</CommandText>
               </Textbox>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
-            <Top>54.57691in</Top>
+            <Top>55.065in</Top>
             <Left>0.00915in</Left>
             <Height>6.68255in</Height>
             <Width>8.35898in</Width>
@@ -5954,7 +5978,7 @@ product_templates.name like '%polycom%'</CommandText>
               </Rectangle>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
-            <Top>50.37031in</Top>
+            <Top>50.87645in</Top>
             <Left>0.00193in</Left>
             <Height>4.02995in</Height>
             <Width>8.31195in</Width>
@@ -5966,7 +5990,7 @@ product_templates.name like '%polycom%'</CommandText>
             </Style>
           </Rectangle>
         </ReportItems>
-        <Height>61.25946in</Height>
+        <Height>61.74755in</Height>
         <Style>
           <Border>
             <Style>None</Style>
@@ -6084,7 +6108,6 @@ product_templates.name like '%polycom%'</CommandText>
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>0in</Top>
               <Left>0.56388in</Left>
               <Height>0.25in</Height>
               <Width>2in</Width>
@@ -6124,7 +6147,6 @@ product_templates.name like '%polycom%'</CommandText>
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>0in</Top>
               <Left>6.81388in</Left>
               <Height>0.25in</Height>
               <Width>1.5in</Width>
