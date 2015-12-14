@@ -713,7 +713,7 @@ product_templates.name like '%polycom%'</CommandText>
                                         <Paragraph>
                                           <TextRuns>
                                             <TextRun>
-                                              <Value>What makes TelNet Cloud Storage and Backup as a Solution (BaaS) your best choice:</Value>
+                                              <Value>What makes TelNet Cloud Storage and Backup as a Service (BaaS) your best choice:</Value>
                                               <Style>
                                                 <FontStyle>Normal</FontStyle>
                                                 <FontSize>12pt</FontSize>
@@ -2024,7 +2024,7 @@ product_templates.name like '%polycom%'</CommandText>
                                     </Textbox>
                                     <Image Name="standards">
                                       <Source>Embedded</Source>
-                                      <Value>telnet_dc_standards</Value>
+                                      <Value>telnet_baas_standards</Value>
                                       <Sizing>FitProportional</Sizing>
                                       <Top>9.0114in</Top>
                                       <Left>0.93692in</Left>
@@ -2761,7 +2761,7 @@ product_templates.name like '%polycom%'</CommandText>
                                     <Paragraph>
                                       <TextRuns>
                                         <TextRun>
-                                          <Value>What makes TelNet Cloud Storage and Backup as a Solution (BaaS) your best choice:</Value>
+                                          <Value>What makes TelNet Cloud Storage and Backup as a Service (BaaS) your best choice:</Value>
                                           <Style>
                                             <FontStyle>Normal</FontStyle>
                                             <FontSize>12pt</FontSize>
