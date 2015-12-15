@@ -586,8 +586,12 @@ product_templates.name like '%polycom%'</CommandText>
         </QueryParameters>
       </SharedDataSet>
       <Fields>
-        <Field Name="Count">
-          <DataField>Count</DataField>
+        <Field Name="Count_Subproducts">
+          <DataField>Count_BaaS_Subproducts</DataField>
+          <rd:UserDefined>true</rd:UserDefined>
+        </Field>
+        <Field Name="Count_Top_Products">
+          <DataField>Count_BaaS_Top_Products</DataField>
           <rd:UserDefined>true</rd:UserDefined>
         </Field>
       </Fields>
@@ -1258,7 +1262,7 @@ product_templates.name like '%polycom%'</CommandText>
                     <Height>8.2272in</Height>
                     <Width>8.2576in</Width>
                     <Visibility>
-                      <Hidden>=IIf(Fields!Count.Value &gt; 0,
+                      <Hidden>=IIf(Fields!Count_Subproducts.Value &gt; 0 AND Fields!Count_Top_Products.Value = 0,
     False,
     True
 )</Hidden>
@@ -3516,7 +3520,7 @@ product_templates.name like '%polycom%'</CommandText>
                 <Width>8.24291in</Width>
                 <ZIndex>1</ZIndex>
                 <Visibility>
-                  <Hidden>=IIF(First(Fields!product_type_id_c.Value) = "6868BE43-055F-4013-8AF8-7666EF84EFE6", False, True)</Hidden>
+                  <Hidden>=IIF(Fields!product_type_id_c.Value = "6868BE43-055F-4013-8AF8-7666EF84EFE6", False, True)</Hidden>
                 </Visibility>
                 <Style>
                   <Border>
@@ -4435,7 +4439,7 @@ product_templates.name like '%polycom%'</CommandText>
             <Top>5.48711in</Top>
             <Left>0.00193in</Left>
             <Height>6.47797in</Height>
-            <Width>8.45118in</Width>
+            <Width>8.3662in</Width>
             <ZIndex>3</ZIndex>
             <Style>
               <Border>
@@ -4622,6 +4626,7 @@ product_templates.name like '%polycom%'</CommandText>
                                       </Style>
                                     </Textbox>
                                     <ColSpan>6</ColSpan>
+                                    <rd:Selected>true</rd:Selected>
                                   </CellContents>
                                 </TablixCell>
                                 <TablixCell />

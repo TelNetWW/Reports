@@ -9,6 +9,10 @@
   </DataSources>
   <DataSets>
     <ProjectItem>
+      <Name>CountOfBaasSubproducts.rsd</Name>
+      <FullPath>CountOfBaasSubproducts.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>DataSet1.rsd</Name>
       <FullPath>DataSet1.rsd</FullPath>
     </ProjectItem>
@@ -19,10 +23,6 @@
     <ProjectItem>
       <Name>SummaryQuery.rsd</Name>
       <FullPath>SummaryQuery.rsd</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>CountOfBaasSubproducts.rsd</Name>
-      <FullPath>CountOfBaasSubproducts.rsd</FullPath>
     </ProjectItem>
   </DataSets>
   <Reports>
@@ -37,10 +37,6 @@
     <ProjectItem>
       <Name>DCCoverLetter_ProposalReport.rdl</Name>
       <FullPath>DCCoverLetter_ProposalReport.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>DCCoverLetter_ProposalReport_OLD.rdl</Name>
-      <FullPath>DCCoverLetter_ProposalReport_OLD.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DCPriceSheetOnly.rdl</Name>

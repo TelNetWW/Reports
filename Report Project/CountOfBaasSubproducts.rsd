@@ -11,17 +11,23 @@
           <rd:DbType>Object</rd:DbType>
         </DataSetParameter>
       </DataSetParameters>
-      <CommandText>select COUNT(*) AS Count from products p where quote_id in (
+      <CommandText>SELECT 
+SUM(CASE WHEN type_id = '6D80C4C8-A02A-434F-865C-2792D2B525BC' THEN 1 ELSE 0 END) AS Count_BaaS_Subproducts ,
+SUM(CASE WHEN type_id = '6868BE43-055F-4013-8AF8-7666EF84EFE6' THEN 1 ELSE 0 END) AS Count_BaaS_Top_Products
+from products p where quote_id in (
 select q.id from proposal_cstm pc
 INNER JOIN quotes_cstm qc on qc.proposal_id_c = pc.id
 INNER JOIN quotes q ON q.id = qc.id_c
 where pc.id = @Param2
-)
-and p.type_id = '6D80C4C8-A02A-434F-865C-2792D2B525BC'</CommandText>
+)</CommandText>
     </Query>
     <Fields>
-      <Field Name="Count">
-        <DataField>Count</DataField>
+      <Field Name="Count_BaaS_Subproducts">
+        <DataField>Count_BaaS_Subproducts</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Count_BaaS_Top_Products">
+        <DataField>Count_BaaS_Top_Products</DataField>
         <rd:TypeName>System.Int32</rd:TypeName>
       </Field>
     </Fields>
