@@ -9413,6 +9413,56 @@ TelNet Printed Name                                                             
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
+                        <Value>This Colocation and Interconnection Services Addendum (“Addendum”) is hereby incorporated into the Agreement between TelNet Worldwide (“TelNet”) and </Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value xml:space="preserve">                                                 </Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>Underline</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>(“Customer”). The definitions and the general terms and conditions in the Agreement apply to this Addendum except to the extent a definition or a term and condition is modified in this Addendum.</Value>
+                        <Style>
+                          <FontStyle>Italic</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value />
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
                         <Value>1)</Value>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -11089,10 +11139,10 @@ TelNet Printed Name                                                             
                 <Source>Embedded</Source>
                 <Value>credit</Value>
                 <Sizing>FitProportional</Sizing>
-                <Top>17in</Top>
-                <Left>1.32167in</Left>
-                <Height>2.30154in</Height>
-                <Width>5.86459in</Width>
+                <Top>18.11373in</Top>
+                <Left>1.67584in</Left>
+                <Height>1.69737in</Height>
+                <Width>4.0935in</Width>
                 <ZIndex>1</ZIndex>
                 <Style>
                   <Border>
